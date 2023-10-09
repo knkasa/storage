@@ -1,0 +1,4 @@
+model_checkpoint_path: "model_tf2.1-37"
+all_model_checkpoint_paths: "model_tf2.1-37"
+all_model_checkpoint_timestamps: 1666791840.1457129
+last_preserved_timestamp: 1664263916.2010193
