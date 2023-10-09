@@ -1,0 +1,8 @@
+ai_db:
+    url: "postgresql+psycopg2://xxx:yyy@zzzz.com/ai_db"
+    read_replica: "postgresql+psycopg2://xxx:yyy@zzzz.com/ai_db"
+    tables:
+        agent_decisions_tbl : agent_ai_decisions
+        ranking_tbl : signal_stats_ranking
+input_data:
+    use_iris_data: True
