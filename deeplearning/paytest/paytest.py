@@ -1,0 +1,93 @@
+
+
+import tensorflow as tf
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+
+os.chdir('C:/my_working_env/deeplearning_practice/paytest')
+
+#'''
+transactions = pd.read_csv('yayyay_data/transactions.csv')
+users =  pd.read_csv('yayyay_data/users.csv')
+stores = pd.read_csv('yayyay_data/stores.csv')
+
+df = pd.merge( transactions, users, left_on='user_id', right_on='id', how='left')
+df = pd.merge( df, stores, left_on='store_id', right_on='id', how='left')
+
+df.drop(columns=['id_x', 'id_y', 'id'], axis=1, inplace=True )
+#df = pd.get_dummies( df, columns=['gender', 'nam', 'laa', 'category', ] )
+
+df['event_occurrence'] = pd.to_datetime( df.event_occurrence )
+df.sort_values( by='event_occurrence', inplace=True )
+df['year'] = df['event_occurrence'].dt.year
+df['month_year'] = df['event_occurrence'].dt.to_period('M')
+#'''
+
+'''
+sum_vs_time = df[['amount','month_year']].groupby(['month_year'], as_index=False).sum()
+sum_vs_time['month_year'] = sum_vs_time['month_year'].astype(str)
+plt.plot( sum_vs_time.month_year.values, sum_vs_time.amount )
+plt.xticks(rotation=50)
+plt.ylabel('sum_amount')
+plt.title('Sum_amount vs. Time(Month)')
+plt.tight_layout()
+plt.show()
+plt.close()
+
+num_vs_time = df[['user_id', 'month_year']].groupby(['month_year'], as_index=False).nunique()
+num_vs_time['month_year'] = num_vs_time['month_year'].astype(str)
+plt.plot( num_vs_time.month_year.values, num_vs_time.user_id ) 
+plt.xticks(rotation=50)
+plt.ylabel('num_user_id')
+plt.title('# of user_id vs. Time(Month)')
+plt.tight_layout()
+plt.show()
+plt.close()
+
+plt.hist( users['age'], bins=np.arange(0,100,10), density=False, edgecolor='black' )
+plt.xlabel('Age'); plt.ylabel('num_user_id'); plt.title('Histogram of user_ID number vs. Age'); plt.show(); plt.close()
+
+stores[['id','nam']].groupby(['nam']).nunique().plot.bar(legend=False)
+plt.tight_layout(); plt.ylabel('num_user_ID'); plt.title('# of User ID vs. Prefecture'); plt.show(); plt.close()
+'''
+    
+#df = pd.read_csv('C:/my_working_env/deeplearning_practice/paytest/test3.csv')
+#users =  pd.read_csv('yayyay_data/users.csv')
+
+monthly_df = df[['user_id','amount','month_year']].groupby(['user_id','month_year'], as_index=False).sum()
+T = 5
+D = 1
+
+avg_amount = monthly_df.amount.mean()
+std_amount = monthly_df.amount.mean()
+monthly_df['amount_norm'] = (monthly_df.amount - avg_amount)/std_amount
+
+X = []
+Y = []
+#for id in users.id.values:
+for n, id in enumerate(monthly_df.user_id.unique()):
+    if n%1000==0:
+        print(f" {str(n)} Ids finished.")
+
+    user_df = monthly_df.loc[ monthly_df.user_id==id ]
+    num_month = len(user_df)
+    amounts = user_df.amount_norm.values
+    if num_month>T:
+        for t in range(num_month - T):
+            x = amounts[t:t+T]
+            X.append(x)
+            y = amounts[t+T]
+            Y.append(y)
+
+X = np.array(X).reshape(-1, T, D)    # make it NxTxD.  
+Y = np.array(Y)
+
+
+
+import pdb; pdb.set_trace()  
+
+
+
+
