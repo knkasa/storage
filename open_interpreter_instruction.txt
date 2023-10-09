@@ -1,0 +1,15 @@
+Install,
+" pip install open-interpreter "
+
+Run it
+" interpreter -y " (it will ask if you want chatGPT_4 or free llama)
+
+Follow the instruction.  It will start downloading.
+If you want to choose the path of the download directory, refer to,
+https://github.com/KillianLucas/open-interpreter/issues/294
+(default path is C:\Users\knkas\AppData\Local\Open Interpreter\Open Interpreter\models )
+
+If you see errors like "No module named llama_cpp", follow the link
+to download visual studio (not visual studio code)
+https://github.com/KillianLucas/open-interpreter/blob/main/docs/WINDOWS.md
+
