@@ -1,0 +1,23 @@
+This is to run python with notepad++ using short cut key
+https://qiita.com/ZEROXE/items/a109b71c41dbbfbbf287
+https://stackoverflow.com/questions/34338677/cannot-run-conda-command-activate-with-nppexec-plugin-of-notepad
+
+Create python_exe.bat 
+-------------------------------
+@echo off
+call "C:\Users\ken_nakatsukasa\Anaconda3\Library\bin\conda.bat" activate myWorkspace1
+call python "%1"
+pause
+-------------------------------
+Note: you could use "activate.bat myWorkspace1" insteade.  Located in \Anaconda3\condabin
+
+Or, try
+-------------------------------
+cd <AnacondaPath>\Anaconda3\condabin
+activate.bat <env name> & python -i "$(FULL_CURRENT_PATH)"
+-------------------------------
+
+open .py file with notepad++
+from upper tab, click "Run", then click "Run", type the following command and save
+"C:\Users\ken_nakatsukasa\Desktop\python_code\python_exe.bat" $(FULL_CURRENT_PATH)
+finally, choose your favorite shortcut key
