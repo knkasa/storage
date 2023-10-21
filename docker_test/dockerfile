@@ -1,7 +1,8 @@
 # Use python 3.8
 FROM python:3.8
 
-# Set the working directory to /my_dir
+# Set the working directory to /my_dir.  
+# This will be the directory that will be used when the container launches.
 WORKDIR /my_dir
 
 # Copy the current directory contents into the container at /my_dir
@@ -13,7 +14,8 @@ COPY . /my_dir
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-# Define environment variable
+# Define environment variable.
+# You can retrieve the env variable in the test.py. 
 ENV NAME my_env_string
 
 # Run python script when the container launches
