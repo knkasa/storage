@@ -1,0 +1,42 @@
+# Check docker version.
+docker version
+
+# Open terminal or cmd and cd into the directory where dockerfile is. 
+
+# Make sure test.py is in the same directory.
+
+# Run the following to create the image. Name your image "my-python-app" here.
+docker build -t my-python-app .  
+
+# Open docker desktop to check if the image is created.
+# Or, run the following
+docker images
+
+# Run the following to create the container.  
+# port number 4000 can be anything, but 80 needs to be the same as the docker file.
+docker run -p 4000:80 my-python-app 
+
+# Run the following to check if it is running.
+docker ps
+
+# Run the following to stop the container.
+docker stop <container_id_or_name>
+
+
+===========================================
+Other useful command.
+
+# Check all the container history.
+docker ps -a
+
+# If you want to enter into the container, run the following. 
+# Use "exit" to exit the container
+docker run -it my-python-app /bin/bash
+
+# Pull image from docker hub.
+docker pull <image name>
+
+# Serch image.
+docker search xxxx
+
+ 

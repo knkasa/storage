@@ -1,0 +1,6 @@
+Open powershell, and run the following to install wsl.
+wsl --install
+
+https://x-tech.pasona.co.jp/media/detail.html?p=2675
+
+
