@@ -16,7 +16,7 @@ EXPOSE 80
 
 # Define environment variable.
 # You can retrieve the env variable in the test.py. 
-ENV NAME my_env_string
+ENV MY_STRING my_env_string
 
 # Run python script when the container launches
 CMD ["python", "test.py"]

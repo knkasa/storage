@@ -1,4 +1,4 @@
 import os
 print("testing docker on local")
-my_env_str = os.environ.get('my_env_string')
-print(my_env_str)
+print(os.environ.get('MY_STRING'))
+print(os.getenv("MY_ENV_VAR"))
