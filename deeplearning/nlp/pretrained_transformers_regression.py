@@ -3,6 +3,7 @@ from transformers import BertTokenizer, TFBertModel
 from transformers import AdamWeightDecay
 
 # Bert regression model.
+# You could also use "flair" library which is built based on BERT for semantic/polarity analysis.
 
 # Define your texts and binary labels
 texts = ["今日の天気は晴れ", "今日の天気は曇り", "今日の天気は雨"]  # Add your texts here
