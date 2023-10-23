@@ -3,6 +3,7 @@ from transformers import BertTokenizer, TFBertForSequenceClassification
 from transformers import AdamWeightDecay
 
 # Bert multi-label classification model.
+# You could also use "flair" library which is built based on BERT for semantic/polarity analysis.
 
 # Define your texts and binary labels
 texts = ["Text 1 here.", "Text 2 here.", "Text 3 here."]  # Add your texts here
