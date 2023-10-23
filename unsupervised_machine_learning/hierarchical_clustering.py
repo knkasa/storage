@@ -7,6 +7,7 @@ from sklearn.cluster import AgglomerativeClustering
 # Example of Hierachical clustering.  First, plot dendrogram to determine the number of clusters, then cluster them.
 # https://towardsdatascience.com/machine-learning-algorithms-part-12-hierarchical-agglomerative-clustering-example-in-python-1e18e0075019
 # https://data-analysis-stats.jp/%e6%a9%9f%e6%a2%b0%e5%ad%a6%e7%bf%92/scikit-learn%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f%e9%9a%8e%e5%b1%a4%e7%9a%84%e3%82%af%e3%83%a9%e3%82%b9%e3%82%bf%e3%83%aa%e3%83%b3%e3%82%b0-hierarchical-clustering%e3%81%ae%e8%a7%a3%e8%aa%ac/
+# https://www.jcchouinard.com/hierarchical-clustering/#:~:text=For%20hierarchical%20clustering%20in%20SciPy%2C%20we%20will%20use%3A,create%20the%20clusters%20and%20is%20accessible%20here%3A%20scipy.cluster.hierarchy.linkage
 
 iris = load_iris()
 print( type(iris) )
