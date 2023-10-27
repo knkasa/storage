@@ -68,7 +68,7 @@ data = pd.DataFrame(columns=['col1',cos2'])
 dic = { 'col1':1 , 'col2':12 }
 data = data.append( dic, ignore_index=True ) 
 
-# map strings with integers 
+# Mapping using dictionary to add column.
 df['b_labels'] = df['labels'].map({'ham': 0, 'spam': 1})
 
 # iterate over rows
