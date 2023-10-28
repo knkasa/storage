@@ -25,6 +25,7 @@ from directory1.python_file import class_name
 # check class variables.  use  locals() or globals() to check list of variables
 classX.__dict__.keys()  
 
+# curl usage
 # https://stackoverflow.com/questions/62326253/how-do-i-post-curl-command-as-a-python-request  ( for using "curl post" )
 
 # Removes all log texts on console. 
