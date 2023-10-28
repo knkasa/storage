@@ -1,5 +1,3 @@
-# AI chat
-# https://openai.com/blog/chatgpt
 
 # printing
 print("float %3.3f, integer %d, string %s " %( 10.5, 23, 'hello'  ) )  # string can work for datetime as well
@@ -11,18 +9,18 @@ from logging import getLogger
 logger = getLogger(__name__)
 logger.info('message')
 
- # enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
+ # Enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
 import pdb; pdb.set_trace()    
 
-# create list in one line 
+# Create list in one line 
 vec = [ x*2 for x in range(10) ]  
 vec = [ *range(0,10,1) ]  # also work.   
 [4 if x==1 else x for x in a]   # using if.
 
-# importing class from other file 
+# Importing class from other file 
 from directory1.python_file import class_name
    
-# check class variables.  use  locals() or globals() to check list of variables
+# Check class variables.  use  locals() or globals() to check list of variables
 classX.__dict__.keys()  
 
 # curl usage
@@ -37,29 +35,33 @@ os.system('cls')
  # get unique list
 set(['a','b','a'])    
  
-# memory profiler. 
-https://pypi.org/project/memory-profiler/
+# Memory profiler. 
+# https://pypi.org/project/memory-profiler/
 
-# convert dictionary to string with delimeter "__"
+# Convert dictionary to string with delimeter "__"
 "__".join(["=".join([key, str(val)]) for key, val in dic.items()])  
 
-# install library in google colab.
+# Install library in google colab.
 !{sys.executable} -m pip install tensorflow   
 
-# upload files in google colab. For exporting, see https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive
+# Upload files in google colab. For exporting, see https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive
 from google.colab import files   files.upload()   
 
-# if installing tensorflow fails due to "The system cannot find the file specified"
+# If installing tensorflow fails due to "The system cannot find the file specified"
 pip install --user tensorflow  
 
-# remove directories from python code.
+# Remove directories from python code.
 import shutil   shutil.rmtree('./mnt')    
 
-# this will create log in text file
+# This will create log in text file
 python -m trace --trace YOURSCRIPT.py  > log.txt 2>&1    
 
-# Improve python speed.
-# Numba package to increase python code speed.  
+# Improve python speed. Numba package to increase python code speed. 
+from numba import jit, prange
+@jit(nogil=True, parallel=True)
+def parallel_function(data):
+    for i in prange(len(data)):
+        xxx = 0.0
 
 # Minimize function with constraints
 # https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
@@ -79,7 +81,7 @@ isinstance( x, int )
 
 
 
-#----- to check bugs in your code ----------------
+#--------- to check bugs in your code ----------------
 echo $?   # type this in anaconda power shell after the code stops.  If False, something went wrong.
 
 # If you see unicode errors, insert below in the very first line of your script and trace.py
