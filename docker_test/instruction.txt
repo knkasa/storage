@@ -1,4 +1,4 @@
-# Check docker version.
+# Check docker version.  Open terminal, and run the command
 docker version
 
 # Open terminal or cmd and cd into the directory where dockerfile is. 
@@ -14,7 +14,7 @@ docker images
 
 # Run the following to create the container.  
 # port number 4000 can be anything, but 80 needs to be the same as the docker file.
-docker run -p 4000:80 my-python-app 
+docker run -p 4000:80 -v C:\Users\knkas\Desktop\docker_test:/my_dir -e MY_ENV_VAR=True  my-python-app
 
 # Run the following to check if it is running.
 docker ps
@@ -29,6 +29,9 @@ Other useful command.
 # Check all the container history.
 docker ps -a
 
+# Run the previous container again. (Note: you cannot include -v -e options here)
+docker start -i <container_ID>  
+
 # If you want to enter into the container, run the following. 
 # Use "exit" to exit the container
 docker run -it my-python-app /bin/bash
@@ -39,4 +42,5 @@ docker pull <image name>
 # Serch image.
 docker search xxxx
 
+# If you want to change memory in container, you can modify .wslconfig file.
  
