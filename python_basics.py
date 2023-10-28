@@ -1,10 +1,15 @@
 # AI chat
 # https://openai.com/blog/chatgpt
 
-#--------- one line code -----------------------------------------------
+# printing
 print("float %3.3f, integer %d, string %s " %( 10.5, 23, 'hello'  ) )  # string can work for datetime as well
 print(f" test {x} " )
 x = "var1";   print(  "testing {x}...".format( x=x )  ) 
+
+# logger library for logging.
+from logging import getLogger
+logger = getLogger(__name__)
+logger.info('message')
 
  # enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
 import pdb; pdb.set_trace()    
