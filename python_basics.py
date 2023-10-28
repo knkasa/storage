@@ -4,9 +4,8 @@ print("float %3.3f, integer %d, string %s " %( 10.5, 23, 'hello'  ) )  # string 
 print(f" test {x} " )
 x = "var1";   print(  "testing {x}...".format( x=x )  ) 
 
-# Upgrade library.  pip install --upgrade xxxx
+# Upgrade library.  pip install --upgrade xxxx  (--upgrade can be replace with -U)
 # Uninstall library.  pip uninstall xxxx
-# 
 
 # logger library for logging.
 from logging import getLogger
