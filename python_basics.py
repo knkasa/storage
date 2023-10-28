@@ -31,12 +31,14 @@ classX.__dict__.keys()
 # Removes all log texts on console. 
 os.system('cls')     
 
-use "globals()" "del xxx" "gc.collect()" "tf.keras.backend.clear_session()" to clear memory. 
+# To clear memory
+# use "globals()" "del xxx" "gc.collect()" "tf.keras.backend.clear_session()" to clear memory. 
 
  # get unique list
 set(['a','b','a'])    
  
-# memory profiler.  https://pypi.org/project/memory-profiler/
+# memory profiler. 
+https://pypi.org/project/memory-profiler/
 
 # convert dictionary to string with delimeter "__"
 "__".join(["=".join([key, str(val)]) for key, val in dic.items()])  
@@ -53,20 +55,21 @@ pip install --user tensorflow
 # remove directories from python code.
 import shutil   shutil.rmtree('./mnt')    
 
-# this will create log
+# this will create log in text file
 python -m trace --trace YOURSCRIPT.py  > log.txt 2>&1    
 
+# Improve python speed.
 # Numba package to increase python code speed.  
 
 # Minimize function with constraints
 # https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
 # https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
 
-# Find number of combinations m subsets, having n sets.  
+# Find number of combinations m subsets, having n sets.  Binomial coefficient.  
 n!/m!(n-m)!
 
 # Extract array from random indices.
-rand_ind = random.sample( range(num_data), k=int(num_data*0.8)  )
+rand_ind = random.sample( range(num_data), k=int(num_data*0.8) )
 non_rand_ind = list(set([*range(num_data)]) - set(rand_ind))
 
 # check if the variable type is certain type.
