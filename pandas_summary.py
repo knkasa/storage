@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
+# PandasAI 
+# https://medium.com/@fareedkhandev/pandas-ai-the-future-of-data-analysis-8f0be9b5ab6f
+
 # save/read to csv
 df = pd.read_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/data.csv')
 df.to_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/result.csv', index=None)
@@ -19,9 +22,6 @@ data.iloc[[3]]   # take 3rd recoed as dataframe because list [3] is used
 df.reset_index(drop=True, inplace=True)    #reset index   
 df.reset_index(drop=False)     # if index is non-integers, create new column "index"
 df.fillna(0, inplace=True)   
-
-
-exit()
 
 #---------------------------------------------------------------------------
 
