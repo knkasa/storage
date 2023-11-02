@@ -103,6 +103,9 @@ df.groupby( pd.Grouper(key="utc_datetime", freq="1W") ).mean()
 # rename column.
 df.rename( columns={'old_column': 'NewColumn'} )
 
+# Get stats.
+df['colA'].describe()
+
 # Run SQL to pandas df.
 from pandasql import sqldf
 qry = " select date(utc_datetime) as date, bid_close from df group by date "
