@@ -1,0 +1,14 @@
+Useful python package.
+
+1. Distributed computing
+Fugue
+
+2. Data graphs in html
+sweetViz
+
+3. Parallelize Pandas dataframe.
+Pandaral-lel
+
+5. Automate machine learning.
+mlxtend, PyCaret
+https://aiacademy.jp/media/?p=954
