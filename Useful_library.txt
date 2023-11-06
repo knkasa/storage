@@ -12,3 +12,6 @@ Pandaral-lel
 5. Automate machine learning.
 mlxtend, PyCaret
 https://aiacademy.jp/media/?p=954
+
+6. Plotly
+https://plotly.com/python/
