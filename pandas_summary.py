@@ -106,6 +106,9 @@ df.rename( columns={'old_column': 'NewColumn'} )
 # Get stats.
 df['colA'].describe()
 
+# Chain multiple function in sequence.
+df.pipe(func1).pipe(func2)
+
 # Run SQL to pandas df.
 from pandasql import sqldf
 qry = " select date(utc_datetime) as date, bid_close from df group by date "
