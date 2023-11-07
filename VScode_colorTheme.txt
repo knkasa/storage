@@ -1,0 +1,8 @@
+Change color scheme in VS code when searching.
+Open settings -> search "json" -> open settings.json
+
+Add the following.
+"workbench.colorCustomizations":{
+  "editor.findMatchBackground": "#0400ff",
+  "editor.findMatchHighlightBackground": "#0400ff",
+  }
