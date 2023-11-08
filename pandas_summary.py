@@ -110,7 +110,7 @@ df['colA'].describe()
 df.pipe(func1).pipe(func2)
 
 # Create histogram dataframe.
-histogram = pd.cut( df[col], bins=[0, 10, 20], right=False)  # bin range, [0,10) [10, 20) ...
+histogram = pd.cut( df[col], bins=[0, 10, 20, float('inf')], right=False)  # bin range, [0,10) [10, 20) ...
 histogram_df = pd.value_counts(histogram).reset_index()
 histogram_df.columns = ['bin','freq']
          
