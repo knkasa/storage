@@ -15,6 +15,9 @@ logger.info('message')
  # Enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
 import pdb; pdb.set_trace()    
 
+# Change windowspath to Linux path.
+os.path.normpath(r"C:\xxx\yyy").replace(os.sep, '/')
+
 # Create list in one line 
 vec = [ x*2 for x in range(10) ]  
 vec = [ *range(0,10,1) ]  # also work.   
