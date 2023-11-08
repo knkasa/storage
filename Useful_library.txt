@@ -15,3 +15,6 @@ https://aiacademy.jp/media/?p=954
 
 6. Plotly
 https://plotly.com/python/
+
+7. Mojibake fix.
+ftfy
