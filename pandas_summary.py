@@ -109,6 +109,11 @@ df['colA'].describe()
 # Chain multiple function in sequence.
 df.pipe(func1).pipe(func2)
 
+# Create histogram dataframe.
+histogram = pd.cut( df[col], bins=[0, 10, 20], right=False)  # bin range, [0,10) [10, 20) ...
+histogram_df = pd.value_counts(histogram).reset_index()
+histogram_df.columns = ['bin','freq']
+         
 # Run SQL to pandas df.
 from pandasql import sqldf
 qry = " select date(utc_datetime) as date, bid_close from df group by date "
