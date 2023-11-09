@@ -80,6 +80,11 @@ n!/m!(n-m)!
 rand_ind = random.sample( range(num_data), k=int(num_data*0.8) )
 non_rand_ind = list(set([*range(num_data)]) - set(rand_ind))
 
+# use getopt.
+import getopt
+options, args = getopt.getopt( sys.argv[1:], 'd:c:', ['csv_data=', 'col_txt='])
+# Run as  python xxx.py  -d <file1> -c <file2>,  or  python xxx.py  --csv_data=<file1>  --col_txt=<file2>
+
 # check if the variable type is certain type.
 isinstance( x, int ) 
 
