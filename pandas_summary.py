@@ -6,7 +6,7 @@ import datetime as dt
 # https://medium.com/@fareedkhandev/pandas-ai-the-future-of-data-analysis-8f0be9b5ab6f
 
 # save/read to csv
-df = pd.read_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/data.csv')
+df = pd.read_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/data.csv', encoding='shift-jis')
 df.to_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/result.csv', index=None)
 dlist = df.values.tolist()  # if you need to use for loop, data type needs to be list
 
