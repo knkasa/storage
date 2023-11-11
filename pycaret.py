@@ -10,7 +10,7 @@
 
 # In case of errors while installing, see https://qiita.com/Laniakea/items/ac3a0207c140565e7277
 # If " from pycaret.regression import * " fails with no module found error, uninstall and re-install again.
-# If error persists, try  https://stackoverflow.com/questions/68310729/no-module-named-pycaret  and install markupsafe as instructed.
+# If error persists, try  https://stackoverflow.com/questions/68310729/no-module-named-pycaret  and install markupsafe as instructed. After this, you may need to change numpy, scipy, etc versions.
 
 import warnings
 warnings.filterwarnings("ignore")  # There may be many warnings when running pycaret.
