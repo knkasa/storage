@@ -7,6 +7,9 @@ x = "var1";   print(  "testing {x}...".format( x=x )  )
 # Upgrade library.  pip install --upgrade xxxx  (--upgrade can be replace with -U)
 # Uninstall library.  pip uninstall xxxx
 
+# If some package installed didn't work, try installing with conda.
+# "conda install <package> -c conda-forge
+
 # logger library for logging.
 from logging import getLogger
 logger = getLogger(__name__)
