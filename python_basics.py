@@ -85,6 +85,9 @@ import getopt
 options, args = getopt.getopt( sys.argv[1:], 'd:c:', ['csv_data=', 'col_txt='])
 # Run as  python xxx.py  -d <file1> -c <file2>,  or  python xxx.py  --csv_data=<file1>  --col_txt=<file2>
 
+# To install IPython, and use it in jupyter notebook.
+python -m ipykernel install --user --name <yourenvname> --display-name <display-name>
+
 # check if the variable type is certain type.
 isinstance( x, int ) 
 
