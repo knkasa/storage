@@ -1,16 +1,16 @@
 # PyCaret Instructions.
 
 # Pycaret automates machine learning task by comparing many models.
-#  - Pycaret only works with specific versions.  https://pycaret.gitbook.io/docs/get-started/installation#dependencies
-#  - Is is suggested to use IPython with Jupyter notebook.  To use IPython in jupyter, run,
+#  - Pycaret only works with specific versions (3.8, 3.9, 3.10).  https://pycaret.gitbook.io/docs/get-started/installation#dependencies
+#  - If using jupyter notebook(you don't have to), you want to make the environment available in jupyter notebook.
 #     python -m ipykernel install --user --name <yourenvname> --display-name <display-name>
-#     (finally, choose the kernel IPykernel in jupytet notebook)
+#     (finally, choose you kernel of your choice)
 #  - https://zenn.dev/murakamixi/articles/9b7f63f6eb79ad
 #  - https://aiacademy.jp/media/?p=954
 
 # In case of errors while installing, see https://qiita.com/Laniakea/items/ac3a0207c140565e7277
-# If " from pycaret.regression import * " fails with no module found error, uninstall and re-install again.
-# If error persists, try  https://stackoverflow.com/questions/68310729/no-module-named-pycaret  and install markupsafe as instructed. After this, you may need to change numpy, scipy, etc versions.
+# If "from pycaret.regression import * " fails with no module found error, uninstall and re-install again.
+# If error persists, try  https://stackoverflow.com/questions/68310729/no-module-named-pycaret  and install markupsafe(no need to set version) as instructed. After this, you may need to change numpy, scipy, etc versions.
 
 import warnings
 warnings.filterwarnings("ignore")  # There may be many warnings when running pycaret.
