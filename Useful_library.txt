@@ -9,7 +9,7 @@ sweetViz
 3. Parallelize Pandas dataframe.
 Pandaral-lel
 
-5. Automate machine learning. If installing pycaret fails, see https://qiita.com/Laniakea/items/ac3a0207c140565e7277
+5. Automate machine learning. 
 mlxtend, PyCaret
 https://aiacademy.jp/media/?p=954
 
