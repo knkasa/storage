@@ -22,7 +22,6 @@ import pdb
 from pycaret.classification import *  # use pycaret.regression for regression, or etc.
 from pycaret.datasets import get_data
 
-pdb.set_trace()
 dataset = get_data("diamond")
 
 setup(dataset, target="Price", session_id=123,  # session ID is same as random seed.  (If you want to reproduce the model, specify this) 
