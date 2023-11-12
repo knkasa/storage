@@ -8,7 +8,7 @@
 #  - https://zenn.dev/murakamixi/articles/9b7f63f6eb79ad
 #  - https://aiacademy.jp/media/?p=954
 
-# In case of errors while installing, see https://qiita.com/Laniakea/items/ac3a0207c140565e7277
+# In case of errors while installing, see https://qiita.com/Laniakea/items/ac3a0207c140565e7277, or try pip install --ignore-installed pycaret
 # If "from pycaret.regression import * " fails with no module found error, uninstall and re-install again.
 # If error persists, try  https://stackoverflow.com/questions/68310729/no-module-named-pycaret  and install markupsafe(no need to set version) as instructed. After this, you may need to change numpy, scipy, etc versions.
 
