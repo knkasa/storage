@@ -10,10 +10,13 @@ x = "var1";   print(  "testing {x}...".format( x=x )  )
 # If some package installed didn't work, try installing with conda.
 # "conda install <package> -c conda-forge
 
-# logger library for logging.
+# logger library for logging. 
 from logging import getLogger
 logger = getLogger(__name__)
 logger.info('message')
+
+# icecream for debugging, instead of print().
+import icecream
 
  # Enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
 import pdb; pdb.set_trace()    
