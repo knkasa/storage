@@ -130,7 +130,7 @@ df.query(f"{asset_col} == '{asset}'")  # https://note.nkmk.me/python-pandas-quer
 df_group = df[ ....(condition)... ].groupby(['instrument'],as_index=False).mean()   #  mean, sum,  count, size, max, min, first(used w/ groupby), last(used w/ groupby), std, head, tail
 df_group = df[ ... ].groupby(['instrument'],as_index=False).mean().loc['USDJPY','realized_pnl']   # "as_index=False" means group key will not be used as index.  
 df_group = df[ ... ].groupby(['instrument'],as_index=False).size()   # .size() can be used for counting, but be warned that it will create series, not dataframe. see below. (or use 'count' instead of 'size')  
-df_group = df[ ... ].groupby(['city', 'food'], as_index=False).apply(lambda x: (x.price*x.quantity).sum()  )   # Note you'll need as_index=False 
+df_group = df[ ... ].groupby(['city', 'food'], as_index=False).apply(lambda x: (x.price*x.quantity).sum()  ) .to_frame('new_col').reset_index()  # Note you'll need as_index=False. 
 # use of agg
 df_group = df.groupby('city').agg({'price': myfun, 'quantity': np.sum})   # def myfun(x): ...  return x
 df_group = df.groupby('A').agg(['min', 'max'])
