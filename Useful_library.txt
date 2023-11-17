@@ -18,3 +18,6 @@ https://plotly.com/python/
 
 7. Mojibake fix.
 ftfy
+
+8. Categorical data for clustering. Kmodes method.
+from kmodes.kmodes import KModes
