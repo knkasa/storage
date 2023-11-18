@@ -10,6 +10,9 @@ def cramers_v(x, y):
     rcorr = r-((r-1)**2)/(n-1)
     kcorr = k-((k-1)**2)/(n-1)
     return np.sqrt(phi2corr/min((kcorr-1),(rcorr-1)))
+
+# Polycholic correlation is also multi-category. (Note: it is not for binary variable)
+# https://steemit.com/utopian-io/@elguille/custom-maximum-likelihood-models-in-python-with-statsmodels
     
 
 #The tetrachoric correlation coefficient is a more accurate measure of the association between two binary variables than the phi coefficient, but it is also more computationally expensive.
