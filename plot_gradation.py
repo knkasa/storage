@@ -19,7 +19,7 @@ df_bar = pd.DataFrame({ 'あい':[10], 'うめ':[15], 'そら':[20] }).T
 
 japanese_font = FontProperties(fname='path/to/japanese_font.ttf') 
 sns.set_theme(style='darkgrid')
-sns.set(font='IPAexGothic')
+sns.set(font='IPAexGothic')  # enable Japanese font in seaborn.
 
 figure(num=None, figsize=(7, 4), dpi=100, facecolor='w', edgecolor='k') 
 plt.barh( df_bar.index, df_bar[0].values, color=get_color_gradient("#8A5AC2", "#3575D5", len(df_bar)) )
