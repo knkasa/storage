@@ -4,6 +4,8 @@ from matplotlib.pyplot import figure
 from matplotlib.font_manager import FontProperties
 import japanize_matplotlib
 
+# kinds of colors.  https://matplotlib.org/stable/users/explain/colors/colormaps.html
+
 def hex_to_RGB(hex_str):
     return [int(hex_str[i:i+2], 16) for i in range(1,6,2)]
 
