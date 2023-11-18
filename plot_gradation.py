@@ -3,6 +3,8 @@ import seaborn as sns
 from matplotlib.pyplot import figure
 from matplotlib.font_manager import FontProperties
 import japanize_matplotlib
+import pandas as pd
+import numpy as np
 
 # kinds of colors.  https://matplotlib.org/stable/users/explain/colors/colormaps.html
 
