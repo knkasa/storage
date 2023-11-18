@@ -1,3 +1,6 @@
+# For different types of correlations, https://py-pair.readthedocs.io/quickstart.html
+
+
 # https://towardsdatascience.com/the-search-for-categorical-correlation-a1cf7f1888c9
 # Cramers V method work the best if x, y are both categorical variable with more than 2 labels (binary).
 def cramers_v(x, y):
