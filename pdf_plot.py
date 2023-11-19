@@ -16,11 +16,11 @@ data = {
         'x2': [1, 2, 3, 4, 5],
         'y2': [5, 8, 9, 6, 12]
         }
-
 df = pd.DataFrame(data)
 
 pdf_pages = PdfPages('two_graphs.pdf')
 
+# Add a Title page.
 title_fig, title_ax = plt.subplots()
 title_ax.text(0.5, 0.8, 'Title Page Text', ha='center', va='center', fontsize=16)  # center, top, bottom, left/right
 title_ax.axis('off')  # Turn off axes for the title page
@@ -33,10 +33,12 @@ for i, comment in enumerate(comments):
     title_ax.text(0.5, 0.8 - 0.1*(i + 1), comment, ha='center', va='center', fontsize=10)
 pdf_pages.savefig(title_fig, bbox_inches='tight')
 
+# Add the first figure page.
 plt.figure()
 plt.plot(df['x1'], df['y1'], label='Graph 1')
 pdf_pages.savefig()
 
+# Add the second figure page.
 plt.figure()
 plt.plot(df['x2'], df['y2'], label='Graph 2')
 pdf_pages.savefig()
@@ -50,5 +52,22 @@ tbl.set_fontsize(10)
 pdf_pages.savefig()
 
 pdf_pages.close()
+
+
+#Alternative
+'''
+fig1, ax1 = plt.subplots()
+ax1.plot(x, y1)
+ax1.set_title('Figure 1')
+
+fig2, ax2 = plt.subplots()
+ax2.plot(x, y2)
+ax2.set_title('Figure 2')
+
+pdf_file = 'multipage_plot.pdf'
+with PdfPages(pdf_file) as pdf:
+    pdf.savefig(fig1)
+    pdf.savefig(fig2)
+'''
 
 
