@@ -4,6 +4,7 @@ import os
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 from pandas.plotting import table
+import japanize_matplotlib
 import pdb
 
 os.chdir("C:/Users/knkas/Desktop/NLP_example")
@@ -19,6 +20,18 @@ data = {
 df = pd.DataFrame(data)
 
 pdf_pages = PdfPages('two_graphs.pdf')
+
+title_fig, title_ax = plt.subplots()
+title_ax.text(0.5, 0.8, 'Title Page Text', ha='center', va='center', fontsize=16)  # center, top, bottom, left/right
+title_ax.axis('off')  # Turn off axes for the title page
+comments = [
+    'Comment 1: This is the first comment.',
+    'Comment 2: Another comment goes here.',
+    'Comment 3: Add more comments as needed.'
+    ]
+for i, comment in enumerate(comments):
+    title_ax.text(0.5, 0.8 - 0.1*(i + 1), comment, ha='center', va='center', fontsize=10)
+pdf_pages.savefig(title_fig, bbox_inches='tight')
 
 plt.figure()
 plt.plot(df['x1'], df['y1'], label='Graph 1')
@@ -37,4 +50,5 @@ tbl.set_fontsize(10)
 pdf_pages.savefig()
 
 pdf_pages.close()
+
 
