@@ -21,7 +21,7 @@ df = pd.DataFrame(data)
 pdf_pages = PdfPages('two_graphs.pdf')
 
 # Add a Title page.
-title_fig, title_ax = plt.subplots()
+title_fig, title_ax = plt.subplots( figsize=(9,9) )
 title_ax.text(0.5, 0.8, 'Title Page Text', ha='center', va='center', fontsize=16)  # center, top, bottom, left/right
 title_ax.axis('off')  # Turn off axes for the title page
 comments = [
