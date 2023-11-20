@@ -44,9 +44,13 @@ plt.plot(df['x2'], df['y2'], label='Graph 2')
 pdf_pages.savefig()
 
 # Create a figure for the DataFrame table and add it to the PDF on the third page
-fig, ax = plt.subplots(figsize=(6, 2))
-ax.axis('off')  # Hide axes
-tbl = table(ax, df, loc='center', cellLoc='center', colWidths=[0.2]*len(df.columns))
+fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(6, 2))
+ax[0].axis('off')  # Hide axes
+tbl = table(ax[0], df, loc='center', cellLoc='center', colWidths=[0.2]*len(df.columns))
+tbl.auto_set_font_size(False)
+tbl.set_fontsize(10)
+ax[1].axis('off')  # Hide axes
+tbl = table(ax[1], df, loc='center', cellLoc='center', colWidths=[0.2]*len(df.columns))
 tbl.auto_set_font_size(False)
 tbl.set_fontsize(10)
 pdf_pages.savefig()
