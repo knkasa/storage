@@ -21,7 +21,7 @@ def get_color_gradient(c1, c2, n):
 
 df_bar = pd.DataFrame({ 'あい':[10], 'うめ':[15], 'そら':[20] }).T
 
-japanese_font = FontProperties(fname='path/to/japanese_font.ttf') 
+#japanese_font = FontProperties(fname='path/to/japanese_font.ttf') 
 sns.set_theme(style='darkgrid')
 sns.set(font='IPAexGothic')  # enable Japanese font in seaborn.
 
