@@ -3,9 +3,6 @@ Useful python package.
 1. Distributed computing
 Fugue
 
-2. Data graphs in html
-sweetViz
-
 3. Parallelize Pandas dataframe.
 Pandaral-lel
 
@@ -21,3 +18,5 @@ ftfy
 
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
+
+9. duckDB for creating local DB.
