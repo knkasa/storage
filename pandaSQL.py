@@ -35,5 +35,7 @@ qry = " select date, iif( price>90, 'high', 'low' ) as price_rank from df1 "
 # Cumulative sum.
 qry = " select date, ID, price, sum(price) over( partition by ID order by date asc) as cum_sum from df1 "
 #qry = " select date, ID, price, rank() over( partition by ID order by date asc) as ranking from df1 "
+qry = " select date, ID, price, row_number() over( partition by ID order by date asc) as trade_id from df1 "
 
 print( sqldf( qry, globals() ) ) 
+
