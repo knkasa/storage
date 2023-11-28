@@ -20,3 +20,8 @@ ftfy
 from kmodes.kmodes import KModes
 
 9. duckDB for creating local DB.
+
+10. Extracting tables from pdf file.
+pymupdf
+
+
