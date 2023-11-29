@@ -33,7 +33,7 @@ normalized_df=(df-df.min())/(df.max()-df.min())
 pd.get_dummies(input_data, columns=['xx','yyy'] )
 
 # check if two dataframes are equal.
-df.equal(df2)
+df.equals(df2)
 
 # change column name
 df.columns = ['xx','yy'].copy()    # use copy() when you see warning "value trying to be set on copy of dataframe ..."
