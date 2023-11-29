@@ -32,6 +32,9 @@ normalized_df=(df-df.min())/(df.max()-df.min())
 # If need to make it categorical
 pd.get_dummies(input_data, columns=['xx','yyy'] )
 
+# check if two dataframes are equal.
+df.equal(df2)
+
 # change column name
 df.columns = ['xx','yy'].copy()    # use copy() when you see warning "value trying to be set on copy of dataframe ..."
 df=df.rename(columns = {'two':'new_name'})   # change only specific column names.  
@@ -74,9 +77,6 @@ df['b_labels'] = df['labels'].map({'ham': 0, 'spam': 1})
 # iterate over rows
 for i, row in data.iterrows():
 
-# return None if values (from .lof) doesn't exist.  
-df.mycol.get(myIndex, NaN)
-
 # Get correlation between columns
 combined_df['Open'].corr( combined_df['sentiment'])
 
@@ -86,6 +86,7 @@ df[ids.isin(ids[ids.duplicated()])].sort_values("ID")  # another way
 
 # set column to index.
 df.set_index( 'utc_datetime', inplace=True ) 
+df.reset_index(drop=True, inplace=True )
 
 # Replace "datetime" with the appropriate column from your DataFrame
 df.set_index( pd.DatetimeIndex(df["datetime"]), inplace=True )
@@ -100,9 +101,6 @@ df.get( "column_name", 0.0 )
 # aggregate with Grouper.
 df.groupby( pd.Grouper(key="utc_datetime", freq="1W") ).mean()
 
-# rename column.
-df.rename( columns={'old_column': 'NewColumn'} )
-
 # Get stats.
 df['colA'].describe()
 
@@ -113,13 +111,7 @@ df.pipe(func1).pipe(func2)
 histogram = pd.cut( df[col], bins=[0, 10, 20, float('inf')], right=False)  # bin range, [0,10) [10, 20) ...
 histogram_df = pd.value_counts(histogram).reset_index()
 histogram_df.columns = ['bin','freq']
-         
-# Run SQL to pandas df.
-from pandasql import sqldf
-qry = " select date(utc_datetime) as date, bid_close from df group by date "
-sqldf( qry, globals() )
-qry2 = " select * from df where col={x} " # x needs to be defined beforehand.
-sqldf( qry, locals() )   
+ 
 
 #-----------------------------------------------------------------------------------------------------------------
 
