@@ -24,4 +24,8 @@ from kmodes.kmodes import KModes
 10. Extracting tables from pdf file.
 pymupdf
 
+11. Manipulate pandas dataframe with AI.
+sketch
 
+12. Timeseries data analysis.
+statsmodels, tslearn, tssearch, tsfresh
