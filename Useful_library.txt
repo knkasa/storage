@@ -1,7 +1,7 @@
 Useful python package.
 
-1. Distributed computing
-Fugue
+1. For improving speed of runtime.
+Numba, cython, pypy
 
 3. Parallelize Pandas dataframe.
 Pandaral-lel
