@@ -1,7 +1,7 @@
 Useful python package.
 
 1. For improving speed of runtime.
-Numba, cython, pypy
+Numba, cython(needs complilation), pypy
 
 3. Parallelize Pandas dataframe.
 Pandaral-lel
