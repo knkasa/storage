@@ -45,7 +45,7 @@ pdf_pages.savefig()
 
 # Create a figure for the DataFrame table and add it to the PDF on the third page
 fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(6, 2))
-ax[0].axis('off')  # Hide axes
+ax[0].axis('off')  # Hide axes.  Note if your subplot has column dimension (ncols>1), ax[0] needs to be like ax[0,0].  (eg. ax[2,1])
 tbl = table(ax[0], df, loc='center', cellLoc='center', colWidths=[0.2]*len(df.columns))
 tbl.auto_set_font_size(False)
 tbl.set_fontsize(10)
