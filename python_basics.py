@@ -94,6 +94,10 @@ options, args = getopt.getopt( sys.argv[1:], 'd:c:', ['csv_data=', 'col_txt='])
 # To install IPython, and use it in jupyter notebook.
 python -m ipykernel install --user --name <yourenvname> --display-name <display-name>
 
+# If you want to show progress bar in for loop.
+from tqdm.auto import tqdm  
+for i in tqdm( xlist ):
+
 # check if the variable type is certain type.
 isinstance( x, int ) 
 
