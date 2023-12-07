@@ -43,3 +43,6 @@ save_model(final_lr_model, 'final_lr_model')
 
 # Make predictions on new data.
 predictions = predict_model(final_lr_model, data=new_data)
+
+# plot feature importance
+plot_model(lr_model_trained, plot='feature')
