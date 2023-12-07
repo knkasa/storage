@@ -35,14 +35,14 @@ setup(data = employee, target = 'left', ordinal_features = {'salary' : ['low', '
 best_model = compare_models()  # fold=5, if you want cross validation.
 res_models = pull()  # get the summary table.
 
-# Choose a model from the list.
-# lr_model = create_model('lr')
-# lr_model_fit = lr_model.fit(data)
-# tuned_lr_model = tune_model(lr_model_fit)  # you may skip the above 2 steps and run "tuned_=tune_model(best_model)". 
-# evaluate_model(tuned_lr_model)  # display the training stats.
-# final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
-
+# Hyperparameter tuning using the best model.
 tuned_model = tune_model(best_model)
+
+# If you want to pick a particular model.  Run below.
+# lr_model = create_model('lr')
+# tuned_lr_model = tune_model(lr_model)
+# evaluate_model(tuned_lr_model)    # display the training stats.
+# final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
 
 # save the model in local.
 save_model(final_lr_model, 'final_lr_model')
