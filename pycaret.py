@@ -39,9 +39,9 @@ res_models = pull()  # get the summary table.
 tuned_model = tune_model(best_model)
 
 # If you want to pick a particular model.  Run below.
-# lr_model = create_model('lr')
-# tuned_lr_model = tune_model(lr_model)
-# evaluate_model(tuned_lr_model)    # display the training stats.
+lr_model = create_model('lr')
+tuned_lr_model = tune_model(lr_model)
+evaluate_model(tuned_lr_model)    # display the training stats.
 # final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
 
 # save the model in local.
