@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 import pdb
 
-from pycaret.classification import *  # use pycaret.regression for regression, or etc.
+from pycaret.classification import *  # use pycaret.regression for regression, clustering, or etc.
 from pycaret.datasets import get_data
 
 dataset = get_data("diamond")
