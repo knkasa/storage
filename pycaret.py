@@ -40,7 +40,7 @@ lr_model = create_model('lr')
 lr_model_fit = lr_model.fit(data)
 tuned_lr_model = tune_model(lr_model_fit)
 evaluate_model(tuned_lr_model)  # display the training stats.
-final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.
+#final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
 
 # save the model in local.
 save_model(final_lr_model, 'final_lr_model')
