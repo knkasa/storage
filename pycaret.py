@@ -38,7 +38,7 @@ res_models = pull()  # get the summary table.
 # Hyperparameter tuning using the best model.
 tuned_model = tune_model(best_model)
 
-# If you want to pick a particular model.  Run below.
+# It is generally advised to train from scratch.  Run below.
 lr_model = create_model('lr')
 tuned_lr_model = tune_model(lr_model)
 evaluate_model(tuned_lr_model)    # display the training stats.
