@@ -52,7 +52,8 @@ predictions = predict_model(final_lr_model, data=new_data)
 feature_importance = get_model(lr_model_trained, 'feature_importance')
 
 # Result plotting.
-plot_model(best, plot = 'residuals')
-plot_model(best, plot = 'error')
+# https://qiita.com/ground0state/items/57e565b23770e5a323e9
+plot_model(best, plot = 'residuals')  # differences between true values and predictions.  R square is also shown. R>0.7 is consider good(chatgpt).
+plot_model(best, plot = 'error')  # x-axis(true value) y-axis(prediction).  The blue points and "best fit" line needs to be close to "indentity" line.
 plot_model(best, plot = 'feature')
 interpret_model(best, plot = 'summary')
