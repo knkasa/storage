@@ -27,8 +27,19 @@ dataset = get_data("diamond")
 setup(dataset, target="Price", session_id=123,  # session ID is same as random seed.  (If you want to reproduce the model, specify this) 
         categorical_features=["Cut", "Color", "Clarity", "Polish", "Symmetry", "Report"], 
         numeric_features=["Carat Weight"])
-        
+
+# This will give a summary of model performance.  
 compare_models()
 
+# Choose a model from the list.
+lr_model = create_model('lr')
 
+tuned_lr_model = tune_model(lr_model)
+evaluate_model(tuned_lr_model)
+final_lr_model = finalize_model(tuned_lr_model)
 
+# save the model in local.
+save_model(final_lr_model, 'final_lr_model')
+
+# Make predictions on new data.
+predictions = predict_model(final_lr_model, data=new_data)
