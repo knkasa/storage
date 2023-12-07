@@ -50,3 +50,8 @@ predictions = predict_model(final_lr_model, data=new_data)
 # Get feature importance as a pandas DataFrame
 feature_importance = get_model(lr_model_trained, 'feature_importance')
 
+# Result plotting.
+plot_model(best, plot = 'residuals')
+plot_model(best, plot = 'error')
+plot_model(best, plot = 'feature')
+interpret_model(best, plot = 'summary')
