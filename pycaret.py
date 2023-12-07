@@ -28,15 +28,15 @@ setup(dataset, target="Price", session_id=123,  # session ID is same as random s
         categorical_features=["Cut", "Color", "Clarity", "Polish", "Symmetry", "Report"], 
         numeric_features=["Carat Weight"])
 
-# This will give a summary of model performance.  
-compare_models()
+# This will give a summary of the model performance.  
+compare_models()  # fold=5, if you want cross validation.
 
 # Choose a model from the list.
 lr_model = create_model('lr')
-
-tuned_lr_model = tune_model(lr_model)
-evaluate_model(tuned_lr_model)
-final_lr_model = finalize_model(tuned_lr_model)
+lr_model_fit = lr_model.fit(data)
+tuned_lr_model = tune_model(lr_model_fit)
+evaluate_model(tuned_lr_model)  # display the training stats.
+final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.
 
 # save the model in local.
 save_model(final_lr_model, 'final_lr_model')
