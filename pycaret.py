@@ -32,8 +32,8 @@ setup(dataset, target="Price", session_id=123,  # session ID is same as random s
 setup(data = employee, target = 'left', ordinal_features = {'salary' : ['low', 'medium', 'high']})
 
 # This will give a summary of the model performance.  
-metrics_dict = compare_models()  # fold=5, if you want cross validation.
-metrics_df = pd.DataFrame(list(metrics_dict.items()), columns=['Model', 'Metric'])
+best_model = compare_models()  # fold=5, if you want cross validation.
+res_models = pull()  # get the summary table.
 
 # Choose a model from the list.
 lr_model = create_model('lr')
