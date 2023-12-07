@@ -36,11 +36,13 @@ best_model = compare_models()  # fold=5, if you want cross validation.
 res_models = pull()  # get the summary table.
 
 # Choose a model from the list.
-lr_model = create_model('lr')
-lr_model_fit = lr_model.fit(data)
-tuned_lr_model = tune_model(lr_model_fit)  # you may skip the above 2 steps and run "best_model2=tune_model(best_model)". 
-evaluate_model(tuned_lr_model)  # display the training stats.
-#final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
+# lr_model = create_model('lr')
+# lr_model_fit = lr_model.fit(data)
+# tuned_lr_model = tune_model(lr_model_fit)  # you may skip the above 2 steps and run "tuned_=tune_model(best_model)". 
+# evaluate_model(tuned_lr_model)  # display the training stats.
+# final_lr_model = finalize_model(tuned_lr_model)   # finalize training using entire dataset.  You don't need to do this.
+
+tuned_model = tune_model(best_model)
 
 # save the model in local.
 save_model(final_lr_model, 'final_lr_model')
@@ -51,7 +53,7 @@ predictions = predict_model(final_lr_model, data=new_data)
 # Get feature importance as a pandas DataFrame
 feature_importance = get_model(lr_model_trained, 'feature_importance')
 
-# Result plotting.
+# Result plotting.  
 # https://qiita.com/ground0state/items/57e565b23770e5a323e9
 plot_model(best, plot = 'residuals')  # differences between true values and predictions.  R square is also shown. R>0.7 is consider good(chatgpt).
 plot_model(best, plot = 'error')  # x-axis(true value) y-axis(prediction).  The blue points and "best fit" line needs to be close to "indentity" line.
