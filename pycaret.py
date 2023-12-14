@@ -1,4 +1,5 @@
 # PyCaret Instructions.  https://pycaret.gitbook.io/docs/
+# You'll also need to install catboost, xgboost, shap.  
 
 # Pycaret automates machine learning task by comparing many models.
 #  - Pycaret only works with specific versions (3.8, 3.9, 3.10).  https://pycaret.gitbook.io/docs/get-started/installation#dependencies
