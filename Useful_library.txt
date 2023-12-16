@@ -2,21 +2,16 @@ Useful python package.
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy
+pandaral-lel(parallel process pandas)
 
 2. pandas alternative.
 dask, polars, 
-
-3. Parallelize Pandas dataframe.
-Pandaral-lel
 
 5. Automate machine learning. 
 mlxtend, PyCaret
 
 6. Plotly
 https://plotly.com/python/
-
-7. Mojibake fix.
-ftfy
 
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
@@ -34,3 +29,12 @@ statsmodels, tslearn, tssearch, tsfresh
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
+
+14. Memory profiler.
+https://pypi.org/project/memory-profiler/
+LineProfiler
+
+15. Minimize function with constraints
+https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
+https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
+
