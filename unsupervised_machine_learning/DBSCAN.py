@@ -10,6 +10,10 @@ from sklearn.neighbors import kneighbors_graph
 #半径以内に点がいくつあるかでその領域をクラスタとして判断します。近傍の密度がある閾値を超えている限り，クラスタを成長させ続けます。半径以内に近く点がない点はノイズになります。
 #https://data-analysis-stats.jp/python/dbscan%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%AE%E8%A7%A3%E8%AA%AC%E3%81%A8%E5%AE%9F%E9%A8%93/
 
+# HDBSCAN is better approach.
+https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html
+https://qiita.com/ozaki_inu/items/45fb17cd3596a64ed489
+
 # 塊のデータセット
 dataset1 = datasets.make_blobs(n_samples=1000, random_state=10, centers=6, cluster_std=1.2)[0]
 # 月のデータセット
