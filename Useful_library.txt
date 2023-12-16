@@ -31,3 +31,6 @@ sketch
 
 12. Timeseries data analysis.
 statsmodels, tslearn, tssearch, tsfresh
+
+13. Dimensionality reduction.
+UMAP
