@@ -46,9 +46,6 @@ os.system('cls')
 
  # get unique list
 set(['a','b','a'])    
- 
-# Memory profiler. 
-# https://pypi.org/project/memory-profiler/
 
 # Convert dictionary to string with delimeter "__"
 "__".join(["=".join([key, str(val)]) for key, val in dic.items()])  
@@ -74,10 +71,6 @@ from numba import jit, prange
 def parallel_function(data):
     for i in prange(len(data)):
         xxx = 0.0
-
-# Minimize function with constraints
-# https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
-# https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
 
 # Find number of combinations m subsets, having n sets.  Binomial coefficient.  
 n!/m!(n-m)!
