@@ -107,6 +107,9 @@ df['colA'].describe()
 # Chain multiple function in sequence.
 df.pipe(func1).pipe(func2)
 
+# pivot table.
+df2 = df2.pivot( index='Year', columns='State', values='PacksPerCapita' )
+
 # Create histogram dataframe.
 histogram = pd.cut( df[col], bins=[0, 10, 20, float('inf')], right=False)  # bin range, [0,10) [10, 20) ...
 histogram_df = pd.value_counts(histogram).reset_index()
