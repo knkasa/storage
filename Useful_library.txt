@@ -33,4 +33,4 @@ sketch
 statsmodels, tslearn, tssearch, tsfresh
 
 13. Dimensionality reduction.
-UMAP
+UMAP, PaCMAP
