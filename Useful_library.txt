@@ -2,10 +2,10 @@ Useful python package.
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy
-pandaral-lel(parallel process pandas)
 
 2. pandas alternative.
-dask, polars, 
+dask, polars(using rust), cudf
+pandaral-lel(parallel process pandas)
 
 5. Automate machine learning. 
 mlxtend, PyCaret
