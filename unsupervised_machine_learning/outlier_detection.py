@@ -35,12 +35,13 @@ for x in distance_list:
     #self.cluster_plots(self.data[:,0:2], scan_data)
 
 
-threashold = 1
-outliers = (( df - df.mean() ).abs() > threashold*df.std() ).any(axis=1)
+tthreashold = 2
+outliers = ( abs(df-df.mean()) > threashold*df.std() ).any(axis=1)
 df_no_outliers = df[~outliers]
 df_outliers = df[outliers]
 
-print(f"Lenght without outliers:{len(df_outliers)}.  Number of outliers:{len(df_no_outliers)}")
+print(f"Number without outliers:{len(df_no_outliers)}.  Number of outliers:{len(df_outliers)}")
+
 
 #pdb.set_trace()
 
