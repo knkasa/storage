@@ -6,6 +6,7 @@ Numba, cython(needs complilation), pypy
 2. pandas alternative.
 dask, polars(using rust), cudf
 pandaral-lel(parallel process pandas)
+Modin(could be the best of all)
 
 5. Automate machine learning. 
 mlxtend, PyCaret
@@ -25,7 +26,7 @@ pymupdf
 sketch
 
 12. Timeseries data analysis.
-statsmodels, tslearn, tssearch, tsfresh
+tslearn, tssearch, tsfresh, Kats
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
