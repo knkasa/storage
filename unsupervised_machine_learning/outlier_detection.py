@@ -34,9 +34,9 @@ for x in distance_list:
     print(f"eps = {np.round(x, 2)}.  Number of Noise: {sum(scan_data==-1)}({len(scan_data)}).  Number of cluseters:{len(np.unique(scan_data))} ", sep='')
     #self.cluster_plots(self.data[:,0:2], scan_data)
 
-
-tthreashold = 2
-outliers = ( abs(df-df.mean()) > threashold*df.std() ).any(axis=1)
+# Remove points if greater than threshold.
+threshold = 2  # num of std.
+outliers = ( abs(df-df.mean()) > threshold*df.std() ).any(axis=1)
 df_no_outliers = df[~outliers]
 df_outliers = df[outliers]
 
