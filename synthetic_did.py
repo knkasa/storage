@@ -1,5 +1,6 @@
 
 # Synthetic Difference in Difference.
+# https://pypi.org/project/synthdid/
 
 import pdb  
 import matplotlib.pyplot as plt
