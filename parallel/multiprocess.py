@@ -20,7 +20,7 @@ class multi_class():
                     processes=int(os.environ['NUMBER_OF_PROCESSORS'])//2,  # optional.  default=max number of cores.
                     initializer=self.initializer,  # optional.  Function to run when each processes is started.
                     maxtasksperchild=len(cols),  # optional
-                    initargs=None,  # optional.  You can send a tuple to the initializer function.
+                    initargs=[],  # optional.  You can send a tuple to the initializer function.
                 ) as pool:
 
                 res = pool.map(self.run_synthetic, cols)
