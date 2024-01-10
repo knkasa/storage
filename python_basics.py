@@ -10,11 +10,6 @@ x = "var1";   print(  "testing {x}...".format( x=x )  )
 # If some package installed didn't work, try installing with conda.
 # "conda install <package> -c conda-forge
 
-# logger library for logging. 
-from logging import getLogger
-logger = getLogger(__name__)
-logger.info('message')
-
 # icecream for debugging, instead of print().
 import icecream
 
@@ -23,6 +18,9 @@ import pdb; pdb.set_trace()
 
 # Change windowspath to Linux path.
 os.path.normpath(r"C:\xxx\yyy").replace(os.sep, '/')
+
+# Join directory
+os.path.join(dir1, dir2)
 
 # Create list in one line 
 vec = [ x*2 for x in range(10) ]  
@@ -93,6 +91,10 @@ for i in tqdm( xlist ):
 
 # check if the variable type is certain type.
 isinstance( x, int ) 
+
+# Check several conditions.
+if all(True, False, True):
+if any(True, False, True):
 
 #------------------------------------------------------------------------
 
