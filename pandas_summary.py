@@ -7,8 +7,7 @@ import datetime as dt
 
 # save/read to csv
 df = pd.read_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/data.csv', encoding='shift-jis') # try "utf-8" if not work. 
-df.to_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/result.csv', index=None)
-dlist = df.values.tolist()  # if you need to use for loop, data type needs to be list
+df.to_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/result.csv', index=None, usecols=['cos1','col2'])
 
 pd.DataFrame.from_dict(dic)  # from dictionary to pandas frame
 
