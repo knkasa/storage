@@ -39,3 +39,7 @@ LineProfiler
 https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
 https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
 
+16. New decision tree machine learning technique introduced by Microsoft.
+DiCE
+
+
