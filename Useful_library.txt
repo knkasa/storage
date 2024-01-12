@@ -42,4 +42,7 @@ https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivar
 16. New decision tree machine learning technique introduced by Microsoft.
 DiCE
 
+17. Create time-series data using GAN.
+ydata-synthetic
+
 
