@@ -30,6 +30,7 @@ tslearn, tssearch, tsfresh, Kats
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
+https://medium.com/@evertongomede/a-comparative-analysis-of-dimensionality-reduction-techniques-in-machine-learning-3389c5103348
 
 14. Memory profiler.
 https://pypi.org/project/memory-profiler/
