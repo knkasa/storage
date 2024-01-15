@@ -46,4 +46,7 @@ DiCE
 17. Create time-series data using GAN.
 ydata-synthetic
 
+18. Identify redandent features.
+AutoFeatSelect
+
 
