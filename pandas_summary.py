@@ -114,7 +114,11 @@ histogram = pd.cut( df[col], bins=[0, 10, 20, float('inf')], right=False)  # bin
 histogram_df = pd.value_counts(histogram).reset_index()
 histogram_df.columns = ['bin','freq']
  
-
+# Append rows.
+df = pd.DataFrame( columns=['col1', 'col2'] )
+row = pd.DataFrame({ 'col1':val1, 'col2':val2 }, index=[n])
+df = pd.concat( [df, row], igonore_index=True )
+         
 #-----------------------------------------------------------------------------------------------------------------
 
 # select rows with condition
