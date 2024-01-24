@@ -1,0 +1,7 @@
+AWS EBS stores data as a block (chunk of smaller size).
+AWS Elastic File System(EFS):Storage inside EC2.  
+AWS Aurora: DB offers by AWS. Faster than PostgreSQL.
+Dynamo DB: Serverless DB.  Non-relational(Not table format data)
+
+
+
