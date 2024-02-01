@@ -1,6 +1,10 @@
 # Calculating correlations between categorical variables.
 # https://py-pair.readthedocs.io/quickstart.html
 
+# For timeseries data, use AutoCorrelation or CrossCorrelation
+import numpy as np 
+from scipy.signal import correlate  # For cross correlation.  相互相関
+
 import pandas as pd
 import numpy as np
 from pypair.association import binary_binary
