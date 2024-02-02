@@ -33,7 +33,7 @@ model_setup = setup(
     # Categorical options.
     categorical_features=["Cut", "Color", "Clarity", "Polish", "Symmetry", "Report"], 
     numeric_features=["Carat Weight"],
-    ordinal_features={'salary' : ['low', 'medium', 'high']},
+    ordinal_features=None, #{'salary' : ['low', 'medium', 'high']},
     date_features=None,
     text_features=None,
     max_encoding_ohe=25,  # max one-hot encoding dimension.
@@ -57,13 +57,13 @@ model_setup = setup(
     pca_components=None,  # number of features to keep using pca.  
     feature_selection=False,   # set it True if you want to throw out unimportant features.
     feature_selection_method='classic',  # used if feature_selection=True.  'univariate' 'sequential'
-    feature_selection_estimator='lightgbm'  
+    feature_selection_estimator='lightgbm',
     n_features_to_select=0.2,   #  fraction of features to keep. It can be integer as well. enabled if feature_selection=True.
 
     # data preparation.
     data_split_shuffle=True,  
     data_split_stratify=False,  # when enabled, it will split test and training data with the right proportion of target variable.  Needed for classification.
-    fold = 10, # number of split to training data.  
+    fold = 4, # number of split to training data.  
     fold_strategy='kfold',  # others are 'groupkfold', 'timeseries' 'stratifiedkfold'
     fold_shuffle=False,   #
     n_jobs=-1 ,  # number of parallel processes.
@@ -75,10 +75,10 @@ model_setup = setup(
 
 # This will give a summary of the model performance.  
 best_model = compare_models(
-    include=['lr']  # List of models to compare.  None means compare all models.
-    exclude=None,   # List of models to exclude.
+    include=None,  # List of models to compare.  None means compare all models.
+    exclude=['lightgbm'],   # List of models to exclude.
     n_select=1,   # number of top models to return.
-    turbo=True,   # if set true, it will speed up the hyperparameter tuning. 
+    turbo=False,   # if set true, it will speed up the hyperparameter tuning. 
     sort='R2',   # metric used to rank models.  
     errors='ignore',  
     verbose=True,
@@ -92,9 +92,9 @@ model = tune_model(
     estimator=model,
     n_iter=10,   # number of iteration in the grid search.
     optimize='R2',   # metric used to evaluate models.
-    search_library='scikit-learn',   # library used for tuning hyperparameters.  'optuna'(you'll need pip install optuna.)  'scikit-optimize'(pip install scikit-optimize.)
-    search_algorithm='scikit-learn',   # search algorithm. 'scikit-learn', 'grid', 'bayesian'(pip install scikit-optimize), 'tpe'(for optuna) ...
-    early_stopping=None,   # 'ash', 'Hyperband', 'median' ... Ignored if search_library is scikit-learn.  choose scikit-optimize, optuna, ...
+    search_library='optuna',   # library used for tuning hyperparameters.  'optuna'(you'll need pip install optuna.)  'scikit-optimize'(pip install scikit-optimize.)
+    search_algorithm='tpe',   # search algorithm. 'scikit-learn', 'grid', 'bayesian'(pip install scikit-optimize), 'tpe'(for optuna) ...
+    early_stopping='Hyperband',   # 'ash', 'Hyperband', 'median' ... Ignored if search_library is scikit-learn.  choose scikit-optimize, optuna, ...
     early_stopping_max_iters=10,
     verbose=True,
     )
