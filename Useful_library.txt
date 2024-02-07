@@ -46,7 +46,12 @@ DiCE
 17. Create time-series data using GAN.
 ydata-synthetic
 
-18. Identify redandent features.
+18. Identify redundent features.
 AutoFeatSelect
 
+19. Feature importance similar to shap.
+lime
 
+20. TabNet
+https://qiita.com/matsuda_tkm/items/8a752534d671fb4e477a
+https://pypi.org/project/pytorch-tabnet/
