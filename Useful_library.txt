@@ -27,7 +27,7 @@ pymupdf
 sketch
 
 12. Timeseries data analysis.
-tslearn, tssearch, tsfresh, Kats
+tslearn, tssearch, tsfresh, Kats, lag llama(pre-trained)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
