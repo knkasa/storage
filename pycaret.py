@@ -118,6 +118,10 @@ feature_importance = get_model(dataset, 'feature_importance')
 feature_names = model.feature_names_
 feature_importance_values = model.feature_importances_
 
+# Get parameters of the model like depth, learning_rate.
+model.get_params()
+model.get_all_params()
+
 # Result plotting.  
 # https://qiita.com/ground0state/items/57e565b23770e5a323e9
 plot_model(
