@@ -122,6 +122,14 @@ feature_importance_values = model.feature_importances_
 model.get_params()
 model.get_all_params()
 
+# This may work for catboost.  Plot learning curve.
+# Assuming your validation data is in dataset.loc[:100]
+import catboost as cb
+pool = cb.Pool(dataset.loc[:100])  # Create a Pool object
+val_loss = model.eval_metrics(pool, metrics=["RMSE"])
+rmse_value = val_loss["RMSE"]
+
+#================ Plotting =============================================================
 # Result plotting.  
 # https://qiita.com/ground0state/items/57e565b23770e5a323e9
 plot_model(
