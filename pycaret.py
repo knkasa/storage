@@ -112,6 +112,7 @@ predictions = predict_model(model, data=new_data)
 # Get feature importance as a pandas DataFrame
 feature_importance = get_model(dataset, 'feature_importance')
 feature_names = model.feature_names_
+feature_importance_values = model.feature_importances_
 
 # Result plotting.  
 # https://qiita.com/ground0state/items/57e565b23770e5a323e9
