@@ -1,6 +1,9 @@
 # PyCaret Instructions.  https://pycaret.gitbook.io/docs/
 # You'll also need to install catboost, xgboost, shap.  
 # Learning curve interpretation.  https://www.dataquest.io/blog/learning-curves-machine-learning/
+#  1. Both scores increase with training size: This indicates the model is learning from the data.
+#  2. Validation score plateaus before training score: This shows good generalization, meaning the model performs well on unseen data without overfitting to the training data.
+#  3. Small gap between the lines: This suggests the model learns effectively without excessive memorization of training data.
 
 # Pycaret automates machine learning task by comparing many models.
 #  - Pycaret only works with specific versions (3.8, 3.9, 3.10).  https://pycaret.gitbook.io/docs/get-started/installation#dependencies
