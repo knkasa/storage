@@ -43,6 +43,7 @@ df_panel_with_dummies = df_panel.join(df_dummies)
 #Construct the regression equation. Note that we are leaving out one dummy variable so as to
 # avoid perfect multi-colinearity between the 7 dummy variables. The regression model's intercept
 # will contain the value of the coefficient for the omitted dummy variable.
+# Example equation form  'Y ~ X1 + X2 + EntityEffects' 
 lsdv_expr = y_var_name + ' ~ '
 i = 0
 for X_var_name in X_var_names:
