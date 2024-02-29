@@ -30,7 +30,7 @@ exp_auto.setup(
     target=target, 
     fh=FH, 
     enforce_exogenous=False,
-    #index='index',
+    #index='index',  # index can be replaced with range(0,x) values too.  No need to be datetime format.  
     #ignore_seasonality_test=True,
     numeric_imputation_target="ffill", 
     numeric_imputation_exogenous="ffill",
