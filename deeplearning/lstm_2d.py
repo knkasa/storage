@@ -66,7 +66,7 @@ my_loss = tf.keras.losses.MeanSquaredError()
 
 # Define optimizer.
 # https://www.tensorflow.org/api_docs/python/tf/keras/optimizers
-my_optimizer = tf.keras.optimizers.Adam(  )
+my_optimizer = tf.keras.optimizers.Adam( clipvalue=0.5 )
 
 
 # Compile the model.
