@@ -28,6 +28,7 @@ sketch
 
 12. Timeseries data analysis.
 tslearn, tssearch, tsfresh, Kats, lag llama(pre-trained)
+AutoGluon(Amazon)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
