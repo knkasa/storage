@@ -61,3 +61,6 @@ https://qiita.com/maskot1977/items/5de6605806f8918d2283
 
 21. Outlier detection
 Pyod
+https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
+
+
