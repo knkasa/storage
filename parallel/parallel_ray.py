@@ -92,7 +92,7 @@ for n in range(num_process):
     dic['id'+str(n)] = df.head(num_content)
     df.drop( df.head(num_content).index, axis=0, inplace=True )
 
-    
+os.environ["RAY_DEDUP_LOGS"]="0"  # In case, multiple ray is running, you may get an error with duplicate logs.
 @ray.remote
 def fun0(new_model):
     #os.system('del ' + error_dir)
