@@ -66,7 +66,7 @@ https://qiita.com/maskot1977/items/5de6605806f8918d2283
 Pyod
 
 22. MCMC regression to include uncertainty in timeseries prediction curve in plot.
-
 https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
 
-
+23. Finetune with ORPO, new technique.
+https://huggingface.co/blog/mlabonne/orpo-llama-3
