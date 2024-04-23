@@ -27,7 +27,9 @@ pymupdf
 sketch
 
 12. Timeseries data analysis.
-tslearn, tssearch, tsfresh, Kats, lag llama(pre-trained)
+tslearn(clustering & anormaly detection), tssearch(find seasonal patterns), 
+tsfresh(Automatic feature engineering), Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
+lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
 
