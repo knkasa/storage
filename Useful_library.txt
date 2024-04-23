@@ -28,7 +28,8 @@ sketch
 
 12. Timeseries data analysis.
 tslearn, tssearch, tsfresh, Kats, lag llama(pre-trained)
-AutoGluon(Amazon)
+AutoGluon(Amazon, similar to Pycaret)
+Prohet(similar to ARIMA)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
