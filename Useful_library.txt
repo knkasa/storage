@@ -70,3 +70,7 @@ https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-w
 
 23. Finetune with ORPO, new technique.
 https://huggingface.co/blog/mlabonne/orpo-llama-3
+
+24. t-test(two continuous data that are different or not)
+chi-squared test(two categorical data that are different or not)(one binary data that are different from expected ratio(50:50) or not)
+Anova test(three continuous data that are different or not)
