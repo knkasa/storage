@@ -77,3 +77,6 @@ Anova test(three continuous data that are different or not)
 
 25. Pydantic
 Allows you to setup datafame with custom default.
+
+26. Liquid neural network.
+https://ncps.readthedocs.io/en/latest/api/torch.html
