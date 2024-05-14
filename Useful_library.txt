@@ -75,6 +75,7 @@ https://huggingface.co/blog/mlabonne/orpo-llama-3
 chi-squared test(two categorical data that are different or not)(one binary data that are different from expected ratio(50:50) or not)
 Anova test(three continuous data that are different or not)
 
+25. xLSTM, TimeFM.  (New timeseries model by Google)
 25. Pydantic
 Allows you to setup datafame with custom default.
 
