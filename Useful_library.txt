@@ -32,6 +32,8 @@ tsfresh(Automatic feature engineering), Kats(Facebook, similar to Pycaret but in
 lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
+DMD(dimensionality reduction)
+TimeFM, xLSTM
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
