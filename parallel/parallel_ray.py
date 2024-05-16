@@ -17,6 +17,7 @@ import gc
 import datetime as dt
 import time
 
+# In case "no module found" error, you need to use import sys, and add sys.path.append('xxx/yyy')
 import ray
 
 
@@ -281,7 +282,8 @@ if first_run:
                 new_model = { "tech":technical, "upper":x1, "lower":x2 }
                 l += 1
                 print(); print(" *************** param = " + str(l) + " of " + str(total_run) ); print()
-                
+
+              # In case "no module found" error, you need to use import sys, and add sys.path.append('xxx/yyy')
                 #del_logs()
                 #time.sleep(l)
                 os.chdir(core_dir)
