@@ -83,3 +83,8 @@ Allows you to setup datafame with custom default.
 
 26. Liquid neural network.
 https://ncps.readthedocs.io/en/latest/api/torch.html
+
+27. Feature transformation for training supervised model.
+yeo-transformation
+signature transformation
+
