@@ -10,10 +10,7 @@ Modin(could be the best of all)
 calamine (reading excel file)
 
 5. Automate machine learning. 
-mlxtend, PyCaret
-
-6. Plotly
-https://plotly.com/python/
+mlxtend, PyCaret, AutoML H2O, 
 
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
