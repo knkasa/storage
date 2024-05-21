@@ -284,7 +284,8 @@ if first_run:
                 print(); print(" *************** param = " + str(l) + " of " + str(total_run) ); print()
 
               # In case "no module found" error, you need to use import sys, and add sys.path.append('xxx/yyy')
-                #del_logs()
+              # You may also need to run "python -m src" or "python src/__main__.py".  "python src" may no work.  
+              #del_logs()
                 #time.sleep(l)
                 os.chdir(core_dir)
                 ray.init( num_cpus=4 )
