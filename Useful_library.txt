@@ -38,7 +38,8 @@ https://medium.com/@evertongomede/a-comparative-analysis-of-dimensionality-reduc
 
 14. Memory profiler.
 https://pypi.org/project/memory-profiler/
-LineProfiler
+LineProfiler (line by line that shows slowest part of code)
+cProfile (show statistics on function execution time)
 
 15. Minimize function with constraints
 https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
