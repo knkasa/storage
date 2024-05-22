@@ -288,7 +288,7 @@ if first_run:
               #del_logs()
                 #time.sleep(l)
                 os.chdir(core_dir)
-                ray.init( num_cpus=4 )
+                ray.init( num_cpus=4, runtime={'sorking_dir':'.'} )
                 time.sleep(5)
                 print(" check1" )
                 ray0 = fun0.remote(new_model)
