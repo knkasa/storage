@@ -45,9 +45,6 @@ d-----         5/23/2024   8:09 AM                opt_einsum-3.3.0.dist-info
 d-----         5/23/2024   8:09 AM                packaging
 d-----         5/23/2024   8:09 AM                packaging-24.0.dist-info
 d-----         5/23/2024   8:09 AM                pasta
-d-----         5/23/2024   7:40 AM                pip
-d-----         5/23/2024   7:40 AM                pip-24.0-py3.11.egg-info
-d-----         5/23/2024   7:40 AM                pkg_resources
 d-----         5/23/2024   8:09 AM                protobuf-4.25.3.dist-info
 d-----         5/23/2024   8:09 AM                pyasn1
 d-----         5/23/2024   8:09 AM                pyasn1-0.6.0.dist-info
@@ -59,8 +56,6 @@ d-----         5/23/2024   8:09 AM                requests_oauthlib
 d-----         5/23/2024   8:09 AM                requests_oauthlib-2.0.0.dist-info
 d-----         5/23/2024   8:09 AM                rsa
 d-----         5/23/2024   8:09 AM                rsa-4.9.dist-info
-d-----         5/23/2024   7:40 AM                setuptools
-d-----         5/23/2024   7:40 AM                setuptools-69.5.1-py3.11.egg-info
 d-----         5/23/2024   8:09 AM                six-1.16.0.dist-info
 d-----         5/23/2024   8:09 AM                tensorboard
 d-----         5/23/2024   8:09 AM                tensorboard-2.14.1.dist-info
@@ -81,14 +76,9 @@ d-----         5/23/2024   8:09 AM                urllib3
 d-----         5/23/2024   8:09 AM                urllib3-2.2.1.dist-info
 d-----         5/23/2024   8:09 AM                werkzeug
 d-----         5/23/2024   8:09 AM                werkzeug-3.0.3.dist-info
-d-----         5/23/2024   7:40 AM                wheel
-d-----         5/23/2024   7:40 AM                wheel-0.43.0.dist-info
 d-----         5/23/2024   8:09 AM                wrapt
 d-----         5/23/2024   8:09 AM                wrapt-1.14.1.dist-info
-d-----         5/23/2024   7:40 AM                _distutils_hack
 d-----         5/23/2024   8:09 AM                __pycache__
--a----          5/7/2024   4:59 AM            152 distutils-precedence.pth
 -a----         5/23/2024   8:09 AM              0 numpy-1.26.4-cp311-cp311-win_amd64.whl
--a----          4/2/2024   5:25 PM            119 README.txt
 -a----         5/23/2024   8:09 AM          34549 six.py
 -a----         5/23/2024   8:09 AM         122293 typing_extensions.py
