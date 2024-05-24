@@ -1,3 +1,5 @@
+If numpy causes an error, pip uninstall numpy, re-install again.
+
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----         5/23/2024   8:09 AM                absl
