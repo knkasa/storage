@@ -100,6 +100,8 @@ if any(True, False, True):
 from pathlib import Path
 Path('__file__').resolve().parent
 
+# For append(), remove(), use deque library.
+
 #------------------------------------------------------------------------
 
 
