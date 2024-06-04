@@ -9,7 +9,7 @@ pandaral-lel(parallel process pandas)
 Modin(could be the best of all)
 calamine (reading excel file)
 
-5. Automate machine learning. 
+5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
 
 8. Categorical data for clustering. Kmodes method.
