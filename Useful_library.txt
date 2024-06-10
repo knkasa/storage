@@ -76,11 +76,15 @@ chi-squared test(two categorical data that are different or not)(one binary data
 Anova test(three continuous data that are different or not)
 
 25. xLSTM, TimeFM.  (New timeseries model by Google)
+
 25. Pydantic
 Allows you to setup datafame with custom default.
 
 26. Liquid neural network.
 https://ncps.readthedocs.io/en/latest/api/torch.html
+
+27. Mamba, the new neural network that is better than transformer.
+    Mamba, package installer that is faster than anaconda.  
 
 27. Feature transformation for training supervised model.
 yeo-transformation
