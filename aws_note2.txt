@@ -1,0 +1,36 @@
+EC2: Easiest to acces resizable compute capacity.
+AWS Lambda: Run code without worrying about compute capacity.
+VPC: Get part of cloud for you to run app. Available all region.
+Subnet: Part of your VPC, available only one region.
+Multi-AZ(availability zone):Highly available.
+AWS config: keep history of cofig changes.
+AWS CloudTrail: Compliance, governance, risk.  
+AWS CloudFormation: Json, Yaml file to manage 3rd party resource.
+AWS CAF: business, people, governance, platform, security, operations.
+AWS AutoScaling: Scale resource automatically.
+Elastic file system: file(storage) transfer between different zone.
+RDS is horizontal scalability.
+Amazon MQ: messaging service.
+AWS acceptable use polity: prohibits use of web.
+AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
+AWS organization: make multiple acounts into one bill.
+AWS edge location: cache files.
+AWS CloudHSM: Hardware security encryption.
+AWS Enterprise support on Ramp: fewer services than no ramp.
+AWS piller: Reliability, Cost optimization,
+AWS Health dashboard: show dashboard on availability zone.
+Gateway type: Tape, File, Volume.
+AWS inspecter: inspect vulnerabilities.
+Network ALC: security for instances.
+AWS Route53: protection against ddos.
+Access AWS service via CLI, Management console, SDK.
+AWS CloudWatch: monitor CPU utilization.
+AWS Athena: run SQL in s3. Aurora=database, Redshift=data warehouse.
+AWS EventBridge: log
+AWS step function: combine multiple AWS service.
+AWS Rekognition: AWS SaaS
+AWS computer optimizer: optimize resource on EC2, EBS, lambda.
+AWS cloudwatch: monitor resources.
+AWS inspector: monitor ddos attack.
+AWS EMR: run Hadoop, Spark, ...
+
