@@ -6,4 +6,4 @@ CloudFormation: use yaml file to manage resouce. You can do this to multiple AWS
 AWS is responsible for patching(protecting) the cloud.
 AWS artifacts: Payment card industry.
 AWS trusted advisor: will alert if you don't turn user activity logging.
- 
+１６問目 
