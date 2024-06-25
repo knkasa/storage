@@ -1,0 +1,9 @@
+AWS global accelrator: static IP address, non-http.
+Disaster recovery: backup&restore, Pilot light, Warm standby, active-active
+s3: Only s3 standard, s3 intelligent-tier no retrival charge.
+s3: Free-> Data transferred in from internet, Data transfered out to same region.
+CloudFormation: use yaml file to manage resouce. You can do this to multiple AWS accounts.
+AWS is responsible for patching(protecting) the cloud.
+AWS artifacts: Payment card industry.
+AWS trusted advisor: will alert if you don't turn user activity logging.
+ 
