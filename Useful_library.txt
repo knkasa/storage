@@ -90,3 +90,5 @@ https://ncps.readthedocs.io/en/latest/api/torch.html
 yeo-transformation
 signature transformation
 
+28. Find frequent itemset association rules. Use mlxtend library.
+https://rstudio-pubs-static.s3.amazonaws.com/282387_0cc72775dbc7433b800fe669a49cf77d.html
