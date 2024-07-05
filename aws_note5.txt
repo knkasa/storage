@@ -1,0 +1,36 @@
+Elastic Beastalk: Web application (Paas)
+Customer gateway: connect between AWS & on-premise with VPN.
+AWS personalized: personal content streaming.
+AWS comprehend: NLP streaming.
+AWS Macie: use machine learning to protect data.
+Cognito: Let you add users for web and mobile app.
+LightSail: cheap option for testing environment.
+Route53: Health check/monitoring & register domain name.
+Inspector: Security inspector.
+AWS Fault injection simulator: Find blind spots of application.
+Operational piller: monitoring.
+Reliability piller: recovering.
+Sustainability piller: resouce.
+AWS direct connect: connect between AWS & on-premise. VPC connects you and AWS through internet.
+AWS cost reports: gives cost from past month.
+AWS budget: allow you to set alert.
+AWS codeGuru: Can review your codes.
+AWS STS: Gives access users to manage resource.  Note IAM users can't manage resource.
+VPC: used only within the same region.
+On demand: pay per second.
+AWS IAM access advisor: review permission for IAM users.  
+IAM credential report: show who has access.  
+Provision IOPS: it can calculate EBS volume.
+AWS pricing calculator: Estimate price for service.
+AWS cost explorer: Estimate price for resource usage.
+AWS Cloud development kit: use python and etc to build AWS infra.
+AWS codebuild: compile code.
+Reserved instance: available for 1yr 3yr.
+AWS partner solution(formerly Quick Starts): quickly deploy.  
+AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
+OS configuration & Configuration management is both AWS & customer responsibility.
+AWS system manager: see resource data.
+Amaxon Lex: chatbot 
+Network access control list(ACL): you can deny access.
+
+
