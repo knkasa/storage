@@ -32,5 +32,10 @@ OS configuration & Configuration management is both AWS & customer responsibilit
 AWS system manager: see resource data.
 Amaxon Lex: chatbot 
 Network access control list(ACL): you can deny access.
+AWS cloudHSM: geneate encryption.
+Elastic Volumne: Attach it to the same availability zone.
+AWS Glue: serverless ETL to prepare data.
+AWS sync: Transfer data between on-premise & AWS while backing up data.
+Convertiable Reserved Instance: You can change resource cap during RI.
 
 
