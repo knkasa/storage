@@ -88,7 +88,8 @@ https://ncps.readthedocs.io/en/latest/api/torch.html
 
 27. Feature transformation for training supervised model.
 yeo-transformation
-signature transformation
+signature transformation (use fourier transform)
+If using log() that has negative values, apply min_max scaler, then apply log().
 
 28. Find frequent itemset association rules. Use mlxtend library.
 https://rstudio-pubs-static.s3.amazonaws.com/282387_0cc72775dbc7433b800fe669a49cf77d.html
