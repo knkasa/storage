@@ -1,0 +1,31 @@
+AWS control tower: set blueprints guardrail for new AWS accounts.
+Amazon elastic transcoder: convert media files.
+VPC: let you setup AWS resource in isolated network.
+Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
+AWS cloudTrail: monitor unusual access & activity of AWS account.
+AWS x-ray: helps debugging.
+AWS codeStar: it includes pipeline, code commit, code build, deployments.
+AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch.
+Amazon Kinesis data streams: stream data.
+AWS forecast service: forecast web traffic.
+Amazon AppStream: internet app.
+CloutTrail, s3 Glacier, Storage gateway: already encypted.
+AWS partner solutions(formerly quick starts): set reference point for deployment.
+Security group: control incoming traffic.
+Architectural Tool: tell you architectural best practice.
+AWS wavelength: setup low latency mobile app.
+AWS IoT core: Let you connect IoT device.
+AWS abuse team: report suspacious actions.
+AWS OpsHub: manage AWS Snowball using UI.
+AWS config: configure resources.  It has the history data of resources.
+AWS cloudTrail: Governance, compliance, risk auditing account.
+AWS cloudwatch: You can monitor resource, but not the configuration information.
+EC2 is Customer's responsibility, not AWS.
+Backup&Restore, PilotLight, WarmStandby, MultiSiteActive: Recovery time( hours, 10min, minutes, instant)
+AWS Aurora: SQL base database.
+AWS quicksight: dashboard.
+AWS Athena: analyze s3 using SQL.
+Platform, Infa, Software as a service.
+AWS outpost: both on-premise and AWS (hybrid)
+AWS Neptune: Show graph.
+AWS quantum Ledger database: has log of data transfer.
