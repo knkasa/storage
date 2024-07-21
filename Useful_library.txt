@@ -8,6 +8,7 @@ dask, polars(using rust), cudf
 pandaral-lel(parallel process pandas)
 Modin(could be the best of all)
 calamine (reading excel file)
+Vaex (for big data)
 
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
