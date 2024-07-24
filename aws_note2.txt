@@ -1,15 +1,11 @@
 
 
-
-
-
 Only outbound data transfer is charged between different AZ zone.
 Route53: improves latency. Protect ddos.
-EC2: Easiest to acces resizable compute capacity.
-AWS partner Network(APN): give solution to you needs.
+EC2: get bills per second.
+AWS partner Network(APN): give solution to your needs.
 AWS system manager session: Improve security without opening port. Uses ssh.
-AWS Lambda: Run code without worrying about compute capacity.
-VPC: Get part of cloud for you to run app. Available all region.
+VPC: Available all region.
 Subnet: Part of your VPC, available only one region.
 Multi-AZ(availability zone):Highly available.
 AWS config: keep history of cofig changes.
@@ -32,7 +28,7 @@ Gateway type: Tape, File, Volume.
 AWS inspecter: inspect vulnerabilities.
 Network ALC: security at subnet level.
 Security group: security at instance level.
-Manage all AWS service: SDK, CLI, 
+Manage all AWS service: SDK, CLI, console.
 AWS CloudWatch: monitor CPU utilization.
 AWS Athena: run SQL in s3. Aurora=database, Redshift=data warehouse.
 AWS EventBridge: log
@@ -43,8 +39,10 @@ AWS cloudwatch: monitor resources.
 AWS inspector: monitor ddos attack.
 AWS EMR: run Hadoop, Spark, ...
 AWS Neptune: graph storage.
+AWS Athena: run SQL on s3.
 AWS shield: protection against ddos.
 VPN: Allow to connect between on-premise & AWS.
+TAM: Only AWS enterprise support provide TAM.
 
 
 
