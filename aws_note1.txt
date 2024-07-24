@@ -1,0 +1,53 @@
+Each region has 3 availability zone & 1 or more discrete data centers.
+There is no charge for inbound data transfer, or within the same region.
+Advantage of cloud conputing: 
+  massive economies, capital expense, stop guess capacity, speed, go global
+Outbound data transfer to other region is charged.
+
+AWS x-ray:  debug performance
+AWS Trusted Advisor: Resource guidance.
+AWS pin-point: advice for marketers.
+AWS cloud Formation: Configure AWS using code (programming). Beanstalk is easier.
+AWS Glacer deep archive: takes the most time to retrieve data.
+AWS service:  Basic(lowest), developer, business, enterprise on-ramp, Enterprise(highest)
+
+Instance Store: provides high I/O performance.  Attached to hardware.
+SDK: encrypting data.
+CMK: encrypting key.
+Scale up: Fault tolerance.
+
+VPC: only allow rule.  Network gateway.
+AWS organization to manage AWS accont.
+AWS Mcie: Protect your S3 data using machine learning.
+Amazon Transcribe: Speech to text analysis.
+AWS Budgets: Set alert when cost exceeds limit.
+
+VPC connection: S3 & DynamoDB
+Monthly bill using "Pricing Calculator"
+AWS Glue: ETL
+AWS compute optimizer: optimize resource.  
+Configuration management:  Share responsibility between customer and AWS.
+
+CAF: CTO & Engineer.  Agile method & organize your teams.
+AWS cloud trails logs: encrypted by default.
+Cloud watch: watch resource.
+AWS consulting partner: consultation regarding global business.
+Spot instance discount:  90
+AWS shield standard: free firewall for all users.
+
+Elastic File System: multiple instance/zones
+Elastic Blockstore: one instance/zone
+AWS shield advance runs on: Rooute53 Global Accelerator
+Cloud formation: configure AWS by codes.  
+
+Most cost effective: Partial upfront payment w/ 3yr
+Decouple microservice application: SQS, SNS
+Route 53: use weighted routing to multiple resources.
+Optimize cost: EC2, S3, RDS (not dynamoDB, Lambda)
+
+Amazon inspector: sutomate security.
+GuardDuty: detect malicious attack.
+Macie: use machine learning.
+AWS shield: protect against DDos
+
+AWS Web Firewall: 7 layer protection.
