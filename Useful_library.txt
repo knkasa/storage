@@ -6,7 +6,7 @@ Numba, cython(needs complilation), pypy
 2. pandas alternative.
 dask, cudf(GPU pandas)
 polars(using rust)
-pandaral-lel(parallel process pandas)
+pandaral-lel(parallel process pandas, not memory efficient)
 Modin(could be the best of all with pandas)
 calamine (reading excel file)
 Vaex (for big data)
