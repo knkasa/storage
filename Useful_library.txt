@@ -34,6 +34,7 @@ lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
 DMD(dimensionality reduction)
+MLforecast
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama 
 
 13. Dimensionality reduction.
@@ -104,3 +105,8 @@ tigramite library.
 30. Automate web browsing with python.
 Selenium
 
+31. fix format in vs code.
+black
+
+32. decorator to minimize memory.
+lru_cashe
