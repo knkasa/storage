@@ -12,14 +12,13 @@ AWS config: keep history of cofig changes.
 AWS CloudTrail: Compliance, governance, risk.  
 AWS CloudFormation: Json, Yaml file to manage 3rd party resource.
 AWS CAF: business, people, governance, platform, security, operations.
-AWS AutoScaling: Scale resource automatically.
 Elastic file system: file(storage) transfer between different zone.
 RDS is horizontal scalability.
 Amazon MQ: messaging service.
 AWS acceptable use polity: prohibits use of web.
 AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
 AWS organization: make multiple acounts into one bill.
-AWS edge location: cache files.
+AWS edge location: good for caching files.
 AWS CloudHSM: Hardware security encryption.
 AWS Enterprise support on Ramp: fewer services than no ramp.
 AWS piller: Reliability, Cost optimization,
@@ -43,6 +42,8 @@ AWS Athena: run SQL on s3.
 AWS shield: protection against ddos.
 VPN: Allow to connect between on-premise & AWS.
 TAM: Only AWS enterprise support provide TAM.
+AWS wavelength: setup 5g.  
+AWS local zone: low latency gaming.
 
 
 
