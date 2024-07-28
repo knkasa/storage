@@ -1,11 +1,12 @@
+
+
 Region specific: Amazon Rekognition, Lambda
 AWS snowball: transfer large volume of files.Allow on-premise 
-ACL: Automatically allow return traffic.  Rule in increse order whether to allow trafic.
+ACL: configure s3, VPC. Automatically allow return traffic.  Rule in increse order whether to allow trafic.
 AMI(amazon machine image):Information regarding instance.
 s3 versioning: backup s3.
 Penetration test: Security assessment test.
 Amazon Macie: use machine learning to protect data.
-AWS Transit gateway: connects all VPC.
 Amazon Athena: use sql in s3.
 CloudWatch, CloudTrail -> log activity, log API
 CloudFront: connect your web globally.
@@ -19,7 +20,7 @@ Reserved instance saving:72%
 Route 53: Failover.
 AWS health dashboard: gives alert when faiilure.
 IAM plog: effect, action, policy
-Instance store: attached to the host computer for faster cashe.
+Instance store: block storage. attached to the host computer for faster cashe.
 Storage Gateway & s3: encryption enabled.
 Cloud Foundation: Provide guide for deployment. 
 Shared responsibility: configuration, updates,
@@ -27,4 +28,14 @@ EFS: You are charged for each time you read/write.
 Amazon kendra: Search documents in data storage.
 RDS read replica: reduce scalability.
 AWS knowledge center: Forum
+s3: You need to set policy before others can access.
+EC2: instance can transfer files to any region with EFS.
+AWS Lambda: pricing is based on number of requests, runtime.
+scaling: scale down, scale in instances.
+AWS Transit gateway: connects all VPC.
+Auto data encryption: s3, storage gateway(hybrid cloud)
+EC2 user data: bootstrap data.
+AWS trusted advisor alert:public s3 acces, user activity logging.
+AWS artifact: Payent report
+
 
