@@ -4,11 +4,10 @@ Region specific: Amazon Rekognition, Lambda
 AWS snowball: transfer large volume of files. Allow on-premise 
 ACL: configure s3, VPC. Automatically allow return traffic.  Rule in increse order whether to allow trafic.
 AMI(amazon machine image):Information regarding instance.
-s3 versioning: backup s3.
+s3 versioning: backup.
 Penetration test: Security assessment test.
 Amazon Macie: use machine learning to protect data.
 Amazon Athena: use sql in s3.
-CloudWatch, CloudTrail -> log activity, log API
 CloudFront: connect your web globally.
 CAF: helps business, governance,people,security, operation, platform
 NAT: Allow private subnet.  
@@ -39,6 +38,6 @@ AWS Transit gateway: connects all VPC.
 Storage Gateway & s3: encryption enabled. connect on-premice & AWS data.
 Site to site gateway: virtual gateway, customer gateway
 Security group: Automatically allow return traffic.
-
-
+CloudTrail: log for on-premise.
+AWS budget: reservation budget.
 
