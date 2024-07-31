@@ -1,9 +1,34 @@
 AWS global accelrator: static IP address, non-http.
 Disaster recovery: backup&restore, Pilot light, Warm standby, active-active
-s3: Only s3 standard, s3 intelligent-tier no retrival charge.
+s3: Only s3 standard, s3 intelligent-tier has no retrival charge.
 s3: Free-> Data transferred in from internet, Data transfered out to same region.
-CloudFormation: use yaml file to manage resouce. You can do this to multiple AWS accounts.
-AWS is responsible for patching(protecting) the cloud.
+s3: s3 standard, intelligent tiering has no minimum storage charge.
+s3: host static web.
+s3 replication: copy s3 data to different accounts.
+s3: Lifecycle configuration.
+CloudFormation: You can use this to multiple AWS accounts.
 AWS artifacts: Payment card industry.
 AWS trusted advisor: will alert if you don't turn user activity logging.
-１６問目 
+EC2 instance connect: connect EC2 via browser.
+Application load balancer: balance http https traffic.
+VPC peering connection: connection between vpc.
+Direct connect, Transit gateway: connect between on-premice to EC2.
+Elastic file system: file transfer between on-premise.
+s3 transfer acceleration: transfer files globally.
+AWS is suited for loosely coupled architecture.
+Cost explorer: forecast your cost.
+Pricing calculator: Select software and simulate the cost.
+CloudWatch, SNS: send aleart when root user sign in.
+EC2 user data: bootstrap.
+AWS device farm: improve mobile apps.
+Internet gateway: communication between internet & VPC.
+subnet: part of VPC.  a range of IP address.
+AWS shield: DDos attack against EC2 & CloudFront.
+AWS Web application Firewall: It can block SQL query that looks malicious.
+Reserved Instance(RI): RI only applies discount in the same availability zone.
+Beastalk: Create web app.
+U2F: USB authenticator.
+Storage gateway: data storage for hybrid environment.
+AWS opsWork: manage configurations, run commands in AWS and on-premise.
+
+
