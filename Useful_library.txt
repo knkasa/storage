@@ -35,6 +35,7 @@ AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
 DMD(dimensionality reduction)
 MLforecast
+Gaussian process
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama 
 
 13. Dimensionality reduction.
@@ -106,7 +107,10 @@ tigramite library.
 Selenium
 
 31. fix format in vs code.
-black
+black 
 
 32. decorator to minimize memory.
 lru_cashe
+
+33. Plot gei-map.
+folium
