@@ -1,0 +1,17 @@
+from concurrent.futures import ProcessPoolExecutor, as_completed
+
+def task(n):
+    return n * n
+
+# Create a ProcessPoolExecutor
+with ProcessPoolExecutor(max_workers=5) as executor:
+    # Submit tasks to the executor
+    futures = [executor.submit(task, i) for i in range(10)]
+    
+    # Process the results as they complete
+    for future in as_completed(futures):
+        try:
+            result = future.result()
+            print(f'Result: {result}')
+        except Exception as e:
+            print(f'Exception: {e}')
