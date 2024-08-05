@@ -6,14 +6,13 @@ AWS Macie: use machine learning to protect data.
 Cognito: Let you add users for web and mobile app.
 LightSail: cheap option for testing environment.
 Route53: Health check/monitoring & register domain name.
-Inspector: Security inspector.
+Inspector: Security inspector for CloudFront.
 AWS Fault injection simulator: Find blind spots of application.
 Operational piller: monitoring.
 Reliability piller: recovering.
 Sustainability piller: resouce.
 AWS direct connect: connect between AWS & on-premise. VPC connects you and AWS through internet.
 AWS cost reports: gives cost from past month.
-AWS budget: allow you to set alert.
 AWS codeGuru: Can review your codes.
 AWS STS: Gives access users to manage resource.  Note IAM users can't manage resource.
 VPC: used only within the same region.
@@ -31,11 +30,13 @@ AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
 OS configuration & Configuration management is both AWS & customer responsibility.
 AWS system manager: see resource data.
 Amaxon Lex: chatbot 
-Network access control list(ACL): you can deny access.
+Network access control list(ACL): Give access to usrs like s3. you can deny access.
 AWS cloudHSM: geneate encryption.
 Elastic Volumne: Attach it to the same availability zone.
 AWS Glue: serverless ETL to prepare data.
 AWS sync: Transfer data between on-premise & AWS while backing up data.
 Convertiable Reserved Instance: You can change resource cap during RI.
-
+EBS is available in single zone. 
+Installing guest OS patch is customer responsibility.
+Automate on-premise shec puppet: opswork.
 
