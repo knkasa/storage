@@ -22,7 +22,7 @@ from kmodes.kmodes import KModes
 9. duckDB for creating local DB.
 
 10. Extracting tables from pdf file.
-pymupdf
+pymupdf, tabula
 
 11. Manipulate pandas dataframe with AI.
 sketch
