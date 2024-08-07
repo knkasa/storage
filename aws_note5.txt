@@ -1,42 +1,49 @@
+
+
 Elastic Beastalk: Web application (Paas)
 Customer gateway: connect between AWS & on-premise with VPN.
 AWS personalized: personal content streaming.
 AWS comprehend: NLP streaming.
 AWS Macie: use machine learning to protect data.
-Cognito: Let you add users for web and mobile app.
+Cognito: Let you add users for web and mobile app. Note IAM is not for mobile.
 LightSail: cheap option for testing environment.
 Route53: Health check/monitoring & register domain name.
-Inspector: Security inspector for CloudFront.
+CloudFront: FireWall can inspect http.(anything to do with http is FireWall)
 AWS Fault injection simulator: Find blind spots of application.
-Operational piller: monitoring.
+Operational piller: monitoring. make frequent changes.  predict failures.
 Reliability piller: recovering.
 Sustainability piller: resouce.
 AWS direct connect: connect between AWS & on-premise. VPC connects you and AWS through internet.
 AWS cost reports: gives cost from past month.
 AWS codeGuru: Can review your codes.
-AWS STS: Gives access users to manage resource.  Note IAM users can't manage resource.
-VPC: used only within the same region.
+AWS STS(security token): Temporary access.  Note IAM users can't manage resource.
 On demand: pay per second.
 AWS IAM access advisor: review permission for IAM users.  
 IAM credential report: show who has access.  
 Provision IOPS: it can calculate EBS volume.
-AWS pricing calculator: Estimate price for service.
+AWS pricing calculator: Estimate price for service. Do not give saving plan(cost explorer)
 AWS cost explorer: Estimate price for resource usage.
-AWS Cloud development kit: use python and etc to build AWS infra.
+AWS Cloud development kit(CDK): use python and etc to build AWS infra.
 AWS codebuild: compile code.
 Reserved instance: available for 1yr 3yr.
-AWS partner solution(formerly Quick Starts): quickly deploy.  
+AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. 
 AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
 OS configuration & Configuration management is both AWS & customer responsibility.
-AWS system manager: see resource data.
+AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement.
 Amaxon Lex: chatbot 
-Network access control list(ACL): Give access to usrs like s3. you can deny access.
+Network access control list(ACL): Give access to usrs like s3. deny IP.
 AWS cloudHSM: geneate encryption.
 Elastic Volumne: Attach it to the same availability zone.
 AWS Glue: serverless ETL to prepare data.
 AWS sync: Transfer data between on-premise & AWS while backing up data.
 Convertiable Reserved Instance: You can change resource cap during RI.
-EBS is available in single zone. 
+EBS is available in single zone. stored in s3.
 Installing guest OS patch is customer responsibility.
 Automate on-premise shec puppet: opswork.
+AWS organization: restrict account privileges with ServiceControl policy.
+SQS: send message between software.
+If want to split bill, create tags for each department.
+AWS Athena: analyze s3.  
+AWS EMR: Hadoop, spark analysis.  
+RSS feed notification service: Health dashboard.
 
