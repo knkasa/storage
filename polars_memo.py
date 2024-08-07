@@ -55,6 +55,7 @@ df.filter( (pl.col('Type').is_in(['A', 'B'])) & (pl.col('Val') > 0) )
 df = df.with_column(pl.when(pl.col('Type') == 'A').then(pl.lit(100.0)).otherwise(pl.col('Val')).alias('Val') )
 df.with_columns( pl.lit(20.0).alias('new') ) 
 df.with_columns( pl.Series( npl.random.rand(num_rows) ).alias('new')
+df = df.with_column((pl.col("Val") * pl.col("Val")).alias("new"))
 
 # deletion.
 df = df.drop(['B', 'C'])
