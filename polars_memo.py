@@ -29,6 +29,9 @@ df.clone() # deepcopy
 # change type.
 df = d.with_column(pl.col('Val').cast(pl.Float64))
 
+# sorting.
+df.sort("Type", descending=True)
+
 # Apply method.
 def fun(x):
   return df['Val']*2
