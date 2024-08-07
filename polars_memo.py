@@ -33,8 +33,8 @@ df = d.with_column(pl.col('Val').cast(pl.Float64))
 def fun(x):
   return df['Val']*2
 df.with_column(pl.struct(["Type","Val"]).map_elements(fun,return_dtype=pl.Float64).alias("one") )
-df.with_column(pl.col("Val").map_elements(fun,return_dtype=pl.Float64).alias("one") )
-
+df.with_column(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
+df.with_column(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float64).alias("one") )
 
 # convert datetime
 df = df.with_column( pl.col('date').str.strptime(pl.Date, '%Y-%m-%d').alias('date') )
@@ -49,6 +49,7 @@ result = df.group_by("col").agg([ pl.col("Val").mean().alias("mean_val"), ... ])
 def fun2(x):
   return x[0].mean()  # [0] corresponds to 'Val' column.
 df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=lambda x: fun2(x) ).alias('result') )
+df.group_by('Type').agg( pl.col('Val').map_elements(lambda x: x.mean()).alias('result')
 
 # Select command.
 df.filter( (pl.col('Type').is_in(['A', 'B'])) & (pl.col('Val') > 0) )
