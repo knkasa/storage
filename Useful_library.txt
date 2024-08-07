@@ -11,7 +11,7 @@ pandaral-lel(parallel process pandas, not memory efficient)
 Modin(could be the best of all with pandas, store memory in disk.)
 calamine (reading excel file)
 Vaex (for big data)
-fireducks(faster, not the memory pandas)
+fireducks(faster, not the memory, can use pandas code)
 
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
