@@ -62,7 +62,8 @@ df.unique( subset=['Val'], keep='first' )
 df.is_duplicate() # this is faster.
 
 # Join
-df2 = df.clone
+df2 = pl.DataFrame({ 'Type':['A','B'], 'class':['left','right'] })
+
 merged_df = df.join(df2, on='ID', how='inner')
 
 
