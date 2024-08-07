@@ -53,6 +53,8 @@ df.filter( (pl.col('Type').is_in(['A', 'B'])) & (pl.col('Val') > 0) )
 
 # update
 df = df.with_column(pl.when(pl.col('Type') == 'A').then(pl.lit(100.0)).otherwise(pl.col('Val')).alias('Val') )
+df.with_columns( pl.lit(20.0).alias('new') ) 
+df.with_columns( pl.Series( npl.random.rand(num_rows) ).alias('new')
 
 # deletion.
 df = df.drop(['B', 'C'])
@@ -60,6 +62,7 @@ df.unique( subset=['Val'], keep='first' )
 df.is_duplicate() # this is faster.
 
 # Join
-merged_df = df1.join(df2, on='ID', how='inner')
+df2 = df.clone
+merged_df = df.join(df2, on='ID', how='inner')
 
 
