@@ -37,6 +37,7 @@ def fun(x):
   return df['Val']*2
 df.with_column(pl.struct(["Type","Val"]).map_elements(fun,return_dtype=pl.Float64).alias("one") )
 df.with_column(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
+#df.with_column(pl.col("Val").map_elements(lambda x: fun(x), return_dtype=pl.Float64).alias("one") ) This might work too.
 df.with_column(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float64).alias("one") )
 
 # convert datetime
