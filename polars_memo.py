@@ -52,6 +52,7 @@ result = df.group_by("col").agg([ pl.col("Val").mean().alias("mean_val"), ... ])
 def fun2(x):
   return x[0].mean()  # [0] corresponds to 'Val' column.
 df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=lambda x: fun2(x), return_dtype=pl.Float32 ).alias('result') )
+#df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=fun2, return_dtype=pl.Float32 ).alias('result') )  This might work too.
 df.group_by('Type').agg( pl.col('Val').map_elements(lambda x: x.mean(), return_dtype=pl.Float32).alias('result')
 
 # Select command.
