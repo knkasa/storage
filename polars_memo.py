@@ -36,8 +36,8 @@ df.sort("Type", descending=True)
 def fun(x):
   return df['Val']*2
 df.with_column(pl.struct(["Type","Val"]).map_elements(fun,return_dtype=pl.Float64).alias("one") )
-df.with_column(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
-#df.with_column(pl.col("Val").map_elements(lambda x: fun(x), return_dtype=pl.Float64).alias("one") ) This might work too.
+#df.with_column(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
+#df.with_column(pl.col("Val").map_elements(lambda x: fun(x), return_dtype=pl.Float64).alias("one") ) This work too.
 df.with_column(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float64).alias("one") )
 
 # convert datetime
@@ -53,7 +53,8 @@ result = df.group_by("col").agg([ pl.col("Val").mean().alias("mean_val"), ... ])
 def fun2(x):
   return x[0].mean()  # [0] corresponds to 'Val' column.
 df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=lambda x: fun2(x), return_dtype=pl.Float32 ).alias('result') )
-#df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=fun2, return_dtype=pl.Float32 ).alias('result') )  This might work too.
+#df.group_by('Type').agg( pl.map_groups(exprs=['Val'], function=fun2, return_dtype=pl.Float32 ).alias('result') )  This work too.
+df.group_by('Type').agg( pl.struct(['Type','Val']).map_elements(lambda x: fun2(x), return_dtype=pl.Flot32 ).alias('result') )  This work too.
 df.group_by('Type').agg( pl.col('Val').map_elements(lambda x: x.mean(), return_dtype=pl.Float32).alias('result')
 
 # Select command.
