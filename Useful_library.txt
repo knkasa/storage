@@ -106,11 +106,16 @@ tigramite library.
 30. Automate web browsing with python.
 Selenium
 
-31. fix format in vs code.
+31. fix format in VScode.
 black 
 
 32. decorator to minimize memory.
 lru_cashe
 
-33. Plot gei-map.
-folium
+33. Visualization.
+Basic: matplotlib, Seaborn, Altair
+Interactive: Plotly, Bokeh,
+Map: Folium, Cartopy
+Web Dashboard: Dash
+Flowchart: PyGraphviz
+
