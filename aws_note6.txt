@@ -3,7 +3,7 @@
 AWS control tower: set blueprints guardrail for new AWS accounts.
 Amazon elastic transcoder: convert media files.
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
-AWS cloudTrail: monitor unusual access & activity of AWS account.
+AWS cloudTrail: monitor unusual API access. Logs management events.
 AWS x-ray: helps debugging.
 AWS codeStar: it includes pipeline, code commit, code build, deployments.
 AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch.
