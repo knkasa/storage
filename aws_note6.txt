@@ -29,3 +29,5 @@ Platform, Infa, Software as a service.
 AWS outpost: both on-premise and AWS (hybrid)
 AWS Neptune: Show graph.
 AWS quantum Ledger database: has log of data transfer.
+
+AWS cloudTrail Insights: When usage is high, it can alarm users.
