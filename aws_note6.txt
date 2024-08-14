@@ -34,3 +34,4 @@ AWS cloudTrail Insights: When usage is high, it can alarm users.
 Guard duty: monitor malicious activities.
 Detective: It  quickly finds security issues.
 Direct connect & site-to-site VPN: connect on-premise and VPC, but direct connect is more secure.
+Security inspector: security assesment. test your security.
