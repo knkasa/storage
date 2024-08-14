@@ -6,7 +6,7 @@ Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
 AWS cloudTrail: monitor unusual API access. Logs management events.
 AWS x-ray: helps debugging.
 AWS codeStar: it includes pipeline, code commit, code build, deployments.
-AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch.
+AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch. Free of charge.
 Amazon Kinesis data streams: stream data.
 AWS forecast service: forecast web traffic.
 Amazon AppStream: internet app.
