@@ -1,37 +1,44 @@
 
 
 AWS control tower: set blueprints guardrail for new AWS accounts.
+Service control policy: Grant permissions.
 Amazon elastic transcoder: convert media files.
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
-AWS cloudTrail: monitor unusual API access. Logs management events.
+AWS cloudTrail: monitor unusual access & activity of AWS account.
 AWS x-ray: helps debugging.
-AWS codeStar: it includes pipeline, code commit, code build, deployments.
-AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch. Free of charge.
+codeStar, codePipeline: for code development workflow.
+AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 Amazon Kinesis data streams: stream data.
 AWS forecast service: forecast web traffic.
 Amazon AppStream: internet app.
 CloutTrail, s3 Glacier, Storage gateway: already encypted.
 AWS partner solutions(formerly quick starts): set reference point for deployment.
-Security group: control incoming/outgoing traffic.
+Security group: control incoming/outgoing traffic at instance level. ACL is at subnet level.
 Architectural Tool: tell you architectural best practice.
+Architecture center: find best solutions.
 AWS wavelength: setup low latency mobile app.
+AWS outpost: low latency between on-premise an AWS.
 AWS IoT core: Let you connect IoT device.
 AWS abuse team: report suspacious actions.
 AWS OpsHub: manage AWS Snowball using UI.
 AWS config: configure resources.  It has the history data of resources.
-AWS cloudTrail: Governance, compliance, risk auditing account.
 EC2 is Customer's responsibility, not AWS.
 Backup&Restore, PilotLight, WarmStandby, MultiSiteActive: Recovery time( hours, 10min, minutes, instant)
 AWS Aurora: SQL base database.
 AWS quicksight: dashboard.
 AWS Athena: analyze s3 using SQL.
-Platform, Infa, Software as a service.
-AWS outpost: both on-premise and AWS (hybrid)
-AWS Neptune: Show graph.
+AWS Neptune: NoSQL based database using graph.
 AWS quantum Ledger database: has log of data transfer.
-
+Amazon detective: use cloudTrail, It  quickly finds security issues.
+AWS codeArtifact:  build tools like Maven, Gradle, npm,
 AWS cloudTrail Insights: When usage is high, it can alarm users.
 Guard duty: monitor malicious activities.
-Detective: It  quickly finds security issues.
-Direct connect & site-to-site VPN: connect on-premise and VPC, but direct connect is more secure.
+Transit Gateway, site-to-site gateway: connect on-premise & VPC. Direct connect is physical connection.
 Security inspector: security assesment. test your security.
+AWS snowcone: snow family. for edge computing.
+Saving plan: Compute saveing, EC2 saving.
+Firewall (WAF): can be used on cloudFront, load balancer, app sync.
+AWS master key: used to encrypt data.
+Traffic between AZ zone is encrypted.
+CludEndure disaster recovery: fast reliable recovery.
+
