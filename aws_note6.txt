@@ -6,7 +6,7 @@ Amazon elastic transcoder: convert media files.
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
 AWS cloudTrail: monitor unusual access & activity of AWS account.
 AWS x-ray: helps debugging.
-codeStar, codePipeline: for code development workflow.
+codeStar: for code development workflow. codePipeline uses cloudWatch logs.
 AWS beanstalk: easily deploy. has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 Amazon Kinesis data streams: stream data.
 AWS forecast service: forecast web traffic.
@@ -14,7 +14,7 @@ Amazon AppStream: internet app.
 CloutTrail, s3 Glacier, Storage gateway: already encypted.
 AWS partner solutions(formerly quick starts): set reference point for deployment.
 Security group: control incoming/outgoing traffic at instance level. ACL is at subnet level.
-Architectural Tool: tell you architectural best practice.
+Architectural Tool: answering questions, to find best practice.
 Architecture center: find best solutions.
 AWS wavelength: setup low latency mobile app.
 AWS outpost: low latency between on-premise an AWS.
@@ -29,8 +29,8 @@ AWS quicksight: dashboard.
 AWS Athena: analyze s3 using SQL.
 AWS Neptune: NoSQL based database using graph.
 AWS quantum Ledger database: has log of data transfer.
-Amazon detective: use cloudTrail, It  quickly finds security issues.
-AWS codeArtifact:  build tools like Maven, Gradle, npm,
+Amazon detective: use cloudTrail, guardDuty logs, to quickly finds security issues.
+AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
 AWS cloudTrail Insights: When usage is high, it can alarm users.
 Guard duty: monitor malicious activities.
 Transit Gateway, site-to-site gateway: connect on-premise & VPC. Direct connect is physical connection.
@@ -41,4 +41,5 @@ Firewall (WAF): can be used on cloudFront, load balancer, app sync.
 AWS master key: used to encrypt data.
 Traffic between AZ zone is encrypted.
 CludEndure disaster recovery: fast reliable recovery.
+Storage Gateway: For hybrid environment.
 
