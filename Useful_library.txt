@@ -114,6 +114,10 @@ lru_cashe
 
 33. Visualization.
 Basic: matplotlib, Seaborn, Altair
+
+34. NLP purging, classification, that can integrate with tensorflow, pytorch.
+spacy
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
