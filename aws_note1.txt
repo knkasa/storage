@@ -1,8 +1,7 @@
+
 Each region has 3 availability zone & 1 or more discrete data centers.
 There is no charge for inbound data transfer, or within the same region.
-Advantage of cloud conputing: 
-  massive economies, capital expense, stop guess capacity, speed, go global
-Outbound data transfer to other region is charged.
+Advantage of cloud conputing: massive economies, trade capital expense, stop guess capacity, speed, go global
 
 AWS x-ray:  debug performance
 AWS Trusted Advisor: Resource guidance.
@@ -14,15 +13,14 @@ AWS service:  Basic(lowest), developer, business, enterprise on-ramp, Enterprise
 Instance Store: provides high I/O performance.  Attached to hardware.
 SDK: encrypting data.
 CMK: encrypting key.
-Scale up: Fault tolerance.
+Incorrect reliability pillar: fault tolerance is scale up.
 
 VPC: only allow rule.  Network gateway.
-AWS organization to manage AWS accont.
-AWS Mcie: Protect your S3 data using machine learning.
+AWS Macie: Protect your S3 data using machine learning.
 Amazon Transcribe: Speech to text analysis.
 AWS Budgets: Set alert when cost exceeds limit.
 
-VPC connection: S3 & DynamoDB
+VPC endpoint connection: S3 & DynamoDB
 Monthly bill using "Pricing Calculator"
 AWS Glue: ETL
 AWS compute optimizer: optimize resource.  
@@ -37,8 +35,6 @@ AWS shield standard: free firewall for all users.
 
 Elastic File System: multiple instance/zones
 Elastic Blockstore: one instance/zone
-AWS shield advance runs on: Rooute53 Global Accelerator
-Cloud formation: configure AWS by codes.  
 
 Most cost effective: Partial upfront payment w/ 3yr
 Decouple microservice application: SQS, SNS
@@ -47,7 +43,8 @@ Optimize cost: EC2, S3, RDS (not dynamoDB, Lambda)
 
 Amazon inspector: sutomate security.
 GuardDuty: detect malicious attack.
-Macie: use machine learning.
-AWS shield: protect against DDos
+AWS shield: protect against DDos for ELB, EC2, Route55, AWS acceleration.
 
 AWS Web Firewall: 7 layer protection.
+AWS artifact: AWS compliance report.
+
