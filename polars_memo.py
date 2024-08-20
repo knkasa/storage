@@ -18,10 +18,10 @@ df.columns
 df.describe()
 
 df[0,0]
-df['Val']
+df['Val'].to_numpy()
 
-df.fill_nan()
-df.fill_null()
+df.fill_nan(0)
+df.fill_null(0)
 
 df.rename({'old':'new'})
 df.clone() # deepcopy
