@@ -2,28 +2,26 @@
 Each region has 3 availability zone & 1 or more discrete data centers.
 There is no charge for inbound data transfer, or within the same region.
 Advantage of cloud conputing: massive economies, trade capital expense, stop guess capacity, speed, go global
+EC2: Charged every minute. IaaS
 
 AWS x-ray:  debug performance
 AWS Trusted Advisor: Resource guidance.
 AWS pin-point: advice for marketers.
-AWS cloud Formation: Configure AWS using code (programming). Beanstalk is easier.
-AWS Glacer deep archive: takes the most time to retrieve data.
-AWS service:  Basic(lowest), developer, business, enterprise on-ramp, Enterprise(highest)
 
 Instance Store: provides high I/O performance.  Attached to hardware.
-SDK: encrypting data.
-CMK: encrypting key.
+SDK: Uses various programming language API. encrypting data. 
+customer managed key: encrypting key.
 Incorrect reliability pillar: fault tolerance is scale up.
+Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 
-VPC: only allow rule.  Network gateway.
+Security group: only allow group.  
 AWS Macie: Protect your S3 data using machine learning.
 Amazon Transcribe: Speech to text analysis.
 AWS Budgets: Set alert when cost exceeds limit.
 
-VPC endpoint connection: S3 & DynamoDB
-Monthly bill using "Pricing Calculator"
+VPC endpoint connection:  S3 & DynamoDB (Database & storage)
 AWS Glue: ETL
-AWS compute optimizer: optimize resource.  
+compute optimizer: optimize resource. Note it's different from cost explorer.  
 Configuration management:  Share responsibility between customer and AWS.
 
 CAF: CTO & Engineer.  Agile method & organize your teams.
@@ -41,10 +39,15 @@ Decouple microservice application: SQS, SNS
 Route 53: use weighted routing to multiple resources.
 Optimize cost: EC2, S3, RDS (not dynamoDB, Lambda)
 
-Amazon inspector: sutomate security.
+Amazon inspector: automate security.two
 GuardDuty: detect malicious attack.
 AWS shield: protect against DDos for ELB, EC2, Route55, AWS acceleration.
 
 AWS Web Firewall: 7 layer protection.
 AWS artifact: AWS compliance report.
 
+Contextual guidance: Business support or above.
+
+AWS shield: ddos
+Amazon GuardDuty: malicious activity
+Amazon Inspector: Automate security(valunurbility) assesment.
