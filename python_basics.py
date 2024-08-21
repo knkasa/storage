@@ -494,3 +494,15 @@ fun( **dic )
 ()
 {'var': 'yes'}
 #------------------------------------------------
+
+#------------ python class __add__ usage ---------------
+class Dog:
+    def __add__(self, x):
+        return f'+ {x} called'
+    def __sub__(self, x):
+        return f'- {x} called'
+
+ dog = Dog()
+ print( dog + 2 )  # + 2 called
+ print( dog - 2 )  # - 2 called
+
