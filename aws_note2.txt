@@ -3,9 +3,8 @@
 Only outbound data transfer is charged between different AZ zone.
 Route53: improves latency. Protect ddos.
 EC2: get bills per second.
-AWS partner Network(APN): give solution to your needs.
+AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
 AWS system manager session: Improve security without opening port. Uses ssh.
-VPC: Available all region.
 Subnet: Part of your VPC, available only one region.
 Multi-AZ(availability zone):Highly available.
 AWS config: keep history of cofig changes.
@@ -25,7 +24,7 @@ AWS piller: Reliability, Cost optimization,
 AWS Health dashboard: show dashboard on availability zone.
 Gateway type: Tape, File, Volume.
 AWS inspecter: inspect vulnerabilities.
-Network ALC: security at subnet level.
+Network ALC: security at subnet level. security group is at instance level.
 Security group: security at instance level.
 Manage all AWS service: SDK, CLI, console.
 AWS CloudWatch: monitor CPU utilization.
