@@ -120,8 +120,13 @@ row = pd.DataFrame({ 'col1':val1, 'col2':val2 }, index=[n])
 df = pd.concat( [df, row], igonore_index=True )
 
 # Use convert_dtype() to convert data type.
+  
 # Use groupby into lists.
 df.groupby(['col']).agg( {'colX': lambda x: list(x)} )
+
+# Use of query()
+df.query('col=="A"')
+df.query('col==@var') # if using variable. var='A'
 
 #-----------------------------------------------------------------------------------------------------------------
 
