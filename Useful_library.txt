@@ -29,14 +29,15 @@ sketch
 
 12. Timeseries data analysis.
 tslearn(clustering & anormaly detection), tssearch(find seasonal patterns), 
-tsfresh(Automatic feature engineering), Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
+tsfresh(Automatic feature engineering), 
+Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
 lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
 DMD(dimensionality reduction)
 MLforecast
 Gaussian process
-TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama 
+TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
