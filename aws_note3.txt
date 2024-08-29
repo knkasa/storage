@@ -36,7 +36,7 @@ High availability: DynamoDB, EFS
 Tag: each tag must be unique. Must Activate before they appear in cost explorer.
 AWS Transit gateway: connects all VPC.
 Storage Gateway & s3: encryption enabled. connect on-premice & AWS data.
-Site to site gateway: virtual gateway, customer gateway
+Site to site gateway: It uses virtual gateway, customer gateway
 Security group: Automatically allow return traffic.
 CloudTrail: log for on-premise.
 AWS budget: reservation budget.
