@@ -35,7 +35,7 @@ AWS artifact: Payment report
 VPC endpoint: privately connect to s3.
 High availability: DynamoDB, EFS
 Tag: each tag must be unique. Must Activate before they appear in cost explorer.
-AWS Transit gateway: connects all VPC. (it can also connect on-premise)
+AWS Transit gateway: connects all VPC as well as on-premise.
 Storage Gateway & s3: encryption enabled. connect on-premice & AWS data.
 Site to site gateway: It uses virtual gateway, customer gateway
 Security group: Automatically allow return traffic.
