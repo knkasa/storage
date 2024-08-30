@@ -5,13 +5,14 @@ AWS snowball: transfer large volume of files. Allow on-premise
 ACL: configure s3, VPC. Automatically allow return traffic.  Rule in increse order whether to allow trafic.
 AMI(amazon machine image):Information regarding instance.
 s3 versioning: backup.
+s3: use cloudFront to improve static web efficiency.  s3 global acceleration is used for data transfer.
 Penetration test: Security assessment test.
 Amazon Macie: use machine learning to protect data.
 Amazon Athena: use sql in s3.
 CloudFront: connect your web globally.
 CAF: helps business, governance,people,security, operation, platform
 NAT: Allow private subnet.  
-Trusted advisor: online tool for resource, cost optimization.
+Trusted advisor: online tool for resource, cost optimization & service limits.
 Bill data is stored in US N. Virginia.
 Reserved instance saving:72%
 Route 53: Failover.
@@ -20,9 +21,9 @@ IAM plog: effect, action, policy
 Instance store: block storage. attached to the host computer for faster cashe.
 Cloud Foundation: Provide guide for deployment. 
 Shared responsibility: configuration, updates,
-EFS: You are charged for each time you read/write. Data transfer can be across regions.
+EFS: You are charged for each time you read/write. Data transfer can be across regions, vpc, AZ.
 Amazon kendra: Search documents in data storage.
-RDS read replica: reduce scalability.
+RDS read replica: reduce scalability, not availability.
 AWS knowledge center: Forum
 s3: You need to set policy before others can access.
 AWS Lambda: pricing is based on number of requests, runtime.
@@ -34,10 +35,10 @@ AWS artifact: Payment report
 VPC endpoint: privately connect to s3.
 High availability: DynamoDB, EFS
 Tag: each tag must be unique. Must Activate before they appear in cost explorer.
-AWS Transit gateway: connects all VPC.
+AWS Transit gateway: connects all VPC. (it can also connect on-premise)
 Storage Gateway & s3: encryption enabled. connect on-premice & AWS data.
 Site to site gateway: It uses virtual gateway, customer gateway
 Security group: Automatically allow return traffic.
-CloudTrail: log for on-premise.
-AWS budget: reservation budget.
+CloudWatch:  It can log both aws and on-premise.  
+AWS budget: reservation, usage, resource budget.
 
