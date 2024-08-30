@@ -39,6 +39,7 @@ MLforecast
 Gaussian process
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
 Liquid neural network
+xLSTM, TimeFM.  (New timeseries model by Google)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
@@ -83,8 +84,6 @@ https://huggingface.co/blog/mlabonne/orpo-llama-3
 chi-squared test(two categorical data that are different or not)(one binary data that are different from expected ratio(50:50) or not)
 Anova test(three continuous data that are different or not)
 
-25. xLSTM, TimeFM.  (New timeseries model by Google)
-
 25. Pydantic
 Allows you to setup datafame with custom default.
 
@@ -123,6 +122,8 @@ spacy
 35. Let you access and surf webpage using python.
 helium
 
+36. Feature engineering (create columns with x1+x2, x1-x2, ...)
+featuretools
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
