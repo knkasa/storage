@@ -1,5 +1,5 @@
 AWS global accelrator: static IP address, non-http.
-Disaster recovery: backup&restore, Pilot light, Warm standby, active-active
+Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), active-active
 s3: Only s3 standard, s3 intelligent-tier has no retrival charge.
 s3: Free-> Data transferred in from internet, Data transfered out to same region.
 s3: s3 standard, intelligent tiering has no minimum storage charge.
@@ -18,10 +18,10 @@ s3 transfer acceleration: transfer files globally.
 AWS is suited for loosely coupled architecture.
 Cost explorer: forecast your cost.
 Pricing calculator: Select software and simulate the cost.
-CloudWatch, SNS: send aleart when root user sign in.
+CloudWatch, SNS: send aleart when root user sign in. send aleart when fees is high.
 EC2 user data: bootstrap.
 AWS device farm: improve mobile apps.
-Internet gateway: communication between internet & VPC.
+Internet gateway: communication between internet & VPC. Part of VPC.
 subnet: part of VPC.  a range of IP address.
 AWS shield: DDos attack against EC2 & CloudFront.
 AWS Web application Firewall: It can block SQL query that looks malicious.
@@ -29,6 +29,10 @@ Reserved Instance(RI): RI only applies discount in the same availability zone.
 Beastalk: Create web app.
 U2F: USB authenticator.
 Storage gateway: data storage for hybrid environment.
-AWS opsWork: manage configurations, run commands in AWS and on-premise.
-
+AWS system manager: manage configurations, run commands in AWS and on-premise.
+AWS cloudTrail: monitor acounts access, api activities.
+route53: simple routing.
+VPC Interface endpoint: privately connect vpc and sqs. 
+EC2: you can terminate anytime.
+AWS cost explorer:  give alert when usage drops threshold.
 
