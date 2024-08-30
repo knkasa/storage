@@ -38,6 +38,7 @@ DMD(dimensionality reduction)
 MLforecast
 Gaussian process
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
+Liquid neural network
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
