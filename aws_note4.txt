@@ -3,28 +3,29 @@ Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), acti
 s3: Only s3 standard, s3 intelligent-tier has no retrival charge.
 s3: Free-> Data transferred in from internet, Data transfered out to same region.
 s3: s3 standard, intelligent tiering has no minimum storage charge.
-s3: host static web.
+s3: host static web. You cannot connect on-premise.
 s3 replication: copy s3 data to different accounts.
 s3: Lifecycle configuration.
+s3 transfer acceleration: transfer files globally. Global acceleration is for availability, not for files.
 CloudFormation: You can use this to multiple AWS accounts.
 AWS artifacts: Payment card industry.
-AWS trusted advisor: will alert if you don't turn user activity logging.
+AWS trusted advisor: will alert if you don't turn user activity logging, or when you allow public access.
 EC2 instance connect: connect EC2 via browser.
-Application load balancer: balance http https traffic.
+Application load balancer: balance http https traffic. Network load balancer is for TCP.
 VPC peering connection: connection between vpc.
 Direct connect, Transit gateway: connect between on-premice to EC2.
-Elastic file system: file transfer between on-premise.
-s3 transfer acceleration: transfer files globally.
+Elastic file system(EFS): can be used on-premise.
 AWS is suited for loosely coupled architecture.
 Cost explorer: forecast your cost.
 Pricing calculator: Select software and simulate the cost.
-CloudWatch, SNS: send aleart when root user sign in. send aleart when fees is high.
+CloudWatch, SNS: send aleart when root user sign in. send aleart when RI utilization is high.
 EC2 user data: bootstrap.
 AWS device farm: improve mobile apps.
 Internet gateway: communication between internet & VPC. Part of VPC.
 subnet: part of VPC.  a range of IP address.
-AWS shield: DDos attack against EC2 & CloudFront.
-AWS Web application Firewall: It can block SQL query that looks malicious.
+AWS shield: DDos attack against EC2 & CloudFront.  AWS shared responsibility.
+AWS shield advance: for EC2 & cloudFront.
+AWS Web application Firewall(WAF): It can block SQL query that looks malicious.
 Reserved Instance(RI): RI only applies discount in the same availability zone.
 Beastalk: Create web app.
 U2F: USB authenticator.
@@ -35,4 +36,4 @@ route53: simple routing.
 VPC Interface endpoint: privately connect vpc and sqs. 
 EC2: you can terminate anytime.
 AWS cost explorer:  give alert when usage drops threshold.
-
+AWS organization: share EC2 and volume discounts among different AWS account.
