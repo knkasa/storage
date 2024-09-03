@@ -1,7 +1,7 @@
 
 
 Elastic Beastalk: Web application (Paas)
-Customer gateway: connect between AWS & on-premise with VPN.
+Customer gateway in conjunction with site-to-site gateway: connect between AWS & on-premise with VPN. 
 AWS personalized: personal content streaming.
 AWS comprehend: NLP streaming.
 AWS Macie: use machine learning to protect data.
@@ -46,4 +46,3 @@ If want to split bill, create tags for each department.
 AWS Athena: analyze s3.  
 AWS EMR: Hadoop, spark analysis.  
 RSS feed notification service: Health dashboard.
-
