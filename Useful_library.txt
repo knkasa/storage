@@ -125,8 +125,12 @@ helium
 36. Feature engineering (create columns with x1+x2, x1-x2, ...)
 featuretools
 
+37. Extract texts from image.t
+eacyocr, Doctr, Keras-OCR, GOCR, Tesseract, 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
+
 
