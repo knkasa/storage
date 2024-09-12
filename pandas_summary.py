@@ -128,6 +128,12 @@ df.groupby(['col']).agg( {'colX': lambda x: list(x)} )
 df.query('col=="A"')
 df.query('col==@var') # if using variable. var='A'
 
+# compare df.
+df1 == df2
+df.equals(df2)
+df.compare(df2)
+
+  
 #-----------------------------------------------------------------------------------------------------------------
 
 # select rows with condition
