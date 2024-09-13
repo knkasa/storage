@@ -92,6 +92,7 @@ https://ncps.readthedocs.io/en/latest/api/torch.html
 
 27. Mamba, the new neural network that is better than transformer.
     Mamba, package installer that is faster than anaconda.  
+    uv is also faster than pip.
 
 27. Feature transformation for training supervised model.
 yeo-transformation
