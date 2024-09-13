@@ -508,3 +508,14 @@ class Dog:
  print( dog + 2 )  # + 2 called
  print( dog - 2 )  # - 2 called
 #--------------------------------------------------------
+
+#--------- dataclass ------------------------------------
+from dataclasses import dataclass
+
+@dataclass
+class my_class:
+  x:float = 2
+  def fun(self):
+    self.y = 3
+    return self.x*2
+#---------------------------------------------------------
