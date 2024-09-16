@@ -1,0 +1,47 @@
+
+
+AWS Regions:
+Each region has 3 availability zone & 1 or more discrete data centers.
+There is no charge for inbound data transfer, or within the same region.
+
+AWS advantage:
+massive economies, trade capital expense, stop guess capacity, speed, go global
+
+AWS service:
+EC2: Charged every minute. IaaS not PasS
+AWS x-ray:  debug performance
+Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
+
+AWS SaaS:
+AWS polly: convert text to speech.
+Amazon Transcribe: Speech to text analysis.
+
+Recommended guidance:
+AWS Trusted Advisor: Resource guidance.
+Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
+AWS Budgets: Set alert when cost exceeds limit.
+compute optimizer: optimize resource. Note it's different from cost explorer.  
+
+
+Security:
+customer managed key: encrypting key for customer side.
+Security group: only allow rules. However, it can accept inbound & outbound.    
+AWS Macie: Protect your S3 data using machine learning.
+
+Gateway:
+VPC endpoint connection:  used to connect S3 & DynamoDB (Database & storage)
+
+Database:
+AWS Glue: ETL
+
+Shared responsibility:
+Configuration management:  Share responsibility between customer and AWS.  kn
+
+
+Pillar:
+Incorrect reliability pillar: fault tolerance is scale up.
+Reliablility pillar: CloudTrail, CloudWatch, AWS config,
+
+Extra:
+AWS pin-point: Sends mails, service advice for marketers.
+
