@@ -11,6 +11,11 @@ AWS service:
 EC2: Charged every minute. IaaS not PasS
 AWS x-ray:  debug performance
 Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
+Cloud trails logs: logs any API connection.  encrypted by default.
+Cloud watch: logs resource usage. 
+Spot instance discount:  90
+Elastic Blockstore: one instance per zone.
+AWS system manager: manage EC2
 
 AWS SaaS:
 AWS polly: convert text to speech.
@@ -20,13 +25,21 @@ Recommended guidance:
 AWS Trusted Advisor: Resource guidance.
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
-compute optimizer: optimize resource. Note it's different from cost explorer.  
-
+compute optimizer: optimize resource. Note it's different from cost explorer. 
+Cost explorer: Estimates on resource usage, and cost prediction.  (Usage Report is more detailed)
+Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
+Contextual guidance: Business support or above.
 
 Security:
 customer managed key: encrypting key for customer side.
 Security group: only allow rules. However, it can accept inbound & outbound.    
 AWS Macie: Protect your S3 data using machine learning.
+AWS shield standard: enable by default for free. firewall for all users.
+GuardDuty: detect malicious attack/activities.
+Amazon Inspector: Automate security(valunerbility) assesment.
+AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
+AWS Web Firewall: 7 layer protection.
+
 
 Gateway:
 VPC endpoint connection:  used to connect S3 & DynamoDB (Database & storage)
@@ -35,8 +48,8 @@ Database:
 AWS Glue: ETL
 
 Shared responsibility:
-Configuration management:  Share responsibility between customer and AWS.  kn
-
+Configuration management:  Share responsibility between customer and AWS.
+Underlying OS patch:  AWS team will do it automatically. 
 
 Pillar:
 Incorrect reliability pillar: fault tolerance is scale up.
@@ -44,4 +57,7 @@ Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 
 Extra:
 AWS pin-point: Sends mails, service advice for marketers.
+CAF: CTO & Engineer.  Agile method & organize your teams.
+AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support.
+AWS artifact: AWS compliance report.
 
