@@ -2,50 +2,71 @@
 
 AWS Regions:
 Each region has 3 availability zone & 1 or more discrete data centers.
-There is no charge for inbound data transfer, or within the same region.
+Only outbound data transfer is charged between different AZ zone.
+AWS edge location: good for caching files.
 
 AWS advantage:
 massive economies, trade capital expense, stop guess capacity, speed, go global
 
 AWS service:
-EC2: Charged every minute. IaaS not PasS
+EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS
 AWS x-ray:  debug performance
 Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
-Cloud trails logs: logs any API connection.  encrypted by default.
-Cloud watch: logs resource usage. 
 Spot instance discount:  90
 Elastic Blockstore: one instance per zone.
-AWS system manager: manage EC2
+AWS system manager: manage EC2.   Improve security without opening port. Uses ssh. 
+Subnet: Part of your VPC, available only one region.
+AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
+AWS CloudHSM: Hardware security encryption.
+AWS Health dashboard: show AWS service usage in AZ zone.
+Manage all AWS service: SDK, CLI, AWS Console(account page).
 
 AWS SaaS:
 AWS polly: convert text to speech.
 Amazon Transcribe: Speech to text analysis.
+Amazon MQ: messaging service.
+AWS Rekognition: Indentify objects in Image.
+AWS EMR: run Hadoop, Spark, ...
+AWS wavelength: setup 5g.  
+AWS local zone: low latency gaming.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource guidance.
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
-compute optimizer: optimize resource. Note it's different from cost explorer. 
+Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different from cost explorer. 
 Cost explorer: Estimates on resource usage, and cost prediction.  (Usage Report is more detailed)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
-Contextual guidance: Business support or above.
+AWS Config: keep history of cofig changes.
+AWS CloudFormation: Json, Yaml file to manage 3rd party resource.
+Cloud Trails: logs any API connection.  encrypted by default.
+Cloud Watch: logs resource usage.  Compliance, governance, risk. 
+AWS organization: make multiple acounts into one bill.
+AWS EventBridge: log
 
 Security:
 customer managed key: encrypting key for customer side.
 Security group: only allow rules. However, it can accept inbound & outbound.    
 AWS Macie: Protect your S3 data using machine learning.
-AWS shield standard: enable by default for free. firewall for all users.
+AWS shield standard: enable by default for free.  Protection from DDOS. Shield advance has 7 layer protection.
 GuardDuty: detect malicious attack/activities.
-Amazon Inspector: Automate security(valunerbility) assesment.
+Amazon Inspector: Automate security(valunerbility) assesment.  Monitor DDOS attack.
 AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
 AWS Web Firewall: 7 layer protection.
-
+Route53: improves latency. Protect ddos.
+Network ALC: security at subnet level. security group is at instance level.
 
 Gateway:
 VPC endpoint connection:  used to connect S3 & DynamoDB (Database & storage)
+Gateway type: Tape, File, Volume.
+VPN: Allow to connect between on-premise & AWS.
 
 Database:
 AWS Glue: ETL
+RDS: horizontal scalability.
+AWS Neptune: graph storage.
+AWS Athena: run SQL on s3.
+Aurora=database, Redshift=data warehouse.
 
 Shared responsibility:
 Configuration management:  Share responsibility between customer and AWS.
@@ -57,7 +78,10 @@ Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 
 Extra:
 AWS pin-point: Sends mails, service advice for marketers.
-CAF: CTO & Engineer.  Agile method & organize your teams.
+CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations.
 AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support.
 AWS artifact: AWS compliance report.
-
+AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
+Contextual guidance: Business support or above.
+AWS acceptable use polity: prohibits use of web.
+TAM: Only AWS enterprise support provide TAM.
