@@ -132,6 +132,9 @@ eacyocr, Doctr, Keras-OCR, GOCR, Tesseract,
 38. Create pdf, word, documents.
 sphinx, mkdocs, 
 
+39. Manipulate Excel.
+pyexcel
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
