@@ -29,3 +29,12 @@ def retry(max_tries: int = 3, delay_seconds: int = 5):
                     time.sleep(delay_seconds)
         return wrapper_retry
     return decorator_retry
+
+# You could use Tenacity library too.
+from tenacity import retry, stop_after_attempt
+
+@retry(stop=stop_after_attempt(3))
+    def function():
+        print("Attempting to execute ...")
+        raise Exception("Failed")
+function()
