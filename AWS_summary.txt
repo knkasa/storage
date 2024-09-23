@@ -15,18 +15,24 @@ AWS service:
 Application load balancer: balance http https traffic. Network load balancer is for TCP.
 EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS.  Scale in & out. can terminate anytime.
 EC2 user data: bootstrap data.
-EC2 instance connect: connect EC2 via browser.
 Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
 Spot instance discount:  90
 Elastic Blockstore: one instance per zone.
 AWS system manager: manage EC2.   Improve security without opening port. Uses ssh. 
 AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
-AWS CloudHSM: Hardware security encryption.
+AWS cloudHSM(hardware security): geneate encryption for hardware.  
 CloudFront: Connect web globaly.
 AWS Health dashboard: show AWS service usage in AZ zone. Alerts when AWS service go down.
+RSS feed notification service: Notife users via emails, etc about Health dashboard.
 Manage all AWS service: SDK, CLI, AWS Console(account page).
 Lambda: pricing is based on number of request & runtim.
 Elastic Beanstalk: easily deploy as web app. Paas.
+LightSail: cheap option for testing environment.
+AWS codeGuru: Can review your codes.
+AWS codebuild: compile code.
+Puppet & Chef: Automate deployment config.
+Shec: Ensure system adheres to industry standard/regulation.
+AWS Cloud development kit(CDK): use python and etc to build AWS infra.
 
 AWS SaaS:
 AWS polly: convert text to speech.
@@ -40,37 +46,46 @@ AWS Macie: use machine learning to protect s3 data.
 AWS Kendra: Search documents in data storage.
 AWS x-ray:  debug performance
 AWS device farm: improve mobile apps.
+AWS personalized: personal content streaming.
+AWS comprehend: NLP streaming.
+Amaxon Lex: chatbot 
+AWS EMR: for hadoop, spark.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn user activity logging, or when you allow public access.
+AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement.
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
 Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different from cost explorer. 
-Cost explorer: Estimates on resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
-Pricing calculator: Select software and simulate the cost.
+Cost explorer: sho resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
+Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
 AWS Config: keep history of cofig changes.
 AWS CloudFormation: Json, Yaml file to manage 3rd party resource. can use to multiple AWS accounts.
 Cloud Trails: logs any API connection.  encrypted by default. Compliance, governance, risk.
 Cloud Watch: logs resource usage. Can log on-premise too. can be combined to send SNS message.
 CloudFoundation: Provide gaide for deployment.
-AWS organization: make multiple acounts into one bill.
+AWS organization: make multiple acounts into one bill. restrict account privileges(SCP) with ServiceControl policy.
 AWS EventBridge: log
+AWS Fault injection simulator: Find blind spots of application.
 
 Security:
 customer managed key: encrypting key for customer side.
 Security group: allow rules(return) only. However, it can accept inbound & outbound.    
-AWS shield standard: enable by default for free.  Protection from DDOS. Shield advance has 7 layer protection.
+AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
+AWS shield standard: enable by default for free. Shield advance has 7 layer protection.
 GuardDuty: detect malicious attack/activities.
 Amazon Inspector: Automate security(valunerbility) assesment.  Monitor DDOS attack.
-AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
-AWS Web Firewall: It can block SQL query that looks malicious. 7 layer protection.
-Route53: improves latency. Protect ddos.
-ACL: security at subnet level. security group is at instance level. Configure s3 & VPC. Automatically allow return traffic. Rule in increasing order whether to allow traffic.
+AWS Web Firewall: It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
+ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP.
+ACL: Automatically allow return traffic. Rule in increasing order whether to allow traffic.
 Penetration test: Security assessment test.
+Route53: improves latency. Protect ddos.
 Route53: sends signals when failover, slow latency, simple/weighted traffic, ...
+Route53: Health check/monitoring & register domain name.  IP routing is not right answer.
 Subnet: Part of your VPC, available only one region. create range of IP address.
 Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), active-active
+AWS Macie: use machine learning to protect data.
 
 Gateway:
 VPC interface endpoint:  used to privately connect VPC 
@@ -81,8 +96,11 @@ VPN: Allow to connect between on-premise & AWS.
 NAT gateway: use internet access privately in subnet level.
 Storage gateway: Used for Hybrid environment fo storage(s3).
 Transit gateway: Connects between on-premise & AWS.
-Site-to-site gateway: Also connect between on-premise & AWS. Smaller scale thant Transit gateway. Uses virtual gateway, customer gateway. 
+Site-to-site gateway: Also connect between on-premise & AWS. Smaller scale thant Transit gateway. 
+Site-to-site gateway:  Uses virtual gateway, customer gateway. 
+AWS Datasync: automate data transfer between on-premise & AWS. 
 Internet gateway: communication between internet & VPC. Part of VPC.
+EC2 instance connect: connect EC2 via browser.
 
 Database:
 AWS Glue: ETL
@@ -99,34 +117,55 @@ s3: host static web. You cannot connect on-premise.
 s3 replication: copy s3 data to different accounts.
 s3: Lifecycle configuration.
 s3 transfer acceleration: transfer files globally. 
+AWS Glue: serverless ETL to prepare data.
+AWS Athena: analyze s3.  
 
 Shared responsibility:
-Configuration management:  Share responsibility between customer and AWS.
+Configuration management:  Share responsibility of both customer and AWS.
 Underlying OS patch:  AWS team will do it automatically. 
+Installing guest OS patch is customer responsibility.
 
 Pillar:
 Incorrect reliability pillar: fault tolerance is scale up.
 Reliablility pillar: CloudTrail, CloudWatch, AWS config,
+Operational piller: monitoring. make frequent changes.  predict failures.
+Reliability piller: recovering.
+Sustainability piller: resouce.
 
 Data Transfer:
 AWS snowball: transfer large volume of files. Allow on-premise.
+AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
 Elastic File system(EFS): Transfer files between instance, can be used on-premise.You pay each time you read/write. 
+Elastic Block store(EBS): Saves block of files. (see Elastic Volume) Available in single zone, stored in s3.
+Elastic Volume: scales block size of EBS.
+AWS sync: Transfer data between on-premise & AWS while backing up data.
+AWS Datasync: automate data transfer between on-premise & AWS. 
 
 Account management IAM:
 IAM plog: effect, action, policy.
 U2F: USB authenticator.
-AWS organization: share EC2 and volume discounts among different AWS account.
+AWS organization: share EC2 and volume discounts among different AWS account. If want to split bill, create tags for each department.
+Cognito: Let you add users for web/mobile app. Note IAM is not for mobile.
+AWS STS(security token): Temporary access.  Note IAM users can't manage resource.
+AWS IAM access advisor: review permission for IAM users.  credential report is not for review.
+IAM credential report: show who has access.  
 
 Extra:
-AWS pin-point: Sends mails, service advice for marketers.
 CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations.
 AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support.
 AWS artifact: AWS compliance & pament report.
 AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
+AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. 
 Contextual guidance: Business support or above.
 AWS acceptable use polity: prohibits use of web.
 TAM: Only AWS enterprise support provide TAM.
-Reserved Instance: saves 72%.
+Reserved Instance(RI): saves 72%.
+Convertiable Reserved Instance: You can change resource cap during RI.
 AWS knowledge center: Forum.
 Tab: must be unique. Must activate before they appear in cost explorer.
 Reserved Instance(RI): RI only applies discount in the same availability zone.
+Reserved instance: available for 1yr 3yr.
+calculate EBS volume: volume & provision IOPS.
+SQS: send message between software.
+Total cost of ownership(TCO): server administration, power/cooling
+AWS best practice: Automation
