@@ -40,6 +40,7 @@ Gaussian process
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
 Liquid neural network
 xLSTM, TimeFM.  (New timeseries model by Google)
+"from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
 
 13. Dimensionality reduction.
 UMAP, PaCMAP
@@ -134,6 +135,9 @@ sphinx, mkdocs,
 
 39. Manipulate Excel.
 pyexcel
+
+40. Get information on timeseries data.
+from statsmodels.tsa.seasonal import seasonal_decompose
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
