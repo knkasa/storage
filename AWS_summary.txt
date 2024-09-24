@@ -199,4 +199,4 @@ AWS best practice: Automation
 Architectural Tool: answering questions, to find best practice.
 Architecture center: find best solutions.
 Saving plan: Compute saveing, EC2 saving. (there is no storage saving plan)
-mage builder: Automatically update AMI image.
+Image builder: Automatically update AMI image.
