@@ -27,12 +27,19 @@ RSS feed notification service: Notife users via emails, etc about Health dashboa
 Manage all AWS service: SDK, CLI, AWS Console(account page).
 Lambda: pricing is based on number of request & runtim.
 Elastic Beanstalk: easily deploy as web app. Paas.
+Elastic Beanstalk: has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 LightSail: cheap option for testing environment.
 AWS codeGuru: Can review your codes.
 AWS codebuild: compile code.
+AWS codeStar: for code development workflow and serverless app. codePipeline uses cloudWatch logs.
+AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
 Puppet & Chef: Automate deployment config.
 Shec: Ensure system adheres to industry standard/regulation.
 AWS Cloud development kit(CDK): use python and etc to build AWS infra.
+AWS control tower: set blueprints guardrail for new AWS accounts.
+Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
+Amazon Kinesis data streams: stream data. 
+AWS forecast service: forecast web traffic.
 
 AWS SaaS:
 AWS polly: convert text to speech.
@@ -40,7 +47,7 @@ Amazon Transcribe: Speech to text analysis.
 Amazon MQ: messaging service.
 AWS Rekognition: Indentify objects in Image.
 AWS EMR: run Hadoop, Spark, ...
-AWS wavelength: setup 5g.  
+AWS wavelength: setup 5g mobile app.  
 AWS local zone: low latency gaming.
 AWS Macie: use machine learning to protect s3 data.
 AWS Kendra: Search documents in data storage.
@@ -50,6 +57,8 @@ AWS personalized: personal content streaming.
 AWS comprehend: NLP streaming.
 Amaxon Lex: chatbot 
 AWS EMR: for hadoop, spark.
+Amazon elastic transcoder: convert media files.
+Amazon AppStream: internet(browser) app.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn user activity logging, or when you allow public access.
@@ -60,12 +69,15 @@ Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different f
 Cost explorer: sho resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
 Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
-AWS Config: keep history of cofig changes.
+AWS Config: keep history of cofig/resource changes. Cloudwatch is for monitoring.
 AWS CloudFormation: Json, Yaml file to manage 3rd party resource. can use to multiple AWS accounts.
 Cloud Trails: logs any API connection.  encrypted by default. Compliance, governance, risk.
+cloudTrail Insights: When API usage is high or suspacious, it can alarm users.
 Cloud Watch: logs resource usage. Can log on-premise too. can be combined to send SNS message.
 CloudFoundation: Provide gaide for deployment.
-AWS organization: make multiple acounts into one bill. restrict account privileges(SCP) with ServiceControl policy.
+AWS organization: make multiple acounts into one bill. restrict 
+AWS organization: share EC2 and volume discounts among different AWS account. If want to split bill, create tags for each department.
+account privileges(SCP) with ServiceControl policy.
 AWS EventBridge: log
 AWS Fault injection simulator: Find blind spots of application.
 
@@ -74,9 +86,10 @@ customer managed key: encrypting key for customer side.
 Security group: allow rules(return) only. However, it can accept inbound & outbound.    
 AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
 AWS shield standard: enable by default for free. Shield advance has 7 layer protection.
-GuardDuty: detect malicious attack/activities.
+GuardDuty: monitor malicious attack/activities.
 Amazon Inspector: Automate security(valunerbility) assesment.  Monitor DDOS attack.
-AWS Web Firewall: It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
+AWS Web Firewall(WAF): It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
+AWS web firewall(WAF): can be used on cloudFront, load balancer, app sync.
 ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP.
 ACL: Automatically allow return traffic. Rule in increasing order whether to allow traffic.
 Penetration test: Security assessment test.
@@ -84,8 +97,15 @@ Route53: improves latency. Protect ddos.
 Route53: sends signals when failover, slow latency, simple/weighted traffic, ...
 Route53: Health check/monitoring & register domain name.  IP routing is not right answer.
 Subnet: Part of your VPC, available only one region. create range of IP address.
-Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), active-active
+Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), active-active (hours, 10min, minutes, instant)
 AWS Macie: use machine learning to protect data.
+CloutTrail, s3 Glacier, Storage gateway: already encrypted.
+AWS abuse team: report suspacious actions.
+AWS quantum Ledger database: has history of data changes.
+Amazon detective: use cloudTrail, guardDuty logs, to quickly finds security issues.
+AWS master key: used to automatically encrypt data.
+Traffic between AZ zone is encrypted.
+CludEndure disaster recovery: fast reliable recovery.
 
 Gateway:
 VPC interface endpoint:  used to privately connect VPC 
@@ -101,13 +121,17 @@ Site-to-site gateway:  Uses virtual gateway, customer gateway.
 AWS Datasync: automate data transfer between on-premise & AWS. 
 Internet gateway: communication between internet & VPC. Part of VPC.
 EC2 instance connect: connect EC2 via browser.
+AWS outpost: setup AWS hardware on-premise.  low latency.
+AWS IoT core: Let you connect IoT device.
+API gateway: can be used on Lambda, Kinesis data stream.  
 
 Database:
 AWS Glue: ETL
 RDS: horizontal scalability. (read replica=reduce scalability, not avilability)
 AWS Neptune: graph storage.
 AWS Athena: run SQL on s3.
-Aurora=database, Redshift=data warehouse.
+Aurora=SQL base database, Redshift=data warehouse.
+AWS quicksight: dashboard.
 s3: Used with cloudFront to improve static Web efficiency. Auto encryption.
 s3 global acceleration: used for data transfer.
 DynmoDB: non-sql DB, highly available
@@ -118,12 +142,12 @@ s3 replication: copy s3 data to different accounts.
 s3: Lifecycle configuration.
 s3 transfer acceleration: transfer files globally. 
 AWS Glue: serverless ETL to prepare data.
-AWS Athena: analyze s3.  
 
 Shared responsibility:
 Configuration management:  Share responsibility of both customer and AWS.
 Underlying OS patch:  AWS team will do it automatically. 
 Installing guest OS patch is customer responsibility.
+EC2 is Customer's responsibility, not AWS.
 
 Pillar:
 Incorrect reliability pillar: fault tolerance is scale up.
@@ -135,6 +159,8 @@ Sustainability piller: resouce.
 Data Transfer:
 AWS snowball: transfer large volume of files. Allow on-premise.
 AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
+AWS snowcone: snow family. for edge computing.
+AWS OpsHub: manage AWS Snowball using UI.
 Elastic File system(EFS): Transfer files between instance, can be used on-premise.You pay each time you read/write. 
 Elastic Block store(EBS): Saves block of files. (see Elastic Volume) Available in single zone, stored in s3.
 Elastic Volume: scales block size of EBS.
@@ -144,18 +170,19 @@ AWS Datasync: automate data transfer between on-premise & AWS.
 Account management IAM:
 IAM plog: effect, action, policy.
 U2F: USB authenticator.
-AWS organization: share EC2 and volume discounts among different AWS account. If want to split bill, create tags for each department.
 Cognito: Let you add users for web/mobile app. Note IAM is not for mobile.
 AWS STS(security token): Temporary access.  Note IAM users can't manage resource.
 AWS IAM access advisor: review permission for IAM users.  credential report is not for review.
 IAM credential report: show who has access.  
+Service control policy: manage(not grant) permissions.
 
 Extra:
 CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations.
-AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support.
+AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support. Only enterprise plan.
+Basic support plan provides: health chech, one-on-one billing questions.
 AWS artifact: AWS compliance & pament report.
 AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
-AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. 
+AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
 Contextual guidance: Business support or above.
 AWS acceptable use polity: prohibits use of web.
 TAM: Only AWS enterprise support provide TAM.
@@ -169,3 +196,7 @@ calculate EBS volume: volume & provision IOPS.
 SQS: send message between software.
 Total cost of ownership(TCO): server administration, power/cooling
 AWS best practice: Automation
+Architectural Tool: answering questions, to find best practice.
+Architecture center: find best solutions.
+Saving plan: Compute saveing, EC2 saving. (there is no storage saving plan)
+mage builder: Automatically update AMI image.
