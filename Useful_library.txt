@@ -36,7 +36,6 @@ AutoGluon(Amazon, similar to Pycaret)
 Prohet(similar to ARIMA)
 DMD(dimensionality reduction)
 MLforecast
-Gaussian process
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
 Liquid neural network
 xLSTM, TimeFM.  (New timeseries model by Google)
@@ -77,6 +76,7 @@ Pyod
 
 22. MCMC regression to include uncertainty in timeseries prediction curve in plot.
 https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
+Gaussian process
 
 23. Finetune with ORPO, new technique.
 https://huggingface.co/blog/mlabonne/orpo-llama-3
