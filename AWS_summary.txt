@@ -53,7 +53,6 @@ AWS device farm: improve mobile apps.
 AWS personalized: personal content streaming.
 AWS comprehend: NLP streaming.
 Amaxon Lex: chatbot 
-AWS EMR: for hadoop, spark.
 Amazon elastic transcoder: convert media files.
 Amazon AppStream: internet(browser) app.
 
