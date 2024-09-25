@@ -15,7 +15,7 @@ AWS service:
 Application load balancer: balance http https traffic. Network load balancer is for TCP.
 EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS.  Scale in & out. can terminate anytime.
 EC2 user data: bootstrap data.
-Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
+Software Development Kit(SDK): Uses programming language to connect API such as lambda boto3... Encrypts data. 
 Spot instance discount:  90
 Elastic Blockstore: one instance per zone.
 AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
