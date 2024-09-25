@@ -33,7 +33,7 @@ AWS codeStar: for code development workflow and serverless app. codePipeline use
 AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
 Puppet & Chef: Automate deployment config.
 AWS Cloud development kit(CDK): use python and etc to build AWS infra.
-AWS control tower: set blueprints guardrail for new AWS accounts.
+AWS control tower: Ensure secure AWS accounts using blueprints & guardrail (which obey industry regultion).
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
 Amazon Kinesis data streams: stream data. 
 AWS forecast service: forecast web traffic.
