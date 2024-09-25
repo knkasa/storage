@@ -6,6 +6,7 @@ Only outbound data transfer is charged between different AZ zone.
 AWS edge location: good for caching files.
 Region specific: Many SaaS, Lambda
 AWS global accelrator: Runs app faster globally. static IP address, non-http.
+Traffic between AZ zone is encrypted.
 
 AWS advantage:
 massive economies, trade capital expense, stop guess capacity, speed, go global
@@ -94,13 +95,11 @@ Route53: sends signals when failover, slow latency, simple/weighted traffic, ...
 Route53: Health check/monitoring & register domain name.  IP routing is not right answer.
 Subnet: Part of your VPC, available only one region. create range of IP address.
 Disaster recovery: backup&restore, Pilot light, Warm standby(right answer), active-active (hours, 10min, minutes, instant)
-AWS Macie: use machine learning to protect data.
 CloutTrail, s3 Glacier, Storage gateway: already encrypted.
 AWS abuse team: report suspacious actions.
 AWS quantum Ledger database: has history of data changes.
 Amazon detective: use cloudTrail, guardDuty logs, to quickly finds security issues.
 AWS master key: used to automatically encrypt data.
-Traffic between AZ zone is encrypted.
 CludEndure disaster recovery: fast reliable recovery.
 
 Gateway:
