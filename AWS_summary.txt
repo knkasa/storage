@@ -112,8 +112,7 @@ VPN: Allow to connect between on-premise & AWS.
 NAT gateway: use internet access privately in subnet level.
 Storage gateway: Used for Hybrid environment fo storage(s3).
 Transit gateway: Connects between on-premise & AWS.
-Site-to-site gateway: Also connect between on-premise & AWS. Smaller scale thant Transit gateway. 
-Site-to-site gateway:  Uses virtual gateway, customer gateway. 
+Site-to-site gateway: Also connect between on-premise & AWS. Smaller scale than Transit gateway. Uses virtual gateway, customer gateway. 
 AWS Datasync: automate data transfer between on-premise & AWS. 
 Internet gateway: communication between internet & VPC. Part of VPC.
 EC2 instance connect: connect EC2 via browser.
