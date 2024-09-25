@@ -105,7 +105,7 @@ CludEndure disaster recovery: fast reliable recovery.
 
 Gateway:
 VPC interface endpoint:  used to privately connect VPC 
-VPC gateway endpoint: privately connect S3 & DynamoDB (Database & storage)
+VPC gateway endpoint: publicly connect S3 & DynamoDB (Database & storage)
 VPC peering connection: connection between VPCs.
 Gateway type: Tape, File, Volume.
 VPN: Allow to connect between on-premise & AWS.
