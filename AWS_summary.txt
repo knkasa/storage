@@ -56,6 +56,7 @@ AWS comprehend: NLP streaming.
 Amaxon Lex: chatbot 
 Amazon elastic transcoder: convert media files.
 Amazon AppStream: internet(browser) app.
+App sync: creates graph API.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn user activity logging, or when you allow public access.
