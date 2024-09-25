@@ -18,7 +18,6 @@ EC2 user data: bootstrap data.
 Software Development Kit(SDK): Uses programming language to connect API such as lambda. encrypting data. 
 Spot instance discount:  90
 Elastic Blockstore: one instance per zone.
-AWS system manager: manage EC2.   Improve security without opening port. Uses ssh. 
 AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
 AWS cloudHSM(hardware security): geneate encryption for hardware.  
 CloudFront: Connect web globaly.
@@ -62,7 +61,7 @@ Amazon AppStream: internet(browser) app.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn user activity logging, or when you allow public access.
-AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement.
+AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement. Improve security without opening port. Uses ssh. 
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
 Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different from cost explorer. 
