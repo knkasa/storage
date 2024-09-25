@@ -49,7 +49,7 @@ AWS local zone: low latency gaming.
 AWS Macie: use machine learning to protect s3 data.
 AWS Kendra: Search documents in data storage.
 AWS x-ray:  debug performance
-AWS device farm: improve mobile apps.
+AWS device farm: test web/mobile apps.
 AWS personalized: personal content streaming.
 AWS comprehend: NLP streaming.
 Amaxon Lex: chatbot 
