@@ -32,7 +32,6 @@ AWS codebuild: compile code.
 AWS codeStar: for code development workflow and serverless app. codePipeline uses cloudWatch logs.
 AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
 Puppet & Chef: Automate deployment config.
-Shec: Ensure system adheres to industry standard/regulation.
 AWS Cloud development kit(CDK): use python and etc to build AWS infra.
 AWS control tower: set blueprints guardrail for new AWS accounts.
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
@@ -198,3 +197,4 @@ Architectural Tool: answering questions, to find best practice.
 Architecture center: find best solutions.
 Saving plan: Compute saveing, EC2 saving. (there is no storage saving plan)
 Image builder: Automatically update AMI image.
+Shec: Ensure system adheres to industry standard/regulation.
