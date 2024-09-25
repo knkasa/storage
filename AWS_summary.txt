@@ -18,15 +18,14 @@ EC2 user data: bootstrap data.
 Software Development Kit(SDK): Uses programming language to connect API such as lambda boto3... Encrypts data. 
 Spot instance discount:  90
 Elastic Blockstore: one instance per zone.
-AWS Elastic Benstalk: Easily deploy programs written by PHP, Java, ...
+AWS Elastic Benstalk: Easily deploy web programs written by PHP, Java, ... Paas. 
+Elastic Beanstalk: has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 AWS cloudHSM(hardware security): geneate encryption for hardware.  
 CloudFront: Connect web globaly.
 AWS Health dashboard: show AWS service usage in AZ zone. Alerts when AWS service go down.
 RSS feed notification service: Notife users via emails, etc about Health dashboard.
 Manage all AWS service: SDK, CLI, AWS Console(account page).
 Lambda: pricing is based on number of request & runtim.
-Elastic Beanstalk: easily deploy as web app. Paas.
-Elastic Beanstalk: has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 LightSail: cheap option for testing environment.
 AWS codeGuru: Can review your codes.
 AWS codebuild: compile code.
