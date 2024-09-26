@@ -139,6 +139,10 @@ pyexcel
 40. Get information on timeseries data.
 from statsmodels.tsa.seasonal import seasonal_decompose
 
+41. Reduce dimension in linear regression.
+Eliminate features with VIF, then check adjusted R2 increase.  Repeat until VIF are all less than 5.
+Eliminate features with high p value and check adjusted R2 increase.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
