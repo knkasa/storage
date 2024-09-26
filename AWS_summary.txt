@@ -38,6 +38,7 @@ AWS control tower: Ensure secure AWS accounts using blueprints & guardrail (whic
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
 Amazon Kinesis data streams: stream data. 
 AWS forecast service: forecast web traffic.
+AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
 
 AWS SaaS:
 AWS polly: convert text to speech.
@@ -175,20 +176,17 @@ Extra:
 CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations.
 AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support. Only enterprise plan.
 Basic support plan provides: health chech, one-on-one billing questions.
-AWS artifact: AWS compliance & pament report.
+AWS artifact: AWS compliance & payment report.
 AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
-AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
 Contextual guidance: Business support or above.
 AWS acceptable use polity: prohibits use of web.
 TAM: Only AWS enterprise support provide TAM.
-Reserved Instance(RI): saves 72%.
+Reserved Instance(RI): saves 72%. RI only applies discount in the same availability zone.
 Convertiable Reserved Instance: You can change resource cap during RI.
 AWS knowledge center: Forum.
 Tab: must be unique. Must activate before they appear in cost explorer.
-Reserved Instance(RI): RI only applies discount in the same availability zone.
 Reserved instance: available for 1yr 3yr.
 calculate EBS volume: volume & provision IOPS.
-SQS: send message between software.
 Total cost of ownership(TCO): server administration, power/cooling
 AWS best practice: Automation
 Architectural Tool: answering questions, to find best practice.
