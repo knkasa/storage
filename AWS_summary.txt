@@ -154,7 +154,7 @@ Sustainability piller: resouce.
 
 Data Transfer:
 AWS snowball: transfer large volume of files. Allow on-premise.
-AWS snowmobile: Move petabytes scale data to s3. Snowball is more expensive.
+AWS snowmobile: Move larger files than snowball.
 AWS snowcone: snow family. for edge computing.
 AWS OpsHub: manage AWS Snowball using UI.
 Elastic File system(EFS): Transfer files between instance, can be used on-premise.You pay each time you read/write. 
