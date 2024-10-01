@@ -102,7 +102,7 @@ AWS abuse team: report suspacious actions.
 AWS quantum Ledger database: has history of data changes.
 Amazon detective: use cloudTrail, guardDuty logs, to quickly finds security issues.
 AWS master key: used to automatically encrypt data.
-CludEndure disaster recovery: fast reliable recovery.
+CloudEndure disaster recovery: fast reliable recovery.
 
 Gateway:
 VPC interface endpoint:  used to privately connect VPC 
