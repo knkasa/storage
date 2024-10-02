@@ -18,7 +18,6 @@ EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS.  Sca
 EC2 user data: bootstrap data.
 Software Development Kit(SDK): Uses programming language to connect API such as lambda boto3... Encrypts data. 
 Spot instance discount:  90
-Elastic Blockstore: one instance per zone.
 Elastic Benstalk: Easily deploy web programs written by PHP, Java, ... Paas. 
 Elastic Beanstalk: has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 AWS cloudHSM(hardware security): geneate encryption for hardware.  
@@ -157,7 +156,7 @@ AWS snowmobile: Move larger files than snowball.
 AWS snowcone: snow family. for edge computing.
 AWS OpsHub: manage AWS Snowball using UI.
 Elastic File system(EFS): Transfer files between instance, can be used on-premise.You pay each time you read/write. 
-Elastic Block store(EBS): Saves block of files. (see Elastic Volume) Available in single zone, stored in s3.
+Elastic Block store(EBS): Saves block of files. (see Elastic Volume) Available in single zone, stored in s3. one instance per zone.
 Elastic Volume: scales block size of EBS.
 AWS sync: Transfer data between on-premise & AWS while backing up data.
 AWS Datasync: automate data transfer between on-premise & AWS. 
