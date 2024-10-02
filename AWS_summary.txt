@@ -85,7 +85,7 @@ Security group: allow rules(return) only. However, it can accept inbound & outbo
 AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
 AWS shield standard: enable by default for free. Shield advance has 7 layer protection.
 GuardDuty: monitor malicious attack/activities.
-Amazon Inspector: Automate security(valunerbility) assesment.  Monitor DDOS attack.
+Amazon Inspector: Monitor DDOS attack. Automate security(valunerbility) assesment.  
 AWS Web Firewall(WAF): It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
 AWS web firewall(WAF): can be used on cloudFront, load balancer, app sync.
 ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP.
