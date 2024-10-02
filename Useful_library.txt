@@ -143,6 +143,9 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 Eliminate features with VIF, then check adjusted R2 doesn't change much.  Repeat until VIF are all less than 5.
 Eliminate features with high p value and check adjusted R2 increase. (backward elimination)
 
+42. Create document.
+sphinx
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
