@@ -519,3 +519,14 @@ class my_class:
     self.y = 3
     return self.x*2
 #---------------------------------------------------------
+
+#------- use of match case -------------------------------
+def fun(status:int) -> str:
+    match status:
+        case 400:
+	    return 1
+        case 500:
+	    return 2
+        case _:
+	    return 0
+#---------------------------------------------------------
