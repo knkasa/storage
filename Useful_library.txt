@@ -146,6 +146,9 @@ Eliminate features with high p value and check adjusted R2 increase. (backward e
 42. Create document.
 sphinx
 
+43. Anaconda archive package.
+https://repo.anaconda.com/archive/
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
