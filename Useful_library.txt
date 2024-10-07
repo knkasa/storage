@@ -149,6 +149,9 @@ sphinx
 43. Anaconda archive package.
 https://repo.anaconda.com/archive/
 
+44. Poetry alternative.
+uv
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
