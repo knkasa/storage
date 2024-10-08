@@ -152,6 +152,12 @@ https://repo.anaconda.com/archive/
 44. Poetry alternative.
 uv
 
+45. Anormaly detection.
+Isolation tree from scikit learn, and use shap values.
+model.fit()
+explainer = shap.Explainer(model.decision_function, features)
+shap_val = explainer(features.iloc[sample])
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
