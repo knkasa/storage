@@ -162,5 +162,6 @@ Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
+Table: AG_Grid
 
 
