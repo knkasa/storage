@@ -15,6 +15,7 @@ fireducks(faster, not the memory, can use pandas code)
 
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
+fastai(deeplearning)
 
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
@@ -77,6 +78,7 @@ Pyod
 22. MCMC regression to include uncertainty in timeseries prediction curve in plot.
 https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
 Gaussian process
+Bayesian deep learning(pyro)
 
 23. Finetune with ORPO, new technique.
 https://huggingface.co/blog/mlabonne/orpo-llama-3
