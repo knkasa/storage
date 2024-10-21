@@ -530,3 +530,10 @@ def fun(status:int) -> str:
         case _:
 	    return 0
 #---------------------------------------------------------
+
+#---------- dictionary trick --------------------------------
+dic = {}
+dic.setdefaults( "key_name", [] ).append(3)  # you can append values.
+# Normally, dic2["key_name"] will show error if key_name doesn't exist, but
+dic2 = defaultdict(int)  # you will avoid error.  
+#-------------------------------------------------------------
