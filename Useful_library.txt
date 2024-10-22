@@ -160,6 +160,9 @@ model.fit()
 explainer = shap.Explainer(model.decision_function, features)
 shap_val = explainer(features.iloc[sample])
 
+46. Fix encoding error & Mojibake.
+ftfy
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
