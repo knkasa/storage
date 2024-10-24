@@ -1,4 +1,0 @@
-AWS organization to manage AWS accont.
-AWS Mcie: Protect your S3 data using machine learning.
-Amazon Transcribe: Speech to text analysis.
-AWS Budgets: Set alert when cost exceeds limit.
