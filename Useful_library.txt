@@ -54,6 +54,7 @@ cProfile (show statistics on function execution time)
 15. Minimize function with constraints
 https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
 https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
+Scipy differential_evolution
 
 16. New decision tree machine learning technique introduced by Microsoft.
 DiCE
