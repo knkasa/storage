@@ -5,7 +5,7 @@ Each region has 3 availability zone & 1 or more discrete data centers.
 Only outbound data transfer is charged between different AZ zone.
 AWS edge location: good for caching files.
 Region specific: Many SaaS, Lambda
-AWS global accelrator: Runs app faster globally. static IP address, non-http.
+AWS global accelrator: Runs app faster globally. static IP address, non-http. ddos protection is provided free.
 Traffic between AZ zone is encrypted.
 
 AWS advantage:
@@ -14,7 +14,7 @@ AWS is suited for loosely coupled architecture.
 
 AWS service:
 Application load balancer: balance http https traffic. Network load balancer is for TCP.
-EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS.  Scale in & out. can terminate anytime.
+EC2: billed per second, with a minimum charge of 60 seconds. IaaS not PasS.  Scale in & out. can terminate anytime. ddos protected.
 EC2 user data: bootstrap data.
 Software Development Kit(SDK): Uses programming language to connect API such as lambda boto3... Encrypts data. 
 Spot instance discount:  90
@@ -91,7 +91,7 @@ AWS web firewall(WAF): can be used on cloudFront, load balancer, app sync.
 ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP.
 ACL: Automatically allow return traffic. Rule in increasing order whether to allow traffic.
 Penetration test: Security assessment test.
-Route53: improves latency. Protect ddos.
+Route53: improves latency. ddos protection is provided free.
 Route53: sends signals when failover, slow latency, weighted routing is to connect multiple sources.
 Route53: Health check/monitoring & register domain name.  IP routing is not right answer.
 Subnet: Part of your VPC, available only one region. create range of IP address.
