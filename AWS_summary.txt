@@ -64,7 +64,7 @@ AWS system manager: manage resource data.  Trusted advisor will reduce cost, not
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
 Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different from cost explorer. 
-Cost explorer: sho resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
+Cost explorer: show resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
 Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
 AWS Config: keep history of cofig/resource changes. Cloudwatch is for monitoring.
@@ -121,11 +121,11 @@ AWS IoT core: Let you connect IoT device.
 API gateway: can be used on Lambda, Kinesis data stream.  
 
 Database:
-AWS Glue: ETL
+AWS Glue: ETL. it's not database.
 RDS: horizontal scalability. (read replica=reduce scalability, not avilability)
 AWS Neptune: graph storage.
 AWS Athena: run SQL on s3.
-Aurora=SQL base database, Redshift=data warehouse.
+Aurora=SQL base database, Redshift=data warehouse(database).
 AWS quicksight: dashboard.
 s3: Used with cloudFront to improve static Web efficiency. Auto encryption.
 s3 global acceleration: transfer globally.
