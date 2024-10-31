@@ -193,3 +193,4 @@ Architecture center: find best solutions.
 Saving plan: Compute saveing, EC2 saving. (there is no storage saving plan)
 Image builder: Automatically update AMI image.
 Shec: Ensure system adheres to industry standard/regulation.
+Removing Account: SCP policy must be removed before deleting account.
