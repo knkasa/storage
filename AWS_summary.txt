@@ -145,7 +145,7 @@ Installing guest OS patch is customer responsibility.
 EC2 is Customer's responsibility, not AWS.
 
 Pillar:
-Incorrect reliability pillar: fault tolerance is scale up.
+Incorrect reliability pillar: fault tolerance is scale up(out is correct)(scale up means add CPUs. scale out means add instances)
 Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 Operational piller: monitoring. make frequent changes.  predict failures.
 Reliability piller: recovering.
