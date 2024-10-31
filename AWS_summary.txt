@@ -38,6 +38,7 @@ Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
 Amazon Kinesis data streams: stream data. 
 AWS forecast service: forecast web traffic.
 AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
+Step function: decouple applications.
 
 AWS SaaS:
 AWS polly: convert text to speech.
