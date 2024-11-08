@@ -164,6 +164,8 @@ shap_val = explainer(features.iloc[sample])
 46. Fix encoding error & Mojibake.
 ftfy
 
+47. Use deque if python list is too big, and need to use append() pop() a lot.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
