@@ -1,69 +1,63 @@
 # Obtaining kernel shap values.
+# The perturbed value is replaced with the baseline data, and the difference is averaged for all rows.
+# https://shap.readthedocs.io/en/latest/generated/shap.KernelExplainer.html
 
 import numpy as np
 from itertools import combinations
+from sklearn.linear_model import Ridge
 
 def calculate_shapley_values(model, instance, baseline):
-    """
-    Calculate Shapley values manually using Kernel SHAP approximation.
-
-    Args:
-        model: A model with a predict function that takes a list of inputs.
-        instance: The instance for which Shapley values are calculated.
-        baseline: A baseline instance, typically the mean or median input values.
-
-    Returns:
-        shapley_values: A list of Shapley values, one for each feature.
-    """
-    # Number of features
-    n_features = len(instance)
+    
+    n_features = instance.shape[1]
     shapley_values = np.zeros(n_features)
 
-    # Iterate over each feature to calculate its Shapley value
     for i in range(n_features):
         shapley_value = 0.0
-        # Iterate over all subsets of features excluding the current feature
         for subset_size in range(n_features):
             for subset in combinations([j for j in range(n_features) if j != i], subset_size):
-                # Mask for the subset including all features except the current feature
-                mask_with_feature = np.array(baseline)
-                mask_without_feature = np.array(baseline)
-
-                # Fill the subset with instance values
-                for j in subset:
-                    mask_with_feature[j] = instance[j]
-                    mask_without_feature[j] = instance[j]
+                diff = 0.0
+                for base_row in range(baseline.shape[0]):
+                    
+                    # Mask for the subset including all features except the current feature
+                    mask_with_feature = baseline[base_row][np.newaxis,:].copy()
+                    mask_without_feature = baseline[base_row][np.newaxis,:].copy()
+                    
+                    # Fill the subset with instance values
+                    for j in subset:
+                        mask_with_feature[0,j] = instance[0,j]
+                        mask_without_feature[0,j] = instance[0,j]
+                    
+                    # Add the contribution of the current feature to the mask_with_feature
+                    mask_with_feature[0,i] = instance[0,i]
+                    
+                    v_with_feature = model.predict(mask_with_feature)
+                    v_without_feature = model.predict(mask_without_feature)
+                    
+                    diff += (v_with_feature - v_without_feature)/baseline.shape[0] # averaged over all rows(the number of baseline rows)
                 
-                # Add the contribution of the current feature to the mask_with_feature
-                mask_with_feature[i] = instance[i]
-                
-                # Predict using the model
-                v_with_feature = model.predict(mask_with_feature)
-                v_without_feature = model.predict(mask_without_feature)
-                
-                # Calculate the weight for the Shapley value
-                weight = np.math.factorial(len(subset)) * np.math.factorial(n_features - len(subset) - 1) / np.math.factorial(n_features)
-                
-                # Accumulate the weighted contribution
-                shapley_value += weight * (v_with_feature - v_without_feature)
+                weight = np.math.factorial(len(subset))*np.math.factorial(n_features-len(subset)-1)/np.math.factorial(n_features)
+                shapley_value += weight*diff 
         
-        # Store the computed Shapley value for the feature
         shapley_values[i] = shapley_value
     
     return shapley_values
 
-# Example usage
-class Model:
-    def predict(self, x):
-        # Define your model prediction here; for example, a simple sum
-        return sum(x)
+X = np.array([[1, 2, 3, 4],
+              [5, 6, 7, 8],
+              [9, 10, 11, 12],
+              [13, 14, 15, 16]])
+y = np.array([10, 20, 30, 40])
 
-# Define model, instance, and baseline
-model = Model()
-instance = [1, 2, 0, 3]  # The input for which you want to calculate Shapley values
-baseline = [0, 0, 0, 0]  # Baseline (e.g., zero input values)
+model = Ridge(alpha=1.0) 
+model.fit(X,y)
 
-# Calculate Shapley values
+instance = np.array([[1, 2, -1, 3]])  # The input for which you want to calculate Shapley values
+baseline = np.array([
+                    [0,0,0,0],
+                    [0,0,0,0],
+                    [0,0,0,0],
+                    ])  # Baseline (e.g., zero input values)
+
 shapley_values = calculate_shapley_values(model, instance, baseline)
 print("Shapley values:", shapley_values)
 
