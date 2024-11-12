@@ -16,6 +16,8 @@ def calculate_shapley_values(model, instance, baseline):
         for subset_size in range(n_features):
             for subset in combinations([j for j in range(n_features) if j != i], subset_size):
                 diff = 0.0
+
+                # You actually don't need to loop through base_row.  You can run model.predict() using the matrix instead of one row.
                 for base_row in range(baseline.shape[0]):
                     
                     # Mask for the subset including all features except the current feature
