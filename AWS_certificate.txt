@@ -1,0 +1,189 @@
+AWS cloud practioner.
+
+Deployment models: Clound-based, On-premise, Hybrid
+Cloud advantage: cost, security, scalability, flexibility
+
+-------- EC2(elastic cloud compute) --------------------------------------
+EC2 steps: launch, connect, use.
+EC2 instance types: General, Compute, Memory, Accelerated, Storage, 
+EC2 pricing: 
+	On-demand.  
+	Saving(reserve certain period with limited resource). 
+	Reserved(reserve certain period, 1yr or 3yr with unlimited resource).
+	Spot instance(launch instance whenever cloud has free resource).
+	Dedicated(most expensive.  Unlimited resource with VM software)
+EC2 scaling: Dynamic, Predictive
+EC2 auto-scaling: 
+	Minimum capacity: Minimum number of instances that will be running. More instance will run when there is resources.
+	Maximum capacity: Maximum number of instances that will run.
+
+Elastic Load Balancing: Distribute instances to avialble resources in cloud. (eg. fast food restaurant)
+Monolithic and Microservices approach is tightly coupled vs. loosely coupled.
+(Monolithic can be fatal if one components fails)
+
+SNS(simple notification service):Messaging in cloud. 
+SQS:First queue the message, then send it when it's availavle at the other end.
+
+Serverless(AWS Lambda): You don't have to think about allocating resources in the instance.  
+						It manages automatically.  The pricing is on-demand, type is Compute.
+
+ECS(Elastic Container Service):Automatic scaling.  Controled by AWS.
+EKS(Elastic Kubernates Service):Manual scaling with pods. Controled with Kubernate API.
+	
+AWS Fargate: Serverless ECS.  Pay as you go.
+
+----------------- Data center -------------------------------------------------------
+
+How to choose Data center: Data regulations, Customer region, Service availability, Pricing
+Availability Zone: Several data centers in an area.
+Edge location: Data center close to the users.
+	Cloud front: Cashe user's content temporary for fast delivery to users.  Available only in Edge location.
+
+AWS Management console: An interface that let users interact with AWS.
+AWS CLI: Use of command line to access AWS.
+SDKs(software development kits): API to access AWS.
+
+AWS Elastic Beanstalk & AWS Cloud Formation: 
+	Users can configure(load balancing, scaling, ...) using code, 
+	Beastalk is easier, but Formation is more customizable.
+
+------------ VPC -------------------------------------------------------------
+
+AWS VPC (Virtual Private Cloud): Let you isolate environment in AWS.
+Internet Gateway: Connect your PC and VPC.
+Virtual Private Gateway: Extra protection in your Internet Gateway.
+AWS Direct connect: Let you access VPC through link.
+
+Subnet(public/private): Sub section of VPC.
+Packet: Request sent to VPC.
+ALC(Network Access Control List): Firewall that controll inbound/outbound.
+Stateless Packet Filtering: It checks the packet for approval.
+Serurity Groups: Firewall for EC2
+Stateful Packet Filtering: It cashes who sent the packet.
+Configuration: customize the traffic through VPC.
+
+Domain Name System(DNS): Nothing to do with AWS.  Let connect through internet.
+AWS Route 53: DNS to AWS.
+Cloud Front: The entrance gate in front of your EC2.  It needs permission from Route 53 first.
+
+------- AWS DB ------------------------------------------------------------
+
+Instance Store: Temporary storage in EC2.
+Elastic Bookstore(EBS): Backup data for EC2.  
+EBS snapshot: Only backup the new data.  
+S3 standard IA (infrequent access): Ideal for frequent access.
+S3 One-zero IA: Stores in one zone (cheper than standard).
+S3 Intelligent Tiering:  It moves the data between one-zero and standard depending on access frequency.
+S3 Glacier: archive
+
+AWS EBS stores data as a block (chunk of smaller size).
+AWS Elastic File System(EFS):Storage inside EC2.  
+AWS Aurora: DB offers by AWS. Faster than PostgreSQL.
+Dynamo DB: Serverless DB.  Non-relational(Not table format data). Cheaper than RDS.
+
+AWS Redshift: It can retrieve data from many sources.  Datawarehouse.
+AWS DMS: It helps move data between databases.
+AWS DocumentDB: NoSQL database for user profiling stuff.
+AWS Neptune: view graph from database.
+AWS Quantum Ledger Database(QLDB): store historical data. 
+AWS Managed Blockchain:  manage blockchain networks.
+AWS ElastiCashe: It is like redis, it stores in memory.  
+AWS DynamoDB accelerator: momory based DynamoDB.
+
+------------ Security -------------------------------------
+
+AWS Shared Responsibility: Share responsibility between customer and AWS.
+  AWS side: hardware, database, storage, software, networking, 
+  Customer side: serverside, firewall, access management,
+  
+AWS Identity Access Management(IAM): Securely manage account users, roles, authentication.
+  Root user: A user who created the AWS account.  He can invite other users(IAM users).
+  AWS policy: permission to allocate resources.
+  AWS Groups: IAM users as a group.
+  AWS roles: Temporary access to service.
+  Multi-factor authentication: Multiple authentication.
+
+AWS Organizations: Several AWS accounts.
+  SCP(Service control policy): Allow you to manage resources for each accounts.
+
+AWS Artifact:  It provides access to compliance reports.
+  Artifact agreements: about user agreements.
+  Artifact reports: about compliance.
+  Customer compliance center: A place user can contact about compliance.
+  
+DOS: Attack application or webpage by overloading with too much data flow.
+DDOS: Attack by different sources.
+AWS Shield:  Protection against DDOS.
+AWS KMS (key management service): Adds security by cryptographic keys (encryption of data).
+AWS WAF (web application firewall): Firewall.  It uses ACL.
+AWS Inspector:  They help you improve security.
+AWS Guard Duty: Guard you application.
+
+--------------------- Monitoring -------------------------
+
+AWS cloud watch: Monitor your resources.
+CloudWatch alarms: It let you know when your resources hits threshold.
+CloudWatch Dashboard:  the dashboard.
+
+Cloud trail: It logs your actions.  It detects unusual API.
+
+AWS Trusted advisor: they give you suggestions on cost, performance.
+
+--------------- Pricing & Support ---------------------------
+
+Tier:  Free tier.  12 month free.  Trials.
+  Pay for what you use.  
+  Pay less when you reserve.  
+  pay less when you use more.
+
+AWS billing dashboard.  Monitor bills.
+AWS consolidated billing.  One bill for multiple accounts.
+AWS budget is updated 3 times a day.  Set spending threashold and let you notify.
+Cost Visualization: let you visualize your cost.  
+
+AWS support: 
+  Basic: Free
+  Developer:  Lowest cost.
+  Business:  Intermediate cost.
+  Enterprise:  Most expensive.
+
+AWS market place:  Let you sell your software.
+
+----------- AWS Migration ------------------------------------
+
+AWS (Cloud Adoption Framework): Guidline of Migrating application to AWS cloud.
+  Business, People perspective, Governance, Platform, Security, Operations
+
+Migration Strategies:
+  Rehosting(also called lift & shift): Move application to cloud as it is.
+  Replatforming: Move application with cloud opimizations.
+  Refactoring: Move application and make changes as necessary.
+  Repurchasing:  Change application to SaaS.
+  Retaining:  Keep key components when you move application to cloud.
+  Retiring:  Remove application.
+  
+AWS Snow Family:  Transport data in & out of AWS.
+  Snow cone: Small device for data transfer.
+  Snowball:  Bigger than SnowCone. 
+  SnowMobile:  Biggest among the three. up to petabytes.
+  
+Sagemaker: For machine learning.
+Amazon Lex: For chatbots.
+Amazon Transcribe:  Text to speech.
+Amazon Comprehend: text patterns.
+Amazon Fraud Detection:
+
+Serverless application:  AWS lambda(serverless, no need to set configuration)
+
+-------------- AWS info ------------------------------
+
+Operational Excelence Pillar: Help improve monitoring systems.
+Security Pillar: Improve your security.
+Reliability Pillar: Help minimize disruption in your system.
+Performance Efficiency Pillar: Help accurately use resources.
+Cost optimization Pillar: Help minimize your price.
+
+
+
+
+
