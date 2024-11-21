@@ -27,6 +27,12 @@ fig = make_subplots(
 
 # Add a Waterfall plot to the specified position
 fig.add_trace(go.Waterfall(x=x, y=y), row=1, col=1)
+fig.update_xaxes()
+fig.update_trace()
+fig.update_layout( template='plotly_dark', plot_bgcolor='rgb(80,80,80)', #template='ggplot2'
+                  title='title', title_x=0.5,
+                  height=1500, width=1500
+                 )
 
 # Show the plot
 fig.show()
