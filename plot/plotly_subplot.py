@@ -4,6 +4,9 @@ from plotly.subplots import make_subplots
 # Create a 4x4 subplot grid
 fig = make_subplots(rows=4, cols=4)
 
+x_name = "featureX"
+y_name = "target_Y"
+
 # Add 16 traces, specifying the row and column indirectly
 for i in range(16):
     row = (i // 4) + 1  # Calculate the row number
