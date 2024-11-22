@@ -9,10 +9,10 @@ for i in range(16):
     row = (i // 4) + 1  # Calculate the row number
     col = (i % 4) + 1   # Calculate the column number
     fig.add_trace(
-        go.Scatter(x=[1, 2, 3], y=[i, i * 2, i * 3], 
+        go.Scatter(xx=[1, 2, 3], yy=[i, i * 2, i * 3], 
                    mode='lines', 
                    name=f'Trace {i+1}',
-                   hovertemplate=f"{x_name}: %{{x:.2f}}<br>{y_name}: %{{y:.3f}}<extra></extra>",
+                   hovertemplate=f"{x_name}: %{{xx:.2f}}<br>{y_name}: %{{yy:.3f}}<extra></extra>",
                    showlegend=False,)
         row=row, col=col
     )
