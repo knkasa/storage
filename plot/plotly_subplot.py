@@ -12,7 +12,7 @@ for i in range(16):
         go.Scatter(x=[1, 2, 3], y=[i, i * 2, i * 3], 
                    mode='lines', 
                    name=f'Trace {i+1}',
-                  hovertemplate="x: %{x:.2f}<br>y: %{y:.3f}<extra></extra>",
+                   hovertemplate=f"{x_name}: %{{x:.2f}}<br>{y_name}: %{{y:.3f}}<extra></extra>",
                    showlegend=False,)
         row=row, col=col
     )
