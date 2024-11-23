@@ -43,7 +43,7 @@ xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
 
 13. Dimensionality reduction.
-UMAP, PaCMAP, TSNE
+UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
 https://medium.com/@evertongomede/a-comparative-analysis-of-dimensionality-reduction-techniques-in-machine-learning-3389c5103348
 
 14. Memory profiler.
@@ -74,9 +74,6 @@ lime
 https://qiita.com/matsuda_tkm/items/8a752534d671fb4e477a
 https://pypi.org/project/pytorch-tabnet/
 https://qiita.com/maskot1977/items/5de6605806f8918d2283
-
-21. Outlier detection
-Pyod, Auto-encoder(deep learning)
 
 22. MCMC regression to include uncertainty in timeseries prediction curve in plot.
 https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
@@ -158,7 +155,9 @@ https://repo.anaconda.com/archive/
 uv
 
 45. Anormaly detection.
-Isolation tree from scikit learn, and use shap values.
+Pyod, 
+Auto-encoder(see my code anomaly_detection_autoEncoder.py)
+Isolation tree from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py)
 model.fit()
 explainer = shap.Explainer(model.decision_function, features)
 shap_val = explainer(features.iloc[sample])
