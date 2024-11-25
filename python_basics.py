@@ -106,7 +106,7 @@ Path('__file__').resolve().parent
 
 
 
-#--------- to check bugs in your code ----------------
+#--------- to check bugs in your code -----------------------------------------------------------------
 echo $?   # type this in anaconda power shell after the code stops.  If False, something went wrong.
 
 # If you see unicode errors, insert below in the very first line of your script and trace.py
@@ -117,7 +117,7 @@ if os.name == 'nt':
     _locale._getdefaultlocale = (lambda *args: (_locale._getdefaultlocale_backup()[0], 'UTF-8'))
     
 with open( 'download_list1.csv', 'r', encoding='utf-8' ) as ff:  # if you see encording errors, use encoding='utf-8-sig'
-#-------------------------------------------------
+#-------------------------------------------------------------------------------------------------------
 
 #---------- For string match search ---------------
 import fnmatch  # for string match (like wildcard)   if fnmatch.fnmatch(string, '*xxxx*'):
@@ -316,17 +316,6 @@ np.newaxis
 # shift index in array
 t = np.roll( x123, 1,  axis=3 )  
 #---------------------------------------------------------------
-
-#--------- kdb+ -------------------------------------
-#remove duplicate
-t : `id`date xasc t   //sort two column to compare
-t : t where [ differ (select id, date from t) ]  
-
-#another way (much slower)
-update dup:(string[id],'string[date]) from `t  //create duplicate key column
-t : `dup xasc t
-t : t where [ differ (exec dup from t) ]
-#-----------------------------------------------------
 
 #--------- class ------------------------------------------------------
 class MyClass():   # name cls/self can be anything.  cls/self is just convention
@@ -537,3 +526,19 @@ dic.setdefaults( "key_name", [] ).append(3)  # you can append values.
 # Normally, dic2["key_name"] will show error if key_name doesn't exist, but
 dic2 = defaultdict(int)  # you will avoid error.  
 #-------------------------------------------------------------
+
+#----------- Use dictionary instead of "if else" --------------------------
+def func1(x,y):
+    return x+y
+def func2(x,y):
+    return x-y
+
+actions = {
+    "start":func1,
+    "stop":"func2,
+    }
+
+arg = (2, 3)
+args = {"x":2, "y":3}
+actions.get("start", "no outputs!!")(*arg, **args)
+#----------------------------------------------------------------------------
