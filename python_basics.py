@@ -542,3 +542,11 @@ arg = (2, 3)
 args = {"x":2, "y":3}
 actions.get("start", "no outputs!!")(*arg, **args)
 #----------------------------------------------------------------------------
+
+#---------- tqdm (show progress bar) ---------------------------------
+from tqdm import tqdm
+with tqdm(enumerate(cols), total=len(cols)) as progress_bar:
+    for n, col in progress_bar:
+	...
+#----------------------------------------------------------------------
+
