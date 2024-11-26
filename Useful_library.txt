@@ -167,6 +167,8 @@ ftfy
 
 47. Use deque if python list is too big, and need to use append() pop() a lot.
 
+48. Use python deque() for memory efficient list.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
