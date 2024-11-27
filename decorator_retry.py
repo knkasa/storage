@@ -18,7 +18,7 @@ def retry(max_tries: int = 3, delay_seconds: int = 5):
                 try:
                     # Attempt to execute the decorated function
                     return func(*args, **kwargs)
-                except NumberTooLowError as e:
+                except NumberTooLowError as e:  # try various errors here.
                     tries += 1
                     if tries == max_tries:
                         # If we've reached the maximum number of tries, re-raise the exception
