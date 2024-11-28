@@ -1,17 +1,20 @@
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import concurrent.futures
 
-def task(n):
-    return n * n
+def func(x, a, b):
+    return x**2 * a * b
 
-# Create a ThreadPoolExecutor
-with ThreadPoolExecutor(max_workers=5) as executor:
-    # Submit tasks to the executor
-    futures = [executor.submit(task, i) for i in range(10)]
+def main():
+    # Use ThreadPoolExecutor for concurrent execution
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # Create a list of arguments to pass to the function
+        args = [(x, 2, 3) for x in range(5)]
+        
+        # Use map to apply the function concurrently
+        res = list(executor.map(lambda args: func(*args), args))
     
-    # Process the results as they complete
-    for future in as_completed(futures):
-        try:
-            result = future.result()
-            print(f'Result: {result}')
-        except Exception as e:
-            print(f'Exception: {e}')
+    return res
+
+# Run the main function and print results
+if __name__ == "__main__":
+    result = main()
+    print(result)
