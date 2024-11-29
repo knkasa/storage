@@ -172,7 +172,7 @@ IAM credential report: show who has access.
 Service control policy: manage(not grant) permissions.
 
 Extra:
-CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations.
+CAF: CTO & Engineer.  Agile method & organize your teams.  business, people, governance, platform, security, operations. Vulnerbility management.
 AWS consulting partner: consultation regarding global business.  Concierge support is for more account & technical support. Only enterprise plan.
 Basic support plan provides: health chech, one-on-one billing questions.
 AWS artifact: AWS compliance & payment report.
