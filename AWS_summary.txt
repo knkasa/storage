@@ -39,6 +39,7 @@ Amazon Kinesis data streams: stream data.
 AWS forecast service: forecast web traffic.
 AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
 Step function: decouple applications.
+s3 & storage gateway: already encrypted.
 
 AWS SaaS:
 AWS polly: convert text to speech.
