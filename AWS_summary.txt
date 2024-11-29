@@ -150,6 +150,7 @@ Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 Operational piller: monitoring. make frequent changes.  predict failures.
 Reliability piller: recovering.
 Sustainability piller: resouce.
+cost optimization piller
 
 Data Transfer:
 AWS snowball: transfer large volume of files. Allow on-premise.
