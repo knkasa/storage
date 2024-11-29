@@ -165,7 +165,7 @@ AWS sync: Transfer data between on-premise & AWS while backing up data.
 AWS Datasync: automate data transfer between on-premise & AWS. 
 
 Account management IAM:
-IAM plog: effect, action, policy.
+IAM info that is needed in yaml file: effect, action, policy.
 U2F: USB authenticator.
 Cognito: Let you add users for web/mobile app. Note IAM is not for mobile.
 AWS STS(security token): Temporary access.  Note IAM users can't manage resource.
