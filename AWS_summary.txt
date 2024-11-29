@@ -127,7 +127,8 @@ AWS Glue: ETL. it's not database.
 RDS: horizontal scalability. (read replica=reduce scalability, not avilability)
 AWS Neptune: graph storage.
 AWS Athena: run SQL on s3.
-Aurora=SQL base database, Redshift=data warehouse(database).
+Aurora=SQL base database, 
+Redshift=data warehouse, analytical processing.
 AWS quicksight: dashboard.
 s3: Used with cloudFront to improve static Web efficiency. Auto encryption.
 s3 global acceleration: transfer globally.
