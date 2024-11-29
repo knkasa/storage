@@ -31,7 +31,7 @@ AWS codeGuru: Can review your codes.
 AWS codebuild: compile code.
 AWS codeStar: for code development workflow and serverless app. codePipeline uses cloudWatch logs.
 AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
-Puppet & Chef: Automate deployment config.
+Puppet & Chef: Automate deployment config(part of opswork).
 AWS Cloud development kit(CDK): use python and etc to build AWS infra.
 AWS control tower: Ensure secure AWS accounts using blueprints & guardrail (which obey industry regultion).
 Amazon worksapce: setup Windows or Linux desktop. Avalilable globally.
