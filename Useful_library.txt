@@ -168,7 +168,7 @@ ftfy
 47. Use deque() if python list is too big, and need to use append() pop() a lot.
 
 48. Web scraping.
-parcel
+parcel, selenium
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
