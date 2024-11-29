@@ -64,7 +64,7 @@ AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn us
 AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement. Improve security without opening port. Uses ssh. 
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit.
-Compute optimizer: optimize resource on EC2, EBS, lambda.. Note it's different from cost explorer. 
+Compute optimizer: optimize resource on EC2, EBS, lambda, auto scaling.  Note it's different from cost explorer. 
 Cost explorer: show resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
 Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
