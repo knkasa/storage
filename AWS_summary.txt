@@ -67,14 +67,14 @@ AWS system manager: centrally manage resource data, run commands, configure serv
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit. Budget type are Reservation, cost,usage.
 Compute optimizer: optimize resource on EC2, EBS, lambda, auto scaling.  Note it's different from cost explorer. 
-Cost explorer: show resource usage, and cost prediction(Usage Report is more detailed). give alert when usage drops threshold.
+Cost explorer: show resource usage, send alert, and cost prediction(Usage Report is more detailed). 
 Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
 AWS Config: keep history of cofig/resource changes. Cloudwatch is for monitoring.
 AWS CloudFormation: Json, Yaml file to manage 3rd party resource. can use to manage multiple AWS accounts.
 CloudTrails: logs any API connection.  encrypted by default. It can check compliance, governance, risk.
 cloudTrail Insights: When API usage is high or suspacious, it can alarm users.
-Cloud Watch: logs resource usage. Can log on-premise too. can be combined to send SNS message.
+Cloud Watch: logs resource usage. Can log on-premise too. can send billing alarms and SNS.
 CloudFoundation: Provide gaide for deployment.
 AWS organization: make multiple acounts into one bill. restrict 
 AWS organization: share EC2 and volume discounts among different AWS account. If want to split bill, create tags for each department.
