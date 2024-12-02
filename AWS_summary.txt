@@ -83,14 +83,14 @@ AWS Fault injection simulator: Find blind spots of application.
 
 Security:
 customer managed key: encrypting key for customer side.
-Security group: allow rules(return) only. However, it can accept inbound & outbound.    
+Security group: allow rules(return) only. However, it can accept inbound & outbound. It is stateful.
 AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
 AWS shield standard: enable by default for free. Shield advance(available from business plan) has 7 layer protection.
 GuardDuty: monitor malicious attack/activities.
 Amazon Inspector: Monitor DDOS attack. Automate security(valunerbility) assesment.  
 AWS Web Firewall(WAF): It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
 AWS web firewall(WAF): can be used on cloudFront, load balancer, app sync. Can block from certain geographic region.
-ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP.
+ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP. It is stateless.
 ACL: Automatically allow return traffic. Rule in increasing order whether to allow traffic.
 Penetration test: Security assessment test.
 Route53: improves latency. ddos protection is provided free.
