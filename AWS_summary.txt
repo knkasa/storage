@@ -187,7 +187,7 @@ AWS partner Network(APN): give solution to your needs. Organized by non-AWS.
 Contextual guidance: Business support or above.
 AWS acceptable use polity: prohibits use of web.
 TAM: Only AWS enterprise support provide TAM.
-Reserved Instance(RI): saves 72%. RI only applies discount in the same availability zone.
+Reserved Instance(RI): saves 72%. RI only applies discount in the same AZ zone(not region).
 Convertiable Reserved Instance: You can change resource cap during RI.
 AWS knowledge center: Forum.
 Tab: must be unique. Must activate before they appear in cost explorer.
