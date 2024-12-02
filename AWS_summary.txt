@@ -105,6 +105,7 @@ AWS quantum Ledger database: has history of data changes.
 Amazon detective: use cloudTrail, guardDuty logs, to quickly finds security issues.
 AWS master key: used to automatically encrypt data.
 CloudEndure disaster recovery: fast reliable recovery.
+Send alearts when root users log in: cloudwatch, SNS.
 
 Gateway:
 VPC interface endpoint:  used to privately connect VPC 
