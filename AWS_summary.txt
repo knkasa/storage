@@ -40,6 +40,7 @@ AWS forecast service: forecast web traffic.
 AWS partner solution(formerly Quick Starts): quickly deploy, not codeDeploy. set reference point for deployment.
 Step function: decouple applications.
 s3 & storage gateway: already encrypted.
+VPC: internet gateway & subnet are part of VPC.
 
 AWS SaaS:
 AWS polly: convert text to speech.
