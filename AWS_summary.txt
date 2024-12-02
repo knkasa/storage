@@ -71,7 +71,7 @@ Cost explorer: show resource usage, and cost prediction(Usage Report is more det
 Pricing calculator: Select software and simulate the cost. Do not give saving plan(cost explorer)
 Optimize cost: EC2, dynamoDB, RDS (not s3, Lambda)
 AWS Config: keep history of cofig/resource changes. Cloudwatch is for monitoring.
-AWS CloudFormation: Json, Yaml file to manage 3rd party resource. can use to multiple AWS accounts.
+AWS CloudFormation: Json, Yaml file to manage 3rd party resource. can use to manage multiple AWS accounts.
 CloudTrails: logs any API connection.  encrypted by default. It can check compliance, governance, risk.
 cloudTrail Insights: When API usage is high or suspacious, it can alarm users.
 Cloud Watch: logs resource usage. Can log on-premise too. can be combined to send SNS message.
