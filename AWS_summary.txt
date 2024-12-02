@@ -85,7 +85,7 @@ Security:
 customer managed key: encrypting key for customer side.
 Security group: allow rules(return) only. However, it can accept inbound & outbound.    
 AWS shield : Firewall.  Protect against DDos for ELB, EC2, Route55, AWS acceleration. Standard is for free.
-AWS shield standard: enable by default for free. Shield advance has 7 layer protection.
+AWS shield standard: enable by default for free. Shield advance(available from business plan) has 7 layer protection.
 GuardDuty: monitor malicious attack/activities.
 Amazon Inspector: Monitor DDOS attack. Automate security(valunerbility) assesment.  
 AWS Web Firewall(WAF): It can block SQL query that looks malicious. 7 layer protection. (anything to do with http is FireWall)
