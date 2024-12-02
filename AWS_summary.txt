@@ -130,7 +130,7 @@ AWS Athena: run SQL on s3.
 Aurora=SQL base database, 
 Redshift=data warehouse, analytical processing.
 AWS quicksight: dashboard.
-s3: Used with cloudFront to improve static Web efficiency. Auto encryption.
+s3: Used with cloudFront to improve static Web efficiency. It is NOT encrypted by default, customer's responsibility to encrypt.
 s3 global acceleration: transfer globally.
 s3 transfer acceleration: speed up transfer. 
 DynmoDB: non-sql DB, highly available, store data from recommendation engine.
