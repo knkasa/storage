@@ -93,7 +93,7 @@ AWS web firewall(WAF): can be used on cloudFront, load balancer, app sync. Can b
 ACL: security at subnet level. security group is at instance level. Configure s3 & VPC, IP. It is stateless.
 ACL: Automatically allow return traffic. Rule in increasing order whether to allow traffic.
 Penetration test: Security assessment test.
-Route53: improves latency. ddos protection is provided free.
+Route53: improves latency. ddos protection is provided free. Failover route53 means active/passive.
 Route53: sends signals when failover, slow latency, weighted routing is to connect multiple sources.
 Route53: Health check/monitoring & register domain name.  IP routing is not right answer.
 Subnet: Part of your VPC, available only one region. create range of IP address.
