@@ -124,7 +124,7 @@ API gateway: can be used on Lambda, Kinesis data stream.
 
 Database:
 AWS Glue: ETL. it's not database.
-RDS: horizontal scalability. (read replica=reduce scalability, not avilability)
+RDS: horizontal scalability. (read replica=improve scalability, not avilability)
 AWS Neptune: graph storage.
 AWS Athena: run SQL on s3.
 Aurora=SQL base database, 
