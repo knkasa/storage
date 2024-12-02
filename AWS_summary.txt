@@ -63,7 +63,7 @@ App sync: creates graph API.
 
 Recommended guidance:
 AWS Trusted Advisor: Resource and cost guidance. will alert if you don't turn user activity logging, or when you allow public access.
-AWS system manager: manage resource data.  Trusted advisor will reduce cost, not resource mangagement. Improve security without opening port. Uses ssh. 
+AWS system manager: centrally manage resource data, run commands, configure servers at scale for hybrid environment.  Trusted advisor will reduce cost, not resource mangagement.  Improve security without opening port. Uses ssh. 
 Instance Store: cashe.  provides high I/O performance.  Attached to hardware.
 AWS Budgets: Set alert when cost exceeds limit. Budget type are Reservation, cost,usage.
 Compute optimizer: optimize resource on EC2, EBS, lambda, auto scaling.  Note it's different from cost explorer. 
