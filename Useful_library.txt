@@ -41,6 +41,8 @@ TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforec
 Liquid neural network
 xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
+Use Fourier transform to remove noise.
+Use Wavelet(similar to fourier transform) to convert input features to freq domain, then use it as input features.
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
