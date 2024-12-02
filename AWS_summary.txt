@@ -138,7 +138,7 @@ s3: Only s3 standard, s3 intelligent-tier has no retrival charge & no minimum st
 s3: Free-> Data transferred in from internet, Data transfered out to same region.
 s3: host static web. You cannot connect on-premise.
 s3 replication: copy s3 data to different accounts.
-s3: Lifecycle configuration.
+s3: Lifecycle configuration. manages s3 objects config.
 
 Shared responsibility:
 Configuration management:  Share responsibility of both customer and AWS.
