@@ -156,7 +156,7 @@ Pillar:
 Incorrect reliability pillar: fault tolerance is scale up(out is correct)(scale up means add CPUs. scale out means add instances)
 Reliablility pillar: CloudTrail, CloudWatch, AWS config,
 Operational piller: monitoring. make frequent changes.  predict failures.
-Reliability piller: recovering.
+Reliability piller: automatic recovering from failure.
 Sustainability piller: resouce.
 cost optimization piller
 
