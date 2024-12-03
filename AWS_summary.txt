@@ -167,7 +167,7 @@ AWS snowcone: snow family. for edge computing.
 AWS OpsHub: manage AWS Snowball using UI.
 Elastic File system(EFS): Transfer files between instance (not between regions), can be used on-premise.
 Elastic File system(EFS): You pay each time you read/write. Highly available. Can transfer between regions.
-Elastic Block store(EBS): Saves block of files. (see Elastic Volume) Available in single zone, stored in s3. one instance per zone.
+Elastic Block store(EBS): Saves block of files. Available in several AZ zones. stored in s3. one instance per zone.
 Elastic Volume: dynamically scales the size of data for EBS.
 AWS sync: Transfer data between on-premise & AWS while backing up data.
 AWS Datasync: automate data transfer between on-premise & AWS. 
