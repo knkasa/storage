@@ -51,7 +51,7 @@ AWS Rekognition: Indentify objects in Image.
 AWS EMR: run Hadoop, Spark, ...
 AWS wavelength: setup 5g mobile app.  
 AWS local zone: low latency gaming.
-AWS Macie: use machine learning to protect s3 data.
+AWS Macie: use machine learning to protect sensitive data, e.g. s3 data.
 AWS Kendra: Search documents in s3.
 AWS x-ray:  debug performance
 AWS device farm: test web/mobile apps.
