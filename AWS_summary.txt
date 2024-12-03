@@ -144,7 +144,6 @@ s3: Free-> Data transferred in from internet, Data transfered out to same region
 s3: host static web. You cannot connect on-premise.
 s3 replication: copy s3 data to different accounts.
 s3: Lifecycle configuration. manages s3 objects config.
-s3 one-zone infreqent: good for backup on-premise data.
 
 Shared responsibility:
 Configuration management:  Share responsibility of both customer and AWS.
