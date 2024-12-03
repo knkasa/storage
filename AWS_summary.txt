@@ -86,6 +86,7 @@ AWS Fault injection simulator: Find blind spots of application.
 Security:
 customer managed key: encrypting key for customer side.
 Security group: allow rules(return) only. However, it can accept inbound & outbound. It is stateful.
+security group: Note it cannot choose specific IP address to allow traffic, ACL can.
 AWS shield : Firewall. Protect against DDos for ELB, EC2, Route55, AWS acceleration, cloudfront. Standard is for free.
 AWS shield standard: enable by default for free. Shield advance(available from business plan) has 7 layer protection.
 GuardDuty: monitor malicious attack/activities.
