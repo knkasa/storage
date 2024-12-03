@@ -125,6 +125,7 @@ EC2 instance connect: connect EC2 via browser.
 AWS outpost: setup AWS hardware on-premise.  low latency.
 AWS IoT core: Let you connect IoT device.
 API gateway: can be used on Lambda, Kinesis data stream.  
+customer gateway: connection between on-premise & AWS.  Customer needs to setup customer gateway.
 
 Database:
 AWS Glue: ETL. it's not database.
