@@ -208,3 +208,4 @@ Removing Account: SCP policy must be removed before deleting account.
 Enterprise plan is more expensive than Enterprise on-ramp plan.
 Right amount of capacity: auto-scaling, not load balancer.
 Split bills:  create tags for each department.
+Fault tolerance can be minimized by auto-scaling (removing unhealthy instance).
