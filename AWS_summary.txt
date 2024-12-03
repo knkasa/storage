@@ -78,7 +78,7 @@ cloudTrail Insights: When API usage is high or suspacious, it can alarm users.
 Cloud Watch: logs resource usage. Can log on-premise too. can send billing alarms and SNS.
 CloudFoundation: Provide gaide for deployment.
 AWS organization: make multiple acounts into one bill. restrict 
-AWS organization: share EC2 and volume discounts among different AWS account. If want to split bill, create tags for each department.
+AWS organization: share EC2 and volume discounts among different AWS account. 
 ServiceControl policy(SCP): set account privileges.
 AWS EventBridge: log
 AWS Fault injection simulator: Find blind spots of application.
@@ -205,3 +205,4 @@ Shec: Ensure system adheres to industry standard/regulation.
 Removing Account: SCP policy must be removed before deleting account.
 Enterprise plan is more expensive than Enterprise on-ramp plan.
 Right amount of capacity: auto-scaling, not load balancer.
+Split bills:  create tags for each department.
