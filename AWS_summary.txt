@@ -21,7 +21,7 @@ Spot instance discount:  90
 Elastic Benstalk: Easily deploy web programs written by PHP, Java, ... Paas. 
 Elastic Beanstalk: has at least one instance. does not publish metrics to CloudWatch. No additional charge.
 AWS cloudHSM(hardware security): geneate encryption for hardware.  
-CloudFront: Connect web globaly.
+CloudFront: Connect web globaly. WAF can check distributions running in cloudfront.
 AWS Health dashboard: show AWS service usage in AZ zone. Alerts when AWS service go down.
 RSS feed notification service: Notife users via emails, etc about Health dashboard.
 Manage all AWS service: SDK, CLI, AWS Console(account page).
