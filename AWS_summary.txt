@@ -42,6 +42,7 @@ Step function: decouple applications.
 s3 & storage gateway: already encrypted.
 VPC: internet gateway & subnet are part of VPC.
 AWS snapshot: copy data to different AZ zone. stored in s3.
+AWS resorce group: manage large number of resource at a time.
 
 AWS SaaS:
 AWS polly: convert text to speech.
