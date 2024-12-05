@@ -29,7 +29,7 @@ Lambda: pricing is based on number of request & runtim.
 LightSail: cheap option for testing environment.
 AWS codeGuru: Can review your codes.
 AWS codebuild: compile code.
-AWS codeStar: Includes codeCommit, codeBuild, ... codePipeline uses cloudWatch logs.
+AWS codeStar: Includes codeCommit, codeBuild, ... to build serverless app. codePipeline uses cloudWatch logs.
 AWS codeArtifact: code repository. build tools like Maven, Gradle, npm,
 Puppet & Chef: Automate deployment config(part of opswork).
 AWS Cloud development kit(CDK): use python and etc to build AWS infra.
