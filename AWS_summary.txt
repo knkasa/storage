@@ -80,7 +80,7 @@ Cloud Watch: logs resource usage. Can log on-premise too. can send billing alarm
 CloudFoundation: Provide gaide for deployment.
 AWS organization: make multiple acounts into one bill. restrict 
 AWS organization: share EC2 and volume discounts among different AWS account. 
-ServiceControl policy(SCP): set account privileges.
+ServiceControl policy(SCP): grant account privileges.
 AWS EventBridge: log
 AWS Fault injection simulator: Find blind spots of application.
 
