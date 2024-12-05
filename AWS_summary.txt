@@ -136,11 +136,12 @@ AWS Athena: run SQL on s3.
 Aurora=SQL base database, 
 Redshift=data warehouse, analytical processing.
 AWS quicksight: dashboard.
+DynmoDB: non-sql DB, highly available, store data from recommendation engine.
 s3: Used with cloudFront to improve static Web efficiency. It is NOT encrypted by default, customer's responsibility to encrypt.
 s3 global acceleration: transfer globally.
 s3 transfer acceleration: speed up transfer. 
-DynmoDB: non-sql DB, highly available, store data from recommendation engine.
 s3: Only s3 standard, s3 intelligent-tier has no retrival charge & no minimum storage charge.
+s3 intelligent: good for random access pattern.
 s3: Free-> Data transferred in from internet, Data transfered out to same region.
 s3: host static web. You cannot connect on-premise.
 s3 replication: copy s3 data to different accounts.
