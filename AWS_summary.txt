@@ -4,7 +4,7 @@ AWS Regions:
 Each region has 3 availability zone & 1 or more discrete data centers.
 Only outbound data transfer is charged between different AZ zone.
 AWS edge location: good for caching files.
-Region specific: Many SaaS, Lambda
+Region specific: Many SaaS, Lambda (s3 is global)
 AWS global accelrator: Runs app faster globally. static IP(not webpage(s3)), non-http. ddos protection is provided free.
 Traffic between AZ zone is encrypted.
 
