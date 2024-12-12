@@ -173,6 +173,9 @@ ftfy
 48. Web scraping.
 parcel, selenium
 
+49. Alternative to Pearson correlation.
+Chaterjee correlation
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
