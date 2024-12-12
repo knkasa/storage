@@ -34,7 +34,8 @@ tsfresh(Automatic feature engineering),
 Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
 lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
-Prohet(similar to ARIMA)
+Prophet(introduced by Facebook)
+NeuralProphet
 DMD(dimensionality reduction)
 MLforecast
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
