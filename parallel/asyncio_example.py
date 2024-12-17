@@ -1,22 +1,22 @@
-# Synthetic Difference in Difference.
-# https://pypi.org/project/synthdid/
-
-import pdb  
-import matplotlib.pyplot as plt
-import numpy as np, pandas as pd
-import numpy as np
 import asyncio
 
+def func(x, a):
+    return x * x * a
 
-import asyncio
-
-async def my_coroutine(task_name):
-    print(f"{task_name} Start")
-    await asyncio.sleep(1)
-    print(f"{task_name} End")
+async def run_func(x, a):
+    # Wrap the synchronous function in an async context
+    result = await asyncio.to_thread(func, x, a)
+    return result
 
 async def main():
-    tasks = [asyncio.create_task(my_coroutine(f"Task-{i}")) for i in range(1, 4)]
-    await asyncio.gather(*tasks)
+    a = 2
+    x_list = [1, 2, 3]
 
+    # Use asyncio.gather to run tasks in parallel
+    tasks = [run_func(x, a) for x in x_list]
+    res = await asyncio.gather(*tasks)
+
+    print("Results:", res)
+
+# Run the asyncio event loop
 asyncio.run(main())
