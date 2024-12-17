@@ -1,18 +1,14 @@
 from joblib import Parallel, delayed
-import multiprocessing
 
-# Define a function to apply
-def square(x):
-    return x ** 2
+def func(x, a):
+    return x * x * a
 
-# Create a list of numbers
-nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+a = 2
+x_list = [1, 2, 3]
 
-# Create a Parallel object with the desired number of jobs (processes)
-num_cores = multiprocessing.cpu_count()
-parallel = Parallel(n_jobs=num_cores)
+# Using threading backend
+results = Parallel(n_jobs=2, backend="threading")(
+    delayed(func)(x, a) for x in x_list
+)
 
-# Apply the function to each element of the list in parallel
-squared_nums = parallel(delayed(square)(num) for num in nums)
-
-print(squared_nums)
+print("Results:", results)
