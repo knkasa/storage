@@ -5,7 +5,7 @@ def func(x, a, b):
 
 def main():
     # Use ThreadPoolExecutor for concurrent execution
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
         # Create a list of arguments to pass to the function
         args = [(x, 2, 3) for x in range(5)]
         
