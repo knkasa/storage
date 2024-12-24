@@ -40,7 +40,7 @@ def build_generator(latent_dim):
     x = Dense( 1024, activation=LeakyReLU(alpha=0.2))(x)
     x = BatchNormalization(momentum=0.8)(x)
     out = Dense( D, activation='tanh')(x)   # we use tanh because the image pixels are -1 to 1.
-    model = Model( i, out )
+    model = Model( i, out )  # output shape is (batch, D)
     return model
     
 def build_discriminator(img_size):
