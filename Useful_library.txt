@@ -65,9 +65,6 @@ Scipy differential_evolution
 16. New decision tree machine learning technique introduced by Microsoft.
 DiCE
 
-17. Create time-series data using GAN.
-ydata-synthetic
-
 18. Identify redundent features.
 AutoFeatSelect
 
@@ -93,9 +90,6 @@ Anova test(three continuous data that are different or not)
 
 25. Pydantic
 Allows you to setup datafame with custom default.
-
-26. Liquid neural network.
-https://ncps.readthedocs.io/en/latest/api/torch.html
 
 27. Mamba, the new neural network that is better than transformer.
     Mamba, package installer that is faster than anaconda.  
@@ -126,6 +120,7 @@ Basic: matplotlib, Seaborn, Altair
 
 34. NLP purging, classification, that can integrate with tensorflow, pytorch.
 spacy
+textblob (it can give text polarity)
 
 35. Let you access and surf webpage using python.
 helium
