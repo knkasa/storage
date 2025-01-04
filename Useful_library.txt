@@ -91,6 +91,7 @@ Anova test(three continuous data that are different or not)
 24. statistical test.
 Mann-Kendall test: Find upward/downward trend.
 Anderson-Darling test: Check if the data follow normal gaussian distribution.
+Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 
 25. Pydantic
 Allows you to setup datafame with custom default.
