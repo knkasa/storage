@@ -39,13 +39,13 @@ NeuralProphet
 DMD(dimensionality reduction)
 MLforecast
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
-Liquid neural network
+Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
 Use Fourier transform to remove noise.
 Use Wavelet(similar to fourier transform) to convert input features to freq domain, then use it as input features.
 DeepAR(ensemble prediction model such as ARIMA)
-Neural ODE with LSTM.
+Neural ODE with LSTM.(see repo)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
