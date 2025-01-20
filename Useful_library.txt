@@ -46,6 +46,7 @@ Use Fourier transform to remove noise.
 Use Wavelet(similar to fourier transform) to convert input features to freq domain, then use it as input features.
 DeepAR(ensemble prediction model such as ARIMA)
 Neural ODE with LSTM.(see repo)
+5 useful libraries: Nixtla, Darts, skTime, 
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
