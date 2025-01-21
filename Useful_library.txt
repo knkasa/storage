@@ -179,6 +179,9 @@ parcel, selenium
 49. Alternative to Pearson correlation.
 Chaterjee correlation
 
+50. LLM with web scraping, crawling.
+crawl4ai  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
