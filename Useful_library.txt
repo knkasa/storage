@@ -38,7 +38,7 @@ Prophet(introduced by Facebook)
 NeuralProphet
 DMD(dimensionality reduction)
 MLforecast
-TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast library includes Nbeats)
+TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast, darts library includes Nbeats)
 Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
