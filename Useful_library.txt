@@ -161,7 +161,8 @@ https://repo.anaconda.com/archive/
 uv
 
 45. Anormaly detection.
-Pyod, 
+Pyod
+ADTK
 Auto-encoder(see my code anomaly_detection_autoEncoder.py)
 Isolation tree from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py)
 model.fit()
