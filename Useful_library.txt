@@ -29,13 +29,13 @@ pymupdf, tabula
 sketch
 
 12. Timeseries data analysis.
-tslearn(clustering & anormaly detection), tssearch(find seasonal patterns), 
+tslearn(clustering & anormaly detection), 
+tssearch(find seasonal patterns), 
 tsfresh(Automatic feature engineering), 
 Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
 lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
-Prophet(introduced by Facebook)
-NeuralProphet
+Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast, darts library includes Nbeats)
@@ -46,7 +46,7 @@ Use Fourier transform to remove noise.
 Use Wavelet(similar to fourier transform) to convert input features to freq domain, then use it as input features.
 DeepAR(LSTM or GRU automatic parameter tuning model)
 Neural ODE with LSTM.(see repo)
-5 useful libraries: Nixtla, Darts, skTime, 
+5 useful libraries: Nixtla, Darts, skTime, statsforecast(classical)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
