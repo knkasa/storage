@@ -37,7 +37,7 @@ lag llama(pre-trained)
 AutoGluon(Amazon, similar to Pycaret)
 Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
-MLforecast
+MLforecast(ensemble with classical models)
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast, darts library includes Nbeats)
 Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
