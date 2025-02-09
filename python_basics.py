@@ -10,25 +10,16 @@ x = "var1";   print(  "testing {x}...".format( x=x )  )
 # If some package installed didn't work, try installing with conda.
 # "conda install <package> -c conda-forge
 
-# icecream for debugging, instead of print().
-import icecream
-
  # Enter debug mode.  ctrl+d will exit debug mode.  Use "if self.name=='worker_0':" if running parallel.
 import pdb; pdb.set_trace()    
 
 # Change windowspath to Linux path.
 os.path.normpath(r"C:\xxx\yyy").replace(os.sep, '/')
 
-# Join directory
-os.path.join(dir1, dir2)
-
 # Create list in one line 
 vec = [ x*2 for x in range(10) ]  
 vec = [ *range(0,10,1) ]  # also work.   
 [4 if x==1 else x for x in a]   # using if.
-
-# Importing class from other file 
-from directory1.python_file import class_name
    
 # Check class variables.  use  locals() or globals() to check list of variables
 classX.__dict__.keys()  
@@ -48,16 +39,13 @@ set(['a','b','a'])
 # Convert dictionary to string with delimeter "__"
 "__".join(["=".join([key, str(val)]) for key, val in dic.items()])  
 
-# Install library in google colab.
-!{sys.executable} -m pip install tensorflow   
-
 # Upload files in google colab. For exporting, see https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive
 from google.colab import files   files.upload()   
 
 # If installing tensorflow fails due to "The system cannot find the file specified"
 pip install --user tensorflow  
 
-# Remove directories from python code.
+# Remove folder in python code.
 import shutil   shutil.rmtree('./mnt')    
 
 # This will create log in text file
@@ -520,7 +508,7 @@ def fun(status:int) -> str:
 	    return 0
 #---------------------------------------------------------
 
-#---------- dictionary trick --------------------------------
+#---------- default dictionary --------------------------------
 dic = {}
 dic.setdefaults( "key_name", [] ).append(3)  # you can append values.
 # Normally, dic2["key_name"] will show error if key_name doesn't exist, but
@@ -550,3 +538,41 @@ with tqdm(enumerate(cols), total=len(cols)) as progress_bar:
 	...
 #----------------------------------------------------------------------
 
+#------------- context manager (decorator) ------------------------------
+from contextlib import contextmanager
+import time
+
+@contextmanager
+def performance_monitor():
+    start = time.perf_counter()
+    try:
+        yield  # This is where your code will run
+    finally:
+        elapsed = time.perf_counter() - start
+        print(f"Operation took {elapsed:.2f} seconds")
+# Using our custom context manager
+with performance_monitor():
+    # Your complex operation here
+    result = sum(i * i for i in range(1000000))
+#-------------------------------------------------------------------------
+
+#--------- Pipeline function ---------------------------------------------
+class Pipeline:
+    def __init__(self, *functions):
+        self.functions = functions
+        
+    def __call__(self, x):
+        for f in self.functions:
+            x = f(x)
+        return x
+
+@Pipeline(
+    lambda x: x.strip(),
+    lambda x: x.replace('-', ''),
+    lambda x: x.upper()
+)
+def clean_product_code(code: str) -> str:
+    return code
+# Usage
+result = clean_product_code("  abc-123-xyz  ")  # Returns "ABC123XYZ"
+#-----------------------------------------------------------------------
