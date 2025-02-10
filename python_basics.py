@@ -90,6 +90,11 @@ Path('__file__').resolve().parent
 
 # For append(), remove(), use deque library.
 
+# Python dash sytax.
+python -i my_script.py  # debug
+python -m timeit   # measure runtime
+
+
 #------------------------------------------------------------------------
 
 
