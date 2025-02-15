@@ -317,6 +317,7 @@ for n in range(10):
 
 #----- "try, exception" error usage ---------------
 # https://camp.trainocate.co.jp/magazine/python-try-except/
+# You could also use context manager instead of finally block.
     try:
         print(  int("fdsaf")   )
     except Exception as e:
