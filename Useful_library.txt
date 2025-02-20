@@ -117,7 +117,8 @@ tigramite library.
 Selenium
 
 31. fix format in VScode.
-black 
+black
+ruff
 
 32. decorator to minimize memory.
 lru_cashe
