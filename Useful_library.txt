@@ -1,4 +1,4 @@
-Useful python package.
+justUseful python package.
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy
@@ -177,6 +177,9 @@ ftfy
 
 48. Web scraping.
 parcel, selenium
+
+48. save webpage in pdf.
+pdfkit
 
 49. Alternative to Pearson correlation.
 Chaterjee correlation
