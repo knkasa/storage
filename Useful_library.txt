@@ -67,8 +67,9 @@ Scipy differential_evolution
 16. New decision tree machine learning technique introduced by Microsoft.
 DiCE
 
-18. Identify redundent features.
+18. Feature selection 
 AutoFeatSelect
+ITMO_FS (new library, use neural network)
 
 19. Feature importance similar to shap.
 lime
