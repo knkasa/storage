@@ -70,6 +70,7 @@ DiCE
 18. Feature selection 
 AutoFeatSelect
 ITMO_FS (new library, use neural network)
+geaturewiz 
 
 19. Feature importance similar to shap.
 lime
