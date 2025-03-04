@@ -38,7 +38,7 @@ AutoGluon(Amazon, similar to Pycaret)
 Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast(ensemble with classical models)
-TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama (neuralforecast, darts library includes Nbeats)
+TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama, Nixtla, Darts(include Nbeats)
 Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
