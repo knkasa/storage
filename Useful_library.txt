@@ -48,6 +48,7 @@ DeepAR(LSTM or GRU automatic parameter tuning model)
 Neural ODE with LSTM.(see repo)
 5 useful libraries: Nixtla, Darts, skTime, statsforecast(classical)
 Temporal convolutional network 
+salesforce-merlion(similar to pycalet with lstm)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
