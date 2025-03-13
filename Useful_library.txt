@@ -49,6 +49,7 @@ Neural ODE with LSTM.(see repo)
 5 useful libraries: Nixtla, Darts, skTime, statsforecast(classical)
 Temporal convolutional network 
 salesforce-merlion(similar to pycalet with lstm)
+tsfeature, tsfel (feature extraction)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
@@ -172,6 +173,7 @@ uv
 45. Anormaly detection.
 Pyod
 ADTK
+TODS 
 Auto-encoder(see my code anomaly_detection_autoEncoder.py)
 Isolation tree from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py)
 model.fit()
