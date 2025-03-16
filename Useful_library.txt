@@ -34,7 +34,7 @@ tssearch(find seasonal patterns),
 tsfresh(Automatic feature engineering), 
 Kats(Facebook, similar to Pycaret but includes prohet & deeplearning), 
 lag llama(pre-trained)
-AutoGluon(Amazon, similar to Pycaret)
+AutoGluon(Amazon, similar to Pycaret.  Chronos(LLM zeroshot forecasting) )
 Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast(ensemble with classical models)
