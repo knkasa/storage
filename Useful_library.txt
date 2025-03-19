@@ -1,4 +1,4 @@
-justUseful python package.
+Useful python package.
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy
@@ -122,7 +122,7 @@ https://rstudio-pubs-static.s3.amazonaws.com/282387_0cc72775dbc7433b800fe669a49c
 tigramite library.
 
 30. Automate web browsing with python.
-Selenium
+selenium
 parcel 
 
 31. fix format in VScode.
@@ -171,9 +171,10 @@ https://repo.anaconda.com/archive/
 uv
 
 45. Anormaly detection.
-Pyod
-ADTK
-TODS 
+Pyod (many algorithm are avialble)
+ADTK (unupervised model for timeseries detection)
+TODS (Various algorithm includeing Deeplog & Telemanon for timeseries data)
+stumpy (use slide window with euclidean distance.)
 Auto-encoder(see my code anomaly_detection_autoEncoder.py)
 Isolation tree from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py)
 model.fit()
