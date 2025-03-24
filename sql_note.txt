@@ -1,27 +1,27 @@
 SQL note.
 
-#join
+# join
 SELECT ss.*, aa.col1, aa.col2
   FROM table1 ss 
   LEFT JOIN table2 aa 
   on aa.agent_id = ss.agent_id 
   WHERE  ss.col1 = 7 and ss.agent_id in (xxx, yyy)
   
-#Groupby
+# Groupby
 SELECT customer_id, SUM(quantity) AS total_quantity
   FROM orders
   GROUP BY customer_id
   HAVING SUM(quantity) >= 50
   
-#Row number
+# Row number
 SELECT column1, column2, ..., ROW_NUMBER() OVER (ORDER BY column1) AS row_num
 FROM table_name
 
-#Aggregation with partition(create new column column3_sum.  Group by query will shrink the number of rows)
+# Aggregation with partition(create new column column3_sum.  Group by query will shrink the number of rows)
 SELECT column1, column2, ..., SUM(column3) OVER (PARTITION BY column1) AS column3_sum
   FROM table_name
   
-#Aggregation with partition using rank()
+# Aggregation with partition using rank()
 SELECT column1, column2, ..., RANK() OVER (PARTITION BY column1 ORDER BY column3 DESC) AS rank_num
   FROM table_name;
 
@@ -31,7 +31,7 @@ select date, ID, price, sum(price) over( partition by ID order by date asc) as c
 # If statement
 select date, iif( price>90, 'high', 'low' ) as price_rank from df1
 
-#Union
+# Union
 SELECT name, city
   FROM customers
   WHERE city = 'New York'
@@ -39,8 +39,11 @@ SELECT name, city
   SELECT name, city
   FROM employees
   WHERE city = 'New York'
-  
-#With statement
+
+# With example1
+with temp as ( select * from df1 where ID='A' union select * from df1 where ID='B' ) select * from temp 
+
+# With example2
 with test1 as(
   SELECT uriage from tokuisaki
     where uriage > 100
@@ -49,10 +52,10 @@ SELECT b.tokuisaki, b.uriage, b.YYYYMM
   from test1 a,tokuisaki b
   where b.uriage in (a.uriage)
 	
-#Temporary table
+# Temporary table
   CREATE TEMPORARY TABLE temp_orders AS 
     SELECT * FROM orders
       WHERE order_date >= '2024-01-01'
 
-#Drop
+# Drop
 DROP TEMPORARY TABLE temp_orders;
