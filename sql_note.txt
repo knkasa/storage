@@ -12,7 +12,10 @@ SELECT customer_id, SUM(quantity) AS total_quantity
   FROM orders
   GROUP BY customer_id
   HAVING SUM(quantity) >= 50
-  
+
+# Sort
+SELECT * FROM table_name ORDER BY column1 DESC
+
 # Row number
 SELECT column1, column2, ..., ROW_NUMBER() OVER (ORDER BY column1) AS row_num
 FROM table_name
