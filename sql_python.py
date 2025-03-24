@@ -29,6 +29,8 @@ SELECT
 FROM table;
 '''
 
+qry = " select * from df1 where date > '2022-01-01' "
+
 qry = " with temp as ( select * from df1 where ID='A' union select * from df1 where ID='B' ) select * from temp "
 qry = " select date, iif( price>90, 'high', 'low' ) as price_rank from df1 "
 
