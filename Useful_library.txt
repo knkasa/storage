@@ -198,6 +198,9 @@ crawl4ai  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-
 52. Create powerpoint.
 python-pptx
 
+53. Generate synthetic data using statistics.
+Copula
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
