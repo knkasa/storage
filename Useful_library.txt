@@ -204,6 +204,10 @@ python-pptx
 53. Generate synthetic data using statistics.
 Copula
 
+54. Parse PDF, DOCX, HTML.
+docling
+SmolDocling(small LLM that can parse documents)
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
