@@ -94,6 +94,9 @@ Path('__file__').resolve().parent
 python -i my_script.py  # debug
 python -m timeit   # measure runtime
 
+# Check if element exists in list.
+x = ['a', 'b']
+if 'a' in set(x):  if 'a' in {*x}:
 
 #------------------------------------------------------------------------
 
