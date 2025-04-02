@@ -1,0 +1,16 @@
+---- DAG graph -------------------
+from causallearn.search.ConstraintBased.PC import pc
+from causallearn.utils.cit import fisherz
+import numpy as np
+
+# Generate synthetic data (100 samples, 3 variables)
+np.random.seed(0)
+data = np.random.rand(100, 3)
+
+# Run PC algorithm with Fisher's Z test
+pc_result = pc(data, fisherz, alpha=0.05)
+
+# Print causal graph
+print(pc_result.G.graph)
+pc_result.draw_pydot_graph()
+-------------------------------------------------
