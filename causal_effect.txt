@@ -36,3 +36,35 @@ print(estimate)
 ---------------------------------------
 
 Linear Non-Gaussian Acyclic Models (LiNGAM) allows to find directionality in DAG.
+import numpy as np
+import pandas as pd
+import lingam
+import matplotlib.pyplot as plt
+
+# Set random seed for reproducibility
+np.random.seed(42)
+
+# Generate data
+n = 1000  # Number of samples
+X1 = np.random.normal(0, 1, n)  # X1 follows normal distribution
+epsilon2 = np.random.uniform(-1, 1, n)  # Non-Gaussian uniform noise
+X2 = 3 * X1 + epsilon2  # Causal relation: X1 → X2
+
+# Combine into a dataset
+data = np.column_stack((X1, X2))
+
+# Apply DirectLiNGAM to infer causal direction
+model = lingam.DirectLiNGAM()
+model.fit(data)
+
+# Print causal order
+print("Estimated Causal Order:", model.causal_order_)
+print("Estimated Causal Matrix:\n", model.adjacency_matrix_)
+
+# Plot the data
+plt.scatter(X1, X2, alpha=0.5)
+plt.xlabel("X1")
+plt.ylabel("X2")
+plt.title("Scatter Plot of X1 → X2 with Uniform Noise")
+plt.show()
+
