@@ -14,3 +14,23 @@ pc_result = pc(data, fisherz, alpha=0.05)
 print(pc_result.G.graph)
 pc_result.draw_pydot_graph()
 -------------------------------------------------
+
+-------- DoWhy --------
+import dowhy
+from dowhy import CausalModel
+
+# Define the causal model
+model = CausalModel(
+    data=df,
+    treatment="X",
+    outcome="Y",
+    common_causes=["Z"]
+)
+
+# Identify causal effect
+model.identify_effect()
+
+# Estimate effect
+estimate = model.estimate_effect(identified_estimand)
+print(estimate)
+---------------------------------------
