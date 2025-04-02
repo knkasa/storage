@@ -34,3 +34,5 @@ model.identify_effect()
 estimate = model.estimate_effect(identified_estimand)
 print(estimate)
 ---------------------------------------
+
+Linear Non-Gaussian Acyclic Models (LiNGAM) allows to find directionality in DAG.
