@@ -1,3 +1,5 @@
+For timeseries Causation, use statsmodels granger.
+
 ---- DAG graph (called PC algorithm)  -------------------
 from causallearn.search.ConstraintBased.PC import pc
 from causallearn.utils.cit import fisherz
