@@ -1,0 +1,15 @@
+Run the command "python setup.py sdist bdist_wheel"
+Get *.whl and *.gz files from /dist folder
+Run "pip install *.whl"
+Note requirements.txt is not required.
+
+Your directory should look like below.
+your_project/
+│
+├── setup.py
+├── README.md
+├── requirements.txt
+└── your_package_name/
+    ├── __init__.py
+    ├── module1.py
+    └── module2.py
