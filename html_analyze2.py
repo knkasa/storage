@@ -5,6 +5,8 @@ from ydata_profiling import ProfileReport
 import os
 import pdb
 
+# For displaying Japanese texts, see here.  https://zenn.dev/misaya/articles/e6c815da5056f5
+
 os.chdir("C:/Users/knkas/Desktop/NLP_example")
 
 # https://github.com/ydataai/ydata-profiling
