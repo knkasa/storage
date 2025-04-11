@@ -213,6 +213,9 @@ SmolDocling(small LLM that can parse documents)
 55. Hinge Loss function.
 used for binary classification.  It tends to put hard threashold than binary cross entropy. (No need to put threashold by users)
 
+56. Japanese Tokenizer from Conda Install.
+sudachipy, fugashi, konoha
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
