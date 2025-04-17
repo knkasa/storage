@@ -62,6 +62,8 @@ https://pypi.org/project/memory-profiler/(If installing from conda, open /env/Li
 (1203) with open(filename, encoding="utf-8") as f:
 LineProfiler (line by line that shows slowest part of code)
 cProfile (show statistics on function execution time)
+tracemalloc(run tracemalloc.start() & your_python_code & tracemalloc.stop())
+objgraph(run objgraph.show_growth(limit=10) in for loop)
 
 15. Minimize function with constraints
 https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
