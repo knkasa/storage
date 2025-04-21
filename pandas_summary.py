@@ -133,6 +133,7 @@ df1 == df2
 df.equals(df2)
 df.compare(df2)
 
+# For big file, save it in parquet, or zip file. (pckel may not be good)
   
 #-----------------------------------------------------------------------------------------------------------------
 
