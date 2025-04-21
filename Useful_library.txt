@@ -218,7 +218,9 @@ used for binary classification.  It tends to put hard threashold than binary cro
 56. Japanese Tokenizer from Conda Install.
 sudachipy, fugashi, konoha
 
-57. In VScode, if you need to modify settings.json, search settings.json in setting option(click screw icon, click settings).
+57. Use "black formatter" in VS code for formatting.  https://qiita.com/nujust/items/e0985240fd461e5c4c0a
+In VScode, if you need to modify settings.json, search settings.json in setting option(click screw icon, click settings).
+
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
