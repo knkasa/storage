@@ -221,6 +221,9 @@ sudachipy, fugashi, konoha
 57. Use "black formatter" in VS code for formatting.  https://qiita.com/nujust/items/e0985240fd461e5c4c0a
 In VScode, if you need to modify settings.json, search settings.json in setting option(click screw icon, click settings).
 
+58. Propensity Score matching (PSM).
+Run logistic regression(or any other algorithm), outputs will the probability.  Make clusters based on similar probabilities.  
+Check if each groups yield similar output distributions. Examine each clusters.
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
