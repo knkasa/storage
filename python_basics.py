@@ -536,3 +536,18 @@ def clean_product_code(code: str) -> str:
 # Usage
 result = clean_product_code("  abc-123-xyz  ")  # Returns "ABC123XYZ"
 #-----------------------------------------------------------------------
+
+#------------ Partial usage --------------------------------------------
+from functools import partial
+
+# Define a regular function
+def func(arg1, arg2, arg3):
+    # Do something
+    pass
+
+# Create a partial function by fixing some arguments
+partial_func = partial(func, fixed_arg1, fixed_arg2)
+
+# Now call it with the remaining arguments
+result = partial_func(arg3)
+#------------------------------------------------------------------------
