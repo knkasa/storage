@@ -16,6 +16,9 @@ import pdb; pdb.set_trace()
 # Change windowspath to Linux path.
 os.path.normpath(r"C:\xxx\yyy").replace(os.sep, '/')
 
+# run unix command
+os.system('ls')
+
 # Create list in one line 
 vec = [ x*2 for x in range(10) ]  
 vec = [ *range(0,10,1) ]  # also work.   
