@@ -230,6 +230,9 @@ In VScode, if you need to modify settings.json, search settings.json in setting 
 Run logistic regression(or any other algorithm), outputs will the probability.  Make clusters based on similar probabilities.  
 Check if each groups yield similar output distributions. Examine each clusters.
 
+59. VScode recommended extensions.
+DocString generator. TestExplorer(run unit test), SpellChecker, GithubCopilot, VScodePDF(view pdf), ExcelView, BookMark(put checkpoint in code)
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
