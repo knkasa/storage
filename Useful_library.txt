@@ -55,6 +55,7 @@ Neural ODE with LSTM.(see repo)
 Temporal convolutional network 
 salesforce-merlion(similar to pycalet with lstm)
 tsfeature, tsfel (feature extraction)
+Moirai 
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
