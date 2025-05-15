@@ -12,6 +12,7 @@ df = pl.read_csv('xxxx.csv', columns=['col1', 'col2'] )
 
 df = pd.DataFrame({'Type': types,'Val': values})
 df = pl.from_pandas(df)
+df.to_pandas()  # convert polars to pandas
 
 df.head()
 df.tail()
