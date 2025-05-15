@@ -60,6 +60,7 @@ df.group_by('Type').agg( pl.col('Val').map_elements(lambda x: x.mean(), return_d
 
 # Select command.
 df.filter( (pl.col('Type').is_in(['A', 'B'])) & (pl.col('Val') > 0) )
+df.filter( (pl.col('datetime')>pl.datetime(2024,1,31))  )
 
 # update
 df = df.with_column(pl.when(pl.col('Type') == 'A').then(pl.lit(100.0)).otherwise(pl.col('Val')).alias('Val') )
