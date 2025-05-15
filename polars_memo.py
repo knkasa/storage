@@ -27,7 +27,7 @@ df.rename({'old':'new'})
 df.clone() # deepcopy
 
 # change type.
-df = d.with_column(pl.col('Val').cast(pl.Float64))
+df = d.with_columns(pl.col('Val').cast(pl.Float64))
 
 # sorting.
 df.sort("Type", descending=True)
@@ -35,14 +35,14 @@ df.sort("Type", descending=True)
 # Apply method.
 def fun(x):
   return df['Val']*2
-df.with_column(pl.struct(["Type","Val"]).map_elements(fun,return_dtype=pl.Float64).alias("one") )
-#df.with_column(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
-#df.with_column(pl.col("Val").map_elements(lambda x: fun(x), return_dtype=pl.Float64).alias("one") ) This work too.
-df.with_column(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float64).alias("one") )
+df.with_columns(pl.struct(["Type","Val"]).map_elements(fun,return_dtype=pl.Float64).alias("one") )
+#df.with_columns(pl.col("Val").map_elements(fun, return_dtype=pl.Float64).alias("one") )
+#df.with_columns(pl.col("Val").map_elements(lambda x: fun(x), return_dtype=pl.Float64).alias("one") ) This work too.
+df.with_columns(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float64).alias("one") )
 
 # convert datetime
-df = df.with_column( pl.col('date').str.strptime(pl.Date, '%Y-%m-%d').alias('date') )
-df = df.with_column( pl.col('date').str.to_datetime('%Y-%m-%d').alias('date') )  # could use to_datetime('%Y-%m-%d %H:%M:%S')
+df = df.with_columns( pl.col('date').str.strptime(pl.Date, '%Y-%m-%d').alias('date') )
+df = df.with_columns( pl.col('date').str.to_datetime('%Y-%m-%d').alias('date') )  # could use to_datetime('%Y-%m-%d %H:%M:%S')
 
 # concat 
 df = df.concat( [df1, df2], how='vertical' ) 
@@ -67,7 +67,7 @@ df.filter( (pl.col('datetime')>pl.datetime(2024,1,31))  )
 df = df.with_column(pl.when(pl.col('Type') == 'A').then(pl.lit(100.0)).otherwise(pl.col('Val')).alias('Val') )
 df.with_columns( pl.lit(20.0).alias('new') ) 
 df.with_columns( pl.Series( npl.random.rand(num_rows) ).alias('new')
-df = df.with_column((pl.col("Val") * pl.col("Val")).alias("new"))
+df = df.with_columns((pl.col("Val") * pl.col("Val")).alias("new"))
 
 # deletion.
 df = df.drop(['B', 'C'])
