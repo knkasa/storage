@@ -8,6 +8,8 @@ num_records = 1_000_000
 types = np.random.choice(['A', 'B', 'C'], size=num_records)
 values = np.random.uniform(low=0.0, high=1000.0, size=num_records)
 
+df = pl.read_csv('xxxx.csv', columns=['col1', 'col2'] ) 
+
 df = pd.DataFrame({'Type': types,'Val': values})
 df = pl.from_pandas(df)
 
