@@ -42,6 +42,7 @@ df.with_column(pl.col("Val").map_elements(lambda x: x*2.0, return_dtype=pl.Float
 
 # convert datetime
 df = df.with_column( pl.col('date').str.strptime(pl.Date, '%Y-%m-%d').alias('date') )
+df = df.with_column( pl.col('date').str.to_datetime('%Y-%m-%d').alias('date') )  # could use to_datetime('%Y-%m-%d %H:%M:%S')
 
 # concat 
 df = df.concat( [df1, df2], how='vertical' ) 
