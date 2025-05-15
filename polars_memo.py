@@ -25,6 +25,9 @@ df['Val'].to_numpy()
 df.fill_nan(0)
 df.fill_null(0)
 
+# drop duplicates.
+df.unique('col1')   
+
 df.rename({'old':'new'})
 df.clone() # deepcopy
 
