@@ -49,6 +49,7 @@ df = df.concat( [df1, df2], how='vertical' )
 
 # Groupby
 result = df.group_by("col").agg([ pl.col("Val").mean().alias("mean_val"), ... ])
+df.group_by('col').agg( pl.count() ).alias('count_rows')
 
 # Groupby with custom function
 def fun2(x):
