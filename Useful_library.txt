@@ -233,6 +233,7 @@ Check if each groups yield similar output distributions. Examine each clusters.
 
 59. VScode recommended extensions.
 DocString generator. TestExplorer(run unit test), SpellChecker, GithubCopilot, VScodePDF(view pdf), ExcelView, BookMark(put checkpoint in code)
+Shortcut: Alt+click(multi cursor), Ctrl+F2(select all matched variable)
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
