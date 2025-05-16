@@ -1,4 +1,4 @@
-Run the command "python setup.py sdist bdist_wheel"
+Run the command "python setup.py sdist bdist_wheel"  (sdist is needed if you want .tar.gz file too)
 Get *.whl and *.gz files from /dist folder
 Run "pip install *.whl"
 Note requirements.txt is not required.
