@@ -101,6 +101,9 @@ python -m timeit   # measure runtime
 x = ['a', 'b']
 if 'a' in set(x):  if 'a' in {*x}:
 
+# Download python library folder.
+pip install <library_name> -t .
+
 #------------------------------------------------------------------------
 
 
