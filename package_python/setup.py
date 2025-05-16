@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/yourusername/your-repo',  # Optional
-    packages=find_packages(),              # Automatically find all packages
+    packages=find_packages(),              # Probably better to have this.  It will automatically find all folders in your module.
     install_requires=[                     # Dependencies
         'numpy>=1.20',
         'pandas',
