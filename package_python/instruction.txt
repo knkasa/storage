@@ -9,7 +9,7 @@ your_project/
 ├── setup.py
 ├── README.md
 ├── requirements.txt
-└── your_package_name/
+└── your_package_name/ (or the library you download from "pip install <library_namd> -t . "
     ├── __init__.py
     ├── module1.py
     └── module2.py
