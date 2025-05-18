@@ -91,6 +91,7 @@ lime
 omnixai(support tensorflow/pytorch, image/text data)
 interpretml(anaconda available)
 eli5(anaconda available)
+alibi
 
 20. TabNet
 https://qiita.com/matsuda_tkm/items/8a752534d671fb4e477a
