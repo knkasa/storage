@@ -75,6 +75,7 @@ df = df.with_column(pl.when(pl.col('Type') == 'A').then(pl.lit(100.0)).otherwise
 df.with_columns( pl.lit(20.0).alias('new') ) 
 df.with_columns( pl.Series( npl.random.rand(num_rows) ).alias('new')
 df = df.with_columns((pl.col("Val") * pl.col("Val")).alias("new"))
+df.with_columns( ( (pl.col('date1')-pl.col('date2')).dt.total_seconds()/24/3600 ).alias('diff_days')  # difference in days
 
 # deletion.
 df = df.drop(['B', 'C'])
