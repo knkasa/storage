@@ -56,6 +56,7 @@ Temporal convolutional network
 salesforce-merlion(similar to pycalet with lstm)
 tsfeature, tsfel (feature extraction)
 Moirai 
+Latent Gaussian mixture (pip install it)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
