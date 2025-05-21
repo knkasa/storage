@@ -41,10 +41,10 @@ fig.add_trace(go.Pie(
     direction='clockwise',
     sort=False,
     marker=dict(colors=colors),
-    textinfo='percent+label',
+    textinfo='percent',
     domain={'x': [0, 1], 'y': [0, 1]},
     showlegend=False,
-    textposition='inside',
+    textposition='inside', #auto
 ))
 
 fig.add_trace(go.Pie(
