@@ -13,6 +13,7 @@ calamine (reading excel file)
 Vaex (for big data)
 fireducks(faster, not the memory, can use pandas code)
 duckDB (use sql)
+pd.read_csv('xxxx.py', chucksize=10)
 
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
