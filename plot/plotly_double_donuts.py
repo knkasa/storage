@@ -42,7 +42,8 @@ fig.add_trace(go.Pie(
     sort=False,
     marker=dict(colors=colors),
     textinfo='percent',
-    domain={'x': [0, 1], 'y': [0, 1]},
+    domain={'x': [0.1, 0.9], 'y': [0.1, 0.9]}, # controle the size and position
+    scalegroup='donut',
     showlegend=False,
     textposition='inside', #auto
 ))
@@ -56,7 +57,7 @@ fig.add_trace(go.Pie(
     sort=False,
     marker=dict(colors=colors),
     textinfo='percent+label',
-    domain={'x': [0, 1], 'y': [0, 1]}
+    domain={'x': [0, 1], 'y': [0, 1]}, #control the size and position
 ))
 
 fig.update_layout(
