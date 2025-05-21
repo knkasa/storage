@@ -33,31 +33,30 @@ colors = [color_map[val] for val in inner['colA']]
 # Create the figure with two donut layers
 fig = go.Figure()
 
-# Outer ring: colB = 0
-fig.add_trace(go.Pie(
-    labels=outer['colA'],
-    values=outer['count'],
-    name='colB = 0',
-    hole=0.4,
-    direction='clockwise',
-    sort=False,
-    marker=dict(colors=colors),
-    textinfo='percent+label',
-    domain={'x': [0, 1], 'y': [0, 1]}
-))
-
-# Inner ring: colB = 1
 fig.add_trace(go.Pie(
     labels=inner['colA'],
     values=inner['count'],
     name='colB = 1',
-    hole=0.7,
+    hole=0.3,
     direction='clockwise',
     sort=False,
     marker=dict(colors=colors),
     textinfo='percent+label',
     domain={'x': [0, 1], 'y': [0, 1]},
-    showlegend=False
+    showlegend=False,
+    textposition='inside',
+))
+
+fig.add_trace(go.Pie(
+    labels=outer['colA'],
+    values=outer['count'],
+    name='colB = 0',
+    hole=0.7,
+    direction='clockwise',
+    sort=False,
+    marker=dict(colors=colors),
+    textinfo='percent+label',
+    domain={'x': [0, 1], 'y': [0, 1]}
 ))
 
 fig.update_layout(
