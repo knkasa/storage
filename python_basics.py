@@ -104,6 +104,13 @@ if 'a' in set(x):  if 'a' in {*x}:
 # Download python library folder.
 pip install <library_name> -t .
 
+# Use einstein notation
+np.einsum('ij -> jk', A, B)
+
+# datetime parser
+from dateutil import parser
+dt = parser.parse("7:19 AM on March 9th")
+
 #------------------------------------------------------------------------
 
 
