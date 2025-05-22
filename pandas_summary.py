@@ -74,7 +74,7 @@ combined_df['Open'].corr( combined_df['sentiment'])
 # List duplicate records.
 pd.concat( df for _, df in pd_ttl_data.groupby("utc_datetime") if len(df) > 1)
 df[ids.isin(ids[ids.duplicated()])].sort_values("ID")  # another way
-duplicate_mask = df.duplicated(subset=['col'])  # easier way
+df[ df.duplicated(subset=['col']) ]  # easier way
 
 # set column to index.
 df.set_index( 'utc_datetime', inplace=True ) 
