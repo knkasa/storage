@@ -47,14 +47,6 @@ data['new_col'] = data['col'].rank(pct=True, ascending=True)  # assign integer. 
 #change data type
 table[clist] = table[clist].astype(float)
 
-#apply original function with groupby
-data2 = data[['id','col2']].groupby(['id'], as_index=False).apply(lambda x: fun(x.col2)  )
-data3 = data[['id','col2']].groupby(['id']).agg([fun, lambda x: fun(x)  ]).copy()
-
-# apply function
-df['one'] = df['trade_status'].apply(lambda x: fun(x))
-df['one'] = df[['trade_status', 'another']].apply(lambda x: fun(x), axis=1 )
-
 # convert pandas column to datetime format
 table['col'] = pd.to_datetime(table.datetime_col )   # include "utc=True" option to set it UTC  (add .dt.date to convert to day)
 df['Time'] = df['Time'].astype('datetime64[ns]')   # if you end up with errors "Cannot compare tz-naive and tz-aware"
@@ -82,6 +74,7 @@ combined_df['Open'].corr( combined_df['sentiment'])
 # List duplicate records.
 pd.concat( df for _, df in pd_ttl_data.groupby("utc_datetime") if len(df) > 1)
 df[ids.isin(ids[ids.duplicated()])].sort_values("ID")  # another way
+duplicate_mask = df.duplicated(subset=['col'])  # easier way
 
 # set column to index.
 df.set_index( 'utc_datetime', inplace=True ) 
