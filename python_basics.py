@@ -110,6 +110,7 @@ np.einsum('ij -> jk', A, B)
 # datetime parser
 from dateutil import parser
 dt = parser.parse("7:19 AM on March 9th")
+df['col'].apply(lambda x: parser.parse(x))  # for pandas
 
 #------------------------------------------------------------------------
 
