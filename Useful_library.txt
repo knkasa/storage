@@ -235,6 +235,12 @@ Check if each groups yield similar output distributions. Examine each clusters.
 DocString generator. TestExplorer(run unit test), SpellChecker, GithubCopilot, VScodePDF(view pdf), ExcelView, BookMark(put checkpoint in code)
 Shortcut: Alt+click(multi cursor), Ctrl+F2(select all matched variable)
 
+60. modify pandas dataframe from browser.
+dtale
+
+61. check model/data drift
+evidently
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
