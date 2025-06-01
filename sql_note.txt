@@ -13,6 +13,11 @@ SELECT customer_id, SUM(quantity) AS total_quantity
   GROUP BY customer_id
   HAVING SUM(quantity) >= 50
 
+#Drop duplicate rows 
+select col1, col2, min(col3)
+from table 
+group by col1, col2
+
 # Sort
 SELECT * FROM table_name ORDER BY column1 DESC
 
