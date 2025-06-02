@@ -106,6 +106,7 @@ Gaussian process
 Bayesian deep learning(pyro)
 pymc (implement MCMC)
 tensorflow probability(see bayesian_network repository)
+NGboost (see bayesian_network repository/ngboost_example.py)
 
 23. Finetune with ORPO, new technique.
 https://huggingface.co/blog/mlabonne/orpo-llama-3
