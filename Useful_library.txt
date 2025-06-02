@@ -105,7 +105,7 @@ https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-w
 Gaussian process
 Bayesian deep learning(pyro)
 pymc (implement MCMC)
-tensorflow probability
+tensorflow probability(see bayesian_network repository)
 
 23. Finetune with ORPO, new technique.
 https://huggingface.co/blog/mlabonne/orpo-llama-3
