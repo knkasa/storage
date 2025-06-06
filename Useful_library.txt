@@ -59,6 +59,9 @@ tsfeature, tsfel (feature extraction)
 Moirai 
 Latent Gaussian mixture (pip install it)
 
+12. loss function for timeseries preds.
+huber(good for outlier), quantile loss(interval pred)
+
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
 https://medium.com/@evertongomede/a-comparative-analysis-of-dimensionality-reduction-techniques-in-machine-learning-3389c5103348
