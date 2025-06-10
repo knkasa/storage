@@ -141,7 +141,8 @@ https://rstudio-pubs-static.s3.amazonaws.com/282387_0cc72775dbc7433b800fe669a49c
 
 30. Automate web browsing with python.
 selenium
-parcel 
+parcel
+pydoll 
 
 31. fix format in VScode.
 black
