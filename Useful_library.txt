@@ -124,8 +124,8 @@ Mann-Kendall test: Find upward/downward trend.
 Anderson-Darling test: Check if the data follow normal gaussian distribution.
 Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 
-25. Pydantic
-Allows you to setup datafame with custom default.
+25. clustering 
+BIRCH (works for big data )
 
 27. Mamba, the new neural network that is better than transformer.
     Mamba, package installer that is faster than anaconda.  
