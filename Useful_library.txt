@@ -44,7 +44,7 @@ Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast(ensemble with classical models)
 TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama, Nixtla(include Nbeats), Darts(include Nbeats)
-neuralforecast(includes LSTM, Nbeats, TimeXer, temporal fusion transformer.  Available through conda)
+neuralforecast(includes LSTM, Nbeats, TimeXer, temporal fusion transformer, timesnet(maybe best).  Available through conda)
 Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
