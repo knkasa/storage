@@ -48,6 +48,11 @@ data['new_col'] = data['col'].rank(pct=True, ascending=True)  # assign integer. 
 #change data type
 table[clist] = table[clist].astype(float)
 
+# datetime parser
+from dateutil import parser
+dt = parser.parse("7:19 AM on March 9th")
+df['col'].apply(lambda x: parser.parse(x))  # for pandas
+
 # convert pandas column to datetime format
 table['col'] = pd.to_datetime(table.datetime_col )   # include "utc=True" option to set it UTC  (add .dt.date to convert to day)
 df['Time'] = df['Time'].astype('datetime64[ns]')   # if you end up with errors "Cannot compare tz-naive and tz-aware"
