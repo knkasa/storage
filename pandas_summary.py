@@ -24,9 +24,10 @@ df.fillna(0, inplace=True)
 
 #---------------------------------------------------------------------------
 
-# normalize data
-normalized_df=(df-df.mean())/df.std()
-normalized_df=(df-df.min())/(df.max()-df.min())
+# standardize only numeric columns
+binary_cols = [col for col in df.columns if df[col].dropna().isin([0.0, 1.0]).all and df[col].dtypes=='float']
+float_cols = df.select_dtypes(include='float').columns.difference(binary_cols)
+scaler.fit_transform(df[float_cols])
 
 # If need to make it categorical
 pd.get_dummies(input_data, columns=['xx','yyy'] )
