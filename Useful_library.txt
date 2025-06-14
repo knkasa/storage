@@ -56,7 +56,7 @@ Neural ODE with LSTM.(see repo)
 Temporal convolutional network 
 salesforce-merlion(similar to pycalet with lstm)
 tsfeature, tsfel (feature extraction)
-Moirai 
+Moirai, TimeXL
 Latent Gaussian mixture (pip install it)
 
 12. loss function for timeseries preds.
