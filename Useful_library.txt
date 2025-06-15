@@ -247,6 +247,9 @@ dtale
 61. check model/data drift
 evidently
 
+62. GAM.  Linear combination of spline function for non-linear regression.
+Pygam
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
