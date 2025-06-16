@@ -61,6 +61,8 @@ Latent Gaussian mixture (pip install it)
 
 12. loss function for timeseries preds.
 huber(good for outlier), quantile loss(interval pred)
+focal loss (imbalance binary class)
+KL divergence entropy loss (output is probability distribution)
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
