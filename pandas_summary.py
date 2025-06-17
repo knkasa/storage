@@ -25,7 +25,10 @@ df.fillna(0, inplace=True)
 #---------------------------------------------------------------------------
 
 # standardize only numeric columns
-binary_cols = [col for col in df.columns if df[col].dropna().isin([0.0, 1.0]).all and df[col].dtypes=='float']
+for col in df.columns:
+   if df[col].dtype('int64'):
+      df[col] = df[col].astype('float')
+binary_cols = [col for col in df.columns if df[col].dropna().isin([0, 1]).all]
 float_cols = df.select_dtypes(include='float').columns.difference(binary_cols)
 scaler.fit_transform(df[float_cols])
 
