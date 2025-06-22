@@ -128,6 +128,7 @@ Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 
 25. clustering 
 BIRCH (works for big data )
+Gaussian mixture 
 
 27. Mamba, the new neural network that is better than transformer.
     Mamba, package installer that is faster than anaconda.  
