@@ -19,9 +19,7 @@ os.path.normpath(r"C:\xxx\yyy").replace(os.sep, '/')
 # run unix command
 os.system('ls')
 
-# Create list in one line 
-vec = [ x*2 for x in range(10) ]  
-vec = [ *range(0,10,1) ]  # also work.   
+# Create list in one line    
 [4 if x==1 else x for x in a]   # using if.
    
 # Check class variables.  use  locals() or globals() to check list of variables
@@ -37,10 +35,7 @@ os.system('cls')
 # use "globals()" "del xxx" "gc.collect()" "tf.keras.backend.clear_session()" to clear memory. 
 
  # get unique list
-set(['a','b','a'])    
-
-# Convert dictionary to string with delimeter "__"
-"__".join(["=".join([key, str(val)]) for key, val in dic.items()])  
+set(['a','b','a'])   
 
 # Upload files in google colab. For exporting, see https://stackoverflow.com/questions/53898836/export-dataframe-as-csv-file-from-google-colab-to-google-drive
 from google.colab import files   files.upload()   
@@ -97,10 +92,6 @@ Path('__file__').resolve().parent
 python -i my_script.py  # debug
 python -m timeit   # measure runtime
 
-# Check if element exists in list.
-x = ['a', 'b']
-if 'a' in set(x):  if 'a' in {*x}:
-
 # Download python library folder.
 pip install <library_name> -t .
 
@@ -111,6 +102,9 @@ np.einsum('ij -> jk', A, B)
 from dateutil import parser
 dt = parser.parse("7:19 AM on March 9th")
 df['col'].apply(lambda x: parser.parse(x))  # for pandas
+
+# look for files.
+glob.glob("**/*.csv")
 
 #------------------------------------------------------------------------
 
