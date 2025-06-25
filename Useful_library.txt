@@ -253,6 +253,10 @@ evidently
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
 
+*******
+63. Haystack, Best for setting up documents RAG for LLM.
+*******
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
