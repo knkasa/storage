@@ -257,6 +257,10 @@ Pygam
 63. Haystack, Best for setting up documents RAG for LLM.
 *******
 
+64. LLM related.
+fastembed=embedding library(alternative to huggingface)
+promptify=use LLM to get entities from sentence.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
