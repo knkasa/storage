@@ -261,6 +261,9 @@ Pygam
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities from sentence.
 
+65. JAX
+faster Numpy
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
