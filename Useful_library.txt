@@ -264,6 +264,12 @@ promptify=use LLM to get entities from sentence.
 65. JAX
 faster Numpy
 
+66. hyper parameter optimizaiton
+keras_tuner
+
+67. Alternative to synthetic did
+causalpy
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
