@@ -1,7 +1,7 @@
 Useful python package.
 
 1. For improving speed of runtime.
-Numba, cython(needs complilation), pypy
+Numba, cython(needs complilation), pypy, jax(improved numpy)
 
 2. pandas alternative.
 dask(good for parallel, memory too)
