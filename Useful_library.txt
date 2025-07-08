@@ -18,6 +18,7 @@ pd.read_csv('xxxx.py', chucksize=10)
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
 fastai(deeplearning)
+Autogluon 
 
 6. automatically find number of cluster.
 affinity propagation 
