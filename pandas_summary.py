@@ -136,6 +136,14 @@ df.equals(df2)
 df.compare(df2)
 
 # For big file, save it in parquet, or zip file. (pckel may not be good)
+
+df = pd.read_csv(
+    "orders.csv",
+    dtype=dtype_map,
+    usecols=["date", "total_amount", "product"],
+    parse_dates=["date"],
+    infer_datetime_format=True
+    )
   
 #-----------------------------------------------------------------------------------------------------------------
 
