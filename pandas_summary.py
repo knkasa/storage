@@ -139,7 +139,7 @@ df.compare(df2)
 
 df = pd.read_csv(
     "orders.csv",
-    dtype=dtype_map,
+    dtype={'colA':'int16'},
     usecols=["date", "total_amount", "product"],
     parse_dates=["date"],
     infer_datetime_format=True
