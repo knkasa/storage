@@ -100,6 +100,7 @@ omnixai(support tensorflow/pytorch, image/text data)
 interpretml(anaconda available)
 eli5(anaconda available)
 alibi
+captum (for pytorch)
 
 20. make classification output probability 
 calibrated classification 
