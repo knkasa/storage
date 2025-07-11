@@ -20,9 +20,6 @@ mlxtend, PyCaret, AutoML H2O,
 fastai(deeplearning)
 Autogluon 
 
-6. automatically find number of cluster.
-affinity propagation 
-
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
 
@@ -129,6 +126,7 @@ Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 25. clustering 
 BIRCH (works for big data )
 Gaussian mixture 
+Affinity propagation (automatically find number of cluster.)
 
 27. Mamba, the new neural network that is better than transformer.
     Mamba, package installer that is faster than anaconda.  
@@ -153,9 +151,6 @@ ruff
 
 32. decorator to minimize memory.
 lru_cashe
-
-33. Visualization.
-Basic: matplotlib, Seaborn, Altair
 
 34. NLP purging, classification, that can integrate with tensorflow, pytorch.
 spacy
@@ -242,7 +237,7 @@ Check if each groups yield similar output distributions. Examine each clusters.
 
 59. VScode recommended extensions.
 DocString generator. TestExplorer(run unit test), SpellChecker, GithubCopilot, VScodePDF(view pdf), ExcelView, BookMark(put checkpoint in code)
-Shortcut: Alt+click(multi cursor), Ctrl+F2(select all matched variable)
+Shortcut: Alt+click(multi cursor), Ctrl+F2(select all matched variable), Edit excel
 
 60. modify pandas dataframe from browser.
 dtale
@@ -269,6 +264,9 @@ keras_tuner
 
 67. Alternative to synthetic did
 causalpy
+
+68. debug code (it prints out every line of codes)
+snoop
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
