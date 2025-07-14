@@ -255,6 +255,8 @@ Pygam
 64. LLM related.
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities from sentence.
+deepeval=test LLM performance
+sentence_transformer(library)
 
 65. JAX
 faster Numpy
@@ -271,6 +273,9 @@ snoop
 69. Impute missing values
 KNN imputation
 missingno(library)
+
+70. web app
+gradio
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
