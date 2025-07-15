@@ -217,6 +217,7 @@ python-pptx
 
 53. Generate synthetic data using statistics.
 Copula
+Variational autoencoder 
 
 54. Parse PDF, DOCX, HTML.
 docling
