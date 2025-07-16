@@ -2,6 +2,7 @@ Useful python package.
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy, jax(improved numpy)
+JAX(same as numpy but faster)
 
 2. pandas alternative.
 dask(good for parallel, memory too)
@@ -259,13 +260,13 @@ promptify=use LLM to get entities from sentence.
 deepeval=test LLM performance
 sentence_transformer(library)
 
-65. JAX
-faster Numpy
+65. check which probability distribution fits with your data
+distfit
 
 66. hyper parameter optimizaiton
 keras_tuner
 
-67. Alternative to synthetic did
+67. Alternative to synthetic did(synthetic control)
 causalpy
 
 68. debug code (it prints out every line of codes)
@@ -277,6 +278,8 @@ missingno(library)
 
 70. web app
 gradio
+
+
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
