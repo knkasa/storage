@@ -279,7 +279,8 @@ missingno(library)
 70. web app
 gradio
 
-
+71. Tabular Transformer (deep learning)
+ft transformer
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
