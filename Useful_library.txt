@@ -246,6 +246,7 @@ dtale
 
 61. check model/data drift
 evidently
+dro (crate model that is robust to data drift)
 
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
