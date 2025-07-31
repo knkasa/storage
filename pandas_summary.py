@@ -35,9 +35,6 @@ scaler.fit_transform(df[float_cols])
 # If need to make it categorical
 pd.get_dummies(input_data, columns=['xx','yyy'] )
 
-# check if two dataframes are equal.
-df.equals(df2)
-
 # change column name
 df.columns = ['xx','yy'].copy()    # use copy() when you see warning "value trying to be set on copy of dataframe ..."
 df=df.rename(columns = {'two':'new_name'})   # change only specific column names.  
@@ -65,11 +62,6 @@ df['event_occurrence'].dt.to_period('M')  # aggregate dat to monthly "M".
 
 # divide dataframe by series
 df2.div( df['bid_close'], axis=0 )
-
-# appending records(rows)
-data = pd.DataFrame(columns=['col1',cos2'])
-dic = { 'col1':1 , 'col2':12 }
-data = data.append( dic, ignore_index=True ) 
 
 # Mapping using dictionary to add column.
 df['b_labels'] = df['labels'].map({'ham': 0, 'spam': 1})
@@ -135,8 +127,6 @@ df1 == df2
 df.equals(df2)
 df.compare(df2)
 
-# For big file, save it in parquet, or zip file. (pckel may not be good)
-
 df = pd.read_csv(
     "orders.csv",
     dtype={'colA':'int16'},
@@ -144,7 +134,12 @@ df = pd.read_csv(
     parse_dates=["date"],
     infer_datetime_format=True
     )
-  
+
+df.groupby("region").agg(
+    total_sales=("sales", "sum"),
+    avg_price=("price", "mean")
+    )
+
 #-----------------------------------------------------------------------------------------------------------------
 
 # select rows with condition
