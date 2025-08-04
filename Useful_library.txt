@@ -223,6 +223,7 @@ Variational autoencoder
 54. Parse PDF, DOCX, HTML.
 docling
 SmolDocling(small LLM that can parse documents)
+pdfplumber 
 
 55. Hinge Loss function.
 used for binary classification.  It tends to put hard threashold than binary cross entropy. (No need to put threashold by users)
@@ -288,5 +289,6 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
