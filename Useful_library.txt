@@ -145,6 +145,7 @@ https://rstudio-pubs-static.s3.amazonaws.com/282387_0cc72775dbc7433b800fe669a49c
 selenium
 parcel
 pydoll 
+playwright (Microsoft)
 
 31. fix format in VScode.
 black
@@ -289,6 +290,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
