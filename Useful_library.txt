@@ -285,11 +285,15 @@ gradio
 71. Tabular Transformer (deep learning)
 ft transformer
 
+72. Predict survival time.
+CoxPHfilter (see cox_suvival_regression.py)
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
