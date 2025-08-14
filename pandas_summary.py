@@ -126,6 +126,7 @@ df.query('col==@var') # if using variable. var='A'
 df1 == df2
 df.equals(df2)
 df.compare(df2)
+df1[ ~df1.apply(tuple, axis=1).isin(df2.apply(tuple, axis=1))]  # rows that exist in df1 but not in df2.
 
 df = pd.read_csv(
     "orders.csv",
@@ -187,4 +188,5 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
