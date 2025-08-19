@@ -60,9 +60,6 @@ df['utc_datetime'].dt.date   # convert to date
 df['created_time'].dt.strftime('%Y-%m')   # convert year-month format
 df['event_occurrence'].dt.to_period('M')  # aggregate dat to monthly "M".  
 
-# divide dataframe by series
-df2.div( df['bid_close'], axis=0 )
-
 # Mapping using dictionary to add column.
 df['b_labels'] = df['labels'].map({'ham': 0, 'spam': 1})
 
@@ -102,6 +99,10 @@ df.pipe(func1).pipe(func2)
 
 # pivot table.
 df2 = df2.pivot( index='Year', columns='State', values='PacksPerCapita' )
+pd.melt(df, id_vars=["student"], value_vars=["math", "science", "english"],
+    var_name="subject",         # Name for the new variable column
+    value_name="score"          # Name for the new value column
+   )
 
 # Create histogram dataframe.
 histogram = pd.cut( df[col], bins=[0, 10, 20, float('inf')], right=False)  # bin range, [0,10) [10, 20) ...
@@ -109,11 +110,7 @@ histogram_df = pd.value_counts(histogram).reset_index()
 histogram_df.columns = ['bin','freq']
  
 # Append rows.
-df = pd.DataFrame( columns=['col1', 'col2'] )
-row = pd.DataFrame({ 'col1':val1, 'col2':val2 }, index=[n])
 df = pd.concat( [df, row], igonore_index=True )
-
-# Use convert_dtype() to convert data type.
   
 # Use groupby into lists.
 df.groupby(['col']).agg( {'colX': lambda x: list(x)} )
@@ -136,10 +133,8 @@ df = pd.read_csv(
     infer_datetime_format=True
     )
 
-df.groupby("region").agg(
-    total_sales=("sales", "sum"),
-    avg_price=("price", "mean")
-    )
+# Use of agg()
+df.groupby("region").agg(total_sales=("sales", "sum"),avg_price=("price", "mean"))
 
 # Efficient pandas trick.
 #change datatype to float32. Use category type for groupby
@@ -194,6 +189,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
