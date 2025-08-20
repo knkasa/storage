@@ -142,6 +142,8 @@ df.query(" colA>20 and colB<40", engine="numexpr")
 # use index column when merging.
 df.groupby(['col'], sort=False)  # use sort=False
 
+# Use fugue library to run spark, ray, ... using pandas.
+
 #-----------------------------------------------------------------------------------------------------------------
 
 # select rows with condition
@@ -189,6 +191,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
