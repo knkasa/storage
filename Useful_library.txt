@@ -25,8 +25,6 @@ Autogluon
 8. Categorical data for clustering. Kmodes method.
 from kmodes.kmodes import KModes
 
-9. duckDB for creating local DB.
-
 10. Extracting tables from pdf file.
 pymupdf, tabula
 
@@ -266,6 +264,7 @@ fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities from sentence.
 deepeval=test LLM performance
 sentence_transformer(library)
+keras_nlp=like AI function in Fabric (Bert, gpt available)
 
 65. check which probability distribution fits with your data
 distfit
@@ -297,6 +296,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
