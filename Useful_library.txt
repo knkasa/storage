@@ -169,6 +169,7 @@ featuretools
 
 37. Extract texts from image.t
 eacyocr, Doctr, Keras-OCR, GOCR, Tesseract, 
+easyOCR (use pytorch)
 
 38. Create pdf, word, documents.
 sphinx, mkdocs, 
@@ -296,6 +297,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
