@@ -265,6 +265,7 @@ promptify=use LLM to get entities from sentence.
 deepeval=test LLM performance
 sentence_transformer(library)
 keras_nlp=like AI function in Fabric (Bert, gpt available)
+fugashi (japanese spacy)
 
 65. check which probability distribution fits with your data
 distfit
@@ -296,6 +297,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
