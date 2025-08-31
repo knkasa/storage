@@ -221,7 +221,7 @@ Copula
 Variational autoencoder 
 
 54. Parse PDF, DOCX, HTML.
-docling
+docling(convert pdf, word, ppt, image to json or html)
 SmolDocling(small LLM that can parse documents)
 pdfplumber 
 pymupdf(extract image, texts)
@@ -296,6 +296,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
