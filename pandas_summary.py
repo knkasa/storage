@@ -34,6 +34,7 @@ scaler.fit_transform(df[float_cols])
 
 # If need to make it categorical
 pd.get_dummies(input_data, columns=['xx','yyy'] )
+onehot( min_freq=0.1) #set it to same category if rare.
 
 # change column name
 df.columns = ['xx','yy'].copy()    # use copy() when you see warning "value trying to be set on copy of dataframe ..."
@@ -197,6 +198,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
