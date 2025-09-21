@@ -183,6 +183,7 @@ df['cumsum'] = df.groupby(['col1'], as_index=False)['val_col'].apply(lambda x: x
 df['cumsum'] = df.groupby(['name'])['no'].cumsum()
 df['new'] = df.iloc[:,3:5].mean(axis=1)    # take average of different columns values
 df.loc[ (df['utc_datetime']>time),  'colx' ] = last_order  # update with condition
+df['colX'] = np.where( df['colA']>100, 'Pass', 'Fail' )
 
 # delete
 df.drop(columns=['B', 'C'], axis=1)  
@@ -201,6 +202,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
