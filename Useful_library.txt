@@ -166,9 +166,12 @@ helium
 36. Feature engineering (create columns with x1+x2, x1-x2, ...)
 featuretools
 
-37. Extract texts from image.t
-eacyocr, Doctr, Keras-OCR, GOCR, Tesseract, 
-easyOCR (use pytorch)
+37. OCR: Extract texts from image
+Tesseract= Mature, multilingual, widely used | Struggles with handwriting
+EasyOCR=Lightweight, deep learning-based | Slightly less accurate for PDFs
+OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
+Keras-OCR=Customizable, end-to-end pipeline | More complex setup
+DocTR=Modern, scalable, handwriting OK  | Larger dependencies
 
 38. Create pdf, word, documents.
 sphinx, mkdocs, 
@@ -304,6 +307,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
