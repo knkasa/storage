@@ -100,6 +100,7 @@ captum (for pytorch)
 
 20. make classification output probability 
 calibrated classification 
+venn-abers 
 
 21.  Dealing with imbalance target data for classification model
 use class_weight
@@ -307,6 +308,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
