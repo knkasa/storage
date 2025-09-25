@@ -257,7 +257,8 @@ dtale
 
 61. check model/data drift
 evidently
-dro (crate model that is robust to data drift)
+dro (create model that is robust to data drift)
+NannyML(looks for distribution, roc curve, etc to check data drift)
 
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
@@ -309,6 +310,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
