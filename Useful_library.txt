@@ -305,11 +305,15 @@ ft transformer
 72. Predict survival time.
 CoxPHfilter (see cox_suvival_regression.py)
 
+73. TabPFN
+tabpfn: works well for small data.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
