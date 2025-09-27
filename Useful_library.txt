@@ -305,14 +305,19 @@ ft transformer
 72. Predict survival time.
 CoxPHfilter (see cox_suvival_regression.py)
 
-73. TabPFN
+73. model for small dataset.
 tabpfn: works well for small data.
+
+74. Image
+cv2=let you find edges in image.
+imagehash=let you tell two images are similar.
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
