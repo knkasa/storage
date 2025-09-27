@@ -154,6 +154,10 @@ pd.read_parquet(DATA / "sales.parquet", filters=[("ym", ">=", "2025-08")])
 export OMP_NUM_THREADS=8
 export MKL_NUM_THREADS=8
 
+# Turn list into separate rows.
+events = pd.DataFrame({ "user": [1, 2],  "tags": [["login","search"], ["signup","browse","purchase"]]})
+exploded = events.explode("tags", ignore_index=True)
+
 #-----------------------------------------------------------------------------------------------------------------
 
 # select rows with condition
@@ -202,6 +206,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
