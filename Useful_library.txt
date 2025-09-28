@@ -279,6 +279,7 @@ LangExtract=extract entity and related words (eg. symptom:diabetes)
 polygot: entity extraction 
 Use markitdown to convert pdf, excel... and let LLM handle
 scenexplain=let LLM explain image.
+tiktoken=count number of tokens.
 
 65. check which probability distribution fits with your data
 distfit
@@ -317,6 +318,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
