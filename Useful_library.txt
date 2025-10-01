@@ -55,6 +55,11 @@ tsfeature, tsfel (feature extraction)
 Moirai, TimeXL
 Latent Gaussian mixture (pip install it)
 
+Timeseries metric 
+STL decomposition = metric that includes rmse plus direction.
+another metric=rmse+residual 
+
+
 12. loss function for.
 huber(good for outlier)
 focal loss (imbalance binary class)
@@ -319,6 +324,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
