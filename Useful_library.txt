@@ -55,10 +55,14 @@ tsfeature, tsfel (feature extraction)
 Moirai, TimeXL
 Latent Gaussian mixture (pip install it)
 
-12. loss function for timeseries preds.
-huber(good for outlier), quantile loss(interval pred)
+12. loss function for.
+huber(good for outlier)
 focal loss (imbalance binary class)
 KL divergence entropy loss (output is probability distribution)
+
+55. Hinge Loss function.
+used for binary classification.  It tends to put hard threashold than binary cross entropy. (No need to put threashold by users)
+Quantile loss=puts confidence interval for timeseries predictions.
 
 13. Dimensionality reduction.
 UMAP, PaCMAP, TSNE, EncodeDecoder(see my code dimension_reduction_EncodeDecoder.py)
@@ -235,9 +239,6 @@ pdfplumber
 pymupdf(extract image, texts)
 tabula(extract table)
 
-55. Hinge Loss function.
-used for binary classification.  It tends to put hard threashold than binary cross entropy. (No need to put threashold by users)
-
 56. Japanese Tokenizer from Conda Install.
 sudachipy, fugashi, konoha
 
@@ -318,6 +319,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
