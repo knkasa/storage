@@ -319,11 +319,15 @@ tabpfn: works well for small data.
 cv2=let you find edges in image.
 imagehash=let you tell two images are similar.
 
+# How to run LightGBM with GPU.
+see lightgbm_gpu_usage.py
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
