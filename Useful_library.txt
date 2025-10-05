@@ -256,6 +256,8 @@ evidently
 dro (create model that is robust to data drift)
 NannyML(looks for distribution, roc curve, etc to check data drift)
 see plot/model_performance_check_graph.py
+PAI=check two distributions look similar.
+cramersV=chevk two categorical features look similar.
 
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
@@ -321,6 +323,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
