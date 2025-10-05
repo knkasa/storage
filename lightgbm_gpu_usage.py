@@ -11,6 +11,7 @@ params = {
     'objective': 'regression',
     'metric': 'rmse',
     'device_type': 'gpu',  # The equivalent of XGBoost's tree_method
+    'is_unbalance'=True,  #alternatively use scale_pis_weight
 }
 
 # 2. Train the model
