@@ -318,6 +318,9 @@ Anormaly detection, feature dimension reduction, remove noise from images. (see 
 
 76. fixed_effect_model.py
 
+77. check CPU and RAM 
+see check_memory.py
+
 # How to run LightGBM with GPU.
 see lightgbm_gpu_usage.py
 
@@ -326,6 +329,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
