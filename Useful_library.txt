@@ -39,7 +39,7 @@ AutoGluon(Amazon, similar to Pycaret.  Chronos(LLM zeroshot forecasting) )
 Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast(ensemble with classical models)
-TimeFM, xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama, Nixtla(include Nbeats), Darts(include Nbeats)
+TimeFM(see timsFM-test.py), xLSTM,   N-beats, NHITS, PatchTST, TSMixer, SOFTS, LagLlama, Nixtla(include Nbeats), Darts(include Nbeats)
 neuralforecast(includes LSTM, Nbeats, TimeXer, temporal fusion transformer(maybe best), timesnet(maybe best).  Available through conda)
 Liquid neural network(see repo)
 xLSTM, TimeFM.  (New timeseries model by Google)
@@ -323,6 +323,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
