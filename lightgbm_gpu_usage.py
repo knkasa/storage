@@ -12,7 +12,9 @@ params = {
     'metric': 'rmse',
     'device_type': 'gpu',  # The equivalent of XGBoost's tree_method
     'is_unbalance'=True,  #alternatively use scale_pis_weight
-}
+    'min_split_gain':0.1,  # minimum value required in error gain before making further split.
+
+    }
 
 # 2. Train the model
 lgb_model = lgb.train(
