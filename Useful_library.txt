@@ -329,11 +329,15 @@ stable baseline 3
 Rlib
 pettingZoo (for multi-agents, works well with Rlib & stableBaseline3)
 
+79. mean absolute deviation 
+standard deviation that is not affected by outlier 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
