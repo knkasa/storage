@@ -144,6 +144,7 @@ df.groupby("region").agg(total_sales=("sales", "sum"),avg_price=("price", "mean"
 df.query(" colA>20 and colB<40", engine="numexpr")
 # use index column when merging.
 df.groupby(['col'], sort=False)  # use sort=False
+df[ df['colA'].between(200, 500)]
 
 # filter rows when loading parquet
 pd.read_parquet(DATA / "sales.parquet", filters=[("ym", ">=", "2025-08")])
@@ -206,6 +207,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
