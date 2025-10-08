@@ -6,6 +6,13 @@ import cupy as cp
 gdf = cudf.read_csv('massive_data.csv')
 X_gpu = gdf.drop(target_col, axis=1).values # CuPy array on GPU
 
+lgb_train = lgb.Dataset(
+    data=train_df[feature_columns + categorical_features], 
+    label=train_df["Overdue_Days"], 
+    weight=abs(train_df["target"]),  # use this when you you want to put weights on high value target.  you may choose any feature col instead of target.
+    categorical_feature=categorical_features
+    )
+
 # 1. Define the parameters
 params = {
     'objective': 'regression',
