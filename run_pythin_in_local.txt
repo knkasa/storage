@@ -4,6 +4,6 @@ WinPython (https://winpython.github.io)
 Cd into python.exe folder
 
 Option : Use an alternate index (conda-forge or mirror)
-python -m pip install （--user） pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple  --target="C:\Users\中務健\Desktop\WPy64-312101_test\python\Lib\site-packages"
+python -m pip install  pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple  --target="C:\Users\中務健\Desktop\WPy64-312101_test\python\Lib\site-packages"
 
 python -m pip install pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --target="C:\Users\中務健\Desktop\WPy64-312101_test\python\Lib\site-packages"
