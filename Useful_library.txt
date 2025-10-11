@@ -297,6 +297,7 @@ snoop
 69. Impute missing values
 KNN imputation
 missingno(library)
+MICE 
 
 70. web app
 gradio
@@ -341,5 +342,6 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
