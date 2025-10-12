@@ -287,7 +287,9 @@ unsloth=use this to speed up fine-tuning and less memory.
 distfit
 
 66. hyper parameter optimizaiton
+optuna 
 keras_tuner
+trackio 
 
 67. Alternative to synthetic did(synthetic control)
 causalpy
@@ -343,6 +345,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
