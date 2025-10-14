@@ -227,6 +227,9 @@ Chaterjee correlation
 52. Create powerpoint.
 python-pptx
 
+52. Create pdf, PowerPoint using markdown.
+mark 
+
 53. Generate synthetic data using statistics.
 Copula
 Variational autoencoder 
@@ -345,6 +348,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
