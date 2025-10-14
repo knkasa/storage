@@ -286,6 +286,9 @@ tiktoken=count number of tokens.
 TimeCopilot=LLM that can run models like TimesFM to make forecasting.
 unsloth=use this to speed up fine-tuning and less memory.
 
+65. Embedding for images.
+lightly 
+
 65. check which probability distribution fits with your data
 distfit
 
@@ -348,6 +351,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
