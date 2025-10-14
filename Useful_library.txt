@@ -272,6 +272,7 @@ fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities+description from sentence.
 deepeval=test LLM performance
 sentence_transformer(library)
+
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi (japanese spacy)
 crewAI, Autogen (for multi-agents)
@@ -345,6 +346,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
