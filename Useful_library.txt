@@ -180,9 +180,6 @@ OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
 Keras-OCR=Customizable, end-to-end pipeline | More complex setup
 DocTR=Modern, scalable, handwriting OK  | Larger dependencies
 
-38. Create pdf, word, documents.
-sphinx, mkdocs, 
-
 39. Manipulate Excel.
 pyexcel
 
@@ -192,9 +189,6 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 41. Reduce dimension in linear regression.
 Eliminate features with VIF, then check adjusted R2 doesn't change much.  Repeat until VIF are all less than 5.
 Eliminate features with high p value and check adjusted R2 increase. (backward elimination)
-
-42. Create document.
-sphinx
 
 43. Anaconda archive package.
 https://repo.anaconda.com/archive/
@@ -229,6 +223,12 @@ python-pptx
 
 52. Create pdf, PowerPoint using markdown.
 mark 
+
+52. Create pdf, word, documents.
+mkdocs 
+
+52. Create document in html.
+sphinx
 
 53. Generate synthetic data using statistics.
 Copula
@@ -348,6 +348,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
