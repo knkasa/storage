@@ -4,6 +4,30 @@ WinPython (https://winpython.github.io)
 Cd into python.exe folder
 
 Option : Use an alternate index (conda-forge or mirror)
-python -m pip install  pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple  --target="C:\Users\中務健\Desktop\WPy64-312101_test\python\Lib\site-packages"
+You will bump into errors if required libraries are missing(eg. Six, numpy, …).  If so, install them before you install your library(pandas)
 
-python -m pip install pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --target="C:\Users\中務健\Desktop\WPy64-312101_test\python\Lib\site-packages"
+python -m pip install  pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+--target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
+
+(If above don't work, try below)
+python -m pip install pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
+
+(Try without cache files)
+python -m pip install  playwright  --no-cache-dir   --index-url https://pypi.tuna.tsinghua.edu.cn/simple --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
+
+---------- Playwright instruction ----------------------------------
+After installing playwright,
+(Install browser for playwright)
+set PLAYWRIGHT_BROWSERS_PATH=C:\Users\中務健\Desktop\python_env_playwright
+python -m playwright install   (cd into where python.exe file is)
+python -m playwright install  chromium
+
+(If you want to use your own browser)
+・python -m playwright codegen --browser=chromium --channel=msedge --target=python https://www.wikipedia.org/
+・python -m playwright codegen https://www.wikipedia.org/ (If Browser is installed successfully)
+----------------------------------------------------------------
+
+Using PyInstaller, run the command. Assuming pyinstaller is installed.
+python -m PyInstaller   C:\Users\中務健\Desktop\test2\test2.py
+
+ C:\Users\中務健\AppData\Local\
