@@ -125,7 +125,8 @@ https://huggingface.co/blog/mlabonne/orpo-llama-3
 24. t-test(two continuous data that are different or not, assume Gaussian distribution)
 Permutation test: same as t-test, but does not assume Gaussian distribution.
 chi-squared test(two categorical data that are different or not)(one binary data that are different from expected ratio(50:50) or not)
-Anova test(three continuous data that are different or not)
+Anova test(three or more continuous data. one group is different from othes)
+Turkey (three or more continuous data.  more than two data are different from othes)
 cramersV=correlation for categorical features(see categorical_correlation.py)
 
 24. statistical test.
@@ -351,6 +352,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
