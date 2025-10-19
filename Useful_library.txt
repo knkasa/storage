@@ -287,7 +287,7 @@ tiktoken=count number of tokens.
 TimeCopilot=LLM that can run models like TimesFM to make forecasting.
 unsloth=use this to speed up fine-tuning and less memory.
 AWS bedrock agent-core=deploy your loval agent in AWS.  https://qiita.com/yakumo_09/items/eaa3b6062396227615a2
-AWS strands agent= let you create agent with MCP and multi-agents.
+AWS strands agent= let you create agent with MCP and multi-agents. https://qiita.com/yakumo_09/items/f85a8a0634e30b0d756c
 
 65. Embedding for images.
 lightly 
@@ -354,6 +354,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
