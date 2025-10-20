@@ -15,6 +15,15 @@ python -m pip install pandas --index-url https://pypi.tuna.tsinghua.edu.cn/simpl
 (Try without cache files)
 python -m pip install  playwright  --no-cache-dir   --index-url https://pypi.tuna.tsinghua.edu.cn/simple --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
 
+(other Mirrors)
+python -m pip install openpyxl --index-url  https://mirrors.aliyun.com/pypi/simple/    --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+
+(other Mirrors)
+python -m pip install openpyxl --index-url  https://mirrors.douban.com/pypi/simple/    --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+
+
 ---------- Playwright instruction ----------------------------------
 After installing playwright,
 (Install browser for playwright)
