@@ -181,6 +181,7 @@ EasyOCR=Lightweight, deep learning-based | Slightly less accurate for PDFs
 OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
 Keras-OCR=Customizable, end-to-end pipeline | More complex setup
 DocTR=Modern, scalable, handwriting OK  | Larger dependencies
+Deepseek_OCR 
 
 39. Manipulate Excel.
 pyexcel
@@ -355,6 +356,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
