@@ -351,11 +351,15 @@ standard deviation that is not affected by outlier
 80. convert.py to .exe that can run python without installing.
 pyinstaller(easiest of all), nuitka, cx_freeze, pex, shiv
 
+81.  faster than loguru 
+logly
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
