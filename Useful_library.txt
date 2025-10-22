@@ -236,6 +236,7 @@ sphinx
 53. Generate synthetic data using statistics.
 Copula
 Variational autoencoder 
+SMOTE= synthesize data for unbalanced dataset
 
 54. Parse PDF, DOCX, HTML.
 docling(convert pdf, word, ppt, image to json or html)
@@ -362,6 +363,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
