@@ -178,6 +178,7 @@ featuretools
 37. OCR: Extract texts from image
 PyTesseract= Mature, multilingual, widely used | Struggles with handwriting
 img2table=extract tables from imag/pdf.
+AWS Textract=it can extracts tables too.
 EasyOCR=Lightweight, deep learning-based | Slightly less accurate for PDFs
 OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
 Keras-OCR=Customizable, end-to-end pipeline | More complex setup
@@ -366,6 +367,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
