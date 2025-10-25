@@ -176,7 +176,8 @@ textblob (it can give text polarity)
 featuretools
 
 37. OCR: Extract texts from image
-Tesseract= Mature, multilingual, widely used | Struggles with handwriting
+PyTesseract= Mature, multilingual, widely used | Struggles with handwriting
+img2table=extract tables from imag/pdf.
 EasyOCR=Lightweight, deep learning-based | Slightly less accurate for PDFs
 OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
 Keras-OCR=Customizable, end-to-end pipeline | More complex setup
@@ -365,6 +366,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
