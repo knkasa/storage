@@ -17,7 +17,6 @@ duckDB (use sql)
 pd.read_csv('xxxx.py', chucksize=10)
 fugue (use pandas to spark, dask, ... of your choice)  See fugue_example.py in this repo.
 sqlglot: convert between postgre, duckdb, mysql 
-bytelake(similar to polars)
 
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
@@ -369,6 +368,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
