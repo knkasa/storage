@@ -364,11 +364,15 @@ pyinstaller(easiest of all), nuitka, cx_freeze, pex, shiv
 81.  faster than loguru 
 logly
 
+82. faster than beautifulsoup
+selectox
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
