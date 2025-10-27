@@ -297,6 +297,7 @@ AWS bedrock agent-core=deploy your loval agent in AWS.  https://qiita.com/yakumo
 AWS strands agent= let you create agent with MCP and multi-agents. https://qiita.com/yakumo_09/items/f85a8a0634e30b0d756c
 ColQwen2=allows image (contains texts and tables) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
 deepseek OCR v2 or VL, Qwen-VL= lll with vision.
+Gemma3nE4B= small LLM that can run with CPU.
 
 65. Embedding for images.
 lightly 
@@ -372,6 +373,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
