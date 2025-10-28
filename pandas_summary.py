@@ -5,7 +5,7 @@ import datetime as dt
 # PandasAI 
 # https://medium.com/@fareedkhandev/pandas-ai-the-future-of-data-analysis-8f0be9b5ab6f
 
-# save/read to csv
+# save/read to csv. # utf-8, shift-jis, cp932, utf-8-sig
 df = pd.read_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/data.csv', encoding='shift-jis') # utf-8, cp932
 df.to_csv('C:/Users/ken_nakatsukasa/Desktop/python_code/result.csv', index=None, usecols=['cos1','col2'])
 
@@ -207,6 +207,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
