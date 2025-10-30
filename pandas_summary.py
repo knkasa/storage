@@ -48,6 +48,7 @@ data['new_col'] = data['col'].rank(pct=True, ascending=True)  # assign integer. 
 
 #change data type
 table[clist] = table[clist].astype(float)
+df_event[col] = pd.to_numeric(df_event[col], errors='coerce') # To numeric, that can ignore errors/texts.
 
 # datetime parser
 from dateutil import parser
@@ -207,6 +208,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
