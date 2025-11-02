@@ -56,6 +56,7 @@ Moirai, TimeXL
 Latent Gaussian mixture (pip install it)
 openTSLM=similar to TimesChrono 
 convTrans=see /convTrans repo.  Use convolution 1D &. transformer.
+iTransformer (easily implemented with pytorch)
 
 Timeseries metric 
 STL decomposition = metric that includes rmse plus direction.
@@ -376,6 +377,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
