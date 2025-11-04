@@ -21,7 +21,8 @@ sqlglot: convert between postgre, duckdb, mysql
 5. Automate machine learning. ***mlxtend can also do feature engineering.
 mlxtend, PyCaret, AutoML H2O, 
 fastai(deeplearning)
-Autogluon 
+Autogluon (Amazon)
+FLAML(Microsoft)
 
 8. Categorical data for clustering. Kmodes method.
 K-prototype=contains both continuous and categorical.
@@ -377,6 +378,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
