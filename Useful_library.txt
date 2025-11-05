@@ -303,6 +303,7 @@ ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG
 deepseek OCR v2 or VL, Qwen-VL= lll with vision.
 Gemma3nE4B= small LLM that can run with CPU.
 nomic-ai=use image as RAG (see ColQwen repo)
+llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
 
 65. Embedding for images.
 lightly 
@@ -378,38 +379,6 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
