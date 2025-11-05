@@ -374,11 +374,15 @@ logly
 82. faster than beautifulsoup
 selectox
 
+83. YOLO
+supervison 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
