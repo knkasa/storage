@@ -171,10 +171,6 @@ ruff
 32. decorator to minimize memory.
 lru_cashe
 
-34. NLP purging, classification, that can integrate with tensorflow, pytorch.
-spacy
-textblob (it can give text polarity)
-
 36. Feature engineering (create columns with x1+x2, x1-x2, ...)
 featuretools
 
@@ -282,8 +278,10 @@ Pygam
 Allows RAG in local (opensearch, faiss, SQLdocument for tabular data) or in AWS s3, AWS opensearch, ...)
 *******
 64. LLM related.
+spacy, janome 
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities+description from sentence.
+textblob=polarity, entity extraction...
 deepeval=test LLM performance
 sentence_transformer(library)
 Faiss, ChromaDB=Build RAG in local.
@@ -383,6 +381,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
