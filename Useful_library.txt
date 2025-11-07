@@ -344,6 +344,7 @@ tabpfn: works well for small data.
 74. Image
 cv2=let you find edges in image.
 imagehash=let you tell two images are similar.
+luminoth=object detection.
 
 75. AutoEncoder
 Anormaly detection, feature dimension reduction, remove noise from images. (see /deeplearning folder)
@@ -384,6 +385,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
