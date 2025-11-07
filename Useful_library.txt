@@ -303,9 +303,7 @@ Gemma3nE4B= small LLM that can run with CPU.
 nomic-ai=use image as RAG (see ColQwen repo)
 llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
-
-65. Embedding for images.
-lightly 
+lightly= embedding for images.
 
 65. check which probability distribution fits with your data
 distfit
@@ -345,6 +343,8 @@ tabpfn: works well for small data.
 cv2=let you find edges in image.
 imagehash=let you tell two images are similar.
 luminoth=object detection.
+supervison=YOLO 
+fastDup=find outliers/clusters from brunch of images.
 
 75. AutoEncoder
 Anormaly detection, feature dimension reduction, remove noise from images. (see /deeplearning folder)
@@ -374,17 +374,12 @@ logly
 82. faster than beautifulsoup
 selectox
 
-83. YOLO
-supervison 
-
-84. find outliers/clusters from brunch of images.
-fastDup
-
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
