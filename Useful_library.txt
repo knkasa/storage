@@ -376,11 +376,15 @@ selectox
 83. YOLO
 supervison 
 
+84. find outliers/clusters from brunch of images.
+fastDup
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
