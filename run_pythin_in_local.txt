@@ -29,9 +29,10 @@ After installing playwright,
 (Install browser for playwright)
 set PLAYWRIGHT_BROWSERS_PATH=C:\Users\中務健\Desktop\python_env_playwright
 python -m playwright install   (cd into where python.exe file is)
+or,
 python -m playwright install  chromium
 
-(If you want to use your own browser)
+(If you want to use your own browser eg. Edge)
 ・python -m playwright codegen --browser=chromium --channel=msedge --target=python https://www.wikipedia.org/
 ・python -m playwright codegen https://www.wikipedia.org/ (If Browser is installed successfully)
 ----------------------------------------------------------------
