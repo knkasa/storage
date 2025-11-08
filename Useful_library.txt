@@ -140,7 +140,7 @@ Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 
 25. clustering 
 BIRCH (works for big data )
-Gaussian mixture 
+Gaussian mixture (outlier detection)
 Affinity propagation (automatically find number of cluster.)
 optics (dbscan cannot address different density, optics can)
 
@@ -211,6 +211,7 @@ Isolation tree from scikit learn, and use shap values. (see my code anomaly_dete
 model.fit()
 explainer = shap.Explainer(model.decision_function, features)
 shap_val = explainer(features.iloc[sample])
+Gaussian mixture (outlier detection)
 
 46. Fix encoding error & Mojibake.
 ftfy
@@ -379,6 +380,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
