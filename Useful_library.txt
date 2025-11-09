@@ -377,11 +377,15 @@ logly
 82. faster than beautifulsoup
 selectox
 
+83. alternative to jupyter notebook.
+marimo 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
