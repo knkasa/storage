@@ -305,6 +305,8 @@ nomic-ai=use image as RAG (see ColQwen repo)
 llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
 lightly= embedding for images.
+Jina embedding v3=multi-lingual 8000tokens embedding model.
+Multi-lingual E5 base=multi-lingual embedding model.
 
 65. check which probability distribution fits with your data
 distfit
@@ -380,6 +382,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
