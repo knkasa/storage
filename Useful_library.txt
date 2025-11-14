@@ -163,6 +163,7 @@ parcel
 pydoll 
 playwright (Microsoft)
 crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
+niquests=scrape webs in parallel.
 
 31. fix format in VScode.
 black
@@ -308,6 +309,7 @@ lightly= embedding for images.
 Jina embedding v3=multi-lingual 8000tokens embedding model.
 Multi-lingual E5 base=multi-lingual embedding model.
 Voyage context 3= Embedding model that can embed documents without breaking into chunks.
+crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
 
 65. check which probability distribution fits with your data
 distfit
@@ -386,6 +388,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
