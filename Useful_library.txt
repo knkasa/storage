@@ -381,13 +381,17 @@ logly
 selectox
 
 83. alternative to jupyter notebook.
-marimo 
+marimo
+
+84. Get trend from noisy timeseries data.
+Kalman filter 
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
