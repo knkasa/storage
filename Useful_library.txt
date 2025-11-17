@@ -243,7 +243,7 @@ Variational autoencoder
 SMOTE= synthesize data for unbalanced dataset
 
 54. Parse PDF, DOCX, HTML.
-docling(convert pdf, word, ppt, image to json or html)
+docling(convert pdf, word, ppt, image to json, markdown, html)
 SmolDocling(small LLM that can parse documents)
 pdfplumber(let you extract tables, texts precisely)
 pymupdf(extract image, texts)
@@ -392,6 +392,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
