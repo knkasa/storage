@@ -271,6 +271,7 @@ see plot/model_performance_check_graph.py
 PAI=check two distributions look similar.
 cramersV=chevk two categorical features look similar.
 hexagonML=check model/data drift.
+KS stats= detect data drift.  It's not a library.
 
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
@@ -393,6 +394,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
