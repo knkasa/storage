@@ -351,7 +351,7 @@ cv2=let you find edges in image.
 imagehash=let you tell two images are similar.
 luminoth=object detection.
 supervison=YOLO 
-fastDup=find outliers/clusters from brunch of images.
+fastDup=find outliers/clusters from brunch of images. Let you find similar images.
 
 75. AutoEncoder
 Anormaly detection, feature dimension reduction, remove noise from images. (see /deeplearning folder)
@@ -392,6 +392,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
