@@ -313,6 +313,7 @@ Voyage context 3= Embedding model that can embed documents without breaking into
 crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
 PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
+memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 
 65. check which probability distribution fits with your data
 distfit
@@ -394,6 +395,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
