@@ -314,6 +314,7 @@ crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any
 PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
+Use unsloth to speedup fine tuning.
 
 65. check which probability distribution fits with your data
 distfit
@@ -395,6 +396,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
