@@ -391,11 +391,15 @@ marimo
 84. Get trend from noisy timeseries data.
 Kalman filter 
 
+85. Convert TSQL to pyspark.
+SQLGlot, DataBathing 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
