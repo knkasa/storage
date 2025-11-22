@@ -394,11 +394,15 @@ Kalman filter
 85. Convert TSQL to pyspark.
 SQLGlot, DataBathing 
 
+86. Model for Tabular data.
+GRN, FT-transformer, TabPFN(see TabPFN repo)
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
