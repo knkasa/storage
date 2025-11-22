@@ -394,13 +394,15 @@ Kalman filter
 SQLGlot, DataBathing 
 
 86. Model for Tabular data.
-GRN, FT-transformer, TabPFN(see TabPFN repo)
+GRN, FT-transformer, TabPFN(see TabPFN repo), TabM(see TabM repo)
+Kolmogorov-Arnold-Network(see Kolmogorov* repo)
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
