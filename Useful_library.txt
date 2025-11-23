@@ -58,6 +58,8 @@ openTSLM=similar to TimesChrono
 convTrans=see /convTrans repo.  Use convolution 1D &. transformer.
 iTransformer (easily implemented with pytorch)
 
+neuralForecast has function (explain ()) that can yield feature importance like shap.
+
 Timeseries metric 
 STL decomposition = metric that includes rmse plus direction.
 another metric=rmse+residual 
@@ -403,6 +405,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
