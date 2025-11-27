@@ -302,11 +302,11 @@ TimeCopilot=LLM that can run models like TimesFM to make forecasting.
 unsloth=use this to speed up fine-tuning and less memory.
 AWS bedrock agent-core=deploy your loval agent in AWS.  https://qiita.com/yakumo_09/items/eaa3b6062396227615a2
 AWS strands agent= let you create agent with MCP and multi-agents. https://qiita.com/yakumo_09/items/f85a8a0634e30b0d756c
-ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
 deepseek OCR v2 or VL, Qwen-VL= llm with vision.
 Gemma3nE4B= small LLM that can run with CPU.
-nomic-ai=use image as RAG (see ColQwen repo)
 llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
+
+Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
 lightly= embedding for images.
 Jina embedding v3=multi-lingual 8000tokens embedding model.
@@ -317,6 +317,9 @@ PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 Use unsloth to speedup fine tuning.
+ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
+nomic-ai=use image as RAG (see ColQwen repo)
+EmbeddingGemma=embedding model from Google.
 
 65. check which probability distribution fits with your data
 distfit
@@ -405,6 +408,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
