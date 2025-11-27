@@ -108,7 +108,7 @@ interpretml(anaconda available)
 eli5(anaconda available)
 alibi
 captum (for pytorch)
-EBM 
+EBM (explainable boosting machine)
 
 20. make classification output probability 
 calibrated classification 
@@ -409,6 +409,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
