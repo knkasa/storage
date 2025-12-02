@@ -12,7 +12,7 @@ print(f"Downloaded -> {final_path}")
 # Typing texts in search box.  Pressing Tab helps focus the search box.
 page.get_by_role("checkbox").nth(1).click()  #open search box
 page.wait_for_timeout(500)
-page.keyboard.press("Tab")  #press Tab
+page.keyboard.press("Tab")  #press Tab for focus
 page.wait_for_timeout(200)
-page.keyboard.type("神戸_20251127_テスト", delay=50) #Type texts
+page.keyboard.type("神戸_20251127_テスト", delay=50) #Use keyboard to type
 
