@@ -309,6 +309,7 @@ deepseek OCR v2 or VL, Qwen-VL= llm with vision.
 Gemma3nE4B= small LLM that can run with CPU.
 llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
 LangGraph=Pipeline for RAG(see LLM repo, langGraph_example.py)
+Qwen model to edit image=qwen_edit.remove("car.jpg", "random person in background")
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
@@ -412,24 +413,6 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
