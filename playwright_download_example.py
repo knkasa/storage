@@ -16,3 +16,7 @@ page.keyboard.press("Tab")  #press Tab for focus
 page.wait_for_timeout(200)
 page.keyboard.type("神戸_20251127_テスト", delay=50) #Use keyboard to type
 
+# Either check or click(click is better)
+page.locator(".table_header__JobOfferName > div:nth-child(2) > div > div > input").click()
+page.locator(".table_header__JobOfferName > div:nth-child(2) > div > div > input").check()
+
