@@ -191,6 +191,7 @@ NanonetsOCR=huggingface model.can convert complex tables into markdown.
 Olmo-OCR2=Good for academic paper, table, 
 DotsOCR=light weight OCR, can work with CPU.
 paddleOCR=may be best.  can extract tables, layouts...
+For pdf, use docling library to extract/edit tables layouts.
 
 39. Manipulate Excel.
 pyexcel
@@ -249,7 +250,7 @@ Variational autoencoder
 SMOTE= synthesize data for unbalanced dataset
 
 54. Parse PDF, DOCX, HTML.
-docling(convert pdf, word, ppt, image to json, markdown, html)
+docling(extract/edit pdf(including tables), word, ppt, image to json, markdown, html)
 SmolDocling(small LLM that can parse documents)
 pdfplumber(let you extract tables, texts precisely)
 pymupdf(extract image, texts)
@@ -416,6 +417,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
