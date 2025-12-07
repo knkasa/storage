@@ -331,6 +331,7 @@ Use unsloth to speedup fine tuning.
 ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
 nomic-ai=use image as RAG (see ColQwen repo)
 EmbeddingGemma=embedding model from Google.
+Ruri-v3=Japanese embedding model.
 
 65. check which probability distribution fits with your data
 distfit
@@ -419,6 +420,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
