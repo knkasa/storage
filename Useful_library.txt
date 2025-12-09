@@ -57,6 +57,7 @@ Latent Gaussian mixture (pip install it)
 openTSLM=similar to TimesChrono 
 convTrans=see /convTrans repo.  Use convolution 1D &. transformer.
 iTransformer (easily implemented with pytorch)
+Migas=combining times FM, chronos, Mirai models.
 
 neuralForecast has function (explain ()) that can yield feature importance like shap.
 
@@ -420,6 +421,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
