@@ -288,6 +288,7 @@ Pygam
 *******
 63. Haystack, Best for setting up documents RAG for LLM.
 Allows RAG in local (opensearch, faiss, SQLdocument for tabular data) or in AWS s3, AWS opensearch, ...)
+Agno is also good.
 *******
 64. LLM related.
 spacy, janome 
@@ -300,6 +301,7 @@ Faiss, ChromaDB, LanceDB=Build RAG in local.
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi, janome (japanese spacy)
 crewAI, Autogen (for multi-agents)
+Agno=like langchain.  Let you create agents that can RAG and create image.
 LangExtract=extract entity and related words (eg. symptom:diabetes)
 polygot: entity extraction 
 Use markitdown to convert pdf, excel... and let LLM handle
@@ -315,7 +317,7 @@ llamaIndex=SimpleDirectoryReader(RAG for documents like PDF)
 LangGraph=Pipeline for RAG(see LLM repo, langGraph_example.py)
 Qwen model to edit image=qwen_edit.remove("car.jpg", "random person in background")
 taxoAdapt=taxonomy.  Clustering from a collection of documents.
-Parent Child RAG=https://share.google/BpgDQG3QjTtz6bB54
+Parent Child RAG=create long and short chunks. https://share.google/BpgDQG3QjTtz6bB54
 Timeseries RAG=https://pub.towardsai.net/how-to-build-time-series-rag-for-forecasting-data-1417bb2db958
 Gliner=entity recognition like sentence transformer library.
 Olmo3=vision language model with OCR. Table recognition too.
@@ -423,6 +425,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
