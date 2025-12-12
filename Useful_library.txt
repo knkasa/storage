@@ -288,7 +288,8 @@ Pygam
 *******
 63. Haystack, Best for setting up documents RAG for LLM.
 Allows RAG in local (opensearch, faiss, SQLdocument for tabular data) or in AWS s3, AWS opensearch, ...)
-Agno is also good.
+Agno is also good(see LLM/agno_example.py).
+Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py)
 *******
 64. LLM related.
 spacy, janome 
@@ -427,6 +428,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
