@@ -231,7 +231,7 @@ ftfy
 48. save webpage in pdf.
 pdfkit
 
-49. Alternative to Pearson correlation.
+49. Alternative to Pearson correlation, works for non-linear.
 Chaterjee correlation
 
 52. Create powerpoint.
@@ -428,6 +428,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
