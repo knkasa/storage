@@ -424,11 +424,16 @@ SQLGlot, DataBathing
 GRN, FT-transformer, TabPFN(see TabPFN repo), TabM(see TabM repo)
 Kolmogorov-Arnold-Network(see Kolmogorov* repo)
 
+87. Setup workflow, ML pipeline. Runs in background in eg. ECS container. 
+Dagster 
+Prefect 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
