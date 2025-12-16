@@ -340,6 +340,8 @@ ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG
 nomic-ai=use image as RAG (see ColQwen repo)
 EmbeddingGemma=embedding model from Google.
 Ruri-v3=Japanese embedding model.
+Neo4j=graph RAG for local PC.
+Graphiti = hybrid search & graph RAG.
 
 65. check which probability distribution fits with your data
 distfit
@@ -433,6 +435,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
