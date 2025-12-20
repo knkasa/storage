@@ -117,7 +117,7 @@ venn-abers
 
 21.  Dealing with imbalance target data for classification model
 use class weight(modify loss function, works with lightgbm)
-Generate synthetic data (SMOTE)
+Generate synthetic data (SMOTE, it uses knn)
 Remove majority class from data.
 Adjust threshold of model.
 
@@ -444,6 +444,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
