@@ -120,8 +120,7 @@ use class weight(modify loss function, works with lightgbm)
 Generate synthetic data (SMOTE, it uses knn)
 Remove majority class from data.
 Adjust threshold of model.
-
-
+Replicate minority class data.
 
 22. MCMC regression to include uncertainty in timeseries prediction curve in plot.
 https://medium.com/@abdallahashraf90x/oversampling-for-better-machine-learning-with-imbalanced-data-68f9b5ac2696
@@ -444,6 +443,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
