@@ -328,6 +328,7 @@ Gliner=entity recognition like sentence transformer library.
 Olmo3=vision language model with OCR. Table recognition too.
 Docling-agent=Choose LLM of your choice and uses docling to edit parse documents.
 MCP:see build_mvp repo, or use modular_mvp library.
+MiniCPM-llama3v2.5=8B language model that can extract texts from image.
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
@@ -443,6 +444,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
