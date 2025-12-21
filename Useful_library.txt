@@ -192,6 +192,7 @@ OCRmyPDF=Searchable PDFs, batch-friendly   | PDF-focused only
 Keras-OCR=Customizable, end-to-end pipeline | More complex setup
 DocTR=Modern, scalable, handwriting OK  | Larger dependencies
 Deepseek_OCR=OCR model, not LLM(it can read tables/forms/receipts...).
+chandraOCR= better than deepseek OCR.
 NanonetsOCR=huggingface model.can convert complex tables into markdown.
 Olmo-OCR2=Good for academic paper, table, 
 DotsOCR=light weight OCR, can work with CPU.
@@ -442,6 +443,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
