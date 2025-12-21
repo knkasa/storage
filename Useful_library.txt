@@ -373,14 +373,8 @@ MICE
 70. web app
 gradio
 
-71. Tabular Transformer (deep learning)
-ft transformer
-
 72. Predict survival time.
 CoxPHfilter (see cox_suvival_regression.py)
-
-73. model for small dataset.
-tabpfn: works well for small data.
 
 74. Image
 cv2=let you find edges in image.
@@ -412,6 +406,7 @@ standard deviation that is not affected by outlier
 
 80. convert.py to .exe that can run python without installing.
 pyinstaller(easiest of all), nuitka, cx_freeze, pex, shiv
+pyapp
 
 81.  faster than loguru 
 logly
@@ -444,6 +439,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
