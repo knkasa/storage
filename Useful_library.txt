@@ -302,7 +302,7 @@ promptify=use LLM to get entities+description from sentence.
 textblob=polarity, entity extraction...
 deepeval=test LLM performance
 sentence_transformer(library)
-Faiss, ChromaDB, LanceDB=Build RAG in local.
+Faiss, ChromaDB, LanceDB, txtai=Build RAG in local.
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi, janome (japanese spacy)
 crewAI, Autogen (for multi-agents)
@@ -442,6 +442,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
