@@ -348,7 +348,7 @@ PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 Use unsloth to speedup fine tuning.
-ColQwen2=allows image (contains texts and tables, see my repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
+ColQwen2=allows image (contains texts and tables, see my colqwen repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
 nomic-ai=use image as RAG (see ColQwen repo)
 EmbeddingGemma=embedding model from Google.
 Ruri-v3=Japanese embedding model.
@@ -452,6 +452,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
