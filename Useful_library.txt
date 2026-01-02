@@ -23,6 +23,8 @@ mlxtend, PyCaret, AutoML H2O,
 fastai(deeplearning)
 Autogluon (Amazon)
 FLAML(Microsoft)
+AutoKeras
+Auto-sklearn
 
 8. Categorical data for clustering. Kmodes method.
 K-prototype=contains both continuous and categorical.
@@ -452,6 +454,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
