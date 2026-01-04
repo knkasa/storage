@@ -173,7 +173,7 @@ pydoll
 playwright (Microsoft, see run_python_in_local.py, playwright_download_example.py)
 crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
 niquests=scrape webs in parallel.
-scrapling 
+scrapling (good for scraping)
 
 31. fix format in VScode.
 black
@@ -455,6 +455,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
