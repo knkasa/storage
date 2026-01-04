@@ -296,7 +296,8 @@ Pygam
 63. Haystack, Best for setting up documents RAG for LLM.
 Allows RAG in local (opensearch, faiss, SQLdocument for tabular data) or in AWS s3, AWS opensearch, ...)
 Agno is also good(see LLM/agno_example.py).
-Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py)
+Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py, or build_mcp repo)
+MCP from scratch: see LLM/mcp_from_scratch.py
 *******
 64. LLM related.
 spacy, janome 
@@ -330,7 +331,6 @@ Timeseries RAG=https://pub.towardsai.net/how-to-build-time-series-rag-for-foreca
 Gliner=entity recognition like sentence transformer library.
 Olmo3=vision language model with OCR. Table recognition too.
 Docling-agent=Choose LLM of your choice and uses docling to edit parse documents.
-MCP:see build_mvp repo, or use modular_mvp library.
 MiniCPM-llama3v2.5=8B language model that can extract texts from image.
 poml=let you create prompt template easily, developed by Microsoft.
 **RAG guide=see LLM/RAG_guide.py
@@ -455,6 +455,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
