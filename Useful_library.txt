@@ -373,8 +373,9 @@ simPy=callCenter staffing, logistic
 67. Alternative to synthetic did(synthetic control)
 causalpy
 
-68. debug code (it prints out every line of codes)
-snoop
+68. debug code
+snoop= it prints every line of code.
+traceback=better error message.
 
 69. Impute missing values
 KNN imputation
@@ -456,6 +457,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
