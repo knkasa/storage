@@ -305,7 +305,7 @@ Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_exam
 memLayer:stores past conversation, currently only support openAI and local model.
 *******
 64. LLM related.
-spacy, janome 
+spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities+description from sentence.
 textblob=polarity, entity extraction...
@@ -461,6 +461,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
