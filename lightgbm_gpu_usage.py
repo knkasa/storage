@@ -2,6 +2,8 @@ import lightgbm as lgb
 import cudf
 import cupy as cp
 
+#you could instead use hummingbird to convert to pytorch to speedup training.
+
 # Load directly to GPU memory
 gdf = cudf.read_csv('massive_data.csv')
 X_gpu = gdf.drop(target_col, axis=1).values # CuPy array on GPU
