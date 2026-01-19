@@ -411,6 +411,7 @@ see check_memory.py
 
 # How to run LightGBM with GPU.
 see lightgbm_gpu_usage.py
+Use hummingbird to convert lightgbm/xgboost to pytorch to speedup training.
 
 78. reinforcement learning 
 stable baseline 3
@@ -461,6 +462,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
