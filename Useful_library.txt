@@ -224,7 +224,7 @@ ADTK (unupervised model for timeseries detection)
 TODS (Various algorithm includeing Deeplog & Telemanon for timeseries data)
 stumpy (use slide window with euclidean distance.)
 Auto-encoder(see my code anomaly_detection_autoEncoder.py)
-Isolation tree from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py)
+Isolation forest from scikit learn, and use shap values. (see my code anomaly_detection_isolation_forest.py, you could use tf-idf for input data.)
 model.fit()
 explainer = shap.Explainer(model.decision_function, features)
 shap_val = explainer(features.iloc[sample])
@@ -462,6 +462,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
