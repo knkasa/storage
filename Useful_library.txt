@@ -93,8 +93,9 @@ https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-
 https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-single-constraint
 Scipy differential_evolution
 
-16. New decision tree machine learning technique introduced by Microsoft.
-DiCE
+16. Counter factual.
+DiCE(by Microsoft)
+Alibai
 
 17. New scikit learn 
 pytabkit 
@@ -462,6 +463,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
