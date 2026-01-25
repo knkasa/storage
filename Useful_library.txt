@@ -347,6 +347,15 @@ vLLM= can make local LLM run faster, but requires GPU.
 Weaviate=hybrid search (semantic & keyword) open source software.
 Qwen3-TTS= text to speech model, not language model.
 REBEL=open source model entity relationship finder.
+crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
+PandasAI
+pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
+memorisdk= it can save past conversation.  Works on Claude, chaGPT...
+Use unsloth to speedup fine tuning.
+Neo4j=graph RAG for local PC.
+SurRealDB=Can store embedding vector, Graph network, memory, all in one.
+Graphiti = hybrid search & graph RAG.
+Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
@@ -354,18 +363,10 @@ lightly= embedding for images.
 Jina embedding v3=multi-lingual 8000tokens embedding model.
 Multi-lingual E5 base=multi-lingual embedding model.
 Voyage context 3= Embedding model that can embed documents without breaking into chunks.
-crawl4ai=LLM web scraping/crawling.  https://ai.gopubby.com/feed-knowlege-of-any-website-to-llm-in-seconds-c19bd69a1718
-PandasAI
-pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
-memorisdk= it can save past conversation.  Works on Claude, chaGPT...
-Use unsloth to speedup fine tuning.
 ColQwen2=allows image (contains texts and tables, see my colqwen repo) to be used as RAG.  https://ai.gopubby.com/efficient-multimodal-document-retrieval-with-colqwen2-b8f5afa8f524
 nomic-ai=use image as RAG (see ColQwen repo)
 EmbeddingGemma=embedding model from Google.
 Ruri-v3=Japanese embedding model.
-Neo4j=graph RAG for local PC.
-Graphiti = hybrid search & graph RAG.
-Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 
 65. check which probability distribution fits with your data
 distfit
@@ -466,6 +467,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
