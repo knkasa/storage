@@ -365,6 +365,7 @@ EmbeddingGemma=embedding model from Google.
 Ruri-v3=Japanese embedding model.
 Neo4j=graph RAG for local PC.
 Graphiti = hybrid search & graph RAG.
+Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 
 65. check which probability distribution fits with your data
 distfit
@@ -465,6 +466,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
