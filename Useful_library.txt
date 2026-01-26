@@ -87,6 +87,7 @@ cProfile (show statistics on function execution time)
 tracemalloc(run tracemalloc.start() & your_python_code & tracemalloc.stop())
 objgraph(run objgraph.show_growth(limit=10) in for loop)
 scalene (shows memory line by line)
+pyinstrument= find slowest part of your code.
 
 15. Minimize function with constraints
 https://machinelearningmastery.com/lagrange-multiplier-approach-with-inequality-constraints/
@@ -468,6 +469,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
