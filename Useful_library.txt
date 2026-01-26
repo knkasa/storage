@@ -202,7 +202,7 @@ Olmo-OCR2=Good for academic paper, table,
 DotsOCR=light weight OCR, can work with CPU.
 paddleOCR=may be best.  can extract tables, layouts...
 For pdf, use docling library to extract/edit tables layouts.
-Chandra=can extract tables, formulas.
+LightonOCR= light model but requires GPU.
 
 39. Manipulate Excel.
 pyexcel
@@ -468,6 +468,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
