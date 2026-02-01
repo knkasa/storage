@@ -355,8 +355,7 @@ PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 Use unsloth to speedup fine tuning.
-Neo4j=graph RAG for local PC.
-SurRealDB=Can store embedding vector, Graph network, memory, all in one.
+Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker.
 Graphiti = hybrid search & graph RAG.
 Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 
@@ -470,6 +469,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
