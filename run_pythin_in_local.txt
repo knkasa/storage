@@ -23,6 +23,8 @@ Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
 python -m pip install openpyxl --index-url  https://mirrors.douban.com/pypi/simple/    --target="C:\Users\中務健\Desktop\python_env\python\Lib\site-packages"
 Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
 
+(pip install bypassing certificate check)
+python.exe -m pip install pandas --trusted-host pypi.org --trusted-host files.pythonhosted.org --trusted-host pypi.python.org
 
 ---------- Playwright instruction ----------------------------------
 After installing playwright,
