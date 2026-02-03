@@ -459,17 +459,21 @@ Prefect
 88. FastHTML
 flask without HTML.  Let you create web app without HTML file.  
 
-89. works for any dataframe like pandas &polars.
+89. works for any dataframe like pandas & polars.
 narwhals 
 
 90. func_to_web
 convert marplotlib into interactive graph.
+
+91. Nice table.
+great_table
 
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
