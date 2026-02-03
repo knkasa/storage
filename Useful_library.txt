@@ -383,6 +383,8 @@ simPy=callCenter staffing, logistic
 67. Alternative to synthetic did(synthetic control)
 causalpy
 
+Alternative to econml(causalml by Uber)
+
 68. debug code
 snoop= it prints every line of code.
 traceback=better error message.
@@ -468,6 +470,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
