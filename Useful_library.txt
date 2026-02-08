@@ -307,6 +307,8 @@ Create web browsing agent: Use BlastAI(see LLM/blastAI_example.py)
 Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_example.py)
 memLayer:stores past conversation, currently only support openAI and local model.
 hindsight: stores past conversation.
+Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. 
+LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -320,12 +322,9 @@ Faiss, ChromaDB, LanceDB, txtai=Build RAG in local.
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi, janome (japanese spacy)
 crewAI, Autogen (for multi-agents)
-Agno=like langchain.  Let you create agents that can RAG and create image.
-LangExtract=extract entity and related words (eg. symptom:diabetes)
 polygot: entity extraction 
 Use markitdown to convert pdf, excel... and let LLM handle
 scenexplain=let LLM explain image.
-tiktoken=count number of tokens.
 TimeCopilot=LLM that can run models like TimesFM to make forecasting.
 unsloth=use this to speed up fine-tuning and less memory.
 AWS bedrock agent-core=deploy your loval agent in AWS.  https://qiita.com/yakumo_09/items/eaa3b6062396227615a2
@@ -355,7 +354,7 @@ PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 Use unsloth to speedup fine tuning.
-Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker.  graphiti, networkx doesn't require docker.
+graphiti, networkx doesn't require docker.
 Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 Reciprocal rank fusion=rank embedding vectors for hybrid RAG.
 tiktoken= count tokens in prompt.
@@ -481,6 +480,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
