@@ -307,7 +307,7 @@ Create web browsing agent: Use BlastAI(see LLM/blastAI_example.py)
 Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_example.py)
 memLayer:stores past conversation, currently only support openAI and local model.
 hindsight: stores past conversation.
-Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. 
+Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphiti, networkx doesn't require docker.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
 *******
 64. LLM related.
@@ -353,7 +353,6 @@ PandasAI
 pydantic AI=force/validate LLM output in json, setup RAG, memory, and more.
 memorisdk= it can save past conversation.  Works on Claude, chaGPT...
 Use unsloth to speedup fine tuning.
-graphiti, networkx doesn't require docker.
 Fine-tuning article: https://medium.kuriko-iwai.com/the-definitive-guide-to-llm-fine-tuning-objectives-mechanisms-and-hardware-98a97cf8691f
 Reciprocal rank fusion=rank embedding vectors for hybrid RAG.
 tiktoken= count tokens in prompt.
@@ -479,6 +478,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
