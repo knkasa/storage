@@ -314,7 +314,6 @@ LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for R
 spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities+description from sentence.
-LangExtract=Use LLM to extract entity & relationship .
 textblob=polarity, entity extraction...
 deepeval=test LLM performance
 sentence_transformer(library)
@@ -480,6 +479,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
