@@ -361,6 +361,7 @@ Reciprocal rank fusion=rank embedding vectors for hybrid RAG.
 tiktoken= count tokens in prompt.
 litellm= can invoke various types of LLM like bedrock, chatGPT, local models.
 powerBI-ontology-extractor=extract ontology from powerBI in rdf, owl, json tob to be able to use for graph rag. You could upload the files(json?) to Fabric Ontology to be able to create agents.
+redisVL= use redis to make LLM remember conversation.
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
@@ -472,11 +473,15 @@ convert marplotlib into interactive graph.
 91. Nice table.
 great_table
 
+92. alternative to docker desktop.
+podman
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
