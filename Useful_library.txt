@@ -300,6 +300,7 @@ Pygam
 Haystack:Best for setting up documents RAG for LLM.
 Allows RAG in local: opensearch, faiss, SQLdocument for tabular data, or in AWS s3, AWS opensearch, ...
 Agno is also good (multi-agents+RAG, alternative to Haystack. see LLM/agno_example.py).
+autoGen:multi-agents with tools, RAG, code-interpreter(Microsoft)
 CrewAI: For multi-agents (see LLM/crewai_example.py.  you could also use deepagents library)
 Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py, or build_mcp repo)
 MCP from scratch: see LLM/mcp_from_scratch.py
@@ -320,7 +321,6 @@ sentence_transformer(library)
 Faiss, ChromaDB, LanceDB, txtai=Build RAG in local.
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi, janome (japanese spacy)
-crewAI, Autogen (for multi-agents)
 polygot: entity extraction 
 Use markitdown to convert pdf, excel... and let LLM handle
 scenexplain=let LLM explain image.
@@ -478,6 +478,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
