@@ -473,11 +473,15 @@ great_table
 92. alternative to docker desktop.
 podman
 
+93. Excel file editor 
+openpyxl
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
