@@ -147,6 +147,9 @@ df.query(" colA>20 and colB<40", engine="numexpr")
 df.groupby(['col'], sort=False)  # use sort=False
 df[ df['colA'].between(200, 500)]
 
+#faster pandas trick
+pd.read_csv("big.csv", engine="pyarrow")
+
 # filter rows when loading parquet
 pd.read_parquet(DATA / "sales.parquet", filters=[("ym", ">=", "2025-08")])
 
@@ -211,6 +214,7 @@ pd.merge_asof(df_left, df_right, on='a', direction='nearest')   # direction='nea
 df.column1.tolist()
 df.column1.values()
 df.column1.to_numpy()
+
 
 
 
