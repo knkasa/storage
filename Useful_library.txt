@@ -310,6 +310,7 @@ memLayer:stores past conversation, currently only support openAI and local model
 hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
+docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -483,6 +484,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
