@@ -312,7 +312,7 @@ hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
 docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
-lightRAG: let you create graph DB.  simply specify LLM model.
+lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -486,6 +486,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
