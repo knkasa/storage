@@ -205,6 +205,7 @@ paddleOCR=may be best.  can extract tables, layouts...
 For pdf, use docling library to extract/edit tables layouts.
 LightonOCR= light model but requires GPU.
 NdDLOCR-OCR: OCR without GPU.
+Nemotron-parse 1.1= made by Nvidia, 885 million parameters that can run with CPU.
 
 39. Manipulate Excel.
 pyexcel
@@ -487,6 +488,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
