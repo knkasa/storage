@@ -311,9 +311,11 @@ Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_exam
 memLayer:stores past conversation, currently only support openAI and local model.
 hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
+Owlready2: Local ontology(persistent memory). see LLM/owlready2_example.py.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
 docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
 lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
+smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -488,6 +490,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
