@@ -43,7 +43,7 @@ Prophet(introduced by Facebook), Neural prophet
 DMD(dimensionality reduction)
 MLforecast(ensemble with classical models)
 TimesFM(see timsFM-test.py), xLSTM,   N-beats, NHITS(improved Nbeats, neuralForecast library), PatchTST, TSMixer, SOFTS, LagLlama, Nixtla(include Nbeats), Darts(include Nbeats)
-neuralforecast(includes LSTM, Nbeats, N-Hits(impreoved Nbeats), TimeXer, temporal fusion transformer(maybe best), timesnet(maybe best).  Available through conda)
+**neuralforecast(includes LSTM, Nbeats, N-Hits(impreoved Nbeats), TimeXer, temporal fusion transformer(maybe best), timesnet(maybe best), Xlinear  Available through conda)
 Liquid neural network(see repo)
 "from statsmodels.tsa.seasonal import seasonal_decompose" to get info.
 Use Fourier transform to remove noise.
@@ -491,6 +491,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
