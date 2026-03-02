@@ -234,6 +234,7 @@ model.fit()
 explainer = shap.Explainer(model.decision_function, features)
 shap_val = explainer(features.iloc[sample])
 Gaussian mixture (outlier detection)
+FPOF= Outlier detection for categorical data.
 
 46. Fix encoding error & Mojibake.
 ftfy
@@ -490,6 +491,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
