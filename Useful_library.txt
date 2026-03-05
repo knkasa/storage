@@ -317,6 +317,7 @@ LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for R
 docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
 lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
+build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -496,6 +497,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
