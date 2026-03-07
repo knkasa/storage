@@ -304,7 +304,7 @@ Haystack:Best for setting up documents RAG for LLM.
 Allows RAG in local: opensearch, faiss, SQLdocument for tabular data, or in AWS s3, AWS opensearch, ...
 Agno is also good (multi-agents+RAG, alternative to Haystack. see LLM/agno_example.py).
 autoGen:multi-agents with tools, RAG, code-interpreter(Microsoft).  See LLM/autogen_example.py
-semantic kernel: langchain but close ties to Azure service.
+semantic kernel: langchain but close ties to Azure service. (see LLM/semantic_kernel_example.py)
 CrewAI: For multi-agents (see LLM/crewai_example.py.  you could also use deepagents library)
 Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py, or build_mcp repo)
 MCP from scratch: see LLM/mcp_from_scratch.py
@@ -498,6 +498,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
