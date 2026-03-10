@@ -6,3 +6,5 @@ rcParams['font.sans-serif'] = ['Hiragino Maru Gothic Pro', 'Yu Gothic', 'Meirio'
 plt.plot([1, 2, 3, 4])
 plt.xlabel('日本語フォントです。ABCWijG123')
 plt.show()
+
+# Or, you could download "NotoSansJP-VariableFont_wght.ttf" font from web.
