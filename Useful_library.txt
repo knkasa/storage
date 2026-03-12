@@ -370,6 +370,7 @@ litellm= can invoke various types of LLM like bedrock, chatGPT, local models.
 powerBI-ontology-extractor=extract ontology from powerBI in rdf, owl, json tob to be able to use for graph rag. You could upload the files(json?) to Fabric Ontology to be able to create agents.
 redisVL= use redis to make LLM remember conversation.
 RRF=use this to rerank hybrid RAG search.
+docling_AI= docling plus LLM of your choice.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
@@ -499,6 +500,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
