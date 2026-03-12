@@ -316,7 +316,7 @@ hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
 Owlready2: Local ontology(persistent memory). see LLM/owlready2_example.py.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
-docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
+docling_AI: OCR and create knowledge graph with LLM.
 lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
@@ -370,7 +370,7 @@ litellm= can invoke various types of LLM like bedrock, chatGPT, local models.
 powerBI-ontology-extractor=extract ontology from powerBI in rdf, owl, json tob to be able to use for graph rag. You could upload the files(json?) to Fabric Ontology to be able to create agents.
 redisVL= use redis to make LLM remember conversation.
 RRF=use this to rerank hybrid RAG search.
-docling_AI= docling plus LLM of your choice.
+docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
@@ -500,6 +500,7 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
+
 
 
 
