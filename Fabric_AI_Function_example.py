@@ -85,6 +85,7 @@ del df; gc.collect()
 spark_df.unpersist(blocking=True)  # Delete spark dataframe.
 spark.catalog.clearCache()  # Clear all spark dataframes.
 spark.stop()
+mssparkutils.session.stop() maybe better.
 
 #**********Run this before converting from spark to pandas.
 spark.conf.set("spark.sql.execution.arrow.pyspark.enabled", "true")
