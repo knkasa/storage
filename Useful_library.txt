@@ -320,6 +320,7 @@ docling_AI: OCR and create knowledge graph with LLM.
 lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
+strands_agent: made by aws, just like LangGraph.  can use open source MCP.  see LLM/playwright_test.py
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
