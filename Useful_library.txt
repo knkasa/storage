@@ -500,6 +500,9 @@ celery
 95. alternative to json 
 TOON 
 
+96.  Google auto-ml(only decision tree models)
+YDF 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
