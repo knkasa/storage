@@ -503,6 +503,10 @@ TOON
 96.  Google auto-ml(only decision tree models)
 YDF 
 
+97. Reinforcement Learning.
+on-pilicy= update weights based on actions it took. max(Q)
+off-policy= update weights does not depend on actions it took. no max on Q function.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
