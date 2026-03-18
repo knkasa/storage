@@ -317,6 +317,7 @@ Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(u
 Owlready2: Local ontology(persistent memory). see LLM/owlready2_example.py.
 LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for RAG.
 docling_AI: OCR and create knowledge graph with LLM.
+cognee: creates knowledge graph and store in local like faiss. Specify LLM and it'll create it. you can query with natural language, no cypher required.
 lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
