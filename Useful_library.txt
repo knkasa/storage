@@ -312,6 +312,7 @@ MCP from scratch: see LLM/mcp_from_scratch.py
 Create web browsing agent: Use BlastAI(see LLM/blastAI_example.py)
 Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_example.py)
 memLayer:stores past conversation, currently only support openAI and local model.
+langchain.store.memory: store memory in local.
 hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
 Owlready2: Local ontology(persistent memory). see LLM/owlready2_example.py.
