@@ -1,0 +1,31 @@
+How to setup claude code.
+
+1. download node.js
+2. download AWS CLI (run aws --version to check)
+3. run "npm install -g @anthropic-ai/claude-code" to install
+4. open powershell, run "aws configure" and enter Access Key ID, Secret Access Key, and preferred region (e.g., us-east-1).
+   optionally, you can set these using environment variables.
+5. Set Claude code settings. Type,
+  $env:CLAUDE_CODE_USE_BEDROCK="1"
+  $env:AWS_REGION="us-east-1"
+6. choose models.
+  $env:ANTHROPIC_DEFAULT_SONNET_MODEL="us.anthropic.claude-sonnet-4-20250514-v1:0"
+7. Enter python/conda environment.
+8. run "claude" and start typing.  "/exit" to exit
+
+Run claude code in vs code.
+1. Install extension "claude code for VS Code"
+2. press Ctrl+Shift+P and serch "open user setting (JSON)"
+3. Add these. (need this if using AWS bedrock)
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "claudeCode.env": {
+        "CLAUDE_CODE_USE_BEDROCK": "1",
+        "AWS_REGION": "us-east-1"
+    },
+    "claudeCode.disableLoginPrompt": true
+}
+4. 
