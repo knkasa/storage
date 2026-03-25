@@ -323,6 +323,7 @@ lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply sp
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
 strands_agent: made by aws, just like LangGraph.  can use open source MCP.  see LLM/playwright_test.py
+Gliner=Named entity recognition model from hugging face. It can catch personal names, emails, ...
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
@@ -349,7 +350,6 @@ Qwen model to edit image=qwen_edit.remove("car.jpg", "random person in backgroun
 taxoAdapt=taxonomy.  Clustering from a collection of documents.
 Parent Child RAG=create long and short chunks. https://share.google/BpgDQG3QjTtz6bB54
 Timeseries RAG=https://pub.towardsai.net/how-to-build-time-series-rag-for-forecasting-data-1417bb2db958
-Gliner=entity recognition like sentence transformer library.
 Olmo3=vision language model with OCR. Table recognition too.
 Docling-agent=Choose LLM of your choice and uses docling to edit parse documents.
 MiniCPM-llama3v2.5=8B language model that can extract texts from image.
