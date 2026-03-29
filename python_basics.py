@@ -84,7 +84,7 @@ if any(True, False, True):
 
 # Get directory where you excuted the python code .py
 from pathlib import Path
-Path('__file__').resolve().parent
+Path(__file__).resolve().parent
 
 # For append(), remove(), use deque library.
 
@@ -105,6 +105,10 @@ df['col'].apply(lambda x: parser.parse(x))  # for pandas
 
 # look for files.
 glob.glob("**/*.csv")
+
+# find unique sets from two lists.
+a.union(b)
+a | b
 
 #------------------------------------------------------------------------
 
