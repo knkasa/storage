@@ -392,6 +392,7 @@ ColQwen2=allows image (contains texts and tables, see my colqwen repo) to be use
 nomic-ai=use image as RAG (see ColQwen repo)
 EmbeddingGemma=embedding model from Google.
 Ruri-v3=Japanese embedding model.
+How to check accuracy of Embedding model=https://qiita.com/Kohei_2424/items/278075c51a40a1db2e76
 
 65. check which probability distribution fits with your data
 distfit
