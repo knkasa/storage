@@ -3,6 +3,6 @@ Bedrock : Amazon Nove Reel : Video generator model.
  : Bedrock runtime : Run inference through API.
  : converse/invokeModel difference : invokeModel=need to set json format for response. No need json settings. Also there is converseStream.
  : InvokeAgent/Retrieve/Retrieve&generate : invoke Agent that you created in bedrock.
-
+ : Fine-tuning : text-to-image or image-to-embedding can be done too. Should use VPC/privateLink for sensitive data.
 
 
