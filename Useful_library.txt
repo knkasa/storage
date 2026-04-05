@@ -321,7 +321,7 @@ LangExtract=extract entity and related words (eg. symptom:diabetes) Use it for R
 ontoGPT: same as LangExtract.
 docling_AI: OCR and create knowledge graph with LLM.
 cognee: creates knowledge graph and store in local like faiss. Specify LLM and it'll create it. you can query with natural language, no cypher required.
-lightRAG: let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
+lightRAG: Becoming popular.let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
 strands_agent: made by aws, just like LangGraph.  can use open source MCP.  see LLM/playwright_test.py
@@ -382,6 +382,7 @@ RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
 hippoRAG=first build knowledge graph.  instead of using cypher query, find relevance probability for each nodes.
 spRAG=attach a summary of bigger chunk to smaller chunk.  each chunk is just normal embedded vectors.
+Split texts into chunking: chunkweaver, langchain textsplityer, semchunk, 
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
