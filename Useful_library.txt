@@ -203,7 +203,7 @@ Olmo-OCR2=Good for academic paper, table,
 DotsOCR=light weight OCR, can work with CPU.
 **PaddleOCR=may be best. Can run with CPU. can extract tables, layouts...  Use this with docling.
 For pdf, use docling library to extract/edit tables layouts.
-LightOnOCR= light model but requires GPU.
+**LightOnOCR= light model but requires GPU.
 NdDLOCR-OCR: OCR without GPU.
 Nemotron-parse 1.1= made by Nvidia, 885 million parameters that can run with CPU.
 Langchain document loader.
