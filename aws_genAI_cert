@@ -7,7 +7,7 @@ Bedrock : Amazon Nove Reel : Video generator model.
  : Fine-tuning : text-to-image or image-to-embedding can be done too. Should use VPC/privateLink for sensitive data.
  :  :  Train data should have input and response.  Or, Continued pre-training=no labled(response), just sentences.
  : LORA : fine tuning.
-
-
+: RAG : Hierarchical chunking=parent/chile chunking.  
+: : semantic chunking=let LLM decides chunk.
 
 
