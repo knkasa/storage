@@ -201,7 +201,7 @@ suryaOCR=maybe better than deepseek OCR
 NanonetsOCR=huggingface model.can convert complex tables into markdown.
 Olmo-OCR2=Good for academic paper, table, 
 DotsOCR=light weight OCR, can work with CPU.
-**PaddleOCR=may be best. Can run with CPU. can extract tables, layouts...
+**PaddleOCR=may be best. Can run with CPU. can extract tables, layouts...  Use this with docling.
 For pdf, use docling library to extract/edit tables layouts.
 LightOnOCR= light model but requires GPU.
 NdDLOCR-OCR: OCR without GPU.
