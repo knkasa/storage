@@ -201,13 +201,13 @@ suryaOCR=maybe better than deepseek OCR
 NanonetsOCR=huggingface model.can convert complex tables into markdown.
 Olmo-OCR2=Good for academic paper, table, 
 DotsOCR=light weight OCR, can work with CPU.
-paddleOCR=may be best.  can extract tables, layouts...
+**PaddleOCR=may be best. Can run with CPU. can extract tables, layouts...
 For pdf, use docling library to extract/edit tables layouts.
-LightonOCR= light model but requires GPU.
+LightOnOCR= light model but requires GPU.
 NdDLOCR-OCR: OCR without GPU.
 Nemotron-parse 1.1= made by Nvidia, 885 million parameters that can run with CPU.
 Langchain document loader.
-liteparse= built from llamaindex community.  Use paid API. LLM based model and can recognize tables & layout.
+**llamaparse= built from llamaindex community.  Use paid API. LLM based model and can recognize tables & layout.
 
 39. Manipulate Excel.
 pyexcel
