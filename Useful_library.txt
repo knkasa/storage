@@ -207,7 +207,7 @@ LightonOCR= light model but requires GPU.
 NdDLOCR-OCR: OCR without GPU.
 Nemotron-parse 1.1= made by Nvidia, 885 million parameters that can run with CPU.
 Langchain document loader.
-liteparse= built from llamaindex community.  can run with CPU and recognize tables & layout.
+liteparse= built from llamaindex community.  Use paid API. LLM based model and can recognize tables & layout.
 
 39. Manipulate Excel.
 pyexcel
