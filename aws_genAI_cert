@@ -9,5 +9,17 @@ Bedrock : Amazon Nove Reel : Video generator model.
  : LORA : fine tuning.
 : RAG : Hierarchical chunking=parent/chile chunking.  
 : : semantic chunking=let LLM decides chunk.
+: : Multimodel=RAG for texts, image, PDF, ... 
+: Guardraiss : It can also prevent hallucination, insuracnce eligibility (upload pdf policy), ...
+: Token level redaction : You can create a list of tokens that you cannot use at all.
+: Prompt Management : save you system prompt with user defined variables for later use.
+: Bedrock Flow : same as LangGraph.
+: Prompt engineering : CoT(chaing of thought)=give LLM instruction step by step.
+: Access from RAG from different account : use remote-inference connector, and enable IAM.
+: Event driven architecture : When uploading files to CRM, DWH, ... if the system goes down, the file will wait until system restored, then upload it.
+: Well-Architected GenAI Lens : use Operational Excellence, Security, Reliability, Performance effciency, Cost Optimization, Sustainability.
+
+
+
 
 
