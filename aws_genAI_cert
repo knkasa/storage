@@ -1,25 +1,46 @@
-category : question :	answers
-Bedrock : Amazon Nove Reel : Video generator model.
- : Bedrock runtime : Run inference through API.
- : converse/invokeModel difference : invokeModel=need to set json format for response. No need json settings. 
- : : Also there is converseStream.
- : InvokeAgent/Retrieve/Retrieve&generate : invoke Agent that you created in bedrock.
- : Fine-tuning : text-to-image or image-to-embedding can be done too. Should use VPC/privateLink for sensitive data.
- :  :  Train data should have input and response.  Or, Continued pre-training=no labled(response), just sentences.
- : LORA : fine tuning.
-: RAG : Hierarchical chunking=parent/chile chunking.  
-: : semantic chunking=let LLM decides chunk.
-: : Multimodel=RAG for texts, image, PDF, ... 
-: Guardraiss : It can also prevent hallucination, insuracnce eligibility (upload pdf policy), ...
-: Token level redaction : You can create a list of tokens that you cannot use at all.
-: Prompt Management : save you system prompt with user defined variables for later use.
-: Bedrock Flow : same as LangGraph.
-: Prompt engineering : CoT(chaing of thought)=give LLM instruction step by step.
-: Access from RAG from different account : use remote-inference connector, and enable IAM.
-: Event driven architecture : When uploading files to CRM, DWH, ... if the system goes down, the file will wait until system restored, then upload it.
-: Well-Architected GenAI Lens : use Operational Excellence, Security, Reliability, Performance effciency, Cost Optimization, Sustainability.
+Bedrock
+question :	answers  
+ Amazon Nove Reel : Video generator model.
+ Bedrock runtime : Run inference through API.
+ Converse/InvokeModel difference : invokeModel=need to set json format for response. Converse=No need json settings. 
+ : Converse should include Role & Content.
+ : Also there is converseStream.
+ InvokeAgent/Retrieve/Retrieve&generate : invoke Agent that you created in bedrock.
+ Fine-tuning : text-to-image or image-to-embedding can be done too. Should use VPC/privateLink for sensitive data.
+  :  Train data should have input and response.  Or, Continued pre-training=no labled(response), just sentences.
+ LORA : fine tuning.
+RAG : Hierarchical chunking=parent/chile chunking.  
+: semantic chunking=let LLM decides chunk.
+ : Multimodel=RAG for texts, image, PDF, ... 
+ Guardraiss : It can also prevent hallucination, insuracnce eligibility (upload pdf policy), ...
+Token level redaction : You can create a list of tokens that you cannot use at all.
+ Prompt Management : save you system prompt with user defined variables for later use.
+ Bedrock Flow : same as LangGraph.
+Prompt engineering : CoT(chaing of thought)=give LLM instruction step by step.
+ Access from RAG from different account : use remote-inference connector, and enable IAM.
+:Event driven architecture : When uploading files to CRM, DWH, ... if the system goes down, the file will wait until system restored, then upload it.
+ Well-Architected GenAI Lens : use Operational Excellence, Security, Reliability, Performance effciency, Cost Optimization, Sustainability.
+Bedrock Data Automation(BDA) : Extract data from images/videos and convert it to structured format, using IDP(Intelligent Document Processing)
+: Blueprint=output template.
 
+Service 
+ OCR : Textract, Comprehend(NLP)
+Data Wrangler : Now you can talk to LLM to do transformation.
+ : Now supports Image/Text analysis, entity extraction.  Can fine-tune foundation models.
+Glue : ETL that can be used in Redshift, Athena, EMR Quicksight for query/analyze. 
+: Better for s3 to be divided into partition folders
+Glue Studio : GUI for Glue with DAG visual graph. Data source can be slack, sharepoint, salesforce, ...
+ : You can add Data Quality check in DAG.
+Cloudwatch+Kinesis Firehose : combine these for near real-time Clouldwatch analysis metrics.
+Transcribe : speech to text. It can find PII, hate speech, even angry emotions automatically.
+Comprehend : Entity extraction including mecial terms, classification by topic, ... 
+Cognito : Let you use 3rd party accounts like Google to login to AWS.
 
-
+LLM Service
+OpenSearch : connects to s3, Kinesis, CloudWatch, DynamoDB, store as JSON, then do search including vectors.
+ : Index=Table with records of JSON. Inverted Index= insurance=>doc1, doc8 ...
+ : Neural Plugin : Allows texts to convert to vectors for sematic search, without using LLM.
+s3 vectors : cheaper compared to opensearch.
+RDS : 
 
 
