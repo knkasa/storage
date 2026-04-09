@@ -41,6 +41,10 @@ OpenSearch : connects to s3, Kinesis, CloudWatch, DynamoDB, store as JSON, then 
  : Index=Table with records of JSON. Inverted Index= insurance=>doc1, doc8 ...
  : Neural Plugin : Allows texts to convert to vectors for sematic search, without using LLM.
 s3 vectors : cheaper compared to opensearch.
-RDS : 
+RDS : can be used for Knowledge Base.  RDS stores vector values.  Note s3 is the original source texts.
+Aurora : AWS native.  Better than RDS but more expensive.  
+ : pgvector= Can store vectors just like RDS.
+
+
 
 
