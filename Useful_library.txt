@@ -479,7 +479,7 @@ SQLGlot, DataBathing
 86. Model for Tabular data.
 GRN, FT-transformer, TabPFN(see TabPFN repo), TabM(see TabM repo)
 Kolmogorov-Arnold-Network(see Kolmogorov* repo)
-tabicl(can be pip install)
+tabicl(can be pip install, also can forecasting)
 
 87. Setup workflow, ML pipeline. Runs in background in eg. ECS container. 
 Dagster 
