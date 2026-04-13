@@ -35,6 +35,8 @@ Cloudwatch+Kinesis Firehose : combine these for near real-time Clouldwatch analy
 Transcribe : speech to text. It can find PII, hate speech, even angry emotions automatically.
 Comprehend : Entity extraction including mecial terms, classification by topic, ... 
 Cognito : Let you use 3rd party accounts like Google to login to AWS.
+Kafka : real time streaming. Kinesis Firehose might be better.
+Grafana : Dashboard for resource in realtime.
 
 LLM Service
 OpenSearch : connects to s3, Kinesis, CloudWatch, DynamoDB, store as JSON, then do search including vectors.
@@ -44,6 +46,10 @@ s3 vectors : cheaper compared to opensearch.
 RDS : can be used for Knowledge Base.  RDS stores vector values.  Note s3 is the original source texts.
 Aurora : AWS native.  Better than RDS but more expensive.  
  : pgvector= Can store vectors just like RDS.
+DynamoDB : WCU/RCU (Write/Read).  6 items per second each 4.5KB files = 6*5 = 30 WCUs are needed.
+ : DynamoDB Accelerator=stored in memory like redis.
+: DynamoDB can be used for momory.  Can be integrate with OpenSearch.
+ReRank : Bedrock has rerank vectors based on relevance to the query.
 
 
 
