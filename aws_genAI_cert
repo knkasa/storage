@@ -37,8 +37,6 @@ Comprehend : Entity extraction including mecial terms, classification by topic, 
 Cognito : Let you use 3rd party accounts like Google to login to AWS.
 Kafka : real time streaming. Kinesis Firehose might be better.
 Grafana : Dashboard for resource in realtime.
-
-LLM Service
 OpenSearch : connects to s3, Kinesis, CloudWatch, DynamoDB, store as JSON, then do search including vectors.
  : Index=Table with records of JSON. Inverted Index= insurance=>doc1, doc8 ...
  : Neural Plugin : Allows texts to convert to vectors for sematic search, without using LLM.
@@ -51,6 +49,7 @@ DynamoDB : WCU/RCU (Write/Read).  6 items per second each 4.5KB files = 6*5 = 30
 : DynamoDB can be used for momory.  Can be integrate with OpenSearch.
 ReRank : Bedrock has rerank vectors based on relevance to the query.
 
-
+Agents
+Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
 
 
