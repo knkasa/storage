@@ -54,7 +54,7 @@ Tools : you may use Lambda function for tools.  Use InvokeAgent function to call
 strands agent : like Agno. 
 agent squad : like crewAI.  multi agents router.
 agent core : also has lon term memory.
-
+ : agent core gateway=turn AWS service (AWS lambda) into like MCP.
 
 
 
