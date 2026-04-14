@@ -55,7 +55,7 @@ strands agent : like Agno.
 agent squad : like crewAI.  multi agents router.
 agent core : also has lon term memory.
  : agent core gateway=turn AWS service (AWS lambda) into like MCP.
- : agent core identity=it's like cognito for the agent accessing external source like confluence...
+ : agent core identity=it's like cognito for the agent accessing external source(including AWS service)like confluence...
 
 
 
