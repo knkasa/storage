@@ -323,6 +323,7 @@ docling_AI: OCR and create knowledge graph with LLM.
 cognee: creates knowledge graph and store in local like faiss. Specify LLM and it'll create it. you can query with natural language, no cypher required.
 lightRAG: Becoming popular.let you create graph/vectors DB in faiss, networkx, SQLite.  simply specify LLM model, and it can automatically query local DB.
 smolagents: Tools agents with codeInterpreter.  see LLM/smolagents_example.py
+strands agent: strong AWS support.  code interpreter, MCP, RAG and more.
 build perplexity:.use duckduckgo_search library to surf web, create agent with this tool.
 strands_agent: made by aws, just like LangGraph.  can use open source MCP.  see LLM/playwright_test.py
 Gliner=Named entity recognition model from hugging face. It can catch personal names, emails, ...
