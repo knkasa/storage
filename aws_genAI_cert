@@ -1,5 +1,4 @@
 Bedrock
-question :	answers  
  Amazon Nove Reel : Video generator model.
  Bedrock runtime : Run inference through API.
  Converse/InvokeModel difference : invokeModel=need to set json format for response. Converse=No need json settings. 
@@ -53,10 +52,10 @@ Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
 strands agent : like Agno. 
 agent squad : like crewAI.  multi agents router.
-agent core : also has lon term memory.
- : agent core gateway=turn AWS service (AWS lambda) into like MCP.
- : agent core identity=it's like cognito for the agent accessing external source(including AWS service)like confluence...
-
+agentcore : also has lon term memory.
+ : agentcore gateway=turn AWS service (AWS lambda) into like MCP.
+ : agentcore identity=it's like cognito for the agent accessing external source(including AWS service)like confluence...
+ : agentcore policy= like if statement before accessing tools.
 
 
 
