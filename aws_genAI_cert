@@ -56,7 +56,7 @@ agentcore : also has lon term memory.
  : agentcore gateway=turn AWS service (AWS lambda) into like MCP.
  : agentcore identity=it's like cognito for the agent accessing external source(including AWS service)like confluence...
  : agentcore policy= like if statement before accessing tools.
-
+ : agentcore evaluation= evaluate the agent using ground truth data.
 
 
 
