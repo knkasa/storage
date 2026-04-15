@@ -58,7 +58,7 @@ agentcore : also has lon term memory.
  : agentcore policy= like if statement before accessing tools.
  : agentcore evaluation= evaluate the agent using ground truth data.
 
-
+MCP : you may run MCP server in AWS lambda, ECS, agentcore.
 
 
 
