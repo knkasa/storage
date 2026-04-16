@@ -62,6 +62,22 @@ openAPI (formaly swagger) : yaml file used for defining API.  you could use it t
 amazon Q business : use Gmail, SharePoint, slack... as RAG.
 amazon Q app : let you create App using natural language.
 
+Optimization 
+token counts : cloudwatch can count tokens.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
