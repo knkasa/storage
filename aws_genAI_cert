@@ -60,7 +60,7 @@ agentcore : also has lon term memory.
 MCP : you may run MCP server in AWS lambda, ECS, agentcore, connect with API gateway.
 openAPI (formaly swagger) : yaml file used for defining API.  you could use it to define tools in LLM.
 amazon Q business : use Gmail, SharePoint, slack... as RAG.
-
+amazon Q app : let you create App using natural language.
 
 
 
