@@ -46,7 +46,7 @@ Aurora : AWS native.  Better than RDS but more expensive.
 DynamoDB : WCU/RCU (Write/Read).  6 items per second each 4.5KB files = 6*5 = 30 WCUs are needed.
  : DynamoDB Accelerator=stored in memory like redis.
 : DynamoDB can be used for momory.  Can be integrate with OpenSearch.
-ReRank : Bedrock has rerank vectors based on relevance to the query.
+cloudwatch : can count tokens, measure time to respond.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
@@ -63,7 +63,7 @@ amazon Q business : use Gmail, SharePoint, slack... as RAG.
 amazon Q app : let you create App using natural language.
 
 Optimization 
-token counts : cloudwatch can count tokens.
+ReRank : Bedrock has rerank vectors based on relevance to the query.
 
 
 
