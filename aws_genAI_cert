@@ -64,7 +64,7 @@ amazon Q app : let you create App using natural language.
 
 Optimization 
 ReRank : Bedrock has rerank vectors based on relevance to the query.
-
+Intelligent prompt routing : automatically choose less expensive model.
 
 
 
