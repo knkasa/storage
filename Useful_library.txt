@@ -464,6 +464,7 @@ pyapp
 
 81.  faster than loguru 
 logly
+structlog (better in production)
 
 82. faster than beautifulsoup
 selectox
