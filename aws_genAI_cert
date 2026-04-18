@@ -70,7 +70,7 @@ latency optimization : bedrock has this option built-in.
 Evaluate agent : bedrock evaluation, cloudwatch evidently.
 exponential backoff : limit API access when API goes down.
 connection pooling : keep API connection.  No authentication every API access.
-cross region access : use multiple AZ.
+cross region inference : use multiple AZ.
 
 
 
