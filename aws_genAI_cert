@@ -67,7 +67,7 @@ ReRank : Bedrock has rerank vectors based on relevance to the query.
 Intelligent prompt routing : automatically choose less expensive model.
 caching : vector, prompt, edge caching.
 latency optimization : bedrock has this option built-in.
-
+Evaluate agent : bedrock evaluation, cloudwatch evidently.
 
 
 
