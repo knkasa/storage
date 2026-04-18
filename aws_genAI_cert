@@ -74,7 +74,7 @@ cross region inference : use multiple AZ.
 
 sagemaker
 deployment : blue green, canary, linear deployment.
-
+shadow test : run inference on new and old model both.
 
 
 
