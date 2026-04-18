@@ -78,7 +78,7 @@ shadow test : run inference on new and old model both.
 multi-model endpoint: having multiple models container in one endpoint.
 DJL : deep java library.  deep learning for java.
 Ground truth : label training data by humans for evaluating model performance.
-
+sagemaker clarify : detects data drift.
 
 
 
