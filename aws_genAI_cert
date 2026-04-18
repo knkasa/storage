@@ -72,6 +72,11 @@ exponential backoff : limit API access when API goes down.
 connection pooling : keep API connection.  No authentication every API access.
 cross region inference : use multiple AZ.
 
+sagemaker
+deployment : blue green, canary, linear deployment.
+
+
+
 
 
 
