@@ -80,7 +80,7 @@ DJL : deep java library.  deep learning for java.
 Ground truth : label training data by humans for evaluating model performance.
 sagemaker clarify : detects model bias.
 lineage tracking : keep track of ML pipeline history like GitHub.
-
+sagemaker neo : install your model in edge device.
 
 
 
