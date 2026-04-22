@@ -386,6 +386,8 @@ raptor=first embed, create clusters using clustering, connect then with trees.
 hippoRAG=first build knowledge graph.  instead of using cypher query, find relevance probability for each nodes.
 spRAG=attach a summary of bigger chunk to smaller chunk.  each chunk is just normal embedded vectors.
 Split texts into chunking: chunkweaver, langchain textsplityer, semchunk, 
+mem0= memory in local.
+zep= memory in local using knowledge graph.
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
