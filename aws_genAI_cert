@@ -89,8 +89,10 @@ sagemaker neo : install your model in edge device.
 sagemaker unified studio : sagemaker, bedrock, q, quicksight, all in one.
 mlflow : integrated with sagemaker studio, model registr, all in one.
 
-
-
+Evaluation 
+model scoring : 
+ : Rogue = score based on how much tokens are matched with true answer.
+ : Bleu= score using machine translation.
 
 
 
