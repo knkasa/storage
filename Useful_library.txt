@@ -312,8 +312,7 @@ Modular_MCP: Good for building MCP (see LLM/modular_mcp_example.py, or build_mcp
 MCP from scratch: see LLM/mcp_from_scratch.py
 Create web browsing agent: Use BlastAI(see LLM/blastAI_example.py)
 Pydantic_AI:force LLM to respond specific python types (see LLM/pydantic_ai_example.py)
-memLayer:stores past conversation, currently only support openAI and local model.
-langchain.store.memory: store memory in local.
+instructor: same as pydantic_ai.
 hindsight: stores past conversation.
 Graph DB in local: neo4j, surrealDB, arangoDB, all requires docker. graphQlite(use cypher), cogDB, kglab, networkx doesn't require docker.
 Owlready2: Local ontology(persistent memory). see LLM/owlready2_example.py.
@@ -388,6 +387,8 @@ spRAG=attach a summary of bigger chunk to smaller chunk.  each chunk is just nor
 Split texts into chunking: chunkweaver, langchain textsplityer, semchunk, 
 mem0= memory in local.
 zep= memory in local using knowledge graph.
+memLayer:stores past conversation, currently only support openAI and local model.
+langchain.store.memory: store memory in local.
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
