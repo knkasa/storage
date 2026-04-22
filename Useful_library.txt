@@ -328,6 +328,7 @@ strands_agent: made by aws, just like LangGraph.  can use open source MCP.  see 
 Gliner=Named entity recognition model from hugging face. It can catch personal names, emails, ...
 deepagents: alternative to agno, crewAI.  memory, save long context in local, multi step reasoning... see LLM/deepagents_example.py
 deepEval: ground truth check.
+Ragas: yields score for retrieved RAG data. 
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
