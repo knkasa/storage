@@ -93,7 +93,7 @@ Evaluation
 model scoring : 
  : Rogue = score based on how much tokens are matched with true answer.
  : Bleu= score using machine translation.
-
+Bert : score based on semantic similarity.
 
 
 
