@@ -56,6 +56,7 @@ AWS wavelength : 5g
 AWS amplify : build web app.
 cloudtrail insight : detects unusual event, actions.
 AWS xray : debug, integration test.
+AWS lake formation : allows on premise or s3 to connect to Athena easily for SQL.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
