@@ -54,6 +54,7 @@ step function : can build react agent.
 appsync graphql : use graphql to access AWS service, return in JSON format (graph)
 AWS wavelength : 5g
 AWS amplify : build web app.
+cloudtrail insight : detects unusual event, actions.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
