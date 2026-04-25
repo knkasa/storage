@@ -112,7 +112,7 @@ KMS key : symmetric key=free. assymetric key=user decrypt file.
 Macie : protect your sensitive data like PII using machine learning.
 WAF : can only be used for API gateway, cognito, auto balancer, graphQL, CloudFront , 
 NAT gateway : firewall for subnets.
-security group : firewall in EC2 instance.
+security group : firewall in EC2 instance. Allow rule only.
 
 
 
