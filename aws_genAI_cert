@@ -108,7 +108,7 @@ IAM identity center : single sign on, SSO for logging into aws, Salesforce, ...
 AWS control tower : collection of AWS accounts environment. 
  : preventive guardrail=regional detection for users.
  : detective guardrail=resource detection for users.
-
+KMS key : symmetric key=free. assymetric key=user decrypt file.
 
 
 
