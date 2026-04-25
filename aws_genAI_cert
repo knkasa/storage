@@ -110,6 +110,11 @@ AWS control tower : collection of AWS accounts environment.
  : detective guardrail=resource detection for users.
 KMS key : symmetric key=free. assymetric key=user decrypt file.
 Macie : protect your sensitive data like PII using machine learning.
+WAF : can only be used for API gateway, cognito, auto balancer, graphQL, CloudFront , 
+
+
+
+
 
 
 
