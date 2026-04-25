@@ -527,6 +527,9 @@ off-policy= update weights does not depend on actions it took. no max on Q funct
 98.  refactor.py files.
 bowler (facebook developed)
 
+99. Better than pytest 
+hypothesis 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
