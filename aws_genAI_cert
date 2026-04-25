@@ -95,7 +95,7 @@ sagemaker unified studio : sagemaker, bedrock, q, quicksight, all in one.
 mlflow : integrated with sagemaker studio, model registr, all in one.
 
 Evaluation 
-model scoring : 
+model scoring : score for lllm.
  : Rogue = score based on how much tokens are matched with true answer.
  : Bleu= score using machine translation.
 Bert : score based on semantic similarity.
@@ -106,6 +106,9 @@ Governance
 masking : Glue databrew, redshift, 
 IAM identity center : single sign on, SSO for logging into aws, Salesforce, ...
 AWS control tower : collection of AWS accounts environment. 
+ : preventive guardrail=regional detection for users.
+ : detective guardrail=resource detection for users.
+
 
 
 
