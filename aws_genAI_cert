@@ -113,7 +113,7 @@ KMS key : symmetric key=free. assymetric key=user decrypt file.
 Macie : protect your sensitive data like PII using machine learning.
 WAF : can only be used for API gateway, cognito, auto balancer, graphQL, CloudFront , 
 ACL : firewall for subnets.
-VPC endpoint(for s3), NAT gateway : use these if using private subnets.
+VPC endpoint(for AWS service), NAT gateway( for internet): use these if using private subnets.
 security group : firewall in EC2 instance. Allow rule only.
 VPC flow log : check network issues.
 
