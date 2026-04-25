@@ -102,7 +102,8 @@ Bert : score based on semantic similarity.
 Augmented AI : randomly select response for human evaluation.
 AI governance responsible : use bedrock evaluation, sagemaker clarify, augmented AI, sagemaker model monitor, 
 
-
+Governance 
+masking : Glue databrew, redshift, 
 
 
 
