@@ -109,6 +109,7 @@ AWS control tower : collection of AWS accounts environment.
  : preventive guardrail=regional detection for users.
  : detective guardrail=resource detection for users.
 KMS key : symmetric key=free. assymetric key=user decrypt file.
+Macie : protect your sensitive data like PII using machine learning.
 
 
 
@@ -117,4 +118,15 @@ KMS key : symmetric key=free. assymetric key=user decrypt file.
 
 
 
+
+
+
+
+
+
+
+
+
+
+xxxxxxxx
 
