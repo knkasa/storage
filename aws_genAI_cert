@@ -104,7 +104,7 @@ AI governance responsible : use bedrock evaluation, sagemaker clarify, augmented
 
 Governance 
 masking : Glue databrew, redshift, 
-
+IAM identity center : single sign on, SSO for logging into aws, Salesforce, ...
 
 
 
