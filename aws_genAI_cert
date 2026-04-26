@@ -58,6 +58,7 @@ cloudtrail insight : detects unusual event, actions.
 AWS xray : debug, integration test.
 AWS lake formation : allows on premise or s3 to connect to Athena easily for SQL.
 VPC peering : connects between different VPC. site to site VPC is between on premise.
+EKS : node=cluster, pod=task in ECS. 
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
