@@ -61,6 +61,7 @@ VPC peering : connects between different VPC. site to site VPC is between on pre
 EKS : node=cluster, pod=task in ECS. 
 Lex : chatbot.
 AWS connect : contact center.
+valkey : redis with embedding vectors.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
