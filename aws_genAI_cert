@@ -62,6 +62,7 @@ EKS : node=cluster, pod=task in ECS.
 Lex : chatbot.
 AWS connect : contact center.
 valkey : redis with embedding vectors using ElastiCache or MemoryDB.
+code artifactory : repository for pip/npm library.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
