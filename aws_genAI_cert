@@ -105,7 +105,7 @@ model scoring : score for lllm.
  : Rogue = score based on how much tokens are matched with true answer.
  : Bleu= score using machine translation.
 Bert : score based on semantic similarity.
-Augmented AI : randomly select response for human evaluation.
+Augmented AI : Either randomly or low confident prediction, for human evaluation.
 AI governance responsible : use bedrock evaluation, sagemaker clarify, augmented AI, sagemaker model monitor, 
 
 Governance 
