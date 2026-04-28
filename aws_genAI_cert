@@ -64,6 +64,7 @@ AWS connect : contact center.
 valkey : redis with embedding vectors using ElastiCache or MemoryDB.
 code artifactory : repository for pip/npm library.
 AWS system manager : allows to manage EC2 and on premise hardware.  hybrid cloud.
+AWS datasync : migrate large data.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
