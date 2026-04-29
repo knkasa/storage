@@ -126,7 +126,8 @@ VPC endpoint(for AWS service), NAT gateway( for internet): use these if using pr
 security group : firewall in EC2 instance. Allow rule only.
 VPC flow log : check network issues.
 
-
+Test
+ : use Rest API for streaming response.
 
 
 
