@@ -49,7 +49,7 @@ DynamoDB : WCU/RCU (Write/Read).  6 items per second each 4.5KB files = 6*5 = 30
  : DynamoDB Accelerator=stored in memory like redis.
 : DynamoDB can be used for momory.  Can be integrate with OpenSearch.
 cloudwatch : can count tokens, measure time to respond.
-App config : allows to change config of your app in real time.
+AppConfig : allows to change config of your app in real time.
 step function : can build react agent.
 appsync graphql : use graphql to access AWS service, return in JSON format (graph)
 AWS wavelength : 5g
