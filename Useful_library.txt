@@ -329,6 +329,7 @@ Gliner=Named entity recognition model from hugging face. It can catch personal n
 deepagents: alternative to agno, crewAI.  memory, save long context in local, multi step reasoning... see LLM/deepagents_example.py
 deepEval: ground truth check.
 Ragas: yields score for retrieved RAG data. 
+LLMlingua: convert prompt to use fewer tokens.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
