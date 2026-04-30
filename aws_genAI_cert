@@ -132,6 +132,13 @@ Test
  : routing different models can be done by API gateway.
  : create separate index for each users using opensearch.
  : API gateway can limit access spike and force JSON schema.
+ : routing to different models, you should use lambda, not route 53.
+
+
+
+
+
+
 
 
 
