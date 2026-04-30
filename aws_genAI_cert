@@ -136,7 +136,7 @@ Test
  : throughput means API access per unit time.
  : use prompt management to make output JSON.
  : use guardrail to make LLM behave in certain tone and persona.
-
+ : CloudFront is not ideal for cross regions.
 
 
 
