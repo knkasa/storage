@@ -145,7 +145,6 @@ Turkey (three or more continuous data.  more than two data are different from ot
 cramersV=correlation for categorical features(see categorical_correlation.py)
 
 24. statistical test.
-Mann-Kendall test: Find upward/downward trend.
 Anderson-Darling test: Check if the data follow normal gaussian distribution.
 Dickey-Fuller Test: Test if the timeseries data is stationary or not.
 
@@ -479,8 +478,10 @@ selectox
 83. alternative to jupyter notebook.
 marimo
 
-84. Get trend from noisy timeseries data.
+84. Get trend from timeseries data.
 Kalman filter 
+Mann-Kendall test: Find upward/downward trend.
+pip install hmmlearn .
 
 85. Convert TSQL to pyspark.
 SQLGlot, DataBathing 
