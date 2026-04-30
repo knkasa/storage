@@ -137,7 +137,7 @@ Test
  : use prompt management to make output JSON.
  : use guardrail to make LLM behave in certain tone and persona.
  : CloudFront is not ideal for cross regions.
-
+ : Route 53 is for routing different regions based on fail over and latency.
 
 
 
