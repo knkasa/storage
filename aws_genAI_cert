@@ -130,6 +130,7 @@ Test
  : use Rest API for streaming response.
  : API gateway can detect incoming token number, and block.
  : routing different models can be done by API gateway.
+ : create separate index for each users using opensearch.
 
 
 
