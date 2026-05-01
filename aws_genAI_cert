@@ -138,7 +138,7 @@ Test
  : use guardrail to make LLM behave in certain tone and persona.
  : CloudFront is not ideal for cross regions.
  : Route 53 is for routing different regions based on fail over and latency.
-
+ : note guardrail cannot run scheduled jobs. 
 
 
 
