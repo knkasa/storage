@@ -139,7 +139,7 @@ Test
  : CloudFront is not ideal for cross regions.
  : Route 53 is for routing different regions based on fail over and latency.
  : note guardrail cannot run scheduled jobs. 
-
+ : bedrock knowledge base allows automatic embedding.
 
 
 
