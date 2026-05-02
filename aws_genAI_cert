@@ -142,7 +142,7 @@ Test
  : note guardrail cannot run scheduled jobs. 
  : bedrock knowledge base allows automatic embedding, no maintenance needed.
  : provision throughput is for steady workload/access.
- : dynamo DB is not used for storing texts like summary.  Use s3.
+ : dynamo DB is not used for storing summary.  Use s3. 
 
 
 
