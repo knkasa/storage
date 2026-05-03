@@ -99,7 +99,7 @@ shadow test : run inference on new and old model both.
 multi-model endpoint: having multiple models container in one endpoint.
 DJL : deep java library.  deep learning for java.
 Ground truth : label training data by humans for evaluating model performance.
-sagemaker clarify : detects model bias.
+sagemaker clarify : detects model bias, works for bedrock too.
 lineage tracking : keep track of ML pipeline history like GitHub.
 sagemaker neo : install your model in edge device.
 sagemaker unified studio : sagemaker, bedrock, q, quicksight, all in one.
@@ -143,7 +143,7 @@ Test
  : bedrock knowledge base allows automatic embedding, no maintenance needed.
  : provision throughput is for steady workload/access.
  : dynamo DB is not used for storing summary.  Use s3. 
-
+ : sagemaker model monitor does not work on bedrock.
 
 
 
