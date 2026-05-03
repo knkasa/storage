@@ -144,7 +144,7 @@ Test
  : provision throughput is for steady workload/access.
  : dynamo DB is not used for storing summary.  Use s3. 
  : sagemaker model monitor does not work on bedrock.
-
+ : deleting vectors in RAG DB does not remove it. you need to expunge it.
 
 
 
