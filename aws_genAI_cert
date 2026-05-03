@@ -34,7 +34,7 @@ Cloudwatch+Kinesis Firehose : combine these for near real-time Clouldwatch analy
 Cloudwatch+alarm : alert, threshold 
 Cloudwatch+RUM : real user monitoring. used for user monitoring.
 Transcribe : speech to text. It can find PII, hate speech, even angry emotions automatically.
-Comprehend : Entity extraction including mecial terms, classification by topic, ... 
+Comprehend : Entity extraction including mecial terms, classification by topic, PII detection.
 Cognito : Let you use 3rd party accounts like Google to login to AWS.
 Kafka : real time streaming upto 1MB. Kinesis Firehose(near real-time)might be better. Kinesis is upto 1MB.
 Grafana : Dashboard for resource in realtime.
