@@ -152,7 +152,7 @@ Test
  : bedrock on demand inference capacity is limited, and can result in throttle error.
  : use web socket for low latency response.
  : Note AWS outpost cannot connect bedrock.  you must use Direct Connect to use bedrock on premise.
-
+ : bedrock has cross region access, but not cross account access.
 
 
 
