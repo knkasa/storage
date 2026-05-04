@@ -148,7 +148,7 @@ Test
  : deleting vectors in RAG DB does not remove it. you need to expunge it.
  : note AWS macie finds PII only in s3.
  : for s3 embedding, you should use metadata, not separate folders for splitting category.
-
+ : bedrock on demand inference capacity is limited, and can result in throttle error.
 
 
 
