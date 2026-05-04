@@ -68,6 +68,7 @@ AWS datasync : migrate large data.
 AWS CloudFront : CDN (content delivery network) cache data at edge for faster latency.
 AWS transfer family : transfer data using sft.
 Vector template language : used to connect to AWS service like dynamo DB from app sync.
+AD connector : connect AWS console from on premise.
 
 Agents
 Tools : you may use Lambda function for tools.  Use InvokeAgent function to call the agent.
