@@ -149,7 +149,7 @@ Test
  : note AWS macie finds PII only in s3.
  : for s3 embedding, you should use metadata, not separate folders for splitting category.
  : bedrock on demand inference capacity is limited, and can result in throttle error.
-
+ : use web socket for low latency response.
 
 
 
