@@ -104,6 +104,7 @@ lineage tracking : keep track of ML pipeline history like GitHub.
 sagemaker neo : install your model in edge device.
 sagemaker unified studio : sagemaker, bedrock, q, quicksight, all in one.
 mlflow : integrated with sagemaker studio, model registr, all in one.
+Deep learning container (DLC) : use it for large LLM model.
 
 Evaluation 
 model scoring : score for lllm.
