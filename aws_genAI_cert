@@ -154,7 +154,7 @@ Test
  : Note AWS outpost cannot connect bedrock.  you must use Direct Connect to use bedrock on premise.
  : bedrock has cross region access, but not cross account access.
  : Adjust HNSW  ef_search and ef_construction, higher the accuracy, but slower.
-
+ : Ultrawarm node is for infrequent access.
 
 
 
