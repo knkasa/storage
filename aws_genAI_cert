@@ -156,7 +156,7 @@ Test
  : Adjust HNSW  ef_search and ef_construction, higher the accuracy, but slower.
  : Ultrawarm node is for infrequent access.
  : API gateway cannot connect to bedrock, it needs lambda in between.
-
+ : you can save LORA weights, and use it for 50 models.
 
 
 
