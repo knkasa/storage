@@ -159,6 +159,12 @@ Test
  : you can save LORA weights, and use it for 50 models.
  : bedrock prompt caching= use it for long repeated prompt.
  : use SQS for throttle error, not auto balancer.
+ : invoke_model_with_stream allows to output token by token.
+
+
+
+
+
 
 
 
