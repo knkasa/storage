@@ -160,7 +160,7 @@ Test
  : bedrock prompt caching= use it for long repeated prompt.
  : use SQS for throttle error, not auto balancer.
  : invoke_model_with_stream allows to output token by token.
-
+ : increase refresh rate longer to relieve CPU memory in open search.
 
 
 
