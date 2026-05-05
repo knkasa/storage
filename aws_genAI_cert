@@ -162,7 +162,7 @@ Test
  : use SQS for throttle error, not auto balancer. or use retry instead of SQS for low latency.
  : invoke_model_with_stream allows to output token by token.
  : increase refresh rate longer to relieve CPU memory in open search.
-
+ : step function can only be invoked by Eventbridge, not s3 notification.
 
 
 
