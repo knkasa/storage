@@ -163,7 +163,7 @@ Test
  : invoke_model_with_stream allows to output token by token.
  : increase refresh rate longer to relieve CPU memory in open search.
  : step function can only be invoked by Eventbridge, not s3 notification.
-
+ : guardduty cannot prevent ddos in real time.
 
 
 
