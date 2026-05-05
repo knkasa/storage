@@ -158,7 +158,7 @@ Test
  : API gateway cannot connect to bedrock, it needs lambda in between.
  : you can save LORA weights, and use it for 50 models.
  : bedrock prompt caching= use it for long repeated prompt.
-
+ : use SQS for throttle error, not auto balancer.
 
 
 
