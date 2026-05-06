@@ -330,6 +330,7 @@ deepEval: ground truth check.
 Ragas: yields score for retrieved RAG data. 
 LLMlingua: convert prompt to use fewer tokens.
 logfire: like loguru for LLM.
+Morphik: like ColPali, Colqwen, it can embed unstructured files like image.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
