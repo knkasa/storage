@@ -164,6 +164,9 @@ Test
  : increase refresh rate longer to relieve CPU memory in open search.
  : step function can only be invoked by Eventbridge, not s3 notification.
  : guardduty cannot prevent ddos in real time.
+ : use async API for video generation.
+
+
 
 
 
