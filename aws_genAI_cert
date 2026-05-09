@@ -17,7 +17,7 @@ Token level redaction : You can create a list of tokens that you cannot use at a
  Bedrock Flow : same as LangGraph.
 Prompt engineering : CoT(chaing of thought)=give LLM instruction step by step.
  Access from RAG from different account : use remote-inference connector, and enable IAM.
-:Event driven architecture : When uploading files to CRM, DWH, ... if the system goes down, the file will wait until system restored, then upload it.
+Event driven architecture : When uploading files to CRM, DWH, ... if the system goes down, the file will wait until system restored, then upload it.
  Well-Architected GenAI Lens : use Operational Excellence, Security, Reliability, Performance effciency, Cost Optimization, Sustainability.
 Bedrock Data Automation(BDA) : Extract data from images/videos and convert it to structured format, using IDP(Intelligent Document Processing)
 : Blueprint=output template.
