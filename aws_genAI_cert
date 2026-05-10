@@ -166,7 +166,7 @@ Test
  : guardduty cannot prevent ddos in real time.
  : use async API for video generation.
  : regression test must be implemented in like lambda.
-
+ : Hierarchical RAG can reduce latency.
 
 
 
