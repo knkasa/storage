@@ -168,7 +168,7 @@ Test
  : regression test must be implemented in like lambda.
  : Hierarchical RAG can reduce latency.
  : s3! vector DB offers pay-per-search option to minimize price.
-
+ : blazingText is for word2vec.  
 
 
 
