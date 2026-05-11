@@ -40,7 +40,7 @@ Kafka : real time streaming upto 1MB. Kinesis Firehose(near real-time)might be b
 Grafana : Dashboard for resource in realtime.
 OpenSearch : connects to s3, Kinesis, CloudWatch, DynamoDB, store as JSON, then do search including vectors.
  : Index=Table with records of JSON. Inverted Index= insurance=>doc1, doc8 ...
- : Neural Plugin : Allows texts to convert to vectors for sematic search, without using LLM.
+ : Neural Plugin =Allows texts to convert to vectors for sematic search, without using LLM.
 s3 vectors : cheaper compared to opensearch.
 RDS : can be used for Knowledge Base.  RDS stores vector values.  Note s3 is the original source texts.
 Aurora : AWS native.  Better than RDS but more expensive.  
