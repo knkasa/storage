@@ -169,7 +169,7 @@ Test
  : Hierarchical RAG can reduce latency.
  : s3! vector DB offers pay-per-search option to minimize price.
  : blazingText is for word2vec.  
-
+ : provision price option does not have autoscale settings.
 
 
 
