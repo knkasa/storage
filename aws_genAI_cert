@@ -171,7 +171,7 @@ Test
  : blazingText is for word2vec.  
  : provision price option does not have autoscale settings.
  : cloudwatch insights can count tokens.
-
+ : use KV caching if system prompt is too long.
 
 
 
