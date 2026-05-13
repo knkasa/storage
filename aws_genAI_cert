@@ -172,7 +172,7 @@ Test
  : provision price option does not have autoscale settings.
  : cloudwatch insights can count tokens.
  : use KV caching if system prompt is too long.
-
+ : if you need to keep connected to agent, use async, not synchronous.
 
 
 
