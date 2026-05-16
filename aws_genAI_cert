@@ -173,7 +173,7 @@ Test
  : cloudwatch insights can count tokens.
  : use KV caching if system prompt is too long.
  : if you need to keep connected to agent, use async, not synchronous.
-
+ : use async if you need to keep connection until response is generated.
 
 
 
