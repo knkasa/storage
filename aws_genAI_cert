@@ -174,7 +174,7 @@ Test
  : invoke_model waits until LLM finish response.  it does not return token by token.
  : Use service control policy SCP to force using specific foundation model.
  : AWS gen AI kit = designed for frontend developer, let you easily build LLM endpoint with minimal effort.
-
+ : dead letter queue is is not right answer.
 
 
 
