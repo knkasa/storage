@@ -131,21 +131,15 @@ VPC flow log : check network issues.
 
 Test
  : use Rest API for streaming response.
- : API gateway can detect incoming token number, and block.
- : routing different models can be done by API gateway.
- : create separate index for each users using opensearch.
  : API gateway can limit access spike and force JSON schema.
  : routing to different models, you should use lambda or bedrock routing, not route 53.
  : throughput means API access per unit time.
- : use prompt management to make output JSON.
  : use guardrail to make LLM behave in certain tone and persona.
  : CloudFront is not ideal for cross regions.
  : Route 53 is for routing different regions based on fail over and latency.
   : Route 53 is not used in bedrock.
  : note guardrail cannot run scheduled jobs. 
  : bedrock knowledge base allows automatic embedding, no maintenance needed.
- : provision throughput is for steady workload/access.
- : dynamo DB is not used for storing summary.  Use s3. 
  : sagemaker model monitor does not work on bedrock.
  : deleting vectors in RAG DB does not remove it. you need to expunge it.
  : note AWS macie finds PII only in s3.
