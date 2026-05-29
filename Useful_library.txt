@@ -536,6 +536,9 @@ bowler (facebook developed)
 99. Better than pytest 
 hypothesis 
 
+100. bypass robot/fingerprint check when scraping web.
+cloakbrowser 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
