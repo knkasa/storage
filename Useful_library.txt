@@ -385,7 +385,7 @@ RRF=use this to rerank hybrid RAG search.
 docArray: you can store texts, vectors, images in one persistent memory.  It can handle cosine similarity search for vectors.
 OntologyOps: can extract ontology from files like owl.  can be pip install.
 graphifyy: pip install.  use Claude code to convert folder into knowledge graph.
-browser_web: helps LLM browse web.
+browser_use: helps LLM browse web.
 mesop: let you create LLM agent frontend like gradio.
 
 RAG:
