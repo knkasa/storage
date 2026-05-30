@@ -172,7 +172,7 @@ Test
  : Force-merge is heavy operation.
  : For PII, if redacting, use Comprehend, if detecting use Marcie.
  : Bedrock knowledge base does not have automatic updates on vector DB.
-
+ : invoke model with streaming is for tokens, not for video generation.
 
 
 
