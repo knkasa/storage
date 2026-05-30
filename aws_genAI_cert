@@ -139,7 +139,7 @@ Test
  : Route 53 is for routing different regions based on fail over and latency.
   : Route 53 is not used in bedrock.
  : note guardrail cannot run scheduled jobs. 
- : bedrock knowledge base allows automatic embedding, no maintenance needed.
+ : bedrock knowledge base cannot automate embedding. Need manual refresh.
  : sagemaker model monitor does not work on bedrock.
  : deleting vectors in RAG DB does not remove it. you need to expunge it.
  : note AWS macie finds PII only in s3.
