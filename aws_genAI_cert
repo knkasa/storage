@@ -172,7 +172,7 @@ Test
  : Force-merge is heavy operation.
  : For PII, if redacting, use Comprehend, if detecting use Marcie.
  : invoke model with streaming is for tokens, not for video generation.
-
+ : bedrock flow cannot be processed in parallel.
 
 
 
