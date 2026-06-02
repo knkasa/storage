@@ -176,6 +176,21 @@ Test
 
   : Bedrock agentcore runtime needs onetime cloudwatch transaction search enabled for dashboard.
  : Assigning Amazon Q to users require indentity_context.
+ : agentcore A2A stream = RPC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
