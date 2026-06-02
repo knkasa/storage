@@ -174,7 +174,7 @@ Test
  : invoke model with streaming is for tokens, not for video generation.
  : bedrock flow cannot be processed in parallel.
 
-
+  : Bedrock agentcore runtime needs onetime cloudwatch transaction search enabled for dashboard.
 
 
 
