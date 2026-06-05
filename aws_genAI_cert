@@ -180,7 +180,7 @@ Test
  : Note Bedrock Knowledge base citation only cites source chunk, not the document source.
  : do not use 3rd party credential, use SAML instead.
  : fine tuning training data needs to be JSON 
-
+ : provision pricing is not for batch process.
 
 
 
