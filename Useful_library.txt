@@ -333,6 +333,7 @@ LLMlingua: convert prompt to use fewer tokens.
 logfire: like loguru for LLM.
 Morphik: like ColPali, Colqwen, it can embed unstructured files like image.
 docling graph: docling for knowledge graph.
+LLMLingua: use small llm to shorten input tokens.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
