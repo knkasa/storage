@@ -389,6 +389,7 @@ OntologyOps: can extract ontology from files like owl.  can be pip install.
 graphifyy: pip install.  use Claude code to convert folder into knowledge graph.
 browser_use: helps LLM browse web.
 mesop: let you create LLM agent frontend like gradio.
+ONNX: run local LLM faster.  works with CPU.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
