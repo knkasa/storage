@@ -334,6 +334,7 @@ logfire: like loguru for LLM.
 Morphik: like ColPali, Colqwen, it can embed unstructured files like image.
 docling graph: docling for knowledge graph.
 LLMLingua: use small llm to shorten input tokens.
+Guidance: just like pydanticAI, it force LLM to output JSON.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
