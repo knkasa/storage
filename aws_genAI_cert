@@ -181,7 +181,7 @@ Test
  : do not use 3rd party credential, use SAML instead.
  : fine tuning training data needs to be JSON 
  : provision pricing is not for batch process.
-
+ : bedrock RAG metadata filtering requires vectorSearchConfiguration set.
 
 
 
