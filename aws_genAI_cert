@@ -185,6 +185,10 @@ Test
  : sagemaker model registr is for registering model.   sagemaker model card is for version description.
  : guardrail denied topics is for topic specific, not for jailbreak.
  : Eventbridge cannot count guardrail block, use cloudwatch.
+ : S3 vector is also serverless.
+
+
+
 
 
 
