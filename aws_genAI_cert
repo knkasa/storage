@@ -175,7 +175,7 @@ Test
  : bedrock flow cannot be processed in parallel.
 
   : Bedrock agentcore runtime needs onetime cloudwatch transaction search enabled for dashboard.
- : Assigning Amazon Q to users require indentity_context.
+ : Assigning Amazon Q to users require sts;indentity_context.
  : agentcore A2A stream = JSON RPC 
  : Note Bedrock Knowledge base citation only cites source chunk, not the document source.
  : do not use 3rd party credential, use SAML instead.
