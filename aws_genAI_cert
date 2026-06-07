@@ -182,7 +182,15 @@ Test
  : fine tuning training data needs to be JSON 
  : provision pricing is not for batch process.
  : bedrock RAG metadata filtering requires vectorSearchConfiguration set.
- : sagemaker model registr is for registering model.   sagemaker model card is for lineage.
+ : sagemaker model registr is for registering model.   sagemaker model card is for version control.
+
+
+
+
+
+
+
+
 
 
 
