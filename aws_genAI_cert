@@ -183,7 +183,7 @@ Test
  : provision pricing is not for batch process.
  : bedrock RAG metadata filtering requires vectorSearchConfiguration set.
  : sagemaker model registr is for registering model.   sagemaker model card is for version description.
-
+ : guardrail denied topics is for topic specific, not for jailbreak.
 
 
 
