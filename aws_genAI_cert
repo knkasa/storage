@@ -186,7 +186,7 @@ Test
  : guardrail denied topics is for topic specific, not for jailbreak.
  : Eventbridge cannot count guardrail block, use cloudwatch.
  : S3 vector is also serverless.
-
+ : for cognito, use is authorized with token, not JWT 
 
 
 
