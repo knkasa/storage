@@ -189,7 +189,7 @@ Test
  : for cognito, use is authorized with token, not JWT 
  : watch out for data plane in organization guardrail.
  : always requires lamba for knowledge base startIngestingJob.
-
+ : bedrock evaluation is for batch job, not for real-time inference.
 
 
 
