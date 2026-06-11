@@ -392,6 +392,7 @@ myKG:  just like graphiy, creates knowledge graph in local.
 browser_use: helps LLM browse web.
 mesop: let you create LLM agent frontend like gradio.
 ONNX: run local LLM faster.  works with CPU.
+deepread: adds metadata to embedded vectors.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
