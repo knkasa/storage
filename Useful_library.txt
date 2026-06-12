@@ -303,7 +303,8 @@ Pygam
 *******
 63. LLM best libraries 
 Haystack:Best for setting up documents RAG for LLM.
-Allows RAG in local: opensearch, faiss, SQLdocument for tabular data, or in AWS s3, AWS opensearch, ...
+Allows RAG in local: faiss, SQLdocument for tabular data, or in AWS s3, AWS opensearch, ...
+turbovec: just like faiss but faster.
 Agno is also good (multi-agents+RAG, alternative to Haystack. see LLM/agno_example.py).
 autoGen:multi-agents with tools, RAG, code-interpreter(Microsoft).  See LLM/autogen_example.py
 semantic kernel: langchain but close ties to Azure service. (see LLM/semantic_kernel_example.py)
