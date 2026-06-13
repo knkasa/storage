@@ -192,7 +192,7 @@ Test
  : bedrock evaluation is for batch job, not for real-time inference.
  : use cognito and SANL for temporary access token for 3rd party apps.
  : for Java, use review agent and Q developer.
-
+ : use TracePart for COT enable set true 
 
 
 
