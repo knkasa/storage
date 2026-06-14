@@ -187,6 +187,7 @@ Test
  : Eventbridge cannot count guardrail block, use cloudwatch.
  : S3 vector is also serverless.
  : for cognito, use is_authorized_with_token, not JWT 
+ : JWT is tokens in JSON created when cognito is used.
  : watch out for data plane in organization guardrail.
  : always requires lamba for knowledge base startIngestingJob.
  : bedrock evaluation is for batch job, not for real-time inference.
