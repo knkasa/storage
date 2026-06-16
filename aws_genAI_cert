@@ -188,6 +188,7 @@ Test
  : S3 vector is also serverless.
  : for cognito, use is_authorized_with_token, not JWT 
  : JWT is tokens in JSON created when cognito is used.
+ : you cannot invoke bedrock using JWT.
  : SAML means single sign on.  cognito is for customers accessing AWS app.
  : watch out for data plane in organization guardrail.
  : always requires lamba for knowledge base startIngestingJob.
