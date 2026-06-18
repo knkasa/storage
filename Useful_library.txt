@@ -248,6 +248,7 @@ pdfkit
 
 49. Alternative to Pearson correlation, works for non-linear.
 Chaterjee correlation
+distance correlation 
 
 52. Create powerpoint.
 python-pptx
