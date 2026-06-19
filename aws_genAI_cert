@@ -197,7 +197,7 @@ Test
  : for Java, use review agent and Q developer.
  : use TracePart for COT enable set true 
  : for guardrail with human approval, set detection mode None.
-
+ : use Amazon Q developer Review for reviewing codes.
 
 
 
