@@ -199,7 +199,7 @@ Test
  : for guardrail with human approval, set detection mode None.
  : use Amazon Q developer Review for reviewing codes.
  : bedrock prompt routing cannot route to light weight model.
-
+ : dynamoDB does not let similarity search, MemoryDB does.
 
 
 
