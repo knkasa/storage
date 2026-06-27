@@ -208,6 +208,7 @@ Nemotron-parse 1.1= made by Nvidia, 885 million parameters that can run with CPU
 Langchain document loader.
 **llamaparse= built from llamaindex community.  Use paid API. LLM based model and can recognize tables & layout.
 PaddleOCR-VL-1.6: 0.9B parameters.
+MinerU: just like docling.
 
 39. Manipulate Excel.
 pyexcel
