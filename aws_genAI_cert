@@ -130,8 +130,7 @@ security group : firewall in EC2 instance. Allow rule only.
 VPC flow log : check network issues.
 
 Test
- : use Rest API for streaming response.
- : API gateway can limit access spike and force JSON schema.
+ : API gateway can limit access spike.
  : routing to different models, you should use lambda or bedrock routing, not route 53.
  : throughput means API access per unit time.
  : use guardrail to make LLM behave in certain tone and persona.
