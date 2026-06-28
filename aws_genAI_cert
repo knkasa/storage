@@ -51,7 +51,7 @@ DynamoDB : WCU/RCU (Write/Read).  6 items per second each 4.5KB files = 6*5 = 30
 cloudwatch : can count tokens, measure time to respond.
 AppConfig : allows to change config of your app in real time.
 step function : can build react agent.
-appsync graphql : use graphql to access AWS service, return in JSON format (graph)
+Appsync graphql : if you have to use multiple API access, use graphQL.  graph=JSON format 
 AWS wavelength : 5g
 AWS amplify : build web app.
 cloudtrail insight : detects unusual event, actions.
