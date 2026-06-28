@@ -67,7 +67,7 @@ AWS system manager : allows to manage AWS service remotely. good for connecting 
 AWS datasync : migrate large data.
 AWS CloudFront : CDN (content delivery network) cache data at edge for faster latency.
 AWS transfer family : transfer data using sft.
-Vector template language : used to connect to AWS service like dynamo DB from app sync.
+Vector template language : Template JSON file for graphQL.
 AD connector : connect AWS console from on premise.
 
 Agents
