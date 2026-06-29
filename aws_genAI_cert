@@ -199,7 +199,7 @@ Test
  : use Amazon Q developer Review for reviewing codes.
  : bedrock prompt routing cannot route to light weight model.
  : dynamoDB does not let similarity search, MemoryDB does.
-
+ : stateless means each session do not persist.  
 
 
 
