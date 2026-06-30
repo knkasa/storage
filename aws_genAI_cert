@@ -201,7 +201,7 @@ Test
  : dynamoDB does not let similarity search, MemoryDB does.
  : stateless means each session do not persist.  
   : So for cognito, JWT.  For roles and cross account, STS token.
-
+ : use GetAsyncInvoke for periodic polling 
 
 
 
