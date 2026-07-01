@@ -109,8 +109,8 @@ Deep learning container (DLC) : use it for large LLM model.
 
 Evaluation 
 model scoring : score for lllm.
- : Rogue = score based on how much tokens are matched with true answer.
- : Bleu= score using machine translation.
+ : Rogue = recall, score based on how much tokens are matched with true answer.
+ : Bleu= precision, score using machine translation.
  : Bert = score based on semantic similarity.
 Augmented AI : Either randomly or low confident prediction, for human evaluation.
 AI governance responsible : use bedrock evaluation, sagemaker clarify, augmented AI, sagemaker model monitor, 
