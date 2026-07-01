@@ -136,7 +136,6 @@ Test
  : use guardrail to make LLM behave in certain tone and persona.
  : CloudFront is not ideal for cross regions.
  : Route 53 is for routing different regions based on fail over and latency.
-  : Route 53 is not used in bedrock.
  : note guardrail cannot run scheduled jobs. 
  : bedrock knowledge base cannot automate embedding. Need manual refresh, or use lambda.
  : sagemaker model monitor does not work on bedrock.
