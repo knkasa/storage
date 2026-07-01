@@ -201,7 +201,7 @@ Test
  : stateless means each session do not persist.  
   : So for cognito, JWT.  For roles and cross account, STS token.
  : use GetAsyncInvoke for periodic polling 
-
+ : use invoke_model_with_stream for token by token response.
 
 
 
