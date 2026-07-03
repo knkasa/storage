@@ -164,6 +164,7 @@ Test
  : cloudwatch insights can count tokens.
  : invoke_model waits until LLM finish response.  it does not return token by token.
  : Use service control policy SCP to force using specific foundation model in different accounts.
+ : Note SCP cannot force guardrail in different accounts.
  : use cross account assume role if forcing to use my agent in different accounts.
  : AWS gen AI kit = designed for frontend developer, let you easily build LLM endpoint with minimal effort.
  : dead letter queue is is not right answer.
