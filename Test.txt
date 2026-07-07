@@ -23,14 +23,21 @@
 58 recommended system switching models: app config.
 59 investment advice with guardrail: guardrail with evaluation.
 60 control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
-61 Lex: lambda+ bedrock.
+61 Lex: lambda + bedrock.
 62 strands agent: use@tool.
 63 cross region inference profile failing: use cross region inference with step function.
 64 fixed chunking 500tokens: semantic chunking.
 65 RAG for clinical decision & reduce hallucinations: use LLM + human as judge.
-66 
-
-
+66 measure fairness: sagemaker clarify.
+67 budget alert: use anomaly detection with SNS (pick longer answer as there are 2 similar ones)
+68 150,000 access spike during peak season: use latency optimized inference.
+69 10000 & 50000 query and updates: 
+70 company's data lake and only allow specific column: 
+71 Throttling error(http 429) with immediate response needed: ... (lower cost high throughput)
+72 100 prompt template: 
+73 English Spanish Portuguese RAG: opensearch with metadata filterable.
+74 user upload image & content: step function.
+75 1 million feedback for sentiment, immediate feedback not needed: use bedrock batch.
 
 
 
