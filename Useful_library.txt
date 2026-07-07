@@ -270,6 +270,7 @@ SMOTE= synthesize data for unbalanced dataset
 
 54. Parse PDF, DOCX, HTML.
 docling(extract/edit pdf(including tables), word, ppt, image to json, markdown, html)
+Granite docling: better OCR model.
 SmolDocling(small LLM that can parse documents)
 pdfplumber(let you extract tables, texts precisely)
 pymupdf(extract image, texts)
