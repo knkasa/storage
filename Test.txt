@@ -1,11 +1,36 @@
 36 switching embedding model : rebuild index.
-37 guardrail: select 3, denied topic, high, word filter.
+37 guardrail: (3) denied topic, high, word filter.
 38 canary deployment: provision pricing.
 39 multi-layer protection: guardrail and cloudwatch.
 40 five action groups: enable tracing.
 41 5 reports per batch: step function.
 42 data lineage: DataZone.
 43 multi-layer jailbreak: guardrail with standard tier.
+44 cognito: SAML with entra ID.
+45 LLM lie about products: use bedrock knowledge base.
+46 categorize Legal, Technical, General: bedrock flow builder.
+47 1000 docs 3 seconds each: (2) COT and RAG.
+48 intermittent API failure: standard retry, exponential, x-ray.
+49 restaurant search: opensearch with semantic, not keyword based.
+50 Legal research: hybrid search with opensearch.
+51 financial company with unstructured files: Glue crawler.
+52 hardcoded API key: use secret manager.
+53 long conversation prone to error: count tokens.
+54 media company ML engineer: sagemaker large inference container.
+55 detect anomaly in sensor data: step function standard, not express.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
