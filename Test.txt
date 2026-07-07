@@ -1,1 +1,2 @@
 36 switching embedding model : rebuild index.
+37 guardrail: select 3, denied topic, high, word filter.
