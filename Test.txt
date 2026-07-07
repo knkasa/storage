@@ -4,6 +4,14 @@
 39 multi-layer protection: guardrail and cloudwatch.
 40 five action groups: enable tracing.
 41 5 reports per batch: step function.
+42 data lineage: DataZone.
+43 multi-layer jailbreak: guardrail with standard tier.
+
+
+
+
+
+
 
 
 
