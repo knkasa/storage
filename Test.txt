@@ -1,0 +1,1 @@
+36 switching embedding model : rebuild index.
