@@ -18,6 +18,24 @@
 53 long conversation prone to error: count tokens.
 54 media company ML engineer: sagemaker large inference container.
 55 detect anomaly in sensor data: step function standard, not express.
+56 large LLM on sagemaker: (2) preload model, set instance number greater than 0.
+57 LORA: it can be added, update, deleted.
+58 recommended system switching models: app config.
+59 investment advice with guardrail: guardrail with evaluation.
+60 control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
+61 Lex: lambda+ bedrock.
+62 strands agent: use@tool.
+63 cross region inference profile failing: use cross region inference with step function.
+64 fixed chunking 500tokens: semantic chunking.
+65 RAG for clinical decision & reduce hallucinations: use LLM + human as judge.
+66 
+
+
+
+
+
+
+
 
 
 
