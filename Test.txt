@@ -1,5 +1,5 @@
 1 doctor labeling for training data: sagemaker ground truth.
-2 evaluation monitoring within 10 min alert: cloudwatch app insights(not container insight)
+2 EC2 evaluation monitoring within 10 min alert: cloudwatch app insights(not container insight)
 3 industry report using 3 agents: use strands agent with step func.
 4 fine-tuned domain model with model register, CICD: sagemaker model registery.
 5 bedrock analyze 50-200 page doc: use semantic chuncking.
@@ -74,7 +74,13 @@
 74 user upload image & content: step function.
 75 1 million feedback for sentiment, immediate feedback not needed: use bedrock batch.
 
-
+1 Need real-time token usage: (2) cloudwatch log insights, cloudwatch dashboard.
+2 call bedrock in the same region as customers location: deploy guardrails to each region.
+3 amazon Q dev pro to force approved resource: use amazon Q dev customization.
+4 eaxily switch between FM for each env(dev/prod): use single CDK (no manually creating resource)
+5 Systematically verify FM demographic(age, gender..): evaluation prompt dataset in JSONL. (not clarify)
+6 share agent state, event driven, synchronous invocation: (2) use agentcore, use agentcore (both answers).
+7 
 
 
 
