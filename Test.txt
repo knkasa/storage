@@ -4,7 +4,17 @@
 4 fine-tuned domain model with model register, CICD: sagemaker model registery.
 5 bedrock analyze 50-200 page doc: use semantic chuncking.
 6 fine-tuned model with auto verify and no manual intervention: code pipeline.
-7 
+7 elevator data from kinesis stream for human approval: step func with human approval.
+8 call center assistant agent real time: Fragment texts from Amazon Transcribe.
+9 Scalable real time multi-agent patient assistant: use separate knowledge base for each agents.
+10 Healthcare company OpenSearch RAG, irrelevant docs returning: use hybrid search.
+11 Bedrock with step-by-step recommendation less than 3sec: RetrieveAndGenerate with auto source citation.
+12 Hybrid deployment for realtime and batch: (2) use sagemaker edge and Neo, provision pricing.
+13 40% query are same: store it in opensearch.
+14 bedrock exceeding 40% company budget: save logs to s3.
+15 provision option not working: use provision model ID.
+16 Rating system agent with targeted human review: Claude sonnet with A2I.
+17 
 
 36 switching embedding model : rebuild index.
 37 guardrail: (3) denied topic, high, word filter.
