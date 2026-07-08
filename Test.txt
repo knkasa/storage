@@ -1,3 +1,11 @@
+1 doctor labeling for training data: sagemaker ground truth.
+2 evaluation monitoring within 10 min alert: cloudwatch app insights(not container insight)
+3 industry report using 3 agents: use strands agent with step func.
+4 fine-tuned domain model with model register, CICD: sagemaker model registery.
+5 bedrock analyze 50-200 page doc: use semantic chuncking.
+6 fine-tuned model with auto verify and no manual intervention: code pipeline.
+7 
+
 36 switching embedding model : rebuild index.
 37 guardrail: (3) denied topic, high, word filter.
 38 canary deployment: provision pricing.
