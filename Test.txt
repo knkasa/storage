@@ -98,8 +98,13 @@
 22 predict insurance premiums. auto retrain sagemaker model: lambda+step function.
 23 MCP to access user info and autorize user inside: lambda+cognito.
 24 hotel company for room availability using Java: bedrock knowledge base per hotel.  
-25 
-
+25 casualty insurance company pysical control within its own facilities: outposts rack 42U.
+26 multilingual customer service assistant, evaluate 15,000 conversation: llm as a judge.
+27 codePipeline and codeBuild. auto evaluation. quality assessment in codebuild.
+28 pharma company developing RAG for 25 million scientific papers: use hierarchical chunking.
+29 dynamically switch between lightweight and high performance models: use lambda to classify prompts for step func. not intelligent routing.
+30 bedrock for customer service calls to handle 500,000 calls, latency less than 200 msec: use provision.
+31 
 
 
 
