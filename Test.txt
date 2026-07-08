@@ -14,8 +14,25 @@
 14 bedrock exceeding 40% company budget: save logs to s3.
 15 provision option not working: use provision model ID.
 16 Rating system agent with targeted human review: Claude sonnet with A2I.
-17 
-
+17 8000 tokens in system prompt: caching.
+18 customer service with auto evaluation with human feedback: use bedrock evaluation.
+19 Use React with GraphQL: Amplify kit(create app easily)
+20 Each company dept has s3 prefix for amazon Q: Place single JSON file.
+21 Bedrock that resembles tone of each dept: prompt management.
+22 Two computing env, lambda & EKS: Use Converse API that can handle both Java and python.
+23 MCP with SQL: use ECS fargate with HTTP access point.
+24 10,000 docs and videos with 500 uploads each time: BDA + foundation model.
+25 Employee wiki: synchronize incrementaly, and docs that have been modified/delete are not changed.
+26 Chatbot with RAG with CMK: enable Encrypt at rest.
+27 Bedrock in inhouse platform with standardized dataset for evaluation: (2) s3 cross region sharing, Bert score.
+28 Content based on internal/external source with citation: bedrock knowlege.
+29 Llama 70B model:  use sagemaker and LoRA.
+30 Generate character by character for 15-45secs: Web socket with ResponseStream.
+31 state-of-the-art RAG but taking too long: Use metadata filtering.
+32 Receive same query like "how to return product" a lot: vectorize and ElastiCache
+33 appropriate tool selections: online evaluation for agentcore.
+34 Bank agent with no PII, no investment advice: guardrail.
+35 User may switch PC and phone, but keep conversation: dynamoDB.
 36 switching embedding model : rebuild index.
 37 guardrail: (3) denied topic, high, word filter.
 38 canary deployment: provision pricing.
