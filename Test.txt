@@ -80,7 +80,11 @@
 4 eaxily switch between FM for each env(dev/prod): use single CDK (no manually creating resource)
 5 Systematically verify FM demographic(age, gender..): evaluation prompt dataset in JSONL. (not clarify)
 6 share agent state, event driven, synchronous invocation: (2) use agentcore, use agentcore (both answers).
-7 
+7 voice assistent with latency 500ms: use 100ms chunks.
+8 auto article summarization. revise prompts twice a week, auto verify, roll back: prompt management with bedrock native integraton.
+9 producing inconsistent summaries. It worked with simpler docs: prompt version control in code repo.
+10 AWS accounts org. need to ensure to only use approved models & guardrail: (2) scp for approved model. cloud formation for guardrail to BLOCK mode.
+11 
 
 
 
