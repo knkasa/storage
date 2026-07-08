@@ -84,7 +84,21 @@
 8 auto article summarization. revise prompts twice a week, auto verify, roll back: prompt management with bedrock native integraton.
 9 producing inconsistent summaries. It worked with simpler docs: prompt version control in code repo.
 10 AWS accounts org. need to ensure to only use approved models & guardrail: (2) scp for approved model. cloud formation for guardrail to BLOCK mode.
-11 
+11 physicians with treatment recommendation, cite sources: bedrock knowledge base.
+12 annual reward program. knowledge base and 3 agents for rewards: step function.  
+13 sagemaker to monitor bias gender & age: sagemaker monitor with clarify.
+14 workflow that extracts specific parts from template, for bedrock: step function express. not bedrock flow.
+15 hierachical content filtering using comprehend: toxicity detection threashold of 0.5.
+16 summarization job, but timeout issues with large volumes of requests: use sqs.
+17 fitness mobile app that generates three step prompt: use provision to stabilize latency.
+18 call center recording mp3 to summarize, avg size 20MB: step function/transcribe to create prompt for bedrock.
+19 multi-agent step functions, exceeding 256 KiB quota: specify s3 URI.  pass only s3 reference between step.
+20 claude with throttling errors in each time zone: cross region inference.
+21 PoC to summarie medical docs, validate acculacy: create dataset 50-100, use llm as a judge.
+22 predict insurance premiums. auto retrain sagemaker model: lambda+step function.
+23 MCP to access user info and autorize user inside: lambda+cognito.
+24 hotel company for room availability using Java: bedrock knowledge base per hotel.  
+25 
 
 
 
