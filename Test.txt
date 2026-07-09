@@ -57,7 +57,7 @@
 57 LORA: it can be added, update, deleted.
 58 AB test for recommended system switching models real-time: app config.
 59 must not discuss investment advice. block with guardrail: guardrail with evaluation.
-60 control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
+60 data need to be in EU. control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
 61 Lex: lambda + bedrock.
 62 strands agent: use@tool.
 63 cross region inference profile failing: use cross region inference with step function.
