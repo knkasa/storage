@@ -143,7 +143,15 @@
 67 ? video analytics, archive using Rekognition: ABAC
 68 RAG for small proprietary data with low number of index: MemoryDB using flat algorithm(not HNSW)
 69 * Need auto alerts to stakeholder when operationoal metrics show degradation: use cloudwatch alarms with anomaly detection. 
-70 
+70 company uses lake formation in multiple regioons. Wants conceal specific column containing PII: use LF-tag.
+71 majority of inquaries are routine while some are complex: use lambda and first route lightweight model, if fails, use high permance FM.
+72 company use lambda to dynamically switch models, conduct AB test without redeploy: use appConfig.
+73 Need to redact PII from engineer, not surgeons, access data less than 3 yrs old: (begin with)s3 life cycle config. cognito to redact PII.
+74 cross region inference & provision in Europe and America with low latency, data stays in Europe: use cross region inference with profile ID.
+75 RAG: opensearch
+
+1 University has grading AI, want to test multiple prompts: (2) prompt management, bedrock flow.
+2 3 NLP models, catagorize, extract, generate response. 95% accuracy, 500 concurrent requests.  
 
 
 
