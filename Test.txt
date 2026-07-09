@@ -46,7 +46,7 @@
 46 user inquiry are categorized to Legal, Technical, General, use specific prompts: bedrock flow builder.
 47 currently use one-shot prompt. want to reduce hallucinations. 1000 docs 3 seconds each: (2) COT and RAG.
 48 intermittent API failure: standard retry, exponential, x-ray.
-49 restaurant search: opensearch with semantic, not keyword based.
+49 restaurant search currently from postgreSQL: migrate to opensearch with semantic, not keyword based.
 50 Legal research: hybrid search with opensearch.
 51 financial company with unstructured files: Glue crawler.
 52 hardcoded API key: use secret manager.
