@@ -151,7 +151,15 @@
 75 RAG: opensearch
 
 1 University has grading AI, want to test multiple prompts: (2) prompt management, bedrock flow.
-2 3 NLP models, catagorize, extract, generate response. 95% accuracy, 500 concurrent requests.  
+2 3 NLP models, catagorize, extract, generate response. 95% accuracy, 500 concurrent requests with low latency: use separate sagemaker endpoint.
+3 Bedrock to determine score is higher than 0.85, then approve, summarize: step func standard (not express)
+4 sequentially apply three reviews using zero-shot prompt. want to improve accuracy: CoT
+5 multimodal content analysis. simple and complex rounting models: hybrid solution. simple=lambda complex=step func.
+6 test reveal 403 accessDeniedException error from opensearch: (2) use opensearch with pattern-based resource rules, add role to lambda.
+7 Need urgent QA PDF dataset with labels: import PDF, use RAG.
+8 financial doc 5-100 pages with tables: chunk based on structural layout.
+9 80% are simpple query while 20% are complex: NovaLite and NovaPro.
+10 agent squad. detect secret drift. secrets are not being updated: propagate updated secrets.
 
 
 
