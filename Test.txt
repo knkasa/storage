@@ -104,7 +104,12 @@
 28 pharma company developing RAG for 25 million scientific papers: use hierarchical chunking.
 29 dynamically switch between lightweight and high performance models: use lambda to classify prompts for step func. not intelligent routing.
 30 bedrock for customer service calls to handle 500,000 calls, latency less than 200 msec: use provision.
-31 
+31 real-time assistant with rag, serve multiple geographical areas, sensitive data: bedrock knowledge base with cross region, no kendra stuff.
+32 bedrock for across regions, Europ, America, Asia in s3. must comply with local regulations: use s3 region specific lock.
+33 company uses lambda for inference. They need to switch models, and rollback, validation too: use appConfig.
+34 AI to summarize data in central location. tamper detectable, immutable audit logs:  Glue data catalog.
+35 Migrate MCP to lambda, authorized thrird-party partners: use lambda with streamable http SigV4, with invokeFunction permision.
+36 
 
 
 
