@@ -124,8 +124,26 @@
 48 claude haiku with 10,000 upto 30,000 requests per hour from multiple resions. resolve performance issue: Use cross region.
 49 wildlife org use sensors to monitor animals. Want AI to study it: use multi-modal sagemaker procesing.
 50 Bedrock exceeding token usage. want to quantitatively determine token consumption before API call: use eventbridge to get conversation history. assign score to each conversation, estimate token count before API.
-51 
-
+51 SaaS company use sagemaker to recommend aircraft cabin from RDS db: text-to-sql with step func(not confidence score)
+52 *bedrock assign confidence score, low score go expert review. want to dynamically determine human review is required: Flow with A2I.
+53 *Need to process 50GB of JSON, extract relevant data, remove PII, generate RAG in 4hrs: step func.
+54 Building RAG. compare multiple chunking strategy: use evaluation for search & generation with LLM as a judge.
+55 financial firm developing RAG using data containing entities & relationship: Neptune
+56 *data scientist want to assess FM automatically.  Use bedrock evaluation, and select FM as generator.
+57 user report truncated input and incomplete response.  need retry logic: retry with exponential backoff.
+58 investment advice bedrock, want to monitor model behabioral drift: use quicksight for behavioral drift.
+59 customer query of 70% are simple, 30% are complex, need cost effective: intelligent routing.
+60 company building knowldge base that use customer managed key, and secret manager for db, need auto verify permissions zone trust: enable IAM access analyzer for KMS, secret manager, zones.
+61 5 buisiness units across Europe & America building RAG using terabytes of unstructured data. need version controled: cloud formation with well architected Lens(may not need to memorize)
+62 RAG containing 50,000 docs. semantically similar but contextually irrelevant: Use reranker.
+63 Need to anonymize PII before inferfence, FM decide if human approval is needed. 99.9% availability: (3) upload to s3, lambda, textract & A2I.
+64 Need to envrypt user conversation: use step func and configure server-side encryption.
+65 bedrock to block bullying language, bedrock flow with input prompts: (2) guardrail insulting block, prompt management with input prompts.
+66 ? implement retgry logic: retry logic at the end.
+67 ? video analytics, archive using Rekognition: ABAC
+68 RAG for small proprietary data with low number of index: MemoryDB using flat algorithm(not HNSW)
+69 * Need auto alerts to stakeholder when operationoal metrics show degradation: use cloudwatch alarms with anomaly detection. 
+70 
 
 
 
