@@ -109,7 +109,22 @@
 33 company uses lambda for inference. They need to switch models, and rollback, validation too: use appConfig.
 34 AI to summarize data in central location. tamper detectable, immutable audit logs:  Glue data catalog.
 35 Migrate MCP to lambda, authorized thrird-party partners: use lambda with streamable http SigV4, with invokeFunction permision.
-36 
+36 Healthcare company developing RAG, with high accuracy, reduce dilution, ambiguity in terminology: query decomposition.
+37 generate marketing videos. Strict governance, customer retain ownership of their data: setup Kendra crawl.
+38 Company step function stopped, stall for hours: Timeout property is set at top level.
+39 Company has control tower with SCP to restrict access FM in eu-north & eu-west: cross region inference.
+40 Strict financial company want alert for token limit, 5000 requests/min: use lambda to invoke CountgTokens API.
+41 Company has fine tuned ML model for loan approval. model intended use, bias assessmeent, version programatically: sagemaker model card.
+42 RAG with source citation, audit trail, 10,000 concurrent users in 2 sec: enable tracing, but no opensearch. use bedrock knowledge base.
+43 University has docs in lake formation, want to build RAG with metadata associated to abstract: Titan embedding & Aurora db(not opensearch due to operational overhead)
+44 company has opensearch, latency has increased recently, though cpu is still available: review and adjust number of shards and nodes.(no increase in sahrd)
+45 medical research papaer to build RAG with metadata for time, author, research domain: (time, metadata)(domain, tag)(author, user custom)
+46 pdf, image, audio files are uploaded to s3. company wants multimodality to extract for analysis: BDA.
+47 company has bedrock with tools, but spikes in token consumption. Needs to monitor and adjust real-time: cloudwatch with auto adjustment. (no dashboard)
+48 claude haiku with 10,000 upto 30,000 requests per hour from multiple resions. resolve performance issue: Use cross region.
+49 wildlife org use sensors to monitor animals. Want AI to study it: use multi-modal sagemaker procesing.
+50 Bedrock exceeding token usage. want to quantitatively determine token consumption before API call: use eventbridge to get conversation history. assign score to each conversation, estimate token count before API.
+51 
 
 
 
