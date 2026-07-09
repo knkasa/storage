@@ -71,7 +71,7 @@
 71 Throttling error(http 429) with immediate response needed: ... (lower cost high throughput)
 72 100 prompt template: prompt management.
 73 English Spanish Portuguese RAG: opensearch with metadata filterable.
-74 user upload image & content: step function.
+74 user upload image & content, PII and workflow: step function.
 75 1 million feedback for sentiment, immediate feedback not needed: use bedrock batch.
 
 1 Need real-time token usage: (2) cloudwatch log insights, cloudwatch dashboard.
