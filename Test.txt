@@ -34,7 +34,7 @@
 34 Bank agent with no PII, no investment advice: guardrail.
 35 User may switch PC and phone, but keep conversation: dynamoDB.
 36 switching embedding model : rebuild index.
-37 guardrail: (3) denied topic, high, word filter.
+37 guardrail for financial advice, competitor name: (3) denied topic, high, word filter.
 38 canary deployment: provision pricing.
 39 multi-layer protection: guardrail and cloudwatch.
 40 five action groups: enable tracing.
