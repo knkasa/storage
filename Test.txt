@@ -43,7 +43,7 @@
 43 multi-layer jailbreak: guardrail with standard tier.
 44 cognito: SAML with entra ID.
 45 LLM lie about products: use bedrock knowledge base.
-46 categorize Legal, Technical, General: bedrock flow builder.
+46 user inquiry are categorized to Legal, Technical, General, use specific prompts: bedrock flow builder.
 47 1000 docs 3 seconds each: (2) COT and RAG.
 48 intermittent API failure: standard retry, exponential, x-ray.
 49 restaurant search: opensearch with semantic, not keyword based.
