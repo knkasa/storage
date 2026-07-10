@@ -1,36 +1,36 @@
 1 doctor labeling for training data: sagemaker ground truth.
 2 EC2 evaluation monitoring within 10 min alert: cloudwatch app insights(not container insight)
-3 industry report using 3 agents: use strands agent with step func.
+3 industry report using 3 supecial multi-agents: use strands agent with step func.
 4 fine-tuned domain model with model register, CICD: sagemaker model registery.
-5 bedrock analyze 50-200 page doc: use semantic chuncking.
+5 bedrock analyze 50-200 page doc exceeding context window: use semantic chuncking, and use RAG.
 6 fine-tuned model with auto verify and no manual intervention: code pipeline.
 7 elevator data from kinesis stream for human approval: step func with human approval.
 8 call center assistant agent real time: Fragment texts from Amazon Transcribe.
 9 Scalable real time multi-agent patient assistant: use separate knowledge base for each agents.
 10 Healthcare company OpenSearch RAG, irrelevant docs returning: use hybrid search.
-11 Bedrock with step-by-step recommendation less than 3sec: RetrieveAndGenerate with auto source citation.
+11 Bedrock with step-by-step recommendation with source citations. need less than 3sec: RetrieveAndGenerate with auto source citation.
 12 Hybrid deployment for realtime and batch: (2) use sagemaker edge and Neo, provision pricing.
 13 40% query are same: store it in opensearch.
 14 bedrock exceeding 40% company budget: save logs to s3.
-15 provision option not working: use provision model ID.
+15 * provision option not working: use provision model ID.
 16 Rating system agent with targeted human review: Claude sonnet with A2I.
 17 8000 tokens in system prompt: caching.
 18 customer service with auto evaluation with human feedback: use bedrock evaluation.
-19 Use React with GraphQL: Amplify kit(create app easily)
-20 Each company dept has s3 prefix for amazon Q: Place single JSON file.
+19 * Use React with GraphQL: Amplify kit(create app easily)
+20 * Each company dept has s3 prefix for amazon Q: Place single JSON file.
 21 Bedrock that resembles tone of each dept: prompt management.
 22 Two computing env, lambda & EKS: Use Converse API that can handle both Java and python.
 23 MCP with SQL: use ECS fargate with HTTP access point.
 24 10,000 docs and videos with 500 uploads each time: BDA + foundation model.
 25 Employee wiki: synchronize incrementaly, and docs that have been modified/delete are not changed.
 26 Chatbot with RAG with CMK: enable Encrypt at rest.
-27 Bedrock in inhouse platform with standardized dataset for evaluation: (2) s3 cross region sharing, Bert score.
+27 Bedrock in inhouse platform needs to evaluate and display accuragy on dashboard: (2) s3 cross region sharing, Bert score.
 28 Content based on internal/external source with citation: bedrock knowlege.
 29 Llama 70B model:  use sagemaker and LoRA.
 30 Generate character by character for 15-45secs: Web socket with ResponseStream.
-31 state-of-the-art RAG but taking too long: Use metadata filtering.
+31 state-of-the-art RAG but taking too long to response: Use metadata filtering.
 32 Receive same query like "how to return product" a lot: vectorize and ElastiCache
-33 appropriate tool selections: online evaluation for agentcore.
+33 appropriate tool selections: use online evaluation for agentcore.
 34 Bank agent with no PII, no investment advice: guardrail.
 35 User may switch PC and phone, but keep conversation: dynamoDB.
 36 switching embedding model : rebuild index.
