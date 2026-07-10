@@ -74,10 +74,10 @@
 74 user upload image & content, PII and workflow: step function.
 75 1 million feedback for sentiment, immediate feedback not needed: use bedrock batch.
 
-1 Need real-time token usage: (2) cloudwatch log insights, cloudwatch dashboard.
+1 Need visibility on real-time token usage: patterns (2) cloudwatch log insights, cloudwatch dashboard.
 2 call bedrock in the same region as customers location: deploy guardrails to each region.
 3 amazon Q dev pro to force approved resource: use amazon Q dev customization.
-4 eaxily switch between FM for each env(dev/prod): use single CDK (no manually creating resource)
+4 * easily switch between FM for each env(dev/prod): use single CDK (no manually creating resource)
 5 Systematically verify FM demographic(age, gender..): evaluation prompt dataset in JSONL. (not clarify)
 6 share agent state, event driven, synchronous invocation: (2) use agentcore, use agentcore (both answers).
 7 voice assistent with latency 500ms: use 100ms chunks.
@@ -85,9 +85,9 @@
 9 producing inconsistent summaries. It worked with simpler docs: prompt version control in code repo.
 10 AWS accounts org. need to ensure to only use approved models & guardrail: (2) scp for approved model. cloud formation for guardrail to BLOCK mode.
 11 physicians with treatment recommendation, cite sources: bedrock knowledge base.
-12 annual reward program. knowledge base and 3 agents for rewards: step function.  
+12 annual reward program. three agents using knkowledge base for rewards: step function.  
 13 sagemaker to monitor bias gender & age: sagemaker monitor with clarify.
-14 workflow that extracts specific parts from template, for bedrock: step function express. not bedrock flow.
+14 workflow that extracts specific parts from message template, for bedrock: step function express. not bedrock flow.
 15 hierachical content filtering using comprehend: toxicity detection threashold of 0.5.
 16 summarization job, but timeout issues with large volumes of requests: use sqs.
 17 fitness mobile app that generates three step prompt: use provision to stabilize latency.
@@ -99,31 +99,31 @@
 23 MCP to access user info and autorize user inside: lambda+cognito.
 24 hotel company for room availability using Java: bedrock knowledge base per hotel.  
 25 casualty insurance company pysical control within its own facilities: outposts rack 42U.
-26 multilingual customer service assistant, evaluate 15,000 conversation: llm as a judge.
-27 codePipeline and codeBuild. auto evaluation. quality assessment in codebuild.
+26 multilingual customer service assistant, same question yields different ansers in different language. need to evaluate: llm as a judge.
+27 codePipeline and codeBuild. auto evaluation: quality assessment in codebuild.
 28 pharma company developing RAG for 25 million scientific papers: use hierarchical chunking.
-29 dynamically switch between lightweight and high performance models: use lambda to classify prompts for step func. not intelligent routing.
+29 * dynamically switch between lightweight and high performance models: use lambda to classify prompts for step func. not intelligent routing.
 30 bedrock for customer service calls to handle 500,000 calls, latency less than 200 msec: use provision.
 31 real-time assistant with rag, serve multiple geographical areas, sensitive data: bedrock knowledge base with cross region, no kendra stuff.
-32 bedrock for across regions, Europ, America, Asia in s3. must comply with local regulations: use s3 region specific lock.
+32 * bedrock for across regions, Europ, America, Asia in s3. must comply with local regulations: use s3 region specific lock.
 33 company uses lambda for inference. They need to switch models, and rollback, validation too: use appConfig.
-34 AI to summarize data in central location. tamper detectable, immutable audit logs:  Glue data catalog.
-35 Migrate MCP to lambda, authorized thrird-party partners: use lambda with streamable http SigV4, with invokeFunction permision.
+34 AI to summarize data in central location. Need to catalog all data sources in central location:  Glue data catalog.
+35 Intergrate MCP to lambda, authorized thrird-party partners: use lambda with streamable http SigV4, with invokeFunction permision.
 36 Healthcare company developing RAG, with high accuracy, reduce dilution, ambiguity in terminology: query decomposition.
 37 generate marketing videos. Strict governance, customer retain ownership of their data: setup Kendra crawl.
-38 Company step function stopped, stall for hours: Timeout property is set at top level.
-39 Company has control tower with SCP to restrict access FM in eu-north & eu-west: cross region inference.
+38 Company step function stopped, stall for several hours: Timeout property is set at top level.
+39 * Company has control tower with SCP to restrict access FM in eu-north & eu-west: cross region inference.
 40 Strict financial company want alert for token limit, 5000 requests/min: use lambda to invoke CountgTokens API.
-41 Company has fine tuned ML model for loan approval. model intended use, bias assessmeent, version programatically: sagemaker model card.
+41 Company has fine tuned ML model for loan approval. model intended use, bias(sagemaker clarify), version: sagemaker model card.
 42 RAG with source citation, audit trail, 10,000 concurrent users in 2 sec: enable tracing, but no opensearch. use bedrock knowledge base.
 43 University has docs in lake formation, want to build RAG with metadata associated to abstract: Titan embedding & Aurora db(not opensearch due to operational overhead)
 44 company has opensearch, latency has increased recently, though cpu is still available: review and adjust number of shards and nodes.(no increase in sahrd)
 45 medical research papaer to build RAG with metadata for time, author, research domain: (time, metadata)(domain, tag)(author, user custom)
 46 pdf, image, audio files are uploaded to s3. company wants multimodality to extract for analysis: BDA.
-47 company has bedrock with tools, but spikes in token consumption. Needs to monitor and adjust real-time: cloudwatch with auto adjustment. (no dashboard)
+47 * company has bedrock with tools, but spikes in token consumption. Needs to monitor and adjust real-time: cloudwatch with auto adjustment. (no dashboard)
 48 claude haiku with 10,000 upto 30,000 requests per hour from multiple resions. resolve performance issue: Use cross region.
-49 wildlife org use sensors to monitor animals. Want AI to study it: use multi-modal sagemaker procesing.
-50 Bedrock exceeding token usage. want to quantitatively determine token consumption before API call: use eventbridge to get conversation history. assign score to each conversation, estimate token count before API.
+49 x wildlife org use sensors to monitor animals. Want AI to study it: use multi-modal sagemaker procesing.
+50 Bedrock exceeding token usage. want to quantitatively determine token consumption before API call: use eventbridge to get conversation history. assign score to each conversation to estimate token count before API.
 51 SaaS company use sagemaker to recommend aircraft cabin from RDS db: text-to-sql with step func(not confidence score)
 52 *bedrock assign confidence score, low score go expert review. want to dynamically determine human review is required: Flow with A2I.
 53 *Need to process 50GB of JSON, extract relevant data, remove PII, generate RAG in 4hrs: step func.
