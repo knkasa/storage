@@ -1,75 +1,75 @@
-1 doctor labeling for training data: sagemaker ground truth.
-2 EC2 evaluation monitoring within 10 min alert: cloudwatch app insights(not container insight)
-3 industry report using 3 supecial multi-agents: use strands agent with step func.
-4 fine-tuned domain model with model register, CICD: sagemaker model registery.
+1 * doctor labeling for training data for fine-tuning: sagemaker ground truth.
+2 * EC2 evaluation monitoring within 10 min alert: cloudwatch application insights(not container insight)
+3 * industry report using 3 supecialized multi-agents: use strands agent with step func.
+4 * fine-tuned domain model with model register, CICD: sagemaker model registery.
 5 bedrock analyze 50-200 page doc exceeding context window: use semantic chuncking, and use RAG.
-6 fine-tuned model with auto verify and no manual intervention: code pipeline.
-7 elevator data from kinesis stream for human approval: step func with human approval.
-8 call center assistant agent real time: Fragment texts from Amazon Transcribe.
+6 *fine-tuned model with auto verify semantic similarity, no manual intervention: code pipeline.
+7 * elevator data from kinesis stream for human approval: step func with human approval.
+8 * call center assistant agent real time: Fragment texts from Amazon Transcribe.
 9 Scalable real time multi-agent patient assistant: use separate knowledge base for each agents.
 10 Healthcare company OpenSearch RAG, irrelevant docs returning: use hybrid search.
 11 Bedrock with step-by-step recommendation with source citations. need less than 3sec: RetrieveAndGenerate with auto source citation.
 12 Hybrid deployment for realtime and batch: (2) use sagemaker edge and Neo, provision pricing.
 13 40% query are same: store it in opensearch.
-14 bedrock exceeding 40% company budget: save logs to s3.
+14 bedrock exceeding 40% company budget. need warning os cost anomalies: save logs to s3, cloudwatch alarm.
 15 * provision option not working: use provision model ID.
 16 Rating system agent with targeted human review: Claude sonnet with A2I.
 17 8000 tokens in system prompt: caching.
-18 customer service with auto evaluation with human feedback: use bedrock evaluation.
+18 customer service with auto evaluate multiple prompt templates with human feedback: use bedrock evaluation.
 19 * Use React with GraphQL: Amplify kit(create app easily)
 20 * Each company dept has s3 prefix for amazon Q: Place single JSON file.
 21 Bedrock that resembles tone of each dept: prompt management.
-22 Two computing env, lambda & EKS: Use Converse API that can handle both Java and python.
-23 MCP with SQL: use ECS fargate with HTTP access point.
-24 10,000 docs and videos with 500 uploads each time: BDA + foundation model.
-25 Employee wiki: synchronize incrementaly, and docs that have been modified/delete are not changed.
-26 Chatbot with RAG with CMK: enable Encrypt at rest.
+22 * Two computing env, lambda & EKS: Use Converse API that can handle both Java and python.
+23 * MCP with SQL: use ECS fargate with HTTP access point.
+24 * 10,000 docs and videos with 500 uploads each time: BDA + foundation model.
+25 * Employee wiki: synchronize incrementaly, and docs that have been modified/delete are not changed.
+26 * Chatbot with RAG with CMK: enable Encrypt at rest.
 27 Bedrock in inhouse platform needs to evaluate and display accuragy on dashboard: (2) s3 cross region sharing, Bert score.
-28 Content based on internal/external source with citation: bedrock knowlege.
-29 Llama 70B model:  use sagemaker and LoRA.
+28 x Content based on internal/external source with citation: bedrock knowlege.
+29 * Llama 70B model:  use sagemaker and LoRA.
 30 Generate character by character for 15-45secs: Web socket with ResponseStream.
 31 state-of-the-art RAG but taking too long to response: Use metadata filtering.
-32 Receive same query like "how to return product" a lot: vectorize and ElastiCache
-33 appropriate tool selections: use online evaluation for agentcore.
+32 Receive same chache query like "how to return product" a lot: vectorize and ElastiCache
+33 * company want to ensure agents using appropriate tool selection: use online evaluation for agentcore.
 34 Bank agent with no PII, no investment advice: guardrail.
-35 User may switch PC and phone, but keep conversation: dynamoDB.
-36 switching embedding model : rebuild index.
-37 guardrail for financial advice, competitor name: (3) denied topic, high, word filter.
-38 canary deployment: provision pricing.
+35 * User may switch PC and phone, but keep conversation: dynamoDB.
+36 company switchied embedding model, then became inconsistent answers: rebuild index.
+37 * guardrail for financial advice, competitor name: (3) denied topic, high, word filter.
+38 *canary deployment: provision pricing.
 39 multi-layer protection for prompt injection and audit logs: guardrail and cloudwatch.
-40 five action groups: enable tracing.
-41 5 reports per batch: step function.
-42 data lineage: DataZone.
-43 multi-layer jailbreak: guardrail with standard tier.
-44 cognito: SAML with entra ID.
+40 * five sequential action groups, some calling wrong tool: enable tracing.
+41 5 reports per batch under 10sec, but currently taking 45sec: step function.
+42 end-to-end data lineage: DataZone.
+43 Ignore all previous instructions, like prompts. Need multi-layer jailbreak: guardrail with standard tier.
+44 * cognito: SAML with entra ID.
 45 LLM lie about products: use bedrock knowledge base.
-46 user inquiry are categorized to Legal, Technical, General, use specific prompts: bedrock flow builder.
+46 user inquiry are categorized to Legal, Technical, General. Use specific prompts for each of these categories: bedrock flow builder.
 47 currently use one-shot prompt. want to reduce hallucinations. 1000 docs 3 seconds each: (2) COT and RAG.
-48 intermittent API failure: standard retry, exponential, x-ray.
-49 restaurant search currently from postgreSQL: migrate to opensearch with semantic, not keyword based.
+48 intermittent API failure during peak: standard retry, exponential, x-ray.
+49 * restaurant search currently from postgreSQL: migrate to opensearch with semantic, not keyword based.
 50 Legal research: hybrid search with opensearch.
-51 financial company with unstructured files: Glue crawler.
+51 financial company with unstructured files. need metadata: Glue crawler.
 52 hardcoded API key: use secret manager.
 53 long conversation prone to error: count tokens.
-54 media company ML engineer: sagemaker large inference container.
+54 * media company ML engineer: sagemaker large inference container.
 55 detect anomaly in sensor data: step function standard, not express.
-56 large LLM on sagemaker: (2) preload model, set instance number greater than 0.
+56 * arge LLM on sagemaker p95 latency: (2) preload model, set instance number greater than 0.
 57 LORA: it can be added, update, deleted.
-58 AB test for recommended system switching models real-time: app config.
+58 * AB test for recommended system switching models real-time: app config.
 59 must not discuss investment advice. block with guardrail: guardrail with evaluation.
-60 data need to be in EU. control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
+60 * data need to be in EU. control tower with error message: (2) SCP with eu.amazon.nova, IAM policy.
 61 Lex: lambda + bedrock.
-62 strands agent: use@tool.
+62 * strands agent: use@tool.
 63 cross region inference profile failing: use cross region inference with step function.
-64 fixed chunking 500tokens: semantic chunking.
-65 RAG for clinical decision & reduce hallucinations: use LLM + human as judge.
+64 fixed chunking 500tokens, not good: semantic chunking.
+65 x RAG for clinical decision & reduce hallucinations: use LLM + human as judge.
 66 measure fairness: sagemaker clarify.
 67 budget alert: use anomaly detection with SNS (pick longer answer as there are 2 similar ones)
 68 150,000 access spike during peak season: use latency optimized inference.
-69 10000 & 50000 query and updates with order management API: use action tool for order management.
+69 10,000 & 50,000 query and updates with order management API: use action tool for order management.
 70 company's data lake and only allow specific column: 
-71 Throttling error(http 429) with immediate response needed: ... (lower cost high throughput)
-72 100 prompt template: prompt management.
+71 Throttling error(http 429) with immediate response needed: ... answer -> (lower cost, high throughput)
+72 hundreds of prompt template: prompt management.
 73 English Spanish Portuguese RAG: opensearch with metadata filterable.
 74 user upload image & content, PII and workflow: step function.
 75 1 million feedback for sentiment, immediate feedback not needed: use bedrock batch.
