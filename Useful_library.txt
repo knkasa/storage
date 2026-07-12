@@ -60,6 +60,7 @@ openTSLM=similar to TimesChrono
 convTrans=see /convTrans repo.  Use convolution 1D &. transformer.
 iTransformer (easily implemented with pytorch)
 Migas=combining times FM, chronos, Mirai models.
+TTM= zero shot pretrained model.
 
 neuralForecast has function (explain ()) that can yield feature importance like shap.
 
