@@ -343,6 +343,7 @@ LLMLingua: use small llm to shorten input tokens.
 Guidance: just like pydanticAI, it force LLM to output JSON.
 markitdown: convert images pdf to markdown.  you can set LLM too 
 trl: library for fine tuning LLM.
+camel-AI: just like crewAI.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
