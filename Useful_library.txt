@@ -555,6 +555,9 @@ hypothesis
 100. bypass robot/fingerprint check when scraping web.
 cloakbrowser 
 
+101. much better than streamlit.
+nicegGUI
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
