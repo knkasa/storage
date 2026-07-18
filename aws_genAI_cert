@@ -205,7 +205,13 @@ Test
 
 Terminology 
 workflow: step function 
-
+deployment, block deploy : codepipeline
+human review, feedback : A2I
+evaluate : bedrock evaluation 
+latency: provision, opensearch 
+prompt versions : prompt management 
+intermittent error : exponential backoff
+token count : cloudwatch 
 
 
 
