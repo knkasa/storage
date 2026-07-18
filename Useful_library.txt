@@ -511,7 +511,7 @@ GRN, FT-transformer, TabPFN(see TabPFN repo), TabM(see TabM repo)
 Kolmogorov-Arnold-Network(see Kolmogorov* repo)
 tabicl(can be pip install, also can forecasting)
 
-87. Setup workflow, ML pipeline. Runs in background in eg. ECS container. 
+87. Just like AWS step function.
 Dagster 
 Prefect 
 
@@ -533,8 +533,8 @@ podman
 93. Excel file editor 
 openpyxl
 
-94. redis alternative.
-celery 
+94. Setup queue job.
+celery (see celery_example.py)
 
 95. alternative to json 
 TOON 
