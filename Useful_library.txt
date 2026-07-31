@@ -511,6 +511,7 @@ SQLGlot, DataBathing
 GRN, FT-transformer, TabPFN(see TabPFN repo), TabM(see TabM repo)
 Kolmogorov-Arnold-Network(see Kolmogorov* repo)
 tabicl(can be pip install, also can forecasting)
+tabfm(Google model)
 
 87. Just like AWS step function.
 Dagster 
