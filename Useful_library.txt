@@ -564,6 +564,9 @@ nicegGUI
 102. integration test 
 containertest library 
 
+103. alternative to fast API.
+robyn.it uses rust, so it is fast.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
