@@ -568,6 +568,9 @@ containertest library
 103. alternative to fast API.
 robyn.it uses rust, so it is fast.
 
+104. find security vulnerability in python libraries.
+pip-audit 
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
