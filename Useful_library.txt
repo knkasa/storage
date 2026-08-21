@@ -571,6 +571,9 @@ robyn.it uses rust, so it is fast.
 104. find security vulnerability in python libraries.
 pip-audit 
 
+105. threading alternative.********
+celery.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
