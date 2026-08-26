@@ -339,7 +339,8 @@ Ragas: yields score for retrieved RAG data.
 LLMlingua: convert prompt to use fewer tokens.
 logfire: like loguru for LLM. (combine it with open telemetry)
 Morphik: like ColPali, Colqwen, it can embed unstructured files like image.
-docling graph: docling for knowledge graph.
+docling graph: docling for knowledge graph (saved in networkx, other graphs types).
+docling nlp: docling for knoledge graph (saved in json).
 LLMLingua: use small llm to shorten input tokens.
 Guidance: just like pydanticAI, it force LLM to output JSON.
 markitdown: convert images pdf to markdown.  you can set LLM too 
