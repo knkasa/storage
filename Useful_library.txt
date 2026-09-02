@@ -519,6 +519,7 @@ tabfm(Google model)
 87. Just like AWS step function.
 Dagster 
 Prefect 
+temporal (good for LLM)
 
 88. FastHTML
 flask without HTML.  Let you create web app without HTML file.  
@@ -577,33 +578,6 @@ Map: Folium, Cartopy
 Web Dashboard: Dash
 Flowchart: PyGraphviz
 Table: AG_Grid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
