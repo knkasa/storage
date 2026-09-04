@@ -495,6 +495,7 @@ pyapp
 81.  faster than loguru 
 logly
 structlog (better in production)
+opentelemetry (logs time and error message.
 
 82. faster than beautifulsoup
 selectox
