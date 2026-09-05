@@ -348,6 +348,7 @@ trl: library for fine tuning LLM.
 camel-AI: just like crewAI. see llm/camel_ai_example.py
 LLM wiki: openwiki, deepwiki, Gbrain, autowiki, 
 praisonAI: like agno, with MCP implementation.
+Jinja: for prompt template.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
