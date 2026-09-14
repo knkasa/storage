@@ -1,0 +1,8 @@
+	1. Cd into your directory
+	2. npm create vite@latest csv-dashboard -- --template react-ts    (choose Eslint if asked)
+	3. Csv-dashboard folder will be created.  Open VsCode and open this folder in vs code.
+	4. Open new cmd, then cd into …/csv-dashboard
+	5. npm install papaparse recharts
+	6. npm install --save-dev @types/papaparse
+	7. Edit App.tsx & App.css
+	8. npm run dev
