@@ -350,6 +350,7 @@ LLM wiki: openwiki, deepwiki, Gbrain, autowiki,
 praisonAI: like agno, with MCP implementation.
 Jinja: for prompt template.
 webMCP: register website, agent discover what it can do, you pick which tools to use. similar to playwright.
+jev: reranking RAG, tool selection, MCP, 
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
