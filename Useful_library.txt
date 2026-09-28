@@ -351,6 +351,7 @@ praisonAI: like agno, with MCP implementation.
 Jinja: for prompt template.
 webMCP: register website, agent discover what it can do, you pick which tools to use. similar to playwright.
 jev: reranking RAG, tool selection, MCP, 
+markdown_hero: chunk markdown file based on its semantic meanning.
 *******
 64. LLM related.
 spacy, janome(see LLM/janome_example.py)
