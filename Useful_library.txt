@@ -409,6 +409,7 @@ browser_use: helps LLM browse web.
 mesop: let you create LLM agent frontend like gradio.
 ONNX: run local LLM faster.  works with CPU.
 deepread: adds metadata to embedded vectors.
+graphiti: local memory using graph db. it is MCP.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
