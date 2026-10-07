@@ -579,6 +579,9 @@ robyn.it uses rust, so it is fast.
 104. find security vulnerability in python libraries.
 pip-audit 
 
+105. alternative to bytes Io, when loading files in cloud.
+fsspec and s3fs.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
