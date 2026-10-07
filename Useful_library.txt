@@ -305,8 +305,8 @@ KS stats= detect data drift.  It's not a library.
 62. GAM.  Linear combination of spline function for non-linear regression.
 Pygam
 
-*******
 63. LLM best libraries 
+*************************************
 Haystack:Best for setting up documents RAG for LLM.
 Allows RAG in local: faiss, SQLdocument for tabular data, or in AWS s3, AWS opensearch, ...
 turbovec: just like faiss but faster.
@@ -352,8 +352,8 @@ Jinja: for prompt template.
 webMCP: register website, agent discover what it can do, you pick which tools to use. similar to playwright.
 jev: reranking RAG, tool selection, MCP, 
 markdown_hero: chunk markdown file based on its semantic meanning.
-*******
-64. LLM related.
+file system MCP: agent can manipulate files in local 
+********************************
 spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
 promptify=use LLM to get entities+description from sentence.
