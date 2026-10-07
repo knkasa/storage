@@ -353,6 +353,7 @@ webMCP: register website, agent discover what it can do, you pick which tools to
 jev: reranking RAG, tool selection, MCP, 
 markdown_hero: chunk markdown file based on its semantic meanning.
 file system MCP: agent can manipulate files in local 
+sentry MCP: can connect to like AWS cloudwatch, then debug advice.
 ********************************
 spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
