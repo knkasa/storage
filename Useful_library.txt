@@ -583,6 +583,9 @@ pip-audit
 105. alternative to bytes Io, when loading files in cloud.
 fsspec and s3fs.
 
+106. manage pandas, polars, duckdb, ... all using same code.
+Ibis
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
