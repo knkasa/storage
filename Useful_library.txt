@@ -1,4 +1,5 @@
 Useful python package.
+https://github.com/Azure-Samples/azure-search-openai-demo
 
 1. For improving speed of runtime.
 Numba, cython(needs complilation), pypy, jax(improved numpy)
