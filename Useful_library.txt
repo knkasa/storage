@@ -587,6 +587,9 @@ fsspec and s3fs.
 106. manage pandas, polars, duckdb, ... all using same code.
 Ibis
 
+107. python library version/vulnerability check.
+pip-audit, renovate, tox
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
