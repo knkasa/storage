@@ -1,4 +1,5 @@
 import anyio
+#use aiolimiter for rate limit, upper limit for parallel execution.
 
 async def fetch_data(name: str):
     print(f"Starting {name}")
