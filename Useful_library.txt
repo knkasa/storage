@@ -356,6 +356,7 @@ jev: reranking RAG, tool selection, MCP,
 markdown_hero: chunk markdown file based on its semantic meanning.
 file system MCP: agent can manipulate files in local (combine this with git GitHub MCP)
 sentry MCP: can connect to like AWS cloudwatch, then debug advice.
+useful MCP: open memory, DBhub, 
 langgraph trick: you can use checkpoint to save past conversation.
 agentspan: build multi agents workflow like langchain.
 ********************************
