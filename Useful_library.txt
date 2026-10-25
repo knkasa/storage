@@ -594,6 +594,9 @@ Ibis
 107. python library version/vulnerability check.
 pip-audit, renovate, tox
 
+108. convert Excel to XML.
+openpyxl+xlrd
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
