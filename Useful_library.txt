@@ -417,6 +417,7 @@ ONNX: run local LLM faster.  works with CPU.
 deepread: adds metadata to embedded vectors.
 graphiti: local memory using graph db. it is MCP.
 cloudflare MCP: helps ai agent pick which open source MCP tools to use from large catalogue.
+guardrails_ai: can be pip install.
 
 RAG:
 raptor=first embed, create clusters using clustering, connect then with trees.
