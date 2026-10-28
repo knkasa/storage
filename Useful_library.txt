@@ -451,6 +451,7 @@ trackio
 portfolio= cvxportfolio
 BoTorch=alternative to optuna 
 simPy=callCenter staffing, logistic 
+hyperopt
 
 67. Alternative to synthetic did(synthetic control)
 causalpy
