@@ -424,7 +424,7 @@ raptor=first embed, create clusters using clustering, connect then with trees.
 hippoRAG=first build knowledge graph.  instead of using cypher query, find relevance probability for each nodes.
 spRAG=attach a summary of bigger chunk to smaller chunk.  each chunk is just normal embedded vectors.
 Split texts into chunking: chunkweaver, langchain textsplityer, semchunk, 
-mem0= memory in local.
+mem0= memory in local. see LLM/mem0_example.py
 zep= memory in local using knowledge graph.
 memLayer:stores past conversation, currently only support openAI and local model.
 langchain.store.memory: store memory in local.
