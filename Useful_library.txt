@@ -359,6 +359,8 @@ sentry MCP: can connect to like AWS cloudwatch, then debug advice.
 useful MCP: open memory, DBhub, 
 langgraph trick: you can use checkpoint to save past conversation.
 agentspan: build multi agents workflow like langchain.
+stagehand MCP: just like playwright but better.
+Dataverse MCP: like fabric IQ.
 ********************************
 spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
