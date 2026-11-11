@@ -604,6 +604,9 @@ pip-audit, renovate, tox
 108. convert Excel to XML.
 openpyxl+xlrd
 
+109. tinyDB
+like dynamiDB in local.
+
 Interactive: Plotly, Bokeh,
 Map: Folium, Cartopy
 Web Dashboard: Dash
