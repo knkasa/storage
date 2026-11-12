@@ -363,6 +363,7 @@ stagehand MCP: just like playwright but better.
 Dataverse MCP: like fabric IQ.
 letta: just like mem0.  can be pip install.
 openhands SDK: code interpreter.
+textGrad: improve system prompt using like gradient descent.
 ********************************
 spacy, janome(see LLM/janome_example.py)
 fastembed=embedding library(alternative to huggingface)
