@@ -372,7 +372,7 @@ promptify=use LLM to get entities+description from sentence.
 textblob=polarity, entity extraction...
 deepeval=test LLM performance
 sentence_transformer(library)
-Faiss, ChromaDB, LanceDB, txtai, zvec (developed by Alibaba)=Build RAG in local.
+Faiss, ChromaDB, txtai, zvec (developed by Alibaba)=Build RAG in local.
 keras_nlp=like AI function in Fabric (Bert, gpt available)
 fugashi, janome (japanese spacy)
 polygot: entity extraction 
