@@ -435,6 +435,7 @@ zep= memory in local using knowledge graph.
 memLayer:stores past conversation, currently only support openAI and local model.
 langchain.store.memory: store memory in local.
 hiyal: another local persistent memory for short term memory.
+lanceDB: memory using vector DB RAG.
 
 Embedding:
 litepali=it contains colpali/colqwen model that can embed image for RAG (see colqwen repo)
