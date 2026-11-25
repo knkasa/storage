@@ -213,6 +213,7 @@ Langchain document loader.
 PaddleOCR-VL-1.6: 0.9B parameters.
 MinerU: just like docling.
 docqwise: just like docling.
+unstructured: extract texts from pdf and others into structure texts, like docling.
 
 39. Manipulate Excel.
 pyexcel
