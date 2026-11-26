@@ -139,3 +139,34 @@ result_df = chat.transform(chat_df).select( "messages",F.col("chat_completions.c
 display(result_df)
 
 
+≠==≠=========== chat in chat out =============================
+from synapse.ml.services.openai import OpenAIPrompt
+
+prompt = (OpenAIPrompt()
+    .setDeploymentName("gpt-5.1")
+    .setApiType("chat_completions")
+    .setPromptTemplate("{prompt}")
+    .setUsageCol("usage")
+    .setOutputCol("completions"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
